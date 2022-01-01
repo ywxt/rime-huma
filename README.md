@@ -1,6 +1,6 @@
 # 虎碼輸入方案
 
-本方案爲採用繁體簡碼的虎碼輸入方案，方案設計來自(rime-xuma)[https://github.com/Ace-Who/rime-xuma]，碼表來自虎碼官方版。
+本方案爲採用繁體簡碼的虎碼輸入方案，方案設計來自[rime-xuma](https://github.com/Ace-Who/rime-xuma)，碼表來自虎碼官方版。
 
 ## 使用介紹
 
