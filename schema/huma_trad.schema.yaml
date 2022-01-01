@@ -124,7 +124,7 @@ lua_reverse_db:
 huma_postpone_fullcode:
   tags: [ abc ]
   lua:
-  # max_index: 6  # 最大后置位置，默认为 4
+  max_index: 6  # 最大后置位置，默认为 4
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba

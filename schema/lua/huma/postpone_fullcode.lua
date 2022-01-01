@@ -55,6 +55,7 @@ local function has_short_and_is_full(cand, env)
   local is_comp = not
     string.find(' ' .. codestr .. ' ', ' ' .. cand_input .. ' ', 1, true)
   local short = not is_comp and get_short(codestr)
+
   -- 注意排除有简码但是输入的是不规则编码的情况
   return short and cand_input:find('^' .. short .. '%l+'), is_comp
 end
@@ -62,7 +63,7 @@ end
 
 local function filter(input, env)
   local context = env.engine.context
-  if not context:get_option("xuma_postpone_fullcode") then
+  if not context:get_option("huma_postpone_fullcode") then
     for cand in input:iter() do yield(cand) end
   else
     -- 具体实现不是后置目标候选，而是前置非目标候选
