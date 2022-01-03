@@ -131,7 +131,7 @@ encoder:
 煥	cx
 屋	cy
 爐	cz
-味	da
+喫	da
 史	db
 呢	dc
 品	dd
@@ -246,7 +246,7 @@ encoder:
 子	hi
 愉	hj
 公	hk
-性	hl
+并	hl
 送	hm
 快	hn
 道	ho
@@ -483,7 +483,7 @@ encoder:
 老	ql
 目	qm
 牛	qn
-都	qo
+者	qo
 先	qp
 齊	qq
 制	qr
@@ -547,7 +547,7 @@ encoder:
 識	sx
 言	sy
 謝	sz
-血	ta
+衆	ta
 衹	tb
 蛋	tc
 裏	td
@@ -728,7 +728,7 @@ encoder:
 頭	zw
 鏡	zx
 銷	zy
-戲	zz
+哥	zz
 舙	aaa
 彗	aab
 疔	aad
@@ -1835,6 +1835,7 @@ encoder:
 咶	das
 哪	dau
 啨	dav
+味	daw
 嚪	dax
 啣	daz
 嘯	dba
@@ -3475,6 +3476,7 @@ encoder:
 剙	hlp
 忏	hlq
 瓶	hlr
+性	hls
 郱	hlt
 迸	hlu
 懞	hlw
@@ -5523,7 +5525,7 @@ encoder:
 猛	mha
 肇	mhb
 碰	mhc
-冏	mhd
+啓	mhd
 棨	mhe
 罔	mhf
 硲	mhg
@@ -6532,7 +6534,7 @@ encoder:
 鬢	pew
 鬇	pex
 鬟	pey
-與	pfa
+舉	pfa
 粀	pfb
 踻	pfd
 粖	pfe
@@ -6996,7 +6998,7 @@ encoder:
 犦	qol
 餲	qon
 犣	qop
-者	qor
+耆	qor
 聅	qos
 斱	qot
 餛	qov
@@ -7799,6 +7801,7 @@ encoder:
 衅	tah
 陦	tak
 衊	tal
+血	tam
 阠	tan
 襀	tao
 隞	tap
@@ -8258,7 +8261,7 @@ encoder:
 擣	uga
 捇	ugc
 擷	ugd
-掛	ugg
+搞	ugg
 撴	ugh
 攁	ugi
 拘	ugj
@@ -9074,7 +9077,7 @@ encoder:
 鰽	wfy
 鱃	wga
 鮚	wgd
-鮭	wgg
+鰝	wgg
 凌	wgh
 鱶	wgi
 鮈	wgj
@@ -9398,7 +9401,6 @@ encoder:
 种	xdg
 积	xdh
 厘	xdl
-程	xdn
 韻	xdo
 厛	xdt
 庑	xdu
@@ -9637,7 +9639,7 @@ encoder:
 廭	xxa
 稳	xxb
 厃	xxc
-詹	xxh
+麇	xxh
 廘	xxl
 穒	xxn
 賴	xxo
@@ -9887,7 +9889,7 @@ encoder:
 罰	ysp
 酦	ysr
 詈	ysy
-爲	yta
+鄬	yta
 轌	ytb
 釀	ytd
 郅	yte
@@ -10387,7 +10389,7 @@ encoder:
 鍰	zyf
 鐸	zyg
 鋢	zyh
-鑼	zyi
+銍	zyi
 鋝	zyk
 锣	zyl
 鐲	zyn
@@ -10409,7 +10411,7 @@ encoder:
 哥	zzk
 钀	zzn
 贙	zzo
-戨	zzp
+戲	zzp
 鑪	zzq
 鈰	zzr
 銵	zzs
