@@ -40,7 +40,7 @@ encoder:
 能	k
 著	l
 大	m
-有	n
+在	n
 是	o
 與	p
 都	q
@@ -397,7 +397,7 @@ encoder:
 理	nd
 現	ne
 感	nf
-在	ng
+鬲	ng
 黃	nh
 玉	ni
 驗	nj
@@ -412,7 +412,7 @@ encoder:
 十	ns
 才	nt
 戊	nu
-包	nv
+有	nv
 王	nw
 辛	nx
 環	ny
@@ -6108,6 +6108,7 @@ encoder:
 斑	nvn
 驔	nvo
 刨	nvp
+包	nvp
 郁	nvt
 璀	nvu
 玭	nvv
@@ -10429,6 +10430,5 @@ encoder:
 厶	ksss
 丌	lccc
 刂	pddd
-鬲	nggg
 卩	zjjj
 虍	zhhh
