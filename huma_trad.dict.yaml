@@ -33,7 +33,7 @@ encoder:
 中	d
 來	e
 一	f
-就	g
+着	g
 發	h
 為	i
 人	j
@@ -212,7 +212,7 @@ encoder:
 塊	ga
 姜	gb
 聲	gc
-歹	gd
+就	gd
 地	ge
 款	gf
 高	gg
@@ -225,7 +225,7 @@ encoder:
 城	gn
 場	go
 列	gp
-着	gq
+堵	gq
 坡	gr
 士	gs
 土	gt
@@ -2994,7 +2994,7 @@ encoder:
 赯	gcx
 赬	gcy
 赧	gcz
-喪	gdd
+歹	gdd
 欯	gde
 喆	gdg
 吉	gdk
@@ -3179,7 +3179,6 @@ encoder:
 鮤	gpw
 垳	gpx
 銐	gpz
-堵	gqd
 堁	gqe
 韝	gqf
 埧	gqh
