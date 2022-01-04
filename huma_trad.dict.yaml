@@ -183,7 +183,7 @@ encoder:
 穴	ex
 也	ey
 窮	ez
-祠	fa
+攷	fa
 妻	fb
 辰	fc
 過	fd
@@ -225,7 +225,7 @@ encoder:
 城	gn
 場	go
 列	gp
-堵	gq
+着	gq
 坡	gr
 士	gs
 土	gt
@@ -2721,8 +2721,7 @@ encoder:
 栩	ezv
 骹	fab
 丂	fae
-欤	faf
-攷	fah
+祠	faf
 祷	fak
 禊	fap
 禙	fav
@@ -3180,6 +3179,7 @@ encoder:
 鮤	gpw
 垳	gpx
 銐	gpz
+堵	gqd
 堁	gqe
 韝	gqf
 埧	gqh
