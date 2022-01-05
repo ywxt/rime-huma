@@ -1,6 +1,4 @@
----
-name: "huma.char"
-version: "20211231"
+version: "20220105"
 sort: original
 columns:
   - text
@@ -8828,6 +8826,7 @@ columns:
 𪸐	cpid	0
 𤉃	cpih	0
 𬠍	cpih	0
+𧎠	cpiv	0
 𠒚	cpjd	0
 𧍳	cpjr	0
 尅	cpkc	0
@@ -9265,7 +9264,6 @@ columns:
 𧌰	cthv	0
 𢜦	cthx	0
 𤆟	cti	0
-𧎠	ctia	0
 蚸	ctid	0
 𤇚	ctid	0
 𧋬	ctis	0
@@ -12519,6 +12517,7 @@ columns:
 𠴍	dpih	0
 𢙟	dpih	0
 𠽼	dpis	0
+𠸕	dpiv	0
 𠲼	dpj	0
 𭌘	dpja	0
 𠺫	dpjd	0
@@ -12931,7 +12930,6 @@ columns:
 𠲖	dti	0
 𧘗	dti	0
 𧚣	dti	0
-𠸕	dtia	0
 𫬝	dtib	0
 𭇓	dtid	0
 𭉑	dtig	0
@@ -35838,6 +35836,7 @@ columns:
 𥹭	kpip	0
 澀	kpis	4600
 涩	kpis	0
+湚	kpiv	0
 𣴤	kpiy	0
 㳫	kpj	0
 𤃘	kpjo	0
@@ -36335,7 +36334,6 @@ columns:
 恿	kthx	900
 㳖	kti	0
 袰	kti	0
-湚	ktia	0
 泝	ktid	0
 𬉮	ktis	0
 𤅉	ktiv	0
@@ -68542,7 +68540,7 @@ columns:
 𬡴	tiur	0
 䦽	tiv	0
 𬯺	tiv	0
-胤	tiva	300
+胤	pivy	300
 𧞖	tivl	0
 𮦢	tivw	0
 𦙍	tivy	0
@@ -88303,6 +88301,7 @@ columns:
 𠧓	ypid	0
 軔	ypid	0
 轫	ypid	0
+𨢂	ypiv	0
 舀	ypj	1100
 𤔘	ypj	0
 𦥝	ypj	0
@@ -88781,7 +88780,6 @@ columns:
 𭾱	yti	0
 𰍫	yti	0
 𥃄	ytia	0
-𨢂	ytia	0
 𫵊	ytid	0
 𥪭	ytil	0
 𤫺	ytis	0
