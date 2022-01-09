@@ -11726,6 +11726,7 @@ local national = {
 ['鵶'] = 0,
 ['兠'] = 0,
 ['芈'] = 0,
+['㞗'] = 0,
 }
 
 return national
