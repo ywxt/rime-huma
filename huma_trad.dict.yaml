@@ -33,7 +33,7 @@ encoder:
 中	d
 來	e
 一	f
-着	g
+就	g
 發	h
 為	i
 人	j
@@ -212,7 +212,7 @@ encoder:
 塊	ga
 姜	gb
 聲	gc
-就	gd
+遠	gd
 地	ge
 款	gf
 高	gg
@@ -225,7 +225,7 @@ encoder:
 城	gn
 場	go
 列	gp
-堵	gq
+着	gq
 坡	gr
 士	gs
 土	gt
@@ -3003,7 +3003,7 @@ encoder:
 埕	gdn
 殞	gdo
 劼	gds
-遠	gdt
+袁	gdt
 迼	gdu
 埍	gdv
 臺	gdw
@@ -3185,7 +3185,7 @@ encoder:
 壣	gqi
 堺	gqj
 韠	gql
-着	gqm
+堵	gqo
 壏	gqr
 飱	gqs
 畗	gqt
@@ -10432,3 +10432,32 @@ encoder:
 刂	pddd
 卩	zjjj
 虍	zhhh
+
+
+# 詞組
+問題	a
+如果	b
+不是	c
+雖然	d
+東西	e
+一個	f
+就是	g
+必須	h
+主要	i
+他們	j
+沒有	k
+而且	l
+大家	m
+現在	n
+自己	o
+起來	p
+都是	q
+因爲	r
+這個	s
+需要	t
+工作	u
+已經	v
+怎麼	w
+應該	x
+還是	y
+可以	z
