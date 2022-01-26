@@ -8104,5 +8104,6 @@ local standard = {
 ['齇'] = 0,
 ['觿'] = 0,
 ['蠼'] = 0,
+['〇'] = 0,
 }
 return standard

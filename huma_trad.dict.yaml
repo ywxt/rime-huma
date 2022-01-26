@@ -2,7 +2,7 @@
 
 ---
 name: "huma_trad"
-version: "20211231"
+version: "20220127"
 sort: original
 use_preset_vocabulary: false
 columns:
@@ -316,7 +316,7 @@ encoder:
 活	ka
 流	kb
 寸	kc
-數	kd
+油	kd
 海	ke
 汙	kf
 法	kg
@@ -327,7 +327,7 @@ encoder:
 滿	kl
 母	km
 決	kn
-洲	ko
+數	ko
 沒	kp
 濟	kq
 溫	kr
@@ -740,7 +740,6 @@ encoder:
 闞	aaq
 癇	aav
 魅	aaw
-疒	abb
 效	abh
 疷	abi
 疟	abj
@@ -857,7 +856,7 @@ encoder:
 疮	ajz
 闊	aka
 疛	akc
-瘻	akd
+耛	akd
 丞	akf
 痠	akh
 耜	aki
@@ -891,7 +890,7 @@ encoder:
 疤	amb
 夨	amd
 痌	amf
-靑	amg
+舑	amg
 療	amh
 牑	ami
 瘞	amj
@@ -1278,7 +1277,7 @@ encoder:
 昏	bor
 矤	bos
 鄮	bot
-彘	bov
+婫	bov
 嫚	boy
 粥	bpb
 张	bpc
@@ -1358,6 +1357,7 @@ encoder:
 妃	bvj
 媏	bvl
 奶	bvn
+彘	bvo
 奾	bvs
 逳	bvu
 聿	bvv
@@ -1582,10 +1582,10 @@ encoder:
 炛	cjv
 炝	cjz
 螠	cka
-屢	ckd
 烗	ckh
 尻	ckj
 蟝	ckn
+屢	cko
 遲	ckq
 尿	cks
 蛹	ckt
@@ -1987,10 +1987,10 @@ encoder:
 噙	djz
 嗌	dka
 吋	dkc
-嘍	dkd
+咍	dkd
 嗨	dke
 咳	dkh
-嘇	dkk
+〇	dkk
 呣	dkm
 唉	dko
 吮	dkp
@@ -2416,7 +2416,7 @@ encoder:
 榏	eka
 毓	ekb
 村	ekc
-樓	ekd
+枱	ekd
 梥	eke
 窏	ekf
 窪	ekg
@@ -2425,7 +2425,7 @@ encoder:
 槮	ekk
 乸	ekm
 枠	ekn
-樌	eko
+樓	eko
 樑	ekp
 桙	ekq
 勄	eks
@@ -2807,11 +2807,11 @@ encoder:
 祔	fjk
 骱	fjp
 辱	fkc
-髏	fkd
 骸	fkh
 救	fki
 骩	fkj
 晉	fkk
+髏	fko
 县	fks
 鄏	fkt
 开	flc
@@ -2900,7 +2900,6 @@ encoder:
 正	fsi
 助	fsl
 旾	fso
-礻	fss
 邨	fst
 迍	fsu
 骴	fsv
@@ -3023,7 +3022,6 @@ encoder:
 埡	gfc
 堝	gfd
 韎	gfe
-凸	gfg
 丄	gfi
 殏	gfk
 圩	gfn
@@ -3032,7 +3030,7 @@ encoder:
 殭	gfq
 坉	gfs
 圷	gfy
-垇	gga
+壔	gga
 郌	ggd
 翹	ggg
 墩	ggh
@@ -3708,7 +3706,7 @@ encoder:
 縀	icm
 繢	ico
 艉	icv
-丶	idd
+絽	idd
 槩	ide
 舯	idg
 织	idh
@@ -3812,12 +3810,12 @@ encoder:
 舱	ijz
 縊	ika
 紂	ikc
-縷	ikd
+緿	ikd
 竣	ikh
 紈	iki
 縿	ikk
 紣	ikn
-昶	iko
+縷	iko
 氷	iks
 紲	ila
 竎	ilc
@@ -3924,7 +3922,7 @@ encoder:
 糼	isl
 絀	ism
 艡	isq
-糸	iss
+緔	iss
 紪	isv
 鴢	isx
 絑	ita
@@ -4009,7 +4007,7 @@ encoder:
 站	iyd
 繹	iyg
 緻	iyh
-轡	iyi
+絰	iyi
 綽	iyo
 縚	iyp
 紗	iyt
@@ -4195,7 +4193,7 @@ encoder:
 伱	jjy
 伧	jjz
 姇	jkb
-僂	jkd
+佁	jkd
 俊	jkh
 佀	jki
 仇	jkj
@@ -4621,7 +4619,6 @@ encoder:
 沎	kjv
 沧	kjz
 溢	kka
-漊	kkd
 染	kke
 浚	kkh
 汍	kki
@@ -4629,7 +4626,7 @@ encoder:
 參	kkk
 濷	kkl
 渗	kkm
-涾	kko
+漊	kko
 沇	kkp
 洠	kkq
 厸	kks
@@ -4708,7 +4705,7 @@ encoder:
 瀑	kol
 滉	kom
 渴	kon
-瀴	koo
+洲	koo
 測	kop
 漅	koq
 旭	kor
@@ -5217,7 +5214,7 @@ encoder:
 蒠	loh
 芃	loi
 芁	loj
-蕙	lok
+蓴	lok
 幕	lom
 葛	lon
 菖	loo
@@ -5501,6 +5498,7 @@ encoder:
 獮	mff
 猾	mfg
 獙	mfh
+凹	mfi
 研	mfl
 硬	mfo
 矹	mfp
@@ -5512,7 +5510,6 @@ encoder:
 碠	mga
 硳	mgc
 周	mgd
-円	mgf
 奎	mgg
 磰	mgh
 礢	mgi
@@ -5575,13 +5572,13 @@ encoder:
 砼	mju
 奫	mka
 夺	mkc
-貗	mkd
 奒	mkh
 犱	mki
 犰	mkj
 冂	mkk
 砪	mkm
 磲	mkn
+貗	mko
 狁	mkp
 厺	mks
 硧	mkt
@@ -5678,7 +5675,7 @@ encoder:
 狫	mql
 奢	mqo
 礸	mqp
-犭	mqq
+玃	mqq
 礛	mqr
 奋	mqt
 猬	mqv
@@ -7268,16 +7265,14 @@ encoder:
 圂	rjs
 篴	rju
 囮	rjv
-筰	rjw
-団	rkc
-簍	rkd
+笞	rkd
 筂	rke
 怼	rkh
 笂	rki
 囗	rkk
 笲	rkl
 圗	rkn
-圎	rko
+簍	rko
 簗	rkp
 箲	rkq
 箥	rkr
@@ -7604,12 +7599,12 @@ encoder:
 訛	sjv
 謚	ska
 討	skc
-謱	skd
+詒	skd
 该	skh
 訙	ski
 訅	skj
 謲	skk
-謴	sko
+誒	sko
 洜	sks
 誦	skt
 謠	sla
@@ -7779,7 +7774,6 @@ encoder:
 譌	syt
 謰	syu
 誚	syv
-讠	syy
 謔	szb
 譃	szc
 謀	sze
@@ -7912,7 +7906,7 @@ encoder:
 陪	tid
 襯	tie
 限	tig
-衤	tii
+鞿	tii
 霠	tij
 雴	til
 系	tis
@@ -7937,7 +7931,6 @@ encoder:
 隘	tka
 霐	tkb
 衬	tkc
-褸	tkd
 霂	tke
 霈	tkf
 陔	tkh
@@ -7947,7 +7940,7 @@ encoder:
 霟	tkl
 霘	tkm
 阜	tkn
-鞜	tko
+褸	tko
 阭	tkp
 褝	tkq
 帥	tkr
@@ -8261,7 +8254,7 @@ encoder:
 攦	ufv
 擣	uga
 捇	ugc
-擷	ugd
+擡	ugd
 搞	ugg
 撴	ugh
 攁	ugi
@@ -8325,7 +8318,6 @@ encoder:
 摿	ujx
 擒	ujz
 搤	uka
-抬	ukd
 捘	ukh
 热	uki
 扏	ukj
@@ -8468,7 +8460,7 @@ encoder:
 攩	usp
 擋	usq
 拨	usr
-扌	uss
+拹	uss
 讎	usu
 皉	usv
 乴	uta
@@ -8580,7 +8572,7 @@ encoder:
 摙	uyu
 捎	uyv
 授	uyw
-廴	uyy
+皭	uyy
 攡	uzb
 撳	uze
 摣	uzf
@@ -8677,6 +8669,7 @@ encoder:
 氬	vfc
 腡	vfd
 彯	vfe
+凸	vfi
 毬	vfk
 岍	vfl
 氞	vfm
@@ -8753,7 +8746,7 @@ encoder:
 膉	vka
 脳	vkb
 肘	vkc
-嶁	vkd
+胎	vkd
 埊	vkg
 峻	vkh
 肒	vki
@@ -8761,7 +8754,7 @@ encoder:
 嵾	vkk
 峅	vkl
 胟	vkm
-崉	vko
+嶁	vko
 毪	vkq
 汖	vks
 潁	vkw
@@ -9480,12 +9473,13 @@ encoder:
 秹	xjt
 鷹	xju
 贗	xjx
-廔	xkd
+秮	xkd
 应	xkf
 稄	xkh
 秇	xki
 穇	xkk
 䅟	xkm
+廔	xko
 広	xks
 遮	xlc
 種	xld
@@ -9776,7 +9770,7 @@ encoder:
 乿	yia
 醅	yid
 欳	yie
-酿	yii
+轡	yii
 雞	yim
 罜	yin
 輈	yio
@@ -10137,7 +10131,7 @@ encoder:
 夜	zjv
 鉩	zjy
 铴	zka
-鏤	zkd
+鈶	zkd
 鍅	zkg
 鋑	zkh
 鈻	zki
@@ -10145,7 +10139,7 @@ encoder:
 鏒	zkk
 鉧	zkm
 翆	zkn
-鏆	zko
+鏤	zko
 鈗	zkp
 鉾	zkq
 淾	zks
@@ -10312,7 +10306,7 @@ encoder:
 鐳	ztq
 鏓	ztr
 鋋	zts
-亠	ztt
+鑕	ztt
 鋨	ztu
 錒	ztz
 鉑	zub
@@ -10422,16 +10416,7 @@ encoder:
 
 
 # 四碼
-
-忄	hxxx
-夂	hiii
-攵	hppp
-豕	jsss
-厶	ksss
-丌	lccc
-刂	pddd
-卩	zjjj
-虍	zhhh
+豸	miii
 
 
 # 詞組
