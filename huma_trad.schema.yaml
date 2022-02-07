@@ -10,7 +10,7 @@ schema:
     - rime schema by ywxt
   description: |
     虎碼輸入方案，繁體簡碼
-    QQ羣：21134461
+    QQ群：21134461
 
     雙重反查、屏蔽詞組、全碼後置、簡入繁出...
     https://gitee.com/ywxt/rime-huma/
@@ -124,7 +124,7 @@ lua_reverse_db:
 huma_postpone_fullcode:
   tags: [ abc ]
   lua:
-  max_index: 6  # 最大后置位置，默认为 4
+    max_index: 6  # 最大后置位置，默认为 4
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
