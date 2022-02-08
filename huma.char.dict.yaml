@@ -18670,6 +18670,7 @@ columns:
 𠁈	fgod	0
 𠀥	fgof	0
 𣅯	fgof	0
+𠁘	fgop	0
 𥜭	fgor	0
 𩩡	fgph	0
 𫠦	fgpr	0
@@ -19443,7 +19444,6 @@ columns:
 𩩫	foor	0
 戛	fopg	1000
 戛	fopg	0
-𠁘	foph	0
 𩪑	foqe	0
 𭬺	foqh	0
 𬓙	foqr	0
@@ -29067,10 +29067,7 @@ columns:
 𡤨	isib	0
 为	isid	0
 纞	isih	0
-𭟄	isih	0
-𭅩	isin	0
 𰻦	isit	0
-𭤛	isiv	0
 𪈮	isix	0
 舺	isj	1300
 𥩫	isj	0
@@ -29458,7 +29455,6 @@ columns:
 𱁈	iui	0
 维	iui	0
 纅	iuie	0
-𭧡	iuio	0
 𦄚	iujj	0
 𦈊	iujj	0
 𣫚	iujr	0
@@ -29995,7 +29991,6 @@ columns:
 縘	iyim	0
 𥪦	iyim	0
 𦩶	iyim	0
-𫰀	iyim	0
 𤔕	iyin	0
 纙	iyiu	0
 𦄘	iyjs	0
@@ -41536,8 +41531,8 @@ columns:
 𨰢	lrzj	0
 𬬜	lrzj	0
 生	ls	1025600
-丗	ls	0
 卅	ls	0
+丗	ls	0
 𠀍	ls	0
 𤯓	ls	0
 𧁻	lsbl	0
@@ -44460,7 +44455,6 @@ columns:
 迏	miuc	0
 𨗿	miuc	0
 𨘅	miuc	0
-𮁏	miun	0
 𭢩	mius	0
 䂛	miv	0
 𤝉	miv	0
@@ -45981,6 +45975,7 @@ columns:
 𤡖	msuc	0
 𨕺	msuc	0
 𰧟	msuc	0
+𮁏	msun	0
 礃	msus	0
 𥒔	msuy	0
 䂣	msvb	0
@@ -55376,7 +55371,6 @@ columns:
 𦅔	pis	0
 𰳪	pis	0
 𮜘	pisg	0
-𮜬	pish	0
 𥽸	pisi	0
 𰙜	pisi	0
 𰳭	pisi	0
@@ -56855,6 +56849,7 @@ columns:
 𨈊	psib	0
 𥾃	psic	0
 𨈌	psih	0
+𮜬	psih	0
 𨇼	psii	0
 𨈎	psix	0
 𢦦	psj	0
@@ -65543,6 +65538,7 @@ columns:
 㝈	siih	0
 𣀵	siih	0
 𭓝	siih	0
+𭟄	siih	0
 變	siih	0
 譏	siii	2000
 𤫜	siii	0
@@ -65556,6 +65552,7 @@ columns:
 𦫲	siim	0
 卛	siin	0
 𰫹	siin	0
+𭅩	siin	0
 曫	siio	0
 𠙳	siio	0
 𧭘	siio	0
@@ -65582,6 +65579,7 @@ columns:
 𧮌	siiv	0
 𭯮	siiv	0
 𮎂	siiv	0
+𭤛	siiv	0
 鸞	siix	400
 𪈽	siix	0
 𪈿	siix	0
@@ -66731,6 +66729,7 @@ columns:
 𰙭	sui	0
 谁	sui	0
 𧭥	suie	0
+𭧡	suio	0
 誣	sujj	700
 诬	sujj	0
 𧪒	suks	0
@@ -88927,6 +88926,7 @@ columns:
 𦌈	yuib	0
 䤕	yuie	0
 轢	yuie	0
+𫰀	yuim	0
 𨡹	yuks	0
 𨎀	yumn	0
 𬙤	yunf	0
