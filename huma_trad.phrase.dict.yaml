@@ -1,7 +1,7 @@
 ---
 name: "huma_trad.phrase"
 version: "20211231"
-sort: original
+sort: by_weight
 use_preset_vocabulary: true
 columns:
   - text

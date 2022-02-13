@@ -83,7 +83,6 @@ engine:
     - simplifier@traditionalize
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
-    # - lua_filter@xuma_single_char
     - lua_filter@huma_postpone_fullcode
     - lua_filter@huma_lazy_clock
     - uniquifier
@@ -95,8 +94,6 @@ huma_single_char_only:
 huma_charset:
   __include: gb2312
 
-xuma_single_char:
-  tags: [abc]
 
 # 防止对 punct 进行过滤
 gb2312:
@@ -148,8 +145,6 @@ translator:
   enable_encoder: true
   encode_commit_history: false  # 对连续上屏的词自动成词
   max_phrase_length: 5  # 自动成词的最大词长
-  preedit_format:
-    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
 
 
 # 用于混输
