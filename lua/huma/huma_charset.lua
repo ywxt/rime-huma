@@ -36,7 +36,8 @@ local function get_enabled_option(env)
     if env.engine.context:get_option('standard') then return 'Standard' end
     if env.engine.context:get_option('national') then return 'National' end
     if env.engine.context:get_option('gbk') then return 'GBK' end
-    return 'Unicode'
+    if env.engine.context:get_option('unicode') then return 'Unicode' end
+    return 'National' -- default is National option
 end
 
 local function is_chinese(char)
