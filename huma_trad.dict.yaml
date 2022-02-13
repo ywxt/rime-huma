@@ -304,8 +304,8 @@ encoder:
 但	jo
 代	jp
 件	jq
-個	jr
 會	jr
+個	jr
 信	js
 任	jt
 入	ju
@@ -513,7 +513,7 @@ encoder:
 帽	ro
 國	rp
 七	rq
-桑	rr
+箇	rr
 笳	rs
 笑	rt
 竹	ru
@@ -4310,13 +4310,14 @@ encoder:
 侽	jqs
 佃	jqt
 偶	jqv
+個	jrc
 佪	jrd
 俳	jrf
 佊	jrp
 伇	jrs
 傩	jru
 佤	jrw
-會	jry
+劊	jry
 偿	jsb
 伽	jsd
 佫	jsg
@@ -7367,7 +7368,7 @@ encoder:
 筃	rrm
 帼	rrn
 帔	rrp
-歠	rrr
+桑	rrr
 箘	rrx
 双	rry
 笿	rsg
