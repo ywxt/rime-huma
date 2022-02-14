@@ -557,7 +557,7 @@ encoder:
 革	tg
 失	th
 衣	ti
-斤	tj
+除	tj
 師	tk
 龍	tl
 向	tm
@@ -7708,7 +7708,7 @@ encoder:
 諽	stg
 詄	sth
 裳	sti
-䜣	stj
+訢	stj
 蠥	stk
 譳	stl
 謣	stm
@@ -7927,7 +7927,6 @@ encoder:
 袗	tje
 鞭	tjf
 坠	tjg
-襳	tjj
 附	tjk
 陯	tjl
 袱	tjm
@@ -7935,7 +7934,6 @@ encoder:
 队	tjr
 袵	tjt
 靴	tjv
-除	tjx
 隘	tka
 霐	tkb
 衬	tkc
@@ -10451,6 +10449,7 @@ encoder:
 井	qjj
 皮	rpp
 殳	rss
+斤	tjj
 疋	tss
 隹	uii
 己	vjj
