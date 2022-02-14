@@ -9,6 +9,6 @@ huma_preedit_lazy_clock = os_tools.preedit_lazy_clock_filter
 
 huma_postpone_fullcode = require("huma/postpone_fullcode")
 
-huma_charset = require('huma/huma_charset.lua')
+huma_charset = require('huma/huma_charset')
 
 
