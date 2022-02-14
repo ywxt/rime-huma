@@ -8,7 +8,6 @@ use_preset_vocabulary: false
 columns:
   - text
   - code
-  - weight
   - stem
 import_tables:
   - huma.char
@@ -27,32 +26,32 @@ encoder:
       formula: "AaBaCaZa"
 ...
 
-那	a
-好	b
-不	c
-中	d
-來	e
-一	f
-就	g
-發	h
-為	i
-人	j
-能	k
-著	l
-大	m
-在	n
-是	o
-學	p
-都	q
-了	r
-這	s
-我	t
-的	u
-要	v
-家	w
-和	x
-爲	y
-可	z
+那	a	aute
+好	b	bhi
+不	c	cb
+中	d	dgs
+來	e	ejjr
+一	f	fi
+就	g	gyoy
+發	h	hbrs
+為	i	itac
+人	j	jr
+能	k	kvvv
+著	l	lqor
+大	m	md
+在	n	nggt
+是	o	ots
+學	p	pbbh
+都	q	qote
+了	r	rl
+這	s	suc
+我	t	tupg
+的	u	unid
+要	v	vbn
+家	w	wjs
+和	x	xdk
+爲	y	ytac
+可	z	zk
 慧	aa
 交	ab
 闢	ac
