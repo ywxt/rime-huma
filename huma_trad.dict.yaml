@@ -11,7 +11,7 @@ columns:
   - stem
 import_tables:
   - huma.char
-  - huma_trad.phrase
+  - huma.phrase
   - huma.extended
 encoder:
   exclude_patterns:
@@ -50,7 +50,7 @@ encoder:
 要	v	vbn
 家	w	wjs
 和	x	xdk
-爲	y	ytac
+上	y	yfi
 可	z	zk
 慧	aa
 交	ab
@@ -303,8 +303,8 @@ encoder:
 但	jo
 代	jp
 件	jq
-會	jr
 個	jr
+會	jr
 信	js
 任	jt
 入	ju
@@ -682,7 +682,6 @@ encoder:
 車	yc
 占	yd
 彩	ye
-上	yf
 還	yf
 瓜	yg
 致	yh
@@ -697,7 +696,7 @@ encoder:
 曲	yq
 罪	yr
 四	ys
-少	yt
+爲	yt
 連	yu
 配	yv
 愛	yw
@@ -4309,14 +4308,13 @@ encoder:
 侽	jqs
 佃	jqt
 偶	jqv
-個	jrc
 佪	jrd
 俳	jrf
 佊	jrp
 伇	jrs
 傩	jru
 佤	jrw
-劊	jry
+會	jry
 偿	jsb
 伽	jsd
 佫	jsg
@@ -9899,7 +9897,7 @@ encoder:
 轎	ytm
 羈	ytn
 暫	yto
-轓	ytp
+少	ytp
 省	ytq
 劣	yts
 毟	ytv

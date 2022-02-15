@@ -1,5 +1,5 @@
 ---
-name: "huma_trad.phrase"
+name: "huma.phrase"
 version: "20211231"
 sort: by_weight
 use_preset_vocabulary: true
