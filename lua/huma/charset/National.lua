@@ -11732,6 +11732,7 @@ local national = {
 ['㞞'] = 0,
 ['迹'] = 0,
 ['〇'] = 0,
+['叶'] = 0,
 }
 
 return national
