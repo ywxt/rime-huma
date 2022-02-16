@@ -11733,6 +11733,7 @@ local national = {
 ['迹'] = 0,
 ['〇'] = 0,
 ['叶'] = 0,
+['竵'] = 0,
 }
 
 return national
