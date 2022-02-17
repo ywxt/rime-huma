@@ -207,6 +207,7 @@ key_bindings:
     - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+t", toggle: lazy_clock }
+    - { when: composing, accept: Caps_Lock, send: Escape  }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 }  # 引号三选
 
