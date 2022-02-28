@@ -303,7 +303,6 @@ encoder:
 但	jo
 代	jp
 件	jq
-個	jr
 會	jr
 信	js
 任	jt
@@ -727,7 +726,7 @@ encoder:
 羽	zv
 頭	zw
 鏡	zx
-銷	zy
+軆	zy
 哥	zz
 舙	aaa
 彗	aab
@@ -2939,7 +2938,7 @@ encoder:
 祬	fyi
 髑	fyn
 遭	fyo
-體	fyz
+禮	fyz
 禖	fze
 祺	fzh
 髎	fzj
@@ -4308,6 +4307,7 @@ encoder:
 侽	jqs
 佃	jqt
 偶	jqv
+個	jrc
 佪	jrd
 俳	jrf
 佊	jrp
@@ -10392,10 +10392,9 @@ encoder:
 鏀	zyr
 鈔	zyt
 鏈	zyu
-销	zyv
+銷	zyv
 鑀	zyw
 釥	zyx
-軆	zyz
 鋀	zzd
 歌	zze
 鉗	zzg
@@ -10463,7 +10462,7 @@ encoder:
 不是	c
 雖然	d
 東西	e
-一個	f
+一箇	f
 就是	g
 必須	h
 主要	i
@@ -10476,7 +10475,7 @@ encoder:
 起來	p
 都是	q
 因爲	r
-這個	s
+這箇	s
 需要	t
 工作	u
 已經	v
