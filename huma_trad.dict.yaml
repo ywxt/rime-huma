@@ -142,7 +142,7 @@ encoder:
 哈	dj
 口	dk
 里	dl
-民	dm
+吧	dm
 嗎	dn
 員	do
 別	dp
@@ -2009,7 +2009,7 @@ encoder:
 囌	dlw
 呀	dly
 呝	dma
-吧	dmb
+邑	dmb
 唙	dmc
 哃	dmf
 啁	dmg
@@ -10422,8 +10422,8 @@ encoder:
 卯	bmm
 聿	bvv
 古	cgg
-黽	dmm
 〇	dkk
+民	dmm
 彡	ess
 骨	fgg
 歹	gdd
@@ -10453,6 +10453,8 @@ encoder:
 魚	wvv
 卜	ybb
 虎	zhh
+
+黽	dmmm
 
 
 # 詞組
