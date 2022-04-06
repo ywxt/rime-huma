@@ -51,7 +51,10 @@ local function is_in_charset(char, charset) return charset[char] end
 
 local function filter_chinese(string, charset)
     for index, code in utf8.codes(string) do
-        if is_chinese(code) and (not is_in_charset(utf8.char(code), charset)) then
+        if not is_chinese(code) then
+            return false
+        end
+        if not is_in_charset(utf8.char(code), charset) then
             return false
         end
     end
