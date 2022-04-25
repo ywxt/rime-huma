@@ -10462,6 +10462,7 @@ columns:
 𭉻	dbii	0
 𤰣	dbj	0
 𠿔	dbjh	0
+𤱉	dnjr	0
 喙	dbjs	600
 喙	dbjs	0
 𠷍	dbka	0
@@ -40130,6 +40131,7 @@ columns:
 𣂩	llgt	0
 𨔠	llgu	0
 𨙔	llgu	0
+𨿠	llgu	0
 𪚍	llgu	0
 䳠	llgx	0
 𦍹	llgy	0
@@ -54071,7 +54073,6 @@ columns:
 䠝	pdob	0
 𥻱	pdob	0
 𧽛	pdob	0
-𡔏	pdog	0
 𥻢	pdoi	0
 刟	pdpd	0
 𧽫	pdpo	0
@@ -59807,7 +59808,6 @@ columns:
 𬏀	qnid	0
 䀗	qnjr	0
 𤰮	qnjr	0
-𤱉	qnjr	0
 𩚟	qnjr	0
 𦘄	qnjs	0
 餺	qnkc	0
@@ -63737,7 +63737,7 @@ columns:
 𬖇	rqqu	0
 籃	rqra	13800
 𥷷	rqrd	0
-𥵫	rqrj	0
+𥵫	rqrk	0
 䉯	rqro	0
 𥲹	rqro	0
 𬎭	rqrp	0
@@ -72597,7 +72597,6 @@ columns:
 𭢛	ulle	0
 𢮷	ullf	0
 捶	ullg	500
-𨿠	ullg	0
 𪮙	ullh	0
 𭢳	ullp	0
 拸	ullx	0
@@ -75290,6 +75289,7 @@ columns:
 𦙻	vfch	0
 𦜒	vfch	0
 𦠲	vfch	0
+𢾫	vfch	0
 𪱠	vfcr	0
 𪨷	vfcx	0
 𮍇	vfcx	0
@@ -84614,6 +84614,7 @@ columns:
 𦉨	xoda	0
 𧖇	xodc	0
 𠪋	xodg	0
+𡔏	xodg	0
 𰏺	xodk	0
 𪋠	xodl	0
 𮡚	xodl	0
@@ -88477,9 +88478,6 @@ columns:
 𬸷	yrbm	0
 𬸶	yrbo	0
 𮭰	yrbo	0
-𥻆	yrbp	0
-𥾄	yrbp	0
-𫦛	yrbp	0
 𱊼	yrbr	0
 𨔟	yrbu	0
 鹾	yrbu	0
@@ -88537,6 +88535,9 @@ columns:
 𠨋	yrjj	0
 𠧵	yrjm	0
 𠟫	yrjp	0
+𥻆	yrjp	0
+𥾄	yrjp	0
+𫦛	yrjp	0
 𠧚	yrjr	0
 𨍲	yrjs	0
 𰺃	yrkc	0
@@ -92536,7 +92537,6 @@ columns:
 䤣	zthn	0
 虖	zthn	0
 𢧶	zthp	0
-𢾫	zthp	0
 𨝘	ztht	0
 銥	zti	0
 𧆝	zti	0
