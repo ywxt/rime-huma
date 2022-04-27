@@ -204,8 +204,7 @@ punctuator:
 # 本节点仅用于被 __patch 指令引用
 key_bindings:
   __append:
-    - { when: always, accept: "Control+Alt+T", toggle: traditionalization }
-    - { when: always, accept: "Control+Alt+S", toggle: simplification }
+    - { when: always, accept: "Control+Shift+space", toggle: simplification }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+t", toggle: lazy_clock }
     - { when: composing, accept: Caps_Lock, send: Escape  }
