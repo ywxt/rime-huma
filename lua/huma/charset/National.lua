@@ -11744,6 +11744,7 @@ local national = {
 ['丨'] = 0,
 ['巛'] = 0,
 ['辵'] = 0,
+['攴'] = 0,
 }
 
 return national
