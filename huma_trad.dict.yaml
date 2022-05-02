@@ -648,7 +648,7 @@ encoder:
 微	wv
 脊	ww
 象	wx
-頁	wy
+運	wy
 寥	wz
 積	xa
 底	xb
@@ -663,7 +663,7 @@ encoder:
 私	xk
 鹿	xl
 色	xm
-鳥	xn
+廣	xn
 香	xo
 利	xp
 廳	xq
@@ -5253,7 +5253,6 @@ encoder:
 薡	lqa
 茝	lqc
 茸	lqe
-薑	lqf
 藈	lqh
 蔂	lqi
 荖	lql
@@ -9325,11 +9324,11 @@ encoder:
 鱰	wyq
 皸	wyr
 鄆	wyt
-運	wyu
+鰱	wyu
 宵	wyv
 鱫	wyw
 鶤	wyx
-鯂	wyy
+頁	wyy
 鱧	wyz
 鱋	wzc
 魽	wzg
@@ -9504,10 +9503,10 @@ encoder:
 厣	xms
 彰	xne
 庯	xnf
-廣	xnh
+贛	xnh
 鴃	xnj
 鷌	xnm
-秬	xnn
+鳥	xnn
 廟	xno
 盾	xnq
 秡	xnr
@@ -10412,13 +10411,11 @@ encoder:
 耒	all
 皿	amm
 爿	app
-彐	bjj
 卯	bmm
 聿	bvv
 古	cgg
 〇	dkk
 民	dmm
-彡	ess
 骨	fgg
 歹	gdd
 丨	gss
@@ -10433,9 +10430,7 @@ encoder:
 甫	nff
 鬲	ngg
 戊	nuu
-巛	occ
 曰	orr
-尢	oyy
 臼	pjj
 井	qjj
 囗	rkk
