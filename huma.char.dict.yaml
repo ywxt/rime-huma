@@ -9,8 +9,11 @@ columns:
   - stem
 ...
 
+卍	aaaa	100
+卐	aaaa	0
 𨷾	aaaa	0
 𬻄	aaad	0
+𭅫	aaad	0
 𰀰	aaae	0
 𠃡	aaai	0
 𡬞	aaak	0
@@ -667,8 +670,6 @@ columns:
 𬺴	affi	0
 𰿷	affs	0
 㾶	afg	0
-𭅫	afgd	0
-卐	afgf	0
 𤴫	afgs	0
 𤺓	afhp	0
 刁	afi	300
@@ -792,7 +793,6 @@ columns:
 𤗿	agdy	0
 𤻡	agdy	0
 𨶕	ageq	0
-卍	agfg	100
 𠀄	agfi	0
 㾸	agg	0
 𠮸	agg	0
@@ -38709,7 +38709,6 @@ columns:
 茉	lfem	1400
 𮐁	lfeq	0
 薾	lffb	0
-𦇂	lffb	0
 𭥇	lffb	0
 𮮠	lffb	0
 𮒓	lffd	0
@@ -39251,6 +39250,7 @@ columns:
 𦻚	lhqt	0
 𫟕	lhqt	0
 蕲	lhqt	0
+𦇂	lhrc	0
 𦼏	lhro	0
 𪙭	lhro	0
 𦳠	lhrs	0
@@ -47722,7 +47722,6 @@ columns:
 𩣥	nhg	0
 𤥷	nhgt	0
 𡥇	nhhb	0
-𢽇	nhhh	0
 𩥱	nhhk	0
 驣	nhhn	0
 瓉	nhho	0
@@ -47744,6 +47743,7 @@ columns:
 㻂	nhlc	0
 骈	nhlc	0
 𩢣	nhma	0
+𢽇	nhmh	0
 𭹞	nhnw	0
 㦚	nhnx	0
 𰷆	nhob	0
