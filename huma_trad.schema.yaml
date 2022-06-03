@@ -24,8 +24,8 @@ __patch:
   - symbols:/patch?
 
 switches:
-  - options: [ national, standard, gbk, unicode ]
-    states: [ 國字, 规范, GBK, Unicode ]
+  - options: [ national, gbk, unicode, standard]
+    states: [ 國字, GBK, Unicode, 规范 ]
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
