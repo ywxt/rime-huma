@@ -162,7 +162,7 @@ encoder:
 杏	ed
 林	ee
 本	ef
-干	eg
+樣	eg
 平	eh
 機	ei
 見	ej
@@ -1270,7 +1270,7 @@ encoder:
 昏	bor
 矤	bos
 鄮	bot
-婫	bov
+彘	bov
 嫚	boy
 粥	bpb
 张	bpc
@@ -1350,7 +1350,7 @@ encoder:
 妃	bvj
 媏	bvl
 奶	bvn
-彘	bvo
+㜤	bvo
 奾	bvs
 逳	bvu
 妏	bvw
@@ -1863,7 +1863,7 @@ encoder:
 呺	ddf
 串	ddg
 呮	ddh
-嘂	ddi
+嘢	ddi
 吅	ddk
 哩	ddl
 器	ddm
@@ -5211,7 +5211,7 @@ encoder:
 蒀	loa
 茰	lob
 菒	loe
-荁	lof
+𦳝	lof
 蒔	log
 蒠	loh
 芃	loi
@@ -9131,7 +9131,7 @@ encoder:
 鱹	wld
 鮞	wle
 彷	wlf
-鰦	wli
+𩼰	wli
 鯲	wlj
 鰙	wln
 寞	wlo
@@ -9495,7 +9495,6 @@ encoder:
 庵	xmo
 黡	xmp
 厌	xmq
-乕	xmr
 厣	xms
 彰	xne
 庯	xnf
@@ -9597,6 +9596,7 @@ encoder:
 稚	xui
 厡	xuk
 韹	xun
+乕	xur
 稗	xut
 烏	xuu
 廏	xuv
@@ -9757,7 +9757,7 @@ encoder:
 雞	yim
 罜	yin
 輈	yio
-羉	yis
+軪	yis
 輮	yit
 羅	yiu
 酳	yiv
@@ -9866,6 +9866,7 @@ encoder:
 酘	yrs
 轻	yru
 酪	ysg
+羉	ysi
 罸	ysk
 罰	ysp
 酦	ysr
@@ -10409,6 +10410,7 @@ encoder:
 古	cgg
 〇	dkk
 民	dmm
+干	egg
 骨	fgg
 歹	gdd
 丨	gss
