@@ -25029,9 +25029,11 @@ columns:
 𢆤	hhzv	0
 𩓫	hhzw	0
 子	hi	970800
+孑	hi	0
 夂	hi	0
-ㄆ	hi	0
 夊	hi	0
+𡤼	hi	0
+ㄆ	hi	0
 𭒻	hibi	0
 𢜡	hibn	0
 𢣊	hibq	0
@@ -27797,6 +27799,7 @@ columns:
 𪅻	ihhx	0
 綣	ihhz	100
 绻	ihhz	0
+𥾌	ihi	0
 𰫙	ihi	0
 𬗭	ihii	0
 𰰍	ihir	0
@@ -28998,7 +29001,6 @@ columns:
 𦩋	irf	0
 绯	irf	0
 𦆷	irfg	0
-𥾌	irfi	0
 𦀄	irfp	0
 𦄙	irfs	0
 𥪸	irgk	0
@@ -38742,7 +38744,6 @@ columns:
 蓐	lfkc	0
 𦰧	lfke	0
 莍	lfki	0
-𮎾	lfkm	0
 𮏌	lfkm	0
 𦵻	lfko	0
 𦽲	lfkt	0
@@ -39877,6 +39878,7 @@ columns:
 𦯫	lkfi	0
 𮑓	lkfk	0
 䓑	lkfl	0
+𮎾	lkfm	0
 菹	lkfq	0
 𦴫	lkfr	0
 茫	lkfw	11400
@@ -51366,6 +51368,7 @@ columns:
 㜽	ohi	0
 㫗	ohi	0
 𧴯	ohi	0
+𰕳	ohi	0
 𠙘	ohic	0
 𭦼	ohig	0
 𣈩	ohjj	0
@@ -52587,7 +52590,6 @@ columns:
 𣈨	oreg	0
 㫵	orf	0
 暃	orf	0
-𰕳	orfi	0
 𣊾	orhx	0
 𫺄	orhx	0
 凧	orj	0
@@ -55199,6 +55201,7 @@ columns:
 籽	phi	1200
 𡕣	phi	0
 𧺙	phi	0
+𧺖	phi	0
 𪐣	phi	0
 𫥱	phi	0
 𫃕	phih	0
@@ -56755,7 +56758,6 @@ columns:
 𥺘	prf	0
 𮤁	prf	0
 𧺐	prfi	0
-𧺖	prfi	0
 𨲡	prfl	0
 𰑡	prgh	0
 𨅸	prgk	0
@@ -62344,11 +62346,9 @@ columns:
 ⿸	rfgs	0
 𥳆	rfhp	0
 韭	rfi	2000
-孑	rfi	0
-⿱	rfi	0
 孒	rfi	0
-𡤼	rfi	0
 𬼶	rfi	0
+⿱	rfi	0
 𡆻	rfiy	0
 𰪔	rfkh	0
 𥭑	rfki	0
@@ -83655,6 +83655,7 @@ columns:
 秄	xhi	0
 𠨯	xhi	0
 𪊎	xhi	0
+𥝔	xhi	0
 𭙒	xhi	0
 𥣓	xhih	0
 稵	xhii	0
@@ -85314,7 +85315,6 @@ columns:
 厞	xrf	0
 𥟍	xrf	0
 𪁹	xrf	0
-𥝔	xrfi	0
 𬓊	xrfs	0
 𥢜	xrgk	0
 𡊃	xrgt	0
@@ -90717,6 +90717,7 @@ columns:
 釨	zhi	0
 𡥋	zhi	0
 𧆰	zhi	0
+𨥂	zhi	0
 𫓦	zhi	0
 𨭨	zhih	0
 鎡	zhii	0
@@ -92428,7 +92429,6 @@ columns:
 𫅪	zrf	0
 𰾐	zrf	0
 𢌁	zrfi	0
-𨥂	zrfi	0
 𧇇	zrfq	0
 𨬼	zrgd	0
 𩏉	zrgh	0
