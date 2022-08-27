@@ -1399,7 +1399,6 @@ encoder:
 娋	byv
 嬡	byw
 乐	byx
-嬽	byy
 媒	bze
 姏	bzg
 婋	bzh
@@ -1510,7 +1509,7 @@ encoder:
 爀	cgc
 蛣	cgd
 燺	cge
-燉	cgh
+業	cgh
 菐	cgi
 蠔	cgj
 懟	cgk
@@ -1525,7 +1524,7 @@ encoder:
 煒	cgw
 爔	cgx
 烊	cgy
-業	cha
+蜂	cha
 熑	chb
 蛻	chd
 蟛	che
@@ -2734,10 +2733,8 @@ encoder:
 歄	fde
 祦	fdf
 囊	fdg
-恵	fdh
 唇	fdk
 氓	fdm
-曺	fdo
 祝	fdp
 副	fdq
 贏	fdv
@@ -2805,7 +2802,6 @@ encoder:
 髏	fko
 县	fks
 鄏	fkt
-亓	flc
 祊	flf
 髒	flg
 型	flp
@@ -5463,7 +5459,7 @@ encoder:
 礔	mcd
 狉	mcf
 狜	mcg
-礏	mch
+狄	mch
 砐	mcj
 碾	mcl
 猳	mcm
@@ -5653,7 +5649,7 @@ encoder:
 犹	moy
 肈	mpb
 套	mpc
-貂	mpd
+亓	mpd
 礖	mpf
 獀	mpg
 兘	mpk
@@ -5814,7 +5810,7 @@ encoder:
 駁	nbb
 璶	nbc
 欧	nbe
-匁	nbi
+区	nbi
 瑑	nbj
 琭	nbk
 匈	nbm
@@ -6033,7 +6029,7 @@ encoder:
 琾	nqj
 專	nqk
 珯	nql
-琽	nqo
+曺	nqo
 駪	nqp
 璾	nqq
 驟	nqr
@@ -7713,6 +7709,7 @@ encoder:
 謢	sur
 掌	sus
 諀	sut
+讎	suu
 謠	sva
 姕	svb
 啙	svd
@@ -8452,7 +8449,6 @@ encoder:
 擋	usq
 拨	usr
 拹	uss
-讎	usu
 皉	usv
 乴	uta
 娎	utb
@@ -9495,6 +9491,7 @@ encoder:
 庵	xmo
 黡	xmp
 厌	xmq
+乕	xmr
 厣	xms
 彰	xne
 庯	xnf
@@ -9596,7 +9593,6 @@ encoder:
 稚	xui
 厡	xuk
 韹	xun
-乕	xur
 稗	xut
 烏	xuu
 廏	xuv

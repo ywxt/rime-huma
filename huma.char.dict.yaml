@@ -300,6 +300,7 @@ columns:
 𩲱	acg	0
 𫔜	acg	0
 𭷃	acg	0
+㸣	acgh	0
 𤗵	acgi	0
 𤻫	acgk	0
 𨵠	acgm	0
@@ -314,7 +315,6 @@ columns:
 𪸍	ach	0
 𬮟	ach	0
 𭴀	ach	0
-㸣	acha	0
 𬐧	achb	0
 𦉇	achl	0
 㽻	aci	0
@@ -419,7 +419,6 @@ columns:
 𨵽	ador	0
 𩘍	adpc	0
 兗	adpe	100
-𨷅	adpg	0
 𠓆	adpp	0
 𤖞	adqp	0
 𤵱	adsl	0
@@ -439,17 +438,7 @@ columns:
 𫔞	ady	0
 𬌎	adyj	0
 𤹦	adzd	0
-く	ae	0
 の	ae	0
-フ	ae	0
-レ	ae	0
-ヿ	ae	0
-ㄅ	ae	0
-ㄋ	ae	0
-ㄑ	ae	0
-ㄟ	ae	0
-ㄣ	ae	0
-ㄥ	ae	0
 ㇁	ae	0
 ㇂	ae	0
 ㇃	ae	0
@@ -1205,7 +1194,6 @@ columns:
 𧉾	aicc	0
 𧐧	aicc	0
 𮉵	aicd	0
-い	aid	0
 乄	aid	0
 𡗗	aid	0
 𨳉	aid	0
@@ -1533,7 +1521,6 @@ columns:
 𨴌	akbj	0
 疛	akc	0
 𩲅	akc	0
-寿	akc	0
 寿	akc	0
 𧔄	akcc	0
 𤇏	akch	0
@@ -1766,7 +1753,6 @@ columns:
 瘀	aljw	500
 閼	aljw	0
 阏	aljw	0
-将	alkc	0
 将	alkc	0
 螀	alkc	0
 𬌒	alkf	0
@@ -1964,7 +1950,6 @@ columns:
 𦔤	anaa	0
 𬅄	anae	0
 𦔣	anak	0
-𦔣	anak	0
 牍	anam	0
 𤕳	anbi	0
 𡠃	anbn	0
@@ -2095,7 +2080,6 @@ columns:
 㾕	anx	0
 𨴲	anx	0
 𬨗	anx	0
-辞	anx	0
 辞	anx	0
 鳵	anxn	0
 𤻬	anxs	0
@@ -2600,6 +2584,7 @@ columns:
 𭆥	ary	0
 𮌇	ary	0
 𰭃	ary	0
+𨷅	aryg	0
 𨶍	aryo	0
 舌	as	11000
 𩴭	asbv	0
@@ -2881,7 +2866,6 @@ columns:
 𫕻	avav	0
 北	avb	277500
 疕	avb	0
-北	avb	0
 𤎓	avbc	0
 闄	avbn	0
 𪽳	avbn	0
@@ -3230,7 +3214,6 @@ columns:
 𦔩	axch	0
 𤺗	axcp	0
 𨷠	axdg	0
-𨷭	axdg	0
 𰣼	axdh	0
 𮤗	axdl	0
 𰰇	axdl	0
@@ -3316,6 +3299,7 @@ columns:
 𤹸	axqh	0
 𨶧	axqo	0
 𧌿	axrc	0
+𨷭	axrg	0
 版	axry	31600
 㽹	axry	0
 𤖂	axs	0
@@ -3846,7 +3830,6 @@ columns:
 𣇶	bbwo	0
 𢑝	bbwp	0
 婦	bbwr	59200
-婦	bbwr	0
 嫋	bbww	600
 𩑛	bbwy	0
 𪦗	bbwy	0
@@ -3953,7 +3936,6 @@ columns:
 娯	bdah	0
 𬼤	bdai	0
 娛	bdam	7700
-娛	bdam	0
 𡟤	bdaq	0
 𬇎	bdbd	0
 𭚯	bdbg	0
@@ -4059,7 +4041,6 @@ columns:
 𩳃	beag	0
 𩳙	beag	0
 閷	beaj	0
-閷	beaj	0
 𰿳	beaj	0
 𫱸	beak	0
 𢏽	bebe	0
@@ -4095,10 +4076,15 @@ columns:
 𢽫	behp	0
 𭣱	behp	0
 𭝆	behx	0
+𢏩	beia	0
+㢴	beid	0
 𣏂	beid	0
+𡍯	beig	0
+𡐲	beig	0
 剎	beip	6500
 殺	beir	0
 𠮁	beir	0
+𤮔	beir	0
 弒	beiu	0
 靦	bej	700
 䩄	bej	0
@@ -4162,9 +4148,7 @@ columns:
 𡢷	berr	0
 𢑩	berr	0
 殺	bers	50800
-殺	bers	0
 𪄅	berx	0
-𪄅	berx	0
 𦘔	bes	0
 𧗁	beta	0
 𨜎	bete	0
@@ -4298,7 +4282,6 @@ columns:
 姉	bfrj	0
 𢐡	bfrj	0
 𭛅	bfrj	0
-𡛷	bfrt	0
 𤬵	bfrw	0
 𡛭	bfs	0
 𥘐	bfs	0
@@ -4452,7 +4435,6 @@ columns:
 𡡝	bhco	0
 嬉	bhdk	2400
 娧	bhdp	0
-娧	bhdp	0
 𫱧	bhdt	0
 𫱟	bhej	0
 妋	bhf	0
@@ -4545,7 +4527,6 @@ columns:
 𨧋	bhzj	0
 乂	bi	0
 〤	bi	0
-ㄨ	bi	0
 㐅	bi	0
 𡡫	bibc	0
 𢐁	bibg	0
@@ -4716,7 +4697,6 @@ columns:
 𣪣	bjrs	0
 𥯵	bjru	0
 𠭣	bjry	0
-𠭣	bjry	0
 彖	bjs	0
 𡝍	bjs	0
 𧰲	bjs	0
@@ -5306,7 +5286,6 @@ columns:
 𩈸	bomq	0
 𫱊	bona	0
 㛫	bone	0
-𣆼	bonl	0
 𣆸	bonr	0
 𭑷	bons	0
 孆	boob	0
@@ -5325,7 +5304,6 @@ columns:
 書	bor	233600
 昏	bor	25300
 𪥨	bor	0
-書	bor	0
 𪦅	borb	0
 𡢆	borh	0
 𢂙	borj	0
@@ -5393,7 +5371,6 @@ columns:
 充	bpe	74600
 㒫	bpe	0
 𮌂	bpe	0
-𠘺	bpe	0
 𡞄	bpfa	0
 𩩇	bpfg	0
 嬩	bpfh	0
@@ -5698,7 +5675,6 @@ columns:
 㜭	bsqt	0
 嫦	bsrj	2300
 弢	bsry	0
-弢	bsry	0
 𡞀	bss	0
 𡝃	bssi	0
 𡢋	bsss	0
@@ -5780,6 +5756,7 @@ columns:
 姊	btf	16000
 𠄴	btf	0
 𡛯	btf	0
+𡛷	btf	0
 㚱	btfi	0
 𡟍	btg	0
 𡤊	btgo	0
@@ -5840,18 +5817,13 @@ columns:
 𪦁	btqa	0
 𡤴	btqq	0
 𡢽	btqt	0
-𢏩	btra	0
 𪦪	btra	0
 𡜧	btrb	0
-𡍯	btrg	0
-𡐲	btrg	0
-㢴	btrh	0
 𡠴	btrh	0
 𰌒	btrh	0
 姂	btri	0
 𢁨	btrj	0
 奼	btrq	0
-𤮔	btrr	0
 媲	btrv	1400
 𡠌	btrv	0
 𡛫	bts	0
@@ -5950,6 +5922,7 @@ columns:
 聿	bv	200
 肀	bv	0
 𦘒	bv	0
+⺻	bv	0
 𪥭	bvad	0
 𢑄	bvai	0
 𡤸	bvam	0
@@ -6051,7 +6024,6 @@ columns:
 育	bvy	154400
 𫰒	bvy	0
 𭨨	bvy	0
-育	bvy	0
 㜐	bvzd	0
 𫲈	bvzh	0
 䩆	bwa	0
@@ -6286,7 +6258,6 @@ columns:
 嬾	bxwy	0
 嬾	bxxo	0
 𡞥	bxxo	0
-嬾	bxxo	0
 𰌙	bxxo	0
 㜬	bxxs	0
 𡣒	bxxs	0
@@ -6336,6 +6307,7 @@ columns:
 𡜁	byg	0
 𩈕	byg	0
 嬕	bygg	0
+嬽	bygm	0
 𡝇	bygt	0
 𡟽	bygt	0
 𡣱	bygt	0
@@ -6391,7 +6363,7 @@ columns:
 乐	byx	0
 𡣬	byxm	0
 𡜳	byy	0
-嬽	byym	0
+𩖈	byyw	0
 𪦢	byzj	0
 𡤩	byzm	0
 𡣥	bzbn	0
@@ -6771,6 +6743,7 @@ columns:
 蛄	ccg	300
 𠳬	ccg	0
 𤇌	ccg	0
+㸁	ccgh	0
 䗱	ccgi	0
 𭶅	ccgi	0
 爜	ccgr	0
@@ -6782,7 +6755,6 @@ columns:
 㶪	cch	0
 炏	cch	0
 𧈾	cch	0
-㸁	ccha	0
 𤋊	cchl	0
 敥	cchp	0
 𢽻	cchp	0
@@ -6809,7 +6781,6 @@ columns:
 𤐞	cclc	0
 𤐥	cclc	0
 𤑋	cclc	0
-𤎫	cclc	0
 𰟎	cclh	0
 𤏞	cclo	0
 𧓇	cclr	0
@@ -6830,7 +6801,6 @@ columns:
 嘏	ccmr	0
 煆	ccmr	0
 𤊳	ccmr	0
-煅	ccmr	0
 𤏃	ccmz	0
 𤧤	ccni	0
 𧎨	ccnx	0
@@ -7440,18 +7410,27 @@ columns:
 蟽	cggu	0
 𮟨	cggu	0
 𬠎	cggy	0
+𠄅	cgha	0
+業	cghb	426600
 𤏂	cghc	0
 蟮	cghd	0
 㷽	cghd	0
+㱉	cghe	0
 𧌉	cghg	0
 𪸷	cghg	0
 燉	cghh	900
 䗀	cghh	0
 𧑒	cghh	0
+𪴨	cghh	0
 焞	cghi	0
 蜳	cghi	0
+𠟪	cghp	0
+鄴	cght	0
 𤍪	cght	0
+𨗩	cghu	0
 𬠺	cghv	0
+𩕟	cghw	0
+鸈	cghx	0
 𧋺	cghx	0
 𧏮	cghx	0
 𬊌	cghx	0
@@ -7574,9 +7553,6 @@ columns:
 𬊣	cgyx	0
 火	ch	119100
 灬	ch	0
-𠄅	chaa	0
-𪴨	chaa	0
-㱉	chae	0
 𡰼	chae	0
 𤆺	chae	0
 𧉔	chae	0
@@ -7584,14 +7560,8 @@ columns:
 烽	chaf	2900
 蜢	cham	600
 𪹁	cham	0
-𠟪	chap	0
-鄴	chat	0
 䗦	chau	0
 熢	chau	0
-𨗩	chau	0
-業	chaw	426600
-𩕟	chaw	0
-鸈	chax	0
 𧈢	chb	0
 熑	chbc	0
 螊	chbc	0
@@ -7653,7 +7623,6 @@ columns:
 䗹	chih	0
 螆	chii	0
 𤍏	chii	0
-螆	chii	0
 𧌷	chiy	0
 𬠙	chjk	0
 煫	chjs	0
@@ -7852,7 +7821,6 @@ columns:
 𰕂	cizk	0
 𫵜	cizr	0
 及	cj	108900
-及	cj	0
 焓	cjad	0
 蛿	cjad	0
 蚙	cjae	0
@@ -8042,7 +8010,6 @@ columns:
 犀	ckqn	5600
 蛑	ckqn	0
 𤚌	ckqn	0
-犀	ckqn	0
 㓾	ckqp	0
 𩛻	ckqs	0
 𭴶	ckqt	0
@@ -8610,7 +8577,6 @@ columns:
 煴	coam	0
 蝹	coam	0
 𬐲	coam	0
-蝹	coam	0
 𧊣	coat	0
 貴	cob	45500
 屃	cob	0
@@ -9010,8 +8976,6 @@ columns:
 螧	cqor	0
 𤌄	cqor	0
 𤐢	cqor	0
-屠	cqor	0
-蝫	cqor	0
 䣝	cqot	0
 𬠩	cqot	0
 鷵	cqox	0
@@ -9166,7 +9130,6 @@ columns:
 𬟽	cryx	0
 𬟾	cryx	0
 炼	cryx	0
-ㄕ	cs	0
 𠃜	cs	0
 𡰣	cs	0
 尸	cs	200
@@ -9212,7 +9175,6 @@ columns:
 𪺌	cspg	0
 爣	csph	0
 𤇎	cspi	0
-𧑽	cspu	0
 蠩	csqo	0
 蟷	csqt	0
 𭶙	csqt	0
@@ -9220,6 +9182,7 @@ columns:
 龦	csrj	0
 𧌂	cssi	0
 𪨏	cssi	0
+𧑽	cssi	0
 燲	csso	0
 㶸	csss	0
 蛠	csss	0
@@ -9352,7 +9315,6 @@ columns:
 𤎑	ctrh	0
 𧋙	ctrh	0
 𧏀	ctrh	0
-熜	ctrh	0
 㞏	ctri	0
 𤇮	ctri	0
 𧊉	ctri	0
@@ -10164,7 +10126,6 @@ columns:
 𫥫	cysm	0
 蟡	cytc	0
 𤎶	cytc	0
-蟡	cytc	0
 𨜘	cyte	0
 𭵂	cytg	0
 螹	cytj	0
@@ -10477,7 +10438,6 @@ columns:
 𤰣	dbj	0
 𠿔	dbjh	0
 喙	dbjs	600
-喙	dbjs	0
 𠷍	dbka	0
 㖊	dbkc	0
 𠼢	dbkc	0
@@ -10584,6 +10544,8 @@ columns:
 呸	dcfi	100
 㗏	dcfs	0
 咕	dcg	3700
+㗼	dcgh	0
+𡁖	dcgh	0
 噗	dcgi	1200
 嚉	dcgk	0
 𡅇	dcgr	0
@@ -10593,8 +10555,6 @@ columns:
 𪸓	dch	0
 𭴬	dch	0
 𰞅	dch	0
-㗼	dcha	0
-𡁖	dcha	0
 𡃆	dcho	0
 吱	dci	6700
 𤋚	dcic	0
@@ -10602,7 +10562,6 @@ columns:
 𫩺	dciw	0
 吸	dcj	73500
 𬏁	dcj	0
-吸	dcj	0
 𡀿	dckb	0
 囑	dckc	3300
 𠲙	dcki	0
@@ -10807,7 +10766,6 @@ columns:
 𥂍	ddma	0
 𬑀	ddma	0
 𮡔	ddma	0
-咢	ddma	0
 唈	ddmb	0
 𰇫	ddmb	0
 𢻪	ddmc	0
@@ -10956,6 +10914,7 @@ columns:
 𬱑	ddww	0
 𠽸	ddwy	0
 𬱞	ddwy	0
+𡆔	ddwz	0
 嚴	ddxh	83500
 𡗏	ddxl	0
 𪂫	ddxn	0
@@ -11147,7 +11106,6 @@ columns:
 𠶝	dfdb	0
 𡝤	dfdb	0
 𢿙	dfdh	0
-𭋝	dfdh	0
 喎	dfdk	0
 𠸸	dfdk	0
 𣄸	dfdk	0
@@ -11174,7 +11132,6 @@ columns:
 嗕	dfkc	0
 𠱏	dfkm	0
 咞	dflc	0
-咞	dflc	0
 㖔	dfmd	0
 吴	dfmd	0
 𠳒	dfmf	0
@@ -11371,7 +11328,6 @@ columns:
 哶	dgy	0
 𠴟	dgy	0
 𤲜	dgy	0
-哶	dgy	0
 𡅹	dgyf	0
 噈	dgyo	0
 𡂝	dgyo	0
@@ -11570,7 +11526,6 @@ columns:
 𠻴	diiv	0
 𪡙	diiz	0
 叫	dij	105100
-叫	dij	0
 𡃀	dijr	0
 𠷵	dikc	0
 𭇛	diks	0
@@ -11931,7 +11886,6 @@ columns:
 𠿸	dlda	0
 嚥	dldc	3700
 嘆	dldh	19500
-嘆	dldh	0
 𠱷	dldk	0
 喠	dldl	0
 㗢	dlds	0
@@ -12223,7 +12177,6 @@ columns:
 㕼	dnba	0
 𫬇	dnbb	0
 𫪘	dnbe	0
-𪠴	dnbi	0
 呕	dnbi	0
 哅	dnbm	0
 𰌑	dnbn	0
@@ -12317,6 +12270,7 @@ columns:
 𠶗	dnqf	0
 嗔	dnqh	800
 𠽡	dnqh	0
+𭋝	dnqh	0
 𭉾	dnqk	0
 𠲾	dnqm	0
 𡂌	dnqt	0
@@ -12352,7 +12306,6 @@ columns:
 哊	dnvy	0
 呈	dnw	18600
 㕵	dnw	0
-呈	dnw	0
 呁	dnwb	0
 𰼙	dnwb	0
 哱	dnwh	0
@@ -12536,13 +12489,13 @@ columns:
 嚜	dpgt	0
 嘿	dph	3200
 𡕦	dphi	0
-𤲪	dphi	0
 𢼙	dphp	0
 𫤜	dpht	0
 𨕟	dphu	0
 𠴆	dphx	0
 𠯅	dpi	0
 𠯄	dpid	0
+𪠴	dpid	0
 𠴍	dpih	0
 𢙟	dpih	0
 𠽼	dpis	0
@@ -12925,7 +12878,6 @@ columns:
 邮	dte	0
 𠴻	dtee	0
 𢆟	dtee	0
-𢆟	dtee	0
 𡅢	dtef	0
 𠼂	dteo	0
 𪡗	dteq	0
@@ -12968,7 +12920,6 @@ columns:
 㗾	dtjv	0
 𪡷	dtjx	0
 䶸	dtks	0
-吆	dtks	0
 㗓	dtku	0
 嚨	dtl	3300
 𠳧	dtl	0
@@ -13155,7 +13106,6 @@ columns:
 𠽄	duwe	0
 𡅒	duwh	0
 噑	duwn	0
-噑	duwn	0
 𠾿	duwy	0
 𠼈	duxb	0
 𫫓	duxd	0
@@ -13600,7 +13550,6 @@ columns:
 𫩜	dya	0
 𠵣	dyae	0
 嗂	dyaf	0
-嗂	dyaf	0
 𡆓	dyau	0
 卟	dyb	0
 𪠽	dybj	0
@@ -13869,7 +13818,6 @@ columns:
 杨	eaes	0
 𱉴	eaex	0
 㭋	eaf	0
-𭪉	eaf	0
 窑	eaf	0
 柌	eafd	0
 𥨸	eafd	0
@@ -14208,6 +14156,7 @@ columns:
 𩓭	ecfw	0
 枯	ecg	12400
 𥥖	ecg	0
+檏	ecgh	0
 樸	ecgi	10900
 𣝉	ecgk	0
 𣞧	ecgk	0
@@ -14221,7 +14170,6 @@ columns:
 𤆰	ech	0
 𬔇	ech	0
 杰	ech	3300
-檏	echa	0
 𬄮	echf	0
 樼	echh	0
 𮓠	echi	0
@@ -14460,6 +14408,7 @@ columns:
 㮏	eefs	0
 𠢱	eefs	0
 𠢵	eefs	0
+𭪉	eefs	0
 権	eefu	0
 𬃴	eefu	0
 𣕢	eefv	0
@@ -14781,7 +14730,6 @@ columns:
 𣜩	efrp	0
 𣛒	efrq	0
 𥊨	efrq	0
-𣐈	efrt	0
 𫩀	efry	0
 柰	efs	0
 𥥓	efs	0
@@ -14826,7 +14774,6 @@ columns:
 𣠲	efyz	0
 𪴊	efyz	0
 翉	efzv	0
-チ	eg	0
 干	eg	20400
 楟	egad	0
 𪲞	egae	0
@@ -15083,7 +15030,6 @@ columns:
 枌	ehpd	0
 𥥄	ehpd	0
 𫥶	ehpd	0
-椕	ehpe	0
 𪪄	ehph	0
 𰘝	ehpo	0
 𥧦	ehqd	0
@@ -15152,7 +15098,6 @@ columns:
 橙	ehzd	1000
 䆸	ehzd	0
 㮝	ehzj	0
-㮝	ehzj	0
 𰘌	ehzj	0
 𣟑	ehzk	0
 櫈	ehzo	0
@@ -15168,8 +15113,6 @@ columns:
 𣑭	eic	0
 𥥚	eic	0
 𥥼	eic	0
-𣑭	eic	0
-𥥼	eic	0
 栅	eic	0
 𤇍	eich	0
 朮	eid	100
@@ -15186,13 +15129,8 @@ columns:
 𩔻	eidw	0
 櫬	eiee	0
 𥨾	eiee	0
-𪳻	eiee	0
-𡐨	eieg	0
-𣛾	eiek	0
-㮊	eiem	0
 𮠏	eiem	0
 榇	eiem	0
-𨬮	eiez	0
 𬄗	eifq	0
 𬻩	eify	0
 根	eig	96800
@@ -16159,7 +16097,6 @@ columns:
 𧠵	emej	0
 棘	emem	3600
 棗	emem	2600
-㮟	emem	0
 𣓅	emem	0
 𣝯	emem	0
 𣡍	emem	0
@@ -16249,7 +16186,6 @@ columns:
 𣞠	empp	0
 𪑟	empp	0
 𦖝	empq	0
-𦖨	empq	0
 𰼶	empz	0
 突	emq	66000
 枤	emq	0
@@ -16290,7 +16226,6 @@ columns:
 窦	enam	0
 椟	enam	0
 𣜪	enbh	0
-𣏯	enbi	0
 𥥛	enbi	0
 枢	enbi	0
 𣑤	enbm	0
@@ -16664,6 +16599,7 @@ columns:
 𥪵	epib	0
 㰘	epib	0
 杒	epid	0
+𣏯	epid	0
 𫞈	epif	0
 梕	epih	0
 𣑗	epik	0
@@ -16814,10 +16750,10 @@ columns:
 櫅	eqq	0
 𪲎	eqq	0
 𣡧	eqqa	0
-𣡟	eqqb	0
 𣝇	eqqe	0
 𥨘	eqqe	0
 𣡭	eqqf	0
+𣡟	eqqf	0
 𣠠	eqqg	0
 欙	eqqi	0
 𥨔	eqql	0
@@ -16921,7 +16857,6 @@ columns:
 𣙫	eril	0
 樦	erin	0
 櫛	eriz	200
-櫛	eriz	0
 𣏑	erj	0
 帘	erj	600
 榲	erja	0
@@ -17029,10 +16964,6 @@ columns:
 𪳺	esdo	0
 𨔣	esdu	0
 𪳇	esdu	0
-𪺂	esec	0
-𫻓	eseh	0
-𪴦	esek	0
-㯎	esem	0
 橖	esem	0
 𥧞	eser	0
 格	esg	117400
@@ -17127,6 +17058,7 @@ columns:
 𪴜	eteq	0
 柫	etf	0
 柹	etf	0
+𣐈	etf	0
 𰘄	etfa	0
 𪲀	etfi	0
 𣔆	etft	0
@@ -17344,7 +17276,6 @@ columns:
 梎	euvb	0
 𰩚	euvb	0
 槪	euvd	0
-槪	euvd	0
 𥨄	euvh	0
 槜	euvn	0
 𣔒	euvy	0
@@ -17371,8 +17302,6 @@ columns:
 𣒬	evef	0
 𪳩	evej	0
 𮗐	evej	0
-𣁩	evek	0
-𩰩	evek	0
 桗	evem	0
 𣗖	evem	0
 𰗰	evem	0
@@ -17825,7 +17754,6 @@ columns:
 𮃹	eya	0
 榣	eyaf	0
 窰	eyaf	0
-榣	eyaf	0
 櫾	eyai	0
 㰉	eyax	0
 朴	eyb	200
@@ -18085,10 +18013,6 @@ columns:
 𩨑	fad	0
 𠄸	fadf	0
 𫩶	fadk	0
-ㄎ	fae	0
-ㄘ	fae	0
-ㄛ	fae	0
-ㄜ	fae	0
 䯆	fae	0
 丂	fae	0
 𠀁	fae	0
@@ -18107,7 +18031,6 @@ columns:
 与	fafi	0
 𭟸	fafj	0
 𢌱	fafl	0
-𢌱	fafl	0
 𢌱	fafl	0
 𡴃	fafs	0
 𢪓	fafu	0
@@ -18266,6 +18189,7 @@ columns:
 𫡷	fcfu	0
 骷	fcg	300
 祜	fcg	0
+𩪤	fcgh	0
 𩪛	fcgi	0
 𥚍	fcgj	0
 堊	fcgt	1500
@@ -18275,7 +18199,6 @@ columns:
 𥘙	fch	0
 𭴆	fch	0
 灭	fch	0
-𩪤	fcha	0
 𡕢	fchi	0
 𰒜	fchk	0
 𤡾	fchm	0
@@ -18303,10 +18226,8 @@ columns:
 𢨙	fcop	0
 戬	fcop	0
 𣇩	fcor	0
-晉	fcor	0
 晋	fcor	0
 鄑	fcot	0
-鄑	fcot	0
 𠜲	fcpd	0
 𫥼	fcpd	0
 𡏍	fcpg	0
@@ -18352,7 +18273,6 @@ columns:
 𠄙	fdbv	0
 𠄜	fdbx	0
 𧎏	fdcc	0
-𨘜	fdcu	0
 𮦁	fdda	0
 𡝽	fddb	0
 𡂧	fddf	0
@@ -18368,7 +18288,6 @@ columns:
 𬩕	fdeu	0
 𩨴	fdfa	0
 𩩍	fdfa	0
-𣌽	fdfc	0
 𠁱	fdfk	0
 祦	fdfm	0
 𡈋	fdga	0
@@ -18420,8 +18339,6 @@ columns:
 𣞉	fdgx	0
 𩨵	fdhb	0
 𮁦	fdhb	0
-𣌼	fdho	0
-恵	fdhx	0
 𪬋	fdhx	0
 𭜓	fdhx	0
 𠀷	fdic	0
@@ -18436,12 +18353,9 @@ columns:
 𠮛	fdk	0
 𠵧	fdk	0
 𪠹	fdk	0
-専	fdkc	0
 𪢏	fdke	0
 𥚃	fdl	0
-𢾾	fdlh	0
 𬩟	fdlu	0
-𮨗	fdlw	0
 氓	fdm	900
 𣱅	fdm	0
 𥜐	fdm	0
@@ -18460,8 +18374,6 @@ columns:
 𠅳	fdob	0
 𥛍	fdob	0
 𰀓	fdoj	0
-曺	fdor	0
-𮞸	fdou	0
 剮	fdpd	0
 𫝁	fdpd	0
 𬻇	fdpd	0
@@ -18495,7 +18407,6 @@ columns:
 𮞄	fduc	0
 𠧅	fdun	0
 𪆹	fdux	0
-𦏞	fdvg	0
 贏	fdvi	10300
 嬴	fdvi	200
 羸	fdvi	100
@@ -18522,17 +18433,17 @@ columns:
 𬢙	fdvi	0
 𱊮	fdvi	0
 赢	fdvi	0
+𦢼	fdvm	0
+𡣍	fdvm	0
+𦟀	fdvm	0
 𦝠	fdvn	0
 䊨	fdvo	0
-𦢼	fdvo	0
-𡣍	fdvu	0
-𦟀	fdvu	0
+𦏞	fdvw	0
 𩩐	fdvy	0
 𫡻	fdvy	0
 𫨁	fdvz	0
 𭈰	fdwc	0
 䫚	fdwy	0
-𩓏	fdwy	0
 𣒚	fdxs	0
 䄂	fdy	0
 𬺿	fdyb	0
@@ -18612,7 +18523,6 @@ columns:
 禍	ffdk	0
 𪓿	ffdm	0
 福	ffdq	75000
-福	ffdq	0
 福	ffdq	0
 𨘌	ffdu	0
 覼	ffej	0
@@ -18708,7 +18618,6 @@ columns:
 𩩡	fgph	0
 𫠦	fgpr	0
 𮂔	fgqt	0
-ㄒ	fgs	0
 丅	fgs	0
 社	fgt	155000
 𡉹	fgt	0
@@ -18900,7 +18809,6 @@ columns:
 𩩂	fjdk	0
 𥚫	fjdl	0
 䯎	fjeg	0
-䯎	fjeg	0
 𥘼	fjes	0
 𫠡	fjgs	0
 𰨃	fjjg	0
@@ -19022,7 +18930,6 @@ columns:
 𫀙	fkph	0
 𠒨	fkpy	0
 䄕	fkqt	0
-ㄊ	fks	0
 𠫓	fks	0
 𠫔	fks	0
 𣱳	fks	0
@@ -19050,7 +18957,6 @@ columns:
 䄁	flae	0
 𭪭	flae	0
 㿼	flam	0
-亓	flc	0
 𩪲	flc	0
 𫸚	flc	0
 𰧮	flc	0
@@ -19075,9 +18981,9 @@ columns:
 𬻟	flfc	0
 𥛵	flfu	0
 𪂍	flfx	0
+𩪫	flgh	0
 髒	flgl	6600
 𬌳	flgm	0
-𩪫	flha	0
 𥙖	flhb	0
 𰨙	fljd	0
 𮂣	flkk	0
@@ -19122,7 +19028,6 @@ columns:
 𩨠	fly	0
 𠄨	flyf	0
 䯦	flyi	0
-㤪	flzh	0
 𰨏	flzq	0
 䍾	flzv	0
 𡗣	fmad	0
@@ -19174,7 +19079,6 @@ columns:
 𡗘	fmgs	0
 再	fmgt	170500
 𮟸	fmgt	0
-再	fmgt	0
 𢨥	fmh	0
 𠀸	fmha	0
 𥚓	fmha	0
@@ -19262,7 +19166,6 @@ columns:
 𰋪	fmui	0
 𪥙	fmul	0
 𠄢	fmvf	0
-𠄢	fmvf	0
 𱅯	fmvk	0
 𦙖	fmvy	0
 鴌	fmxn	0
@@ -19456,7 +19359,6 @@ columns:
 𥚕	foor	0
 𩩫	foor	0
 戛	fopg	1000
-戛	fopg	0
 𩪑	foqe	0
 𭬺	foqh	0
 𬓙	foqr	0
@@ -19608,7 +19510,6 @@ columns:
 𭀝	fpwb	0
 祧	fpww	0
 䪲	fpwy	0
-䪲	fpwy	0
 䯒	fpx	0
 𮁴	fpx	0
 䲫	fpxn	0
@@ -19726,22 +19627,14 @@ columns:
 㲀	frs	0
 祋	frs	0
 𬅹	frsi	0
-𧠥	frte	0
 𨙶	frte	0
-𬢉	frte	0
-䪣	frtf	0
-𢼋	frth	0
-𠀽	frti	0
 𧘴	frti	0
-𪩲	frtp	0
 𢂛	frtr	0
-𨒘	frtu	0
 䢌	fruc	0
 迊	fruc	0
 𣬪	frvm	0
 𥘳	frw	0
 𩐊	frwf	0
-𩐊	frwf	0
 𣖈	frxe	0
 䴓	frxn	0
 鳾	frxn	0
@@ -19794,7 +19687,6 @@ columns:
 𪴹	fskk	0
 𬆃	fskr	0
 助	fsl	97600
-ㄞ	fsl	0
 䯇	fsl	0
 𠀅	fsl	0
 𥘋	fsl	0
@@ -19983,7 +19875,6 @@ columns:
 𮭷	fvfc	0
 䚕	fvfe	0
 彲	fvfe	0
-𧢮	fvfe	0
 𠁖	fvfg	0
 𣀷	fvfh	0
 亙	fvfi	1300
@@ -20023,7 +19914,6 @@ columns:
 𪱮	fvno	0
 𪱯	fvnt	0
 望	fvnw	183000
-望	fvnw	0
 禫	fvon	0
 𫡴	fvqf	0
 𥙈	fvry	0
@@ -20264,7 +20154,6 @@ columns:
 𧇘	fzfq	0
 𥚚	fzh	0
 𬟬	fzh	0
-𥚚	fzh	0
 𥚮	fzha	0
 祺	fzhb	300
 𱅱	fzhb	0
@@ -20443,6 +20332,8 @@ columns:
 𤈔	gbch	0
 𡌰	gbcv	0
 𫮬	gbdc	0
+𦏍	gbeg	0
+𦏚	gbeg	0
 𡍕	gbem	0
 𣨚	gbem	0
 𩏁	gbem	0
@@ -20488,8 +20379,6 @@ columns:
 𨜰	gbte	0
 𡑱	gbtg	0
 𡑳	gbtg	0
-𦏍	gbtg	0
-𦏚	gbtg	0
 𬙹	gbtg	0
 𭮚	gbtk	0
 𭮅	gbtp	0
@@ -20579,6 +20468,8 @@ columns:
 𦍩	gcg	0
 赫	gcgc	12100
 𦏠	gcgc	0
+𡑿	gcgh	0
+𣩫	gcgh	0
 墣	gcgi	0
 𫭺	gcgi	0
 羹	gcgm	1600
@@ -20601,8 +20492,6 @@ columns:
 𤈩	gch	0
 𤌾	gch	0
 𭴔	gch	0
-𡑿	gcha	0
-𣩫	gcha	0
 螫	gchc	400
 𬫁	gchd	0
 𭊆	gchd	0
@@ -21079,7 +20968,6 @@ columns:
 𠆊	gfcy	0
 垭	gfcy	0
 𤎪	gfdc	0
-𭮟	gfdc	0
 㱻	gfdi	0
 堝	gfdk	0
 𠧰	gfdk	0
@@ -21449,6 +21337,7 @@ columns:
 埄	ghaf	0
 𫭵	ghag	0
 塳	ghau	0
+𦍎	ghb	0
 𫭗	ghb	0
 𡏊	ghbc	0
 𭏔	ghbl	0
@@ -21470,8 +21359,6 @@ columns:
 善	ghdk	63300
 𦏔	ghdk	0
 𬙽	ghdk	0
-善	ghdk	0
-善	ghdk	0
 𰊦	ghdk	0
 鼀	ghdm	0
 嚲	ghdn	0
@@ -22388,6 +22275,7 @@ columns:
 䪕	gnpm	0
 𰉺	gnpm	0
 𡒤	gnqc	0
+𭮟	gnqc	0
 𰊝	gnqe	0
 𰊧	gnqe	0
 殖	gnqf	17300
@@ -22434,7 +22322,6 @@ columns:
 塭	goam	800
 殟	goam	0
 韞	goam	0
-殟	goam	0
 韫	goam	0
 𩎥	goat	0
 𦎶	goav	0
@@ -22670,7 +22557,6 @@ columns:
 𬫎	gpiz	0
 𭤏	gpjh	0
 𡓤	gpjo	0
-𡓤	gpjo	0
 𡏰	gpkl	0
 䶛	gplc	0
 𢌻	gplc	0
@@ -22782,7 +22668,6 @@ columns:
 𩫜	gqlc	0
 𡐢	gqlh	0
 韠	gqlu	0
-韠	gqlu	0
 𡊟	gqm	0
 𥆕	gqm	0
 着	gqm	0
@@ -22796,7 +22681,7 @@ columns:
 㱡	gqpe	0
 𣪁	gqpo	0
 𪤪	gqq	0
-𡔁	gqqd	0
+𡔁	gqqg	0
 𰭜	gqqm	0
 㙼	gqqq	0
 𡓳	gqqq	0
@@ -22910,7 +22795,6 @@ columns:
 𡒬	grzh	0
 士	gs	110000
 丨	gs	0
-ㄧ	gs	0
 ㇑	gs	0
 ㇚	gs	0
 亅	gs	0
@@ -22942,7 +22826,6 @@ columns:
 𣩪	gsns	0
 𪤅	gspe	0
 𰋆	gsph	0
-𬴞	gspu	0
 壋	gsqt	0
 𫭨	gsri	0
 𰊠	gsrj	0
@@ -22954,6 +22837,7 @@ columns:
 埗	gssi	0
 𡍍	gssi	0
 𰙿	gssi	0
+𬴞	gssi	0
 𦏯	gsss	0
 𧮟	gsss	0
 𨟪	gsst	0
@@ -23340,7 +23224,6 @@ columns:
 螜	gwfc	0
 𡔳	gwfc	0
 𡔾	gwfc	0
-壷	gwfc	0
 壸	gwfc	0
 𣪥	gwfd	0
 𥡮	gwfd	0
@@ -23494,7 +23377,6 @@ columns:
 悫	gwoh	0
 坈	gwoj	0
 𡊫	gwoj	0
-売	gwoj	0
 壳	gwoj	0
 𡐙	gwok	0
 𡔿	gwom	0
@@ -23503,7 +23385,6 @@ columns:
 𤛓	gwoq	0
 殻	gwor	0
 𡓇	gwor	0
-殻	gwor	0
 𫖡	gwow	0
 𣝝	gwox	0
 𪅏	gwox	0
@@ -23526,7 +23407,6 @@ columns:
 𩎶	gwrs	0
 𭐔	gwss	0
 堍	gwt	0
-堍	gwt	0
 殡	gwth	0
 𪣑	gwti	0
 垞	gwtr	0
@@ -23682,6 +23562,7 @@ columns:
 𭎋	gxmg	0
 𪤩	gxmh	0
 𪣷	gxmm	0
+𰉳	gxmr	0
 鴝	gxn	300
 䲧	gxn	0
 殦	gxn	0
@@ -23731,7 +23612,6 @@ columns:
 塢	gxu	6000
 坞	gxu	0
 𭐇	gxue	0
-𰉳	gxur	0
 塬	gxuy	0
 羱	gxuy	0
 𦏂	gxvd	0
@@ -23771,6 +23651,7 @@ columns:
 𦍋	gy	0
 𦍌	gy	0
 𦍍	gy	0
+⺶	gy	0
 𡏟	gyaf	0
 𬰮	gyam	0
 盐	gyam	0
@@ -23929,6 +23810,7 @@ columns:
 𪤏	gzhg	0
 墈	gzhs	0
 𣩠	gzht	0
+㤪	gzhx	0
 㙲	gziu	0
 𩏨	gziu	0
 𡊨	gziy	0
@@ -24098,7 +23980,6 @@ columns:
 𰑥	havy	0
 𭟥	havz	0
 怽	haw	0
-𦍎	haw	0
 𢙑	hawm	0
 㦨	haxh	0
 𧯓	hazk	0
@@ -24300,6 +24181,7 @@ columns:
 𧮴	hcg	0
 𫯤	hcg	0
 𪔮	hcga	0
+𢢜	hcgh	0
 𠔯	hcgi	0
 𭞴	hcgi	0
 㦠	hcgk	0
@@ -24308,7 +24190,6 @@ columns:
 𢚬	hcgt	0
 𪔋	hcgt	0
 𪔙	hcgy	0
-𢢜	hcha	0
 𪔞	hcha	0
 𪦾	hchb	0
 𠁟	hchc	0
@@ -24424,7 +24305,6 @@ columns:
 𢠮	hddk	0
 憚	hddn	600
 憯	hddo	0
-憯	hddo	0
 𢥇	hddp	0
 㦍	hdds	0
 𭌊	hdej	0
@@ -24676,7 +24556,6 @@ columns:
 𢙾	hfob	0
 㤺	hfoc	0
 𡦗	hfoc	0
-㤺	hfoc	0
 恒	hfof	0
 𭏃	hfog	0
 𢥝	hfoh	0
@@ -24743,7 +24622,6 @@ columns:
 憞	hghh	0
 惇	hghi	0
 𡥯	hghi	0
-惇	hghi	0
 𧯕	hghq	0
 𰒈	hght	0
 𤼳	hghu	0
@@ -24777,7 +24655,6 @@ columns:
 悙	hgrl	0
 𡦞	hgrp	0
 丫	hgs	4300
-ㄚ	hgs	0
 𬼸	hgs	0
 𠭳	hgsm	0
 𪭇	hgss	0
@@ -25033,7 +24910,6 @@ columns:
 夂	hi	0
 夊	hi	0
 𡤼	hi	0
-ㄆ	hi	0
 𭒻	hibi	0
 𢜡	hibn	0
 𢣊	hibq	0
@@ -25223,7 +25099,6 @@ columns:
 忰	hkns	0
 慣	hkob	31000
 慺	hkob	0
-慺	hkob	0
 惯	hkob	0
 𫖻	hkoc	0
 𢟗	hkog	0
@@ -25574,7 +25449,6 @@ columns:
 㥀	hnqf	0
 𡥰	hnqf	0
 慎	hnqh	12100
-慎	hnqh	0
 憓	hnqh	0
 慱	hnqk	0
 𡦕	hnqk	0
@@ -25608,7 +25482,6 @@ columns:
 𭜭	hnvw	0
 㤢	hnvy	0
 忹	hnw	0
-忹	hnw	0
 悖	hnwh	1200
 𭝻	hnwi	0
 𭜲	hnws	0
@@ -25733,6 +25606,7 @@ columns:
 𰌣	hos	0
 𧯔	hosa	0
 夔	hosh	100
+𭐱	hosh	0
 𠡼	hosl	0
 𢥟	hosp	0
 惱	hotb	24300
@@ -25825,6 +25699,7 @@ columns:
 尣	hpe	0
 𭒷	hpe	0
 𠔢	hpec	0
+椕	hpee	0
 𰄱	hpef	0
 𭕍	hpeg	0
 𧠚	hpej	0
@@ -26173,7 +26048,6 @@ columns:
 𢝿	hsmm	0
 𫯷	hsmn	0
 𢤗	hsob	0
-𭐱	hsoh	0
 𦒂	hsoz	0
 𪟄	hspd	0
 𪲫	hspe	0
@@ -26198,6 +26072,7 @@ columns:
 愶	hssv	0
 逆	hsuc	9100
 𨓧	hsuc	0
+𢦄	hsuu	0
 槊	hsve	0
 塑	hsvg	28300
 愬	hsvh	0
@@ -26429,7 +26304,6 @@ columns:
 𡕖	hus	0
 𢩸	hus	0
 𪟶	huss	0
-𢦄	husu	0
 𧏄	hutc	0
 𫺎	hute	0
 𮟵	hute	0
@@ -26980,7 +26854,6 @@ columns:
 𢥳	hzzz	0
 𦄑	iaab	0
 𥾆	iaae	0
-𥾆	iaae	0
 𫃺	iaaf	0
 𬗷	iaaf	0
 𦇀	iaah	0
@@ -27201,12 +27074,12 @@ columns:
 䑩	icg	0
 𥩪	icg	0
 𥿍	icg	0
+䌜	icgh	0
 𦄾	icgi	0
 𦆹	icgk	0
 𬘏	icgp	0
 𦇱	icgr	0
 𦀰	icgt	0
-䌜	icha	0
 竮	ichl	0
 𦂤	ichl	0
 𦫂	icho	0
@@ -27409,18 +27282,23 @@ columns:
 𮉗	ieca	0
 𮎗	ieca	0
 𬗼	ieec	0
+𪳻	ieee	0
 䌝	ieef	0
 𦈟	ieef	0
+𡐨	ieeg	0
 𦇕	ieeh	0
 𫄒	ieeh	0
 親	ieej	298400
 𧡬	ieej	0
+𣛾	ieek	0
 綝	ieem	0
+㮊	ieem	0
 𣕟	ieem	0
 𬘭	ieem	0
 䑨	ieey	0
 絁	ieey	0
 𫄟	ieey	0
+𨬮	ieez	0
 絊	iefi	0
 𬟰	iefz	0
 𥾍	ieg	0
@@ -27524,16 +27402,14 @@ columns:
 缙	ifco	0
 縉	ifco	0
 𦩒	ifcy	0
-𦅎	ifdc	0
-䌴	ifdg	0
 䌱	ifdi	0
 䌴	ifdi	0
-𦇽	ifdi	0
 緺	ifdk	0
 䋹	ifdq	0
 䌿	ifdq	0
 𦩡	ifdq	0
 𦈃	ifdt	0
+𦇽	ifdv	0
 𦁨	ifdw	0
 𥿉	ifem	0
 𬘚	ifem	0
@@ -27599,6 +27475,7 @@ columns:
 絚	ifvf	0
 𰬌	ifvf	0
 𫄥	ifvv	0
+𫃪	ifvw	0
 纚	ifvx	0
 𪜡	ifw	0
 𰫘	ifw	0
@@ -27745,7 +27622,6 @@ columns:
 𦪑	ihbr	0
 𮈝	ihcy	0
 縂	ihdh	0
-縂	ihdh	0
 繥	ihdk	0
 𦇅	ihdo	0
 䌼	ihdp	0
@@ -27970,7 +27846,6 @@ columns:
 𢆻	iioj	0
 暜	iior	0
 𣌳	iior	0
-暜	iior	0
 𬂋	iiov	0
 𧗇	iipa	0
 𩴆	iipa	0
@@ -28029,6 +27904,7 @@ columns:
 𣯞	iivm	0
 朗	iivy	26500
 朗	iivy	0
+朗	iivy	0
 艕	iiwl	0
 縍	iiwl	0
 𫄰	iiwl	0
@@ -28055,7 +27931,6 @@ columns:
 𭅼	iizj	0
 𦂶	iizk	0
 𢇖	iizr	0
-ㄐ	ij	0
 丩	ij	0
 𠂈	ij	0
 𦁌	ijab	0
@@ -28540,7 +28415,6 @@ columns:
 续	inam	0
 𦃥	inao	0
 𦁯	inbb	0
-𮈅	inbi	0
 𧉶	incc	0
 𧏼	incc	0
 𦆠	inco	0
@@ -28627,6 +28501,7 @@ columns:
 𫄇	inpy	0
 𬘹	inpy	0
 𦄤	inqc	0
+𦅎	inqc	0
 縝	inqh	400
 繐	inqh	0
 𬜘	inqh	0
@@ -28851,6 +28726,7 @@ columns:
 紉	ipid	500
 𦨔	ipid	0
 𬻲	ipid	0
+𮈅	ipid	0
 纫	ipid	0
 綛	ipih	0
 𥿷	ipii	0
@@ -29380,7 +29256,6 @@ columns:
 䂍	itok	0
 𥍧	itol	0
 矛	itp	7400
-ソ	itp	0
 𬼀	itp	0
 𥂂	itpa	0
 𰥆	itpa	0
@@ -29553,7 +29428,6 @@ columns:
 𭾎	ivam	0
 䌁	ivbn	0
 𬘱	ivbn	0
-䌁	ivbn	0
 𦇉	ivcr	0
 𰫣	ivdk	0
 𣎘	ivdo	0
@@ -29859,9 +29733,7 @@ columns:
 𰞚	ixch	0
 𦆡	ixcv	0
 纏	ixdg	10700
-𦆑	ixdg	0
 𫮸	ixdg	0
-𬘉	ixdg	0
 竰	ixdl	0
 緾	ixdl	0
 缠	ixdl	0
@@ -29900,7 +29772,6 @@ columns:
 𦄝	ixlc	0
 剷	ixlp	100
 𦇟	ixlp	0
-剷	ixlp	0
 艔	ixlr	0
 𦂀	ixlr	0
 産	ixls	0
@@ -29941,6 +29812,8 @@ columns:
 𬜜	ixpk	0
 𦇛	ixpo	0
 𦅟	ixqa	0
+𦆑	ixrg	0
+𬘉	ixrg	0
 𬘇	ixrp	0
 舨	ixry	100
 𥾵	ixry	0
@@ -29981,7 +29854,6 @@ columns:
 𦆲	ixze	0
 𫟇	ixze	0
 𦃇	ixzh	0
-ㄠ	iy	0
 幺	iy	0
 𥾭	iya	0
 𮄨	iya	0
@@ -30119,7 +29991,6 @@ columns:
 䋮	izj	0
 𠨍	izj	0
 𦨌	izj	0
-即	izj	0
 繆	izje	1400
 缪	izje	0
 綷	izjn	0
@@ -30167,11 +30038,9 @@ columns:
 䌻	izv	0
 䎇	izv	0
 𡷦	izvs	0
-𫃪	izvw	0
 𠨠	izxi	0
 䳭	izxn	0
 𪃹	izxn	0
-䳭	izxn	0
 𱉼	izxn	0
 𥾽	izyb	0
 𠉗	jaae	0
@@ -30464,13 +30333,13 @@ columns:
 伾	jcfi	0
 𫣀	jcfs	0
 估	jcg	25600
+㒒	jcgh	0
 僕	jcgi	5000
 𠏮	jcgk	0
 𤆅	jch	0
 𤆋	jch	0
 𤉄	jch	0
 伙	jch	9400
-㒒	jcha	0
 僝	jchh	0
 偋	jchl	0
 做	jchp	180000
@@ -30548,6 +30417,7 @@ columns:
 龠	jddd	0
 偘	jddd	0
 𠐠	jddd	0
+𠑪	jddd	0
 僺	jdde	0
 歛	jdde	0
 龡	jdde	0
@@ -30892,11 +30762,9 @@ columns:
 使	jfdb	194400
 倳	jfdb	0
 𧍅	jfdc	0
-𬾽	jfdh	0
 𡥫	jfdh	0
 𠇅	jfdk	0
 𠊰	jfdk	0
-𫝊	jfdk	0
 𧷴	jfdo	0
 偪	jfdq	0
 𠉕	jfdr	0
@@ -30936,7 +30804,6 @@ columns:
 𠍴	jfmh	0
 㑂	jfmj	0
 㒎	jfmr	0
-𠇢	jfnb	0
 㐵	jfns	0
 便	jfob	124400
 𠍶	jfoc	0
@@ -30950,6 +30817,7 @@ columns:
 𬿒	jfoh	0
 俓	jfou	0
 㐳	jfpe	0
+𠇢	jfpi	0
 𠍎	jfpo	0
 倵	jfps	0
 伹	jfq	0
@@ -31185,7 +31053,6 @@ columns:
 𠲒	jhdk	0
 𬿙	jhdl	0
 侻	jhdp	0
-侻	jhdp	0
 𰂼	jhdp	0
 𠊍	jhef	0
 𢟂	jheh	0
@@ -31285,7 +31152,6 @@ columns:
 𰂸	jhyj	0
 僔	jhyk	0
 偺	jhyo	0
-偺	jhyo	0
 偤	jhyy	0
 僜	jhzd	0
 𠊬	jhzj	0
@@ -31554,7 +31420,6 @@ columns:
 𬿸	jjqk	0
 仌	jjr	0
 𠆧	jjr	0
-仌	jjr	0
 从	jjr	0
 𢍩	jjrl	0
 儈	jjro	100
@@ -31707,6 +31572,7 @@ columns:
 𠇎	jlc	0
 𢌯	jlc	0
 𠇋	jlc	0
+𠓡	jlc	0
 𪗖	jlc	0
 𫢠	jlcs	0
 僅	jlda	40600
@@ -31794,7 +31660,6 @@ columns:
 𠊃	jlrj	0
 甤	jls	0
 𠇷	jls	0
-甤	jls	0
 㷶	jltc	0
 𤏛	jltc	0
 𬾈	jlte	0
@@ -31802,7 +31667,6 @@ columns:
 𠑦	jlth	0
 𠌾	jltp	0
 備	jltt	108000
-備	jltt	0
 𠏒	jltv	0
 𪝸	jltv	0
 𫣾	jluc	0
@@ -31935,7 +31799,6 @@ columns:
 俺	jmoa	1200
 𠇳	jmoj	0
 𫣣	jmok	0
-𠓡	jmpd	0
 𭃜	jmpd	0
 㐾	jmpe	0
 𣁯	jmpe	0
@@ -32061,7 +31924,9 @@ columns:
 𫮯	jnqg	0
 傎	jnqh	0
 僡	jnqh	0
+𬾽	jnqh	0
 傳	jnqk	167000
+𫝊	jnqk	0
 𠉊	jnqm	0
 𠎟	jnqo	0
 𬨽	jnqu	0
@@ -32155,7 +32020,6 @@ columns:
 𠆩	joid	0
 㺸	joii	0
 㺸	join	0
-㺸	join	0
 𮃰	joix	0
 仉	joj	0
 𠍸	jojj	0
@@ -32586,7 +32450,6 @@ columns:
 𨛤	jte	0
 倂	jtee	0
 𫣼	jtee	0
-倂	jtee	0
 俽	jteq	0
 佛	jtf	34300
 𠇯	jtfi	0
@@ -32905,7 +32768,6 @@ columns:
 𭀀	jwco	0
 𱆉	jwco	0
 𠋢	jwcr	0
-𠑪	jwdd	0
 俉	jwdk	0
 𬤿	jwdk	0
 俕	jwem	0
@@ -32997,7 +32859,6 @@ columns:
 儳	jwvw	0
 𠏶	jwwp	0
 像	jwx	210400
-像	jwx	0
 㑔	jwy	0
 㑯	jwy	0
 𩑯	jwy	0
@@ -33467,7 +33328,6 @@ columns:
 𤄛	kaui	0
 灁	kauk	0
 瀞	kavb	0
-瀞	kavb	0
 𰛗	kavb	0
 𰝓	kavb	0
 㵾	kave	0
@@ -33524,11 +33384,11 @@ columns:
 𰝪	kbdv	0
 𥂵	kbea	0
 溺	kbee	0
+𣽔	kbeg	0
 㳿	kbem	0
 𣵏	kbem	0
 𭰒	kbem	0
 𣻑	kber	0
-𣻑	kber	0
 𣸁	kbes	0
 㳽	kbey	0
 𥁼	kbfa	0
@@ -33570,7 +33430,6 @@ columns:
 𭒐	kbob	0
 𰝱	kbob	0
 流	kboc	175100
-流	kboc	0
 𣻤	kboe	0
 𣻱	kbof	0
 𡏬	kbog	0
@@ -33599,7 +33458,6 @@ columns:
 𰛝	kbry	0
 汦	kbs	0
 涒	kbtd	0
-𣽔	kbtg	0
 𪷧	kbtg	0
 𣲫	kbtp	0
 㴫	kbtt	0
@@ -33617,7 +33475,6 @@ columns:
 㴆	kbwr	0
 𣹰	kbwr	0
 𣺎	kbwr	0
-浸	kbwr	0
 溺	kbww	4800
 𮨡	kbwy	0
 沄	kby	0
@@ -33670,6 +33527,7 @@ columns:
 𣻷	kcfk	0
 沽	kcg	500
 𣳖	kcg	0
+澲	kcgh	0
 𣾴	kcgi	0
 濧	kcgk	0
 𰍥	kcgk	0
@@ -33680,7 +33538,6 @@ columns:
 𣲧	kch	0
 𤆃	kch	0
 𤆲	kch	0
-澲	kcha	0
 潺	kchh	1500
 𣸹	kchl	0
 㶜	kchp	0
@@ -33799,7 +33656,6 @@ columns:
 灊	kddn	0
 潬	kddn	0
 𠫺	kddn	0
-灊	kddn	0
 潛	kddo	21700
 𤀭	kddo	0
 𤂯	kddo	0
@@ -33862,7 +33718,6 @@ columns:
 呇	kdk	0
 𠰔	kdk	0
 𬇖	kdk	0
-𣻞	kdkc	0
 浬	kdl	300
 𠫶	kdl	0
 泯	kdm	1100
@@ -33988,7 +33843,6 @@ columns:
 𣸑	kefe	0
 泍	kefi	0
 𭰉	kefi	0
-泍	kefi	0
 𭳬	kefk	0
 渿	kefs	0
 潅	kefu	0
@@ -34113,10 +33967,11 @@ columns:
 𬇬	kfcx	0
 𣵾	kfcy	0
 𣳪	kfdb	0
+𤅀	kfdf	0
+𤅗	kfdf	0
 瀛	kfdi	1300
 灜	kfdi	0
-𤅀	kfdi	0
-𤅗	kfdi	0
+瀛	kfdi	0
 𬉩	kfdi	0
 渦	kfdk	9000
 滣	kfdk	0
@@ -34124,7 +33979,6 @@ columns:
 灢	kfdt	0
 𤃈	kfdt	0
 濄	kfdu	0
-瀛	kfdu	0
 𤅘	kfdv	0
 沫	kfem	4200
 𣿁	kfeq	0
@@ -34308,7 +34162,6 @@ columns:
 渼	kgmd	0
 𣶥	kgms	0
 㴳	kgoe	0
-㴳	kgoe	0
 𤂸	kgog	0
 湸	kgoj	0
 湻	kgor	0
@@ -34463,7 +34316,6 @@ columns:
 𬇝	khpd	0
 𡌂	khpg	0
 𣴞	khpg	0
-𣴞	khpg	0
 𣻬	khpm	0
 𥹛	khpm	0
 𬈁	khqn	0
@@ -34534,7 +34386,6 @@ columns:
 𰛚	kic	0
 𣷧	kicd	0
 丸	kid	5100
-丸	kid	0
 𣽢	kidd	0
 𰝧	kide	0
 𫡬	kidj	0
@@ -34703,7 +34554,7 @@ columns:
 𤂛	kjgi	0
 𪶤	kjgi	0
 㶖	kjgp	0
-㶖	kjgp	0
+𡉡	kjgt	0
 滫	kjgv	0
 𣺢	kjhe	0
 𣵲	kjhu	0
@@ -35489,7 +35340,6 @@ columns:
 𬉦	knop	0
 洵	knor	0
 潮	knov	46100
-潮	knov	0
 𭱸	know	0
 瀚	knoz	2300
 𬉥	knoz	0
@@ -35606,7 +35456,6 @@ columns:
 𤁰	kode	0
 沿	kodk	25800
 𣶱	kodk	0
-沿	kodk	0
 㴩	kodm	0
 潪	kodo	0
 𣻩	kodt	0
@@ -35662,7 +35511,6 @@ columns:
 灏	kogw	0
 澋	kogy	0
 𣽞	kohd	0
-𣽞	kohd	0
 𢿒	kohp	0
 𫿖	kohp	0
 𨘠	kohu	0
@@ -35672,7 +35520,6 @@ columns:
 盕	koia	0
 濕	koic	5200
 汎	koid	100
-汎	koid	0
 𰆭	koid	0
 𣑃	koie	0
 𡋋	koig	0
@@ -35772,7 +35619,6 @@ columns:
 𨓬	kouc	0
 𣵀	koug	0
 𭰆	koug	0
-涅	koug	0
 𣼬	kout	0
 𤀄	kova	0
 𣽙	kovc	0
@@ -35810,7 +35656,6 @@ columns:
 刌	kpd	0
 𠛳	kpd	0
 𣱼	kpd	0
-刻	kpd	0
 淢	kpdf	0
 𪜗	kpdf	0
 沼	kpdk	3500
@@ -35930,7 +35775,6 @@ columns:
 𣼾	kqbm	0
 洍	kqc	0
 𭰍	kqc	0
-𭰝	kqc	0
 𭷢	kqcg	0
 浩	kqdk	9300
 浩	kqdk	0
@@ -35960,6 +35804,7 @@ columns:
 渨	kqft	0
 𭷬	kqgd	0
 𪸈	kqgk	0
+𣻞	kqgk	0
 漖	kqhh	0
 溭	kqhh	0
 涍	kqhi	0
@@ -36218,8 +36063,6 @@ columns:
 水	ks	385100
 厶	ks	0
 氵	ks	0
-ツ	ks	0
-ㄙ	ks	0
 氺	ks	0
 龴	ks	0
 𣱱	ks	0
@@ -36424,6 +36267,7 @@ columns:
 潘	ktpq	2600
 𤄪	ktpr	0
 𤅟	ktps	0
+𭰝	ktqc	0
 𤁖	ktqe	0
 𪶣	ktql	0
 㵢	ktqt	0
@@ -36621,7 +36465,6 @@ columns:
 䏻	kvgk	0
 湮	kvgt	700
 𡊏	kvgt	0
-湮	kvgt	0
 𮌛	kvgv	0
 𰝲	kvgz	0
 𣺿	kvha	0
@@ -36773,9 +36616,9 @@ columns:
 𣹕	kwbv	0
 𰝡	kwbv	0
 𣲇	kwc	0
-𭳪	kwca	0
 蛍	kwcc	0
 𪷅	kwcc	0
+𭳪	kwch	0
 𣴄	kwcj	0
 濵	kwco	0
 𣾉	kwcq	0
@@ -37116,7 +36959,6 @@ columns:
 𪶵	kxth	0
 派	kxti	50800
 𭲰	kxti	0
-派	kxti	0
 𬧁	kxtp	0
 澥	kxtq	0
 𣳥	kxtr	0
@@ -37545,7 +37387,6 @@ columns:
 𩔑	laew	0
 𫖷	laew	0
 𪃸	laex	0
-㫌	laf	0
 䒠	laf	0
 𠦒	laf	0
 𬜪	laf	0
@@ -37556,7 +37397,6 @@ columns:
 𬹿	lafd	0
 𮎿	lafh	0
 䒒	lafi	0
-𭤻	lafi	0
 𰰠	lafi	0
 𧂭	lafk	0
 𦼠	lafl	0
@@ -37759,6 +37599,7 @@ columns:
 𰲇	lbdz	0
 𧅟	lbee	0
 𬝈	lbeh	0
+𦴛	lbei	0
 𦯧	lbem	0
 𦰕	lbem	0
 𰰵	lbem	0
@@ -37865,7 +37706,6 @@ columns:
 𦮦	lbte	0
 𬪋	lbte	0
 𮗛	lbte	0
-𦴛	lbth	0
 𦴣	lbti	0
 芛	lbtp	0
 𦶥	lbtp	0
@@ -37916,7 +37756,6 @@ columns:
 卄	lc	0
 丌	lc	0
 艸	lc	0
-廾	lc	0
 𠚒	lc	0
 𦥒	lc	0
 𣥫	lc	0
@@ -37934,7 +37773,6 @@ columns:
 𦼐	lccc	0
 𧏊	lccc	0
 𧔴	lccc	0
-𧏊	lccc	0
 𦾵	lcce	0
 𦱅	lccg	0
 𧒨	lccg	0
@@ -37969,7 +37807,6 @@ columns:
 𦵥	lcfr	0
 𰱨	lcfs	0
 苦	lcg	104300
-苦	lcg	0
 𮓊	lcgc	0
 薱	lcgk	0
 𧆁	lcgl	0
@@ -38133,6 +37970,7 @@ columns:
 䓵	lddd	0
 𧃼	lddd	0
 𧄤	lddd	0
+䖀	lddd	0
 𰲖	lddd	0
 觀	ldde	225000
 歡	ldde	143400
@@ -38247,7 +38085,6 @@ columns:
 名	ldk	221900
 𠱭	ldk	0
 𦬅	ldk	0
-𦸎	ldkc	0
 濌	ldko	0
 𧅒	ldkz	0
 𫈕	ldkz	0
@@ -38401,6 +38238,7 @@ columns:
 𦳘	lefq	0
 旆	lefr	0
 𬀂	lefr	0
+㫌	lefs	0
 𦳐	lefs	0
 芉	leg	0
 𪗙	leg	0
@@ -38615,6 +38453,7 @@ columns:
 𨔋	leuc	0
 𨔘	leuc	0
 𦱇	leug	0
+𭤻	leus	0
 㫏	levb	0
 旚	levf	0
 𦮴	levk	0
@@ -38641,7 +38480,6 @@ columns:
 旓	leyv	0
 𣃥	leyx	0
 𦬼	leyx	0
-𦬼	leyx	0
 𣄉	leyy	0
 𦾢	leza	0
 藭	lezb	0
@@ -38680,17 +38518,17 @@ columns:
 𦯘	lfcr	0
 𦲕	lfcy	0
 菫	lfda	0
-𧅋	lfdb	0
 𪘌	lfdb	0
 𮎫	lfdb	0
 𣄟	lfdc	0
+𧅋	lfdf	0
 𦹆	lfdg	0
 䕦	lfdi	0
+𧆍	lfdi	0
 𧄿	lfdi	0
 𧆃	lfdi	0
 萵	lfdk	0
 𪙃	lfdk	0
-𧆍	lfdn	0
 𮏪	lfdo	0
 𦮉	lfdp	0
 𦸕	lfdp	0
@@ -38782,7 +38620,6 @@ columns:
 𧅢	lfnj	0
 𮐆	lfnp	0
 芋	lfns	1700
-芋	lfns	0
 莄	lfob	0
 𭺵	lfob	0
 荒	lfoc	21300
@@ -38817,7 +38654,6 @@ columns:
 𫷄	lfrj	0
 𤟓	lfrm	0
 𦻾	lfrr	0
-𦭄	lfrt	0
 䒬	lfs	0
 蔫	lfsc	0
 芚	lfsc	0
@@ -38849,7 +38685,6 @@ columns:
 芒	lfw	7400
 𦵬	lfwa	0
 𦴃	lfwi	0
-𦵫	lfwi	0
 𩓜	lfwy	0
 芐	lfyb	400
 𰠠	lfyb	0
@@ -38920,6 +38755,7 @@ columns:
 𫄿	lgha	0
 藝	lghb	101600
 𢐧	lghb	0
+𭪙	lghb	0
 爇	lghc	0
 䕭	lghc	0
 蟼	lghc	0
@@ -38946,7 +38782,6 @@ columns:
 敬	lghp	32000
 𢼘	lghp	0
 𪟑	lghp	0
-敬	lghp	0
 𰲈	lghp	0
 𦭇	lghr	0
 𭘷	lghr	0
@@ -39088,7 +38923,6 @@ columns:
 蓬	lhau	7400
 𱌤	lhau	0
 𭁚	lhav	0
-𭪙	lhaw	0
 共	lhb	116600
 䒔	lhb	0
 𠔖	lhb	0
@@ -39125,7 +38959,6 @@ columns:
 䕥	lhfb	0
 𦵕	lhff	0
 𬝖	lhff	0
-𮑺	lhfk	0
 葵	lhfm	3300
 𬝢	lhfm	0
 𬞂	lhfm	0
@@ -39212,6 +39045,7 @@ columns:
 𦷦	lhms	0
 𦷴	lhmu	0
 𬜴	lhnj	0
+𮑺	lhnk	0
 𢁀	lhnv	0
 𤲅	lhoa	0
 𦼝	lhob	0
@@ -39549,7 +39383,7 @@ columns:
 𦭽	ljbt	0
 荟	ljby	0
 𦯒	ljbz	0
-𧀸	ljca	0
+𧀸	ljch	0
 𦿍	ljci	0
 𦹜	ljcr	0
 斘	ljd	0
@@ -39682,7 +39516,6 @@ columns:
 𦭛	ljlq	0
 蕤	ljls	0
 𦷃	ljls	0
-蕤	ljls	0
 𦭿	ljly	0
 蒼	ljmd	18200
 𪙎	ljmd	0
@@ -39754,7 +39587,6 @@ columns:
 𮒊	ljuu	0
 𰰯	ljva	0
 花	ljvb	276300
-花	ljvb	0
 𰞯	ljvc	0
 𦷌	ljvd	0
 𬝓	ljvd	0
@@ -39827,6 +39659,7 @@ columns:
 𦺁	lkbe	0
 𦻄	lkbe	0
 𰰸	lkbg	0
+䓜	lkbi	0
 𧄢	lkbj	0
 𰰻	lkbj	0
 𦽷	lkbl	0
@@ -39874,7 +39707,6 @@ columns:
 𫇻	lkey	0
 𦼬	lkfa	0
 𧗎	lkfa	0
-𦼬	lkfa	0
 𦯫	lkfi	0
 𮑓	lkfk	0
 䓑	lkfl	0
@@ -39939,7 +39771,6 @@ columns:
 𦻜	lkle	0
 𫈊	lklf	0
 葓	lklh	0
-䓜	lkli	0
 𫉰	lkll	0
 𦺾	lklm	0
 𦿭	lklm	0
@@ -40359,7 +40190,6 @@ columns:
 芕	llx	0
 𡖇	llx	0
 𡖈	llx	0
-多	llx	0
 𥟿	llxb	0
 𪀩	llxn	0
 𡖯	llxs	0
@@ -40371,7 +40201,6 @@ columns:
 𤘆	lly	0
 𦬤	lly	0
 𬹺	lly	0
-芽	lly	0
 𡖲	llyb	0
 𫟌	llyb	0
 𡖞	llyd	0
@@ -40644,7 +40473,6 @@ columns:
 𫲩	lndh	0
 𮉔	lndi	0
 若	lndk	43000
-若	lndk	0
 𮏕	lndr	0
 鄀	lndt	0
 逽	lndu	0
@@ -40765,7 +40593,6 @@ columns:
 𮐅	lnpe	0
 𮐈	lnpl	0
 菊	lnpm	10100
-菊	lnpm	0
 𦶾	lnpn	0
 𦼺	lnpn	0
 𬞛	lnps	0
@@ -41015,7 +40842,6 @@ columns:
 䒨	los	0
 𧃍	losh	0
 𧃰	losh	0
-䕫	losh	0
 𦳱	losj	0
 𦭋	losl	0
 葻	lotc	0
@@ -41273,6 +41099,7 @@ columns:
 𬞝	lqgg	0
 𦴆	lqgj	0
 𦶔	lqgj	0
+𦸎	lqgk	0
 𫝡	lqgt	0
 𰱆	lqgt	0
 𡍴	lqhg	0
@@ -41325,7 +41152,6 @@ columns:
 著	lqor	586900
 蓍	lqor	0
 𮏥	lqor	0
-著	lqor	0
 𣃈	lqot	0
 𦺥	lqot	0
 𦭶	lqpe	0
@@ -41470,7 +41296,6 @@ columns:
 蕜	lrhx	0
 蔨	lrhz	0
 芝	lri	6600
-芝	lri	0
 繭	lric	1500
 𦻷	lric	0
 芆	lrid	0
@@ -41539,7 +41364,6 @@ columns:
 𪘩	lrxh	0
 𪘭	lrxh	0
 𬺊	lrxh	0
-菌	lrxh	0
 𭄮	lrxs	0
 𦫿	lry	0
 萜	lryd	0
@@ -41699,12 +41523,12 @@ columns:
 荓	ltee	0
 𪘀	ltee	0
 䔫	ltem	0
-䔫	ltem	0
 蔯	lteo	0
 𦲽	lteq	0
 茀	ltf	0
 苐	ltf	0
 𦬷	ltf	0
+𦭄	ltf	0
 𰕧	ltf	0
 茊	ltfi	0
 𩱢	ltfn	0
@@ -42250,7 +42074,6 @@ columns:
 𦿜	lwco	0
 𮐗	lwcv	0
 虈	lwdd	0
-䖀	lwdd	0
 𦵡	lwdd	0
 营	lwdd	0
 䓊	lwdk	0
@@ -42264,7 +42087,6 @@ columns:
 蕧	lweh	0
 𦶴	lwej	0
 𦯕	lwem	0
-荣	lwem	0
 荣	lwem	0
 薋	lweo	0
 𰱱	lweo	0
@@ -42442,7 +42264,6 @@ columns:
 𦴦	lwsg	0
 𪘺	lwsg	0
 𡖂	lwsh	0
-劳	lwsl	0
 劳	lwsl	0
 𭃪	lwsp	0
 蓰	lwss	0
@@ -42543,7 +42364,6 @@ columns:
 藨	lxch	0
 𮒤	lxcn	0
 𦺶	lxcp	0
-𧁶	lxdg	0
 萂	lxdk	0
 𫈗	lxdk	0
 𮏁	lxdm	0
@@ -42563,7 +42383,6 @@ columns:
 𦮈	lxfi	0
 𧲛	lxfj	0
 𬝦	lxfj	0
-𮑼	lxfk	0
 𧂑	lxfl	0
 蒩	lxfq	0
 𦿁	lxfq	0
@@ -42648,6 +42467,7 @@ columns:
 𦷔	lxnf	0
 𬟘	lxnh	0
 𦱜	lxni	0
+𮑼	lxnk	0
 𧆐	lxno	0
 𭤺	lxnr	0
 蔁	lxns	0
@@ -42695,6 +42515,7 @@ columns:
 𦿀	lxqo	0
 𦹞	lxqp	0
 𦾰	lxrf	0
+𧁶	lxrg	0
 𮏷	lxrs	0
 𪘜	lxs	0
 𫇿	lxs	0
@@ -42801,7 +42622,6 @@ columns:
 𰲎	lyei	0
 𦸡	lyej	0
 菜	lyem	50700
-菜	lyem	0
 𬝵	lyeq	0
 𮓇	lyer	0
 蕽	lyfc	0
@@ -42854,12 +42674,12 @@ columns:
 𦾽	lyku	0
 𦿚	lyku	0
 藣	lykv	0
-𦲿	lylc	0
 萝	lylx	0
 蘻	lymi	0
 𦼣	lymm	0
 𦼷	lymr	0
 𦺃	lymv	0
+𦲿	lyna	0
 薥	lync	0
 𧃏	lyne	0
 𪙳	lynf	0
@@ -42947,7 +42767,6 @@ columns:
 夢	lywl	51900
 𫉐	lywl	0
 𮓏	lywl	0
-夢	lywl	0
 䒐	lywm	0
 𦫰	lywm	0
 𦻞	lywm	0
@@ -43164,7 +42983,6 @@ columns:
 䕜	lzzn	0
 𡙆	maaf	0
 𥁄	maam	0
-𥁄	maam	0
 狡	mabi	1300
 䂭	mabi	0
 𤟋	mabs	0
@@ -43405,7 +43223,6 @@ columns:
 𤟘	mbks	0
 𥓏	mbks	0
 𧳙	mbks	0
-碌	mbks	0
 碌	mbks	0
 𦌄	mbkv	0
 𮊓	mbkv	0
@@ -43512,6 +43329,7 @@ columns:
 𪞎	mcg	0
 𭠄	mcg	0
 𥗢	mcge	0
+礏	mcgh	0
 獛	mcgi	0
 𧴌	mcgi	0
 𮁅	mcgi	0
@@ -43520,7 +43338,6 @@ columns:
 𤇈	mch	0
 𧹘	mch	0
 𬉵	mch	0
-礏	mcha	0
 𰘼	mche	0
 𢽀	mchp	0
 悐	mchx	0
@@ -43658,6 +43475,7 @@ columns:
 𦘥	mdpb	0
 𠕕	mdpd	0
 𣙅	mdpe	0
+况	mdpe	0
 𭀢	mdpe	0
 况	mdpe	0
 𠶶	mdpg	0
@@ -43697,13 +43515,13 @@ columns:
 𧲨	meeg	0
 㚞	meem	0
 碄	meem	0
+㮟	meem	0
 𭸓	meem	0
 𥗈	meep	0
 硎	meep	0
 礎	meet	17300
 𥗘	meeu	0
 𮀶	meeu	0
-揅	meeu	0
 狏	meey	0
 砤	meey	0
 𢨹	meey	0
@@ -44168,7 +43986,6 @@ columns:
 啓	mhdk	0
 礂	mhdk	0
 𤢀	mhdk	0
-啓	mhdk	0
 䂱	mhdp	0
 𠜛	mhdp	0
 䢛	mhdu	0
@@ -44370,7 +44187,6 @@ columns:
 太	mid	224000
 䂖	mid	0
 𬌩	mid	0
-䂖	mid	0
 碚	midk	0
 䃥	midl	0
 獞	midl	0
@@ -44544,7 +44360,6 @@ columns:
 𦜽	mjja	0
 𦞱	mjja	0
 𦧘	mjja	0
-𫰃	mjja	0
 𰭾	mjja	0
 𦘽	mjjb	0
 𦛅	mjjb	0
@@ -44581,6 +44396,7 @@ columns:
 𮌕	mjjh	0
 𮌜	mjjh	0
 𰮪	mjjh	0
+𫰃	mjjh	0
 𦌤	mjjh	0
 𢩟	mjji	0
 𦘾	mjji	0
@@ -44696,7 +44512,6 @@ columns:
 𠔿	mjr	0
 𢨨	mjr	0
 𮙥	mjr	0
-內	mjr	0
 内	mjr	0
 𠉁	mjrj	0
 獪	mjro	200
@@ -44738,10 +44553,7 @@ columns:
 𧴐	mjzv	0
 冂	mk	0
 凵	mk	0
-ㄇ	mk	0
-ㄩ	mk	0
 𠙴	mk	0
-凵	mk	0
 奫	mkaf	0
 獈	mkam	0
 貖	mkam	0
@@ -44801,7 +44613,6 @@ columns:
 𪻅	mkob	0
 𭑠	mkob	0
 𮀪	mkob	0
-𤠔	mkob	0
 𣀟	mkoh	0
 𥖻	mkoh	0
 㹺	mkor	0
@@ -45205,7 +45016,6 @@ columns:
 䝙	mnbi	0
 𤝜	mnbi	0
 𥐰	mnbi	0
-𥐷	mnbi	0
 𧲯	mnbi	0
 奁	mnbi	0
 𥒚	mnbm	0
@@ -45392,6 +45202,7 @@ columns:
 𧶪	mob	0
 狈	mob	0
 砜	mobi	0
+𥒏	mobi	0
 夼	moc	0
 𥐣	moc	0
 𭸚	mocy	0
@@ -45431,7 +45242,6 @@ columns:
 矶	moj	0
 𣌩	moja	0
 𥑷	mojr	0
-𥒏	mojr	0
 𧴞	mokv	0
 𰧀	molc	0
 𥗋	molk	0
@@ -45534,6 +45344,7 @@ columns:
 𮓸	mpcc	0
 𢻄	mpci	0
 𠒺	mpco	0
+亓	mpd	0
 夰	mpd	0
 矵	mpd	0
 𠚧	mpd	0
@@ -45541,10 +45352,10 @@ columns:
 𤜩	mpd	0
 𥐛	mpd	0
 𪥂	mpd	0
+𦉫	mpd	0
 𫥴	mpd	0
 𭃂	mpd	0
 𭃤	mpd	0
-𦉫	mpd	0
 㚜	mpdf	0
 䂸	mpdf	0
 𠒬	mpdf	0
@@ -45597,6 +45408,7 @@ columns:
 𢗏	mphx	0
 𫹵	mphx	0
 𫎊	mpi	0
+𥐷	mpid	0
 𭸑	mpih	0
 𤟁	mpio	0
 䋯	mpis	0
@@ -45767,7 +45579,6 @@ columns:
 奢	mqor	3300
 𧳯	mqor	0
 𫼏	mqor	0
-奢	mqor	0
 猪	mqor	0
 𬍆	mqov	0
 𤞓	mqpe	0
@@ -46692,7 +46503,6 @@ columns:
 䃣	mytc	0
 𢁍	mytc	0
 𧴑	mytc	0
-䃣	mytc	0
 𥓕	mytg	0
 獑	mytj	0
 𥕌	mytj	0
@@ -46872,7 +46682,6 @@ columns:
 𩡯	nad	0
 成	nad	0
 成	nae	699600
-ㄝ	nae	0
 乵	nae	0
 玌	nae	0
 𠃒	nae	0
@@ -46924,7 +46733,6 @@ columns:
 𪎻	nakf	0
 瑇	nakm	0
 𪻱	nakm	0
-瑇	nakm	0
 𤧉	naky	0
 𰡺	nal	0
 𱄛	nal	0
@@ -46996,7 +46804,6 @@ columns:
 𤧎	nbes	0
 𤥋	nbfz	0
 𰕅	nbhp	0
-匁	nbi	0
 𡗒	nbi	0
 区	nbi	0
 𭹁	nbid	0
@@ -47132,13 +46939,13 @@ columns:
 𩰯	ncg	0
 𪻕	ncg	0
 𬳲	ncgg	0
+驜	ncgh	0
+𤩶	ncgh	0
 璞	ncgi	800
 灰	nch	28400
 灳	nch	0
 𪻓	nch	0
 𫘉	nch	0
-驜	ncha	0
-𤩶	ncha	0
 骣	nchh	0
 㻵	nchh	0
 驏	nchh	0
@@ -47348,7 +47155,6 @@ columns:
 𪂒	nehx	0
 匆	neid	16600
 㺷	neid	0
-匆	neid	0
 怱	neih	0
 𠡻	neis	0
 現	nej	512900
@@ -47474,12 +47280,12 @@ columns:
 𰋏	nfdh	0
 䌠	nfdi	0
 䯁	nfdi	0
-𩧣	nfdi	0
 咸	nfdk	1500
 騧	nfdk	0
 𤧗	nfdk	0
 𭱡	nfdk	0
 䶠	nfdl	0
+𩧣	nfdm	0
 𪉳	nfdp	0
 匐	nfdq	700
 䮠	nfdq	0
@@ -47707,7 +47513,6 @@ columns:
 𤩠	nhdk	0
 𩦇	nhdk	0
 駾	nhdp	0
-駾	nhdp	0
 𱅙	nhdp	0
 𤥬	nhes	0
 玞	nhf	0
@@ -48058,9 +47863,6 @@ columns:
 𦐋	njzv	0
 勹	nk	0
 匚	nk	0
-コ	nk	0
-ユ	nk	0
-ㄈ	nk	0
 匸	nk	0
 𠥓	nk	0
 𬎃	nkam	0
@@ -48415,7 +48217,6 @@ columns:
 𱄭	nlzq	0
 𦐫	nlzv	0
 馬	nm	169800
-ㄢ	nm	0
 𢎘	nm	0
 𫠉	nm	0
 马	nm	0
@@ -48664,7 +48465,6 @@ columns:
 𤧵	nnkc	0
 𫘒	nnkc	0
 𭺼	nnkc	0
-博	nnkc	0
 𤣾	nnks	0
 𤦗	nnks	0
 𪻠	nnlc	0
@@ -48851,7 +48651,6 @@ columns:
 䭵	noid	0
 𥫂	noid	0
 𬹐	noid	0
-㺬	noid	0
 𬍶	noil	0
 𭅠	noj	0
 玑	noj	0
@@ -49207,6 +49006,7 @@ columns:
 𪟭	nqc	0
 𮍏	nqc	0
 𮍐	nqc	0
+𨘜	nqcu	0
 𤥢	nqdk	0
 𱋼	nqdm	0
 𭹱	nqdu	0
@@ -49218,6 +49018,7 @@ columns:
 𬍯	nqem	0
 骒	nqem	0
 𠦰	nqeq	0
+𣌽	nqfc	0
 𣤳	nqfe	0
 𧡚	nqfe	0
 矗	nqff	1800
@@ -49234,13 +49035,13 @@ columns:
 𡒉	nqgt	0
 真	nqhb	213900
 𤦚	nqhb	0
-真	nqhb	0
 𰴓	nqhe	0
 㒹	nqhh	0
 㥲	nqhh	0
 𫘓	nqhh	0
 𰦌	nqhh	0
 𤥝	nqhi	0
+𣌼	nqho	0
 𬹙	nqhp	0
 𨝊	nqht	0
 𣰘	nqhv	0
@@ -49248,6 +49049,7 @@ columns:
 颠	nqhw	0
 騦	nqhx	0
 鷏	nqhx	0
+恵	nqhx	0
 𮧼	nqhx	0
 𱊚	nqhx	0
 騾	nqis	600
@@ -49256,6 +49058,7 @@ columns:
 𭅆	nqj	0
 琾	nqjp	0
 𠥗	nqjr	0
+専	nqkc	0
 𬹢	nqkd	0
 𬺡	nqkd	0
 𠵤	nqkd	0
@@ -49291,8 +49094,10 @@ columns:
 㔴	nqlh	0
 龭	nqlh	0
 𩨎	nqlh	0
+𢾾	nqlh	0
 㻫	nqlu	0
 驆	nqlu	0
+𮨗	nqlw	0
 㺺	nqm	0
 䀏	nqm	0
 𥃭	nqm	0
@@ -49305,9 +49110,11 @@ columns:
 𥌊	nqnx	0
 㔳	nqoj	0
 琽	nqor	0
+曺	nqor	0
 𠣰	nqor	0
 𩤜	nqor	0
 𩥂	nqor	0
+𮞸	nqou	0
 駪	nqpe	100
 珗	nqpe	0
 𬳽	nqpe	0
@@ -49349,6 +49156,7 @@ columns:
 𩤛	nqvr	0
 𩤸	nqvy	0
 𩨅	nqvy	0
+𩓏	nqwy	0
 畞	nqxi	0
 𡒥	nqyf	0
 𩥏	nqyi	0
@@ -50160,7 +49968,6 @@ columns:
 瓊	nxmh	4100
 𤩞	nxmh	0
 𩧊	nxmh	0
-瓊	nxmh	0
 瑍	nxmm	0
 𤥺	nxmm	0
 鹝	nxn	0
@@ -50182,7 +49989,6 @@ columns:
 騿	nxns	0
 𩤴	nxoe	0
 𡓬	nxog	0
-墬	nxog	0
 𪻶	nxoh	0
 𤧘	nxor	0
 𩤹	nxor	0
@@ -50254,7 +50060,6 @@ columns:
 𠣞	nyc	0
 𤥭	nyc	0
 𨊦	nyc	0
-𠣞	nyc	0
 𰡰	nyc	0
 𩢬	nycs	0
 𰡵	nycs	0
@@ -50476,6 +50281,7 @@ columns:
 㬩	oaah	0
 𣌙	oaah	0
 𬁓	oaao	0
+𣇓	oaap	0
 晈	oabi	0
 賋	oabi	0
 𣄿	oad	0
@@ -50639,6 +50445,7 @@ columns:
 𩙭	obni	0
 𬱷	obnj	0
 𧵧	obnk	0
+𣆼	obnl	0
 晞	obnr	0
 𧶖	obnr	0
 𬥨	obnr	0
@@ -50705,7 +50512,6 @@ columns:
 川	oc	16000
 巛	oc	0
 〣	oc	0
-ㄍ	oc	0
 巜	oc	0
 𡿦	oc	0
 𫶧	oc	0
@@ -50733,6 +50539,8 @@ columns:
 𡿵	ocg	0
 𧵑	ocg	0
 𬀬	ocg	0
+曗	ocgh	0
+𧸢	ocgh	0
 贌	ocgi	0
 𣊪	ocgi	0
 𥐁	ocgi	0
@@ -50743,8 +50551,6 @@ columns:
 炚	och	0
 𭴋	och	0
 𰝽	och	0
-曗	ocha	0
-𧸢	ocha	0
 𬁧	ochb	0
 𬥟	ochb	0
 䝲	ociw	0
@@ -50789,7 +50595,6 @@ columns:
 𡿷	oddk	0
 𭧍	oddl	0
 鼅	oddm	0
-鼅	oddm	0
 𱌄	oddm	0
 暺	oddn	0
 𪿍	oddp	0
@@ -50908,7 +50713,6 @@ columns:
 䂓	oej	0
 晛	oej	0
 𬀪	oej	0
-㒻	oej	0
 𰦔	oej	0
 𭦜	oeje	0
 𧶛	oejj	0
@@ -51471,7 +51275,6 @@ columns:
 顯	oiiw	94400
 㫤	oiks	0
 昹	oiks	0
-㫤	oiks	0
 昱	oil	500
 𠙅	oil	0
 𭥩	oil	0
@@ -52140,7 +51943,6 @@ columns:
 㫯	oofp	0
 𭂹	oofv	0
 𤰶	oogs	0
-𤰶	oogs	0
 𰕼	oogs	0
 𭨖	oogw	0
 暻	oogy	0
@@ -52239,7 +52041,6 @@ columns:
 𣆎	oous	0
 𮭠	ooux	0
 㞁	oovb	0
-㞁	oovb	0
 𡵹	oovs	0
 𣈀	oovv	0
 𣇵	oovy	0
@@ -52418,7 +52219,6 @@ columns:
 䶋	oqlc	0
 𪖳	oqlc	0
 𫗅	oqlc	0
-鼻	oqlc	0
 䶎	oqld	0
 𪖚	oqld	0
 𪖝	oqld	0
@@ -52514,7 +52314,6 @@ columns:
 𣉟	oqor	0
 𫎟	oqor	0
 𮚖	oqor	0
-暑	oqor	0
 赌	oqor	0
 𧷿	oqot	0
 𮟕	oqou	0
@@ -52540,7 +52339,6 @@ columns:
 㫼	oqrp	0
 𪰮	oqrp	0
 最	oqry	256000
-最	oqry	0
 𣈮	oqs	0
 𩚓	oqs	0
 朂	oqsl	0
@@ -52580,7 +52378,6 @@ columns:
 日	or	374300
 曰	or	9400
 ⺜	or	0
-ㄖ	or	0
 𫩏	or	0
 𢀉	orbd	0
 𢀈	orbo	0
@@ -52637,13 +52434,13 @@ columns:
 𧴧	osl	0
 𠙕	osmd	0
 𣊻	osme	0
+曓	osmf	0
 𭨢	osmh	0
 㬧	osmi	0
 䂐	osmk	0
 昢	osmk	0
 𠘼	osmk	0
 𣅽	osmk	0
-曓	osmn	0
 𣉱	osmn	0
 𣋦	osmn	0
 㬥	osmp	0
@@ -53030,7 +52827,6 @@ columns:
 𨑨	ouc	0
 𨑫	ouc	0
 𨒔	ouc	0
-巡	ouc	0
 𭧭	ouch	0
 𢻣	oudc	0
 𫡍	oudg	0
@@ -53281,7 +53077,6 @@ columns:
 晩	owpe	0
 𣅟	owpe	0
 𧴸	owpe	0
-冕	owpe	0
 𣈳	owps	0
 𭦴	owps	0
 𣉰	owqe	0
@@ -53429,7 +53224,6 @@ columns:
 𣈘	oxyd	0
 尤	oy	39400
 尢	oy	0
-ㄤ	oy	0
 𡯁	oy	0
 尢	oy	0
 𮍕	oya	0
@@ -53810,7 +53604,6 @@ columns:
 𪕠	pbch	0
 𮇤	pbch	0
 糨	pbdc	0
-糨	pbdc	0
 𬛺	pbdk	0
 𬦐	pbdk	0
 𰴚	pbej	0
@@ -53970,6 +53763,9 @@ columns:
 䊀	pcg	0
 跍	pcg	0
 𬦉	pcg	0
+𪒲	pcgh	0
+𪖊	pcgh	0
+𮜙	pcgh	0
 蹼	pcgi	0
 𥼜	pcgi	0
 𪒢	pcgi	0
@@ -53984,9 +53780,6 @@ columns:
 𧿮	pch	0
 𪐩	pch	0
 𰞘	pch	0
-𪒲	pcha	0
-𪖊	pcha	0
-𮜙	pcha	0
 𡣿	pchb	0
 𧼜	pchl	0
 𧼲	pchl	0
@@ -54055,8 +53848,6 @@ columns:
 刀	pd	24600
 刂	pd	0
 〢	pd	0
-リ	pd	0
-ㄉ	pd	0
 𠚣	pd	0
 𰀻	pdae	0
 㐒	pdai	0
@@ -54079,7 +53870,6 @@ columns:
 𮮯	pddn	0
 糣	pddo	0
 𨅔	pddo	0
-糣	pddo	0
 䙼	pdej	0
 𰴖	pdej	0
 𨲃	pdem	0
@@ -54208,7 +53998,6 @@ columns:
 𮇍	pdzj	0
 𬁤	pdzo	0
 䎄	pdzv	0
-ㄦ	pe	0
 儿	pe	0
 𮫐	peae	0
 𩯲	peah	0
@@ -54558,6 +54347,7 @@ columns:
 𩮆	peop	0
 𩯓	peop	0
 𫙃	peop	0
+𩮜	peop	0
 鬘	peor	0
 𧼓	peor	0
 𩯉	peor	0
@@ -54608,7 +54398,6 @@ columns:
 𫙀	peqo	0
 𱆈	peqo	0
 𩰈	peqp	0
-𩮜	peqq	0
 𩮍	peqs	0
 𮩄	peqs	0
 𩮐	peqv	0
@@ -54668,7 +54457,6 @@ columns:
 𩯛	peuh	0
 𩬰	peui	0
 𩭲	peui	0
-𩬰	peui	0
 𩭧	peun	0
 𩬛	peuo	0
 𩮷	peup	0
@@ -54842,7 +54630,6 @@ columns:
 𥺼	pfcy	0
 𨁶	pfcy	0
 𮇔	pfcy	0
-𥼥	pfdc	0
 䞸	pfdk	0
 踻	pfdk	0
 𧼽	pfdk	0
@@ -54936,7 +54723,6 @@ columns:
 𦥡	pfrj	0
 𧺡	pfrj	0
 师	pfrj	0
-𦥥	pfrt	0
 𫎲	pfs	0
 𫻫	pfs	0
 黗	pfsc	0
@@ -55027,7 +54813,6 @@ columns:
 𬦔	pggy	0
 𠔜	pghb	0
 𮍭	pghb	0
-𠔜	pghb	0
 𮜖	pghd	0
 踛	pghg	0
 蹾	pghh	0
@@ -55040,7 +54825,6 @@ columns:
 𨗔	pghu	0
 𨗭	pghu	0
 𨗮	pghu	0
-𨗭	pghu	0
 㦣	pghx	0
 𥺃	pghx	0
 𨄶	pgik	0
@@ -55092,6 +54876,7 @@ columns:
 𧺑	pgs	0
 𪐢	pgs	0
 讆	pgsy	0
+𬣀	pgsy	0
 墨	pgt	18700
 𧗥	pgt	0
 𧺔	pgt	0
@@ -55335,8 +55120,8 @@ columns:
 𤆕	pich	0
 刃	pid	2300
 刄	pid	0
+匁	pid	0
 𬠽	pid	0
-刃	pid	0
 踣	pidk	0
 䞳	pidk	0
 𮮚	pidk	0
@@ -55362,7 +55147,6 @@ columns:
 𫻉	piho	0
 𨄿	pihw	0
 忍	pihx	34800
-忍	pihx	0
 䠪	piia	0
 躖	piia	0
 𥽖	piia	0
@@ -55493,7 +55277,6 @@ columns:
 蹹	pjdz	0
 𰘑	pjem	0
 䶾	pjeq	0
-𣢧	pjeq	0
 趁	pjes	6700
 跈	pjes	0
 𪐲	pjes	0
@@ -55734,7 +55517,6 @@ columns:
 𥸭	plc	0
 𧿄	plc	0
 𪘏	plc	0
-舁	plc	0
 舁	plc	0
 𰪧	plc	0
 𨇇	plco	0
@@ -55866,7 +55648,6 @@ columns:
 𨆳	pltn	0
 𨇨	pltn	0
 糒	pltt	0
-糒	pltt	0
 跹	pluc	0
 𮇣	plui	0
 𧾛	plur	0
@@ -55963,7 +55744,6 @@ columns:
 爂	pmfc	0
 𤓕	pmfc	0
 𧖥	pmfc	0
-爨	pmfc	0
 衕	pmfd	100
 粡	pmfd	0
 𨀜	pmfd	0
@@ -56139,12 +55919,10 @@ columns:
 𣫿	pnak	0
 𰷸	pnam	0
 黩	pnam	0
-𥸼	pnbi	0
 𧺺	pnbi	0
 舄	pnch	0
 𨀡	pnch	0
 𪑀	pnch	0
-舄	pnch	0
 𨃧	pndd	0
 𨄅	pndd	0
 𰷼	pndd	0
@@ -56236,6 +56014,7 @@ columns:
 䟌	pnpu	0
 𨲹	pnpu	0
 𪖋	pnpu	0
+𥼥	pnqc	0
 𨁷	pnqf	0
 衠	pnqh	0
 蹎	pnqh	0
@@ -56252,7 +56031,6 @@ columns:
 跋	pnri	2100
 鼥	pnri	0
 𥹔	pnri	0
-跋	pnri	0
 鿻	pnrj	0
 𨀒	pnrj	0
 𫂸	pnrj	0
@@ -56521,6 +56299,7 @@ columns:
 𧿑	ppi	0
 籾	ppid	0
 𪔺	ppid	0
+𥸼	ppid	0
 𨲅	ppih	0
 𥽱	ppil	0
 𨅀	ppil	0
@@ -56899,6 +56678,7 @@ columns:
 𧾼	psl	0
 𪭊	psl	0
 𫦨	psl	0
+𭄤	psl	0
 𰳮	pslf	0
 𨅝	psly	0
 𫏥	psma	0
@@ -56987,6 +56767,7 @@ columns:
 𧿲	ptf	0
 𧿳	ptf	0
 𨱰	ptf	0
+𦥥	ptf	0
 䟬	ptfi	0
 𧻁	ptfi	0
 𨂀	ptfq	0
@@ -57260,7 +57041,6 @@ columns:
 𥺺	pvil	0
 𧗼	pvis	0
 起	pvj	456000
-起	pvj	0
 𨁊	pvja	0
 𧻐	pvkc	0
 䟸	pvlc	0
@@ -57844,7 +57624,6 @@ columns:
 𪖀	pyui	0
 𧾢	pyup	0
 𠠄	pyvp	0
-𠠄	pyvp	0
 趙	pyvy	12500
 踃	pyvy	0
 𥹶	pyvy	0
@@ -57988,7 +57767,6 @@ columns:
 𬹥	qaan	0
 𬹫	qaan	0
 鼎	qaap	5900
-𣇓	qaap	0
 𪔂	qaap	0
 𠟭	qaap	0
 𮮥	qaat	0
@@ -58288,6 +58066,7 @@ columns:
 𫗡	qcg	0
 𬚋	qcg	0
 𭻇	qcg	0
+𥋙	qcgh	0
 㹒	qcgi	0
 䑑	qcgi	0
 瞨	qcgi	0
@@ -58304,7 +58083,6 @@ columns:
 𥄧	qch	0
 𪸦	qch	0
 𱌗	qch	0
-𥋙	qcha	0
 𬲖	qchb	0
 𦣶	qchh	0
 𩜧	qcho	0
@@ -58394,7 +58172,6 @@ columns:
 𤙬	qdfm	0
 𥆰	qdfo	0
 贒	qdgo	0
-𤴀	qdgp	0
 𥄡	qdgs	0
 𦕏	qdgs	0
 𬩙	qdgu	0
@@ -58791,7 +58568,6 @@ columns:
 𦣢	qfrj	0
 𬲌	qfrj	0
 𥈯	qfrp	0
-𤙂	qfrt	0
 𤚨	qfry	0
 𤚿	qfry	0
 眎	qfs	0
@@ -58834,7 +58610,6 @@ columns:
 𥄚	qfyx	0
 𪃷	qfyx	0
 𪈉	qfyx	0
-𥄙	qfyx	0
 𥍙	qfyy	0
 𤴃	qgac	0
 䁎	qgad	0
@@ -58882,6 +58657,7 @@ columns:
 𩟐	qggu	0
 䁄	qggy	0
 𩜜	qggy	0
+𩜣	qghb	0
 饍	qghd	0
 𥊳	qghd	0
 𦗢	qghd	0
@@ -58935,6 +58711,7 @@ columns:
 𥆁	qgpd	0
 𥇉	qgpe	0
 𩜁	qgph	0
+𤲪	qgph	0
 𦗅	qgpk	0
 𰦉	qgpp	0
 𤛫	qgqn	0
@@ -58968,7 +58745,6 @@ columns:
 𥆮	qgya	0
 犢	qgyo	700
 𥌚	qgyo	0
-𬼕	qgyo	0
 𮋿	qgyo	0
 㹁	qgyx	0
 䁁	qgyx	0
@@ -58979,13 +58755,11 @@ columns:
 𰁄	qhai	0
 䁅	qham	0
 𥊒	qhau	0
-𩜣	qhaw	0
 具	qhb	93900
 𠔐	qhb	0
 𬌙	qhb	0
 𭁆	qhb	0
 𭾘	qhb	0
-具	qhb	0
 䁠	qhbc	0
 䭑	qhbc	0
 𦖾	qhbc	0
@@ -59133,7 +58907,6 @@ columns:
 畔	qhus	4500
 䬳	qhus	0
 眫	qhus	0
-䬳	qhus	0
 𱃷	qhus	0
 𫞳	qhvk	0
 𭷟	qhvk	0
@@ -59344,7 +59117,6 @@ columns:
 𩚭	qjkc	0
 睑	qjkf	0
 餩	qjkh	0
-餩	qjkh	0
 𱃽	qjkh	0
 聆	qjks	3000
 㸳	qjks	0
@@ -59496,6 +59268,7 @@ columns:
 𬲸	qkuc	0
 𥆀	qkug	0
 睊	qkvy	0
+睊	qkvy	0
 𢡸	qkyh	0
 𥋐	qkyq	0
 𥇇	qkyt	0
@@ -59652,7 +59425,6 @@ columns:
 𩜈	qltm	0
 犕	qltt	0
 𩝳	qltt	0
-犕	qltt	0
 𦗫	qltv	0
 𥍐	qlue	0
 𭻠	qlue	0
@@ -59688,7 +59460,6 @@ columns:
 𥃳	qmae	0
 𬚒	qmae	0
 𬲧	qmae	0
-𥃳	qmae	0
 𱃢	qmae	0
 𩚬	qmai	0
 盢	qmam	0
@@ -59760,7 +59531,6 @@ columns:
 𦙩	qmjj	0
 𩛩	qmjj	0
 𪗌	qmjj	0
-䀹	qmjj	0
 𭿤	qmjk	0
 𭃥	qmjp	0
 𤱅	qmjr	0
@@ -59832,8 +59602,6 @@ columns:
 𩛽	qnaf	0
 𬑙	qnam	0
 犊	qnam	0
-𩛀	qnbf	0
-𢜓	qnbh	0
 眍	qnbi	0
 𱃲	qnbi	0
 𥅬	qnby	0
@@ -60124,7 +59892,6 @@ columns:
 耆	qor	1100
 𩚣	qor	0
 𭥫	qor	0
-者	qor	0
 𥀁	qorp	0
 殾	qors	0
 䀢	qos	0
@@ -60230,9 +59997,11 @@ columns:
 䀔	qpid	0
 𠛝	qpid	0
 𩚒	qpid	0
+𩛀	qpif	0
 㸾	qpih	0
 𥆾	qpih	0
 𦖆	qpih	0
+𢜓	qpih	0
 𫤢	qpil	0
 𦦏	qpj	0
 𦖎	qpja	0
@@ -60382,6 +60151,7 @@ columns:
 𨘊	qqfu	0
 𣃒	qqfw	0
 𥍘	qqgp	0
+𤴀	qqgp	0
 犋	qqhb	0
 𩜃	qqhb	0
 㹄	qqhh	0
@@ -60737,7 +60507,6 @@ columns:
 𡹩	qrvs	0
 腎	qrvy	5900
 㼢	qrw	0
-𤭘	qrw	0
 𥇘	qrxh	0
 䵖	qrxk	0
 䵖	qrxk	0
@@ -60848,7 +60617,6 @@ columns:
 𤙍	qsoj	0
 𰥹	qspe	0
 矘	qsph	0
-𥊰	qspu	0
 𡣠	qsqb	0
 𥌥	qsqe	0
 𫦶	qsql	0
@@ -60860,6 +60628,7 @@ columns:
 𤘸	qsry	0
 𤙽	qss	0
 𩜋	qss	0
+𥊰	qssi	0
 𤙒	qsss	0
 𤱷	qsss	0
 𦗮	qsss	0
@@ -60908,6 +60677,7 @@ columns:
 䀟	qtf	0
 牬	qtf	0
 𦕚	qtf	0
+𤙂	qtf	0
 𥅔	qtfi	0
 𦖶	qtfi	0
 𩚨	qtfi	0
@@ -60993,7 +60763,6 @@ columns:
 聰	qtrh	22000
 𥊙	qtrh	0
 𩞝	qtrh	0
-聰	qtrh	0
 眨	qtri	3200
 𦕻	qtri	0
 𩚮	qtri	0
@@ -61106,7 +60875,6 @@ columns:
 𬲘	qvbn	0
 𭿇	qvcc	0
 熙	qvch	3800
-㷩	qvch	0
 煕	qvch	0
 𤋮	qvch	0
 𤌇	qvch	0
@@ -62006,6 +61774,8 @@ columns:
 𤿛	rcg	0
 𩇵	rcg	0
 𭘖	rcg	0
+㡤	rcgh	0
+𥴼	rcgh	0
 幞	rcgi	0
 𥮱	rcgk	0
 𥵢	rcgk	0
@@ -62017,8 +61787,6 @@ columns:
 𬼹	rch	0
 𰞀	rch	0
 𰞴	rch	0
-㡤	rcha	0
-𥴼	rcha	0
 幈	rchl	0
 箳	rchl	0
 𥶰	rcho	0
@@ -62128,7 +61896,6 @@ columns:
 𰞰	rdnc	0
 圖	rdnd	93100
 𥀜	rdnd	0
-圖	rdnd	0
 𫻒	rdnh	0
 䇸	rdnw	0
 𭘡	rdnw	0
@@ -62558,7 +62325,6 @@ columns:
 𡇫	rhch	0
 𪢭	rhcy	0
 帨	rhdp	0
-帨	rhdp	0
 𪆌	rhdx	0
 筿	rhem	0
 𪪈	rhev	0
@@ -63007,7 +62773,6 @@ columns:
 䉊	rkmy	0
 圗	rknd	0
 𥳒	rknd	0
-圗	rknd	0
 𮆒	rkne	0
 䈬	rknf	0
 𥷰	rknf	0
@@ -63186,6 +62951,7 @@ columns:
 𥵿	rlwj	0
 𢄩	rlwr	0
 𥲭	rlwr	0
+𱸇	rlws	0
 𥸟	rlwt	0
 笌	rly	0
 𥫻	rly	0
@@ -63314,7 +63080,6 @@ columns:
 园	rmpe	0
 䇳	rmpg	0
 𥮫	rmpm	0
-𥮫	rmpm	0
 猆	rmq	0
 𤜧	rmq	0
 𥬇	rmq	0
@@ -63585,7 +63350,6 @@ columns:
 𥷿	roqc	0
 𥲀	roqe	0
 帽	roqm	14300
-帽	roqm	0
 𢄸	roqr	0
 𥳣	roqr	0
 㿳	roqt	0
@@ -63644,7 +63408,6 @@ columns:
 𢁞	rpd	0
 𢁤	rpd	0
 𤿇	rpd	0
-㓟	rpd	0
 國	rpdf	1066000
 䈅	rpdf	0
 𢃎	rpdf	0
@@ -64634,8 +64397,6 @@ columns:
 𥰽	rxzj	0
 㡡	rxzk	0
 又	ry	211900
-ス	ry	0
-ㄡ	ry	0
 笊	rya	0
 𢁬	rya	0
 㘥	ryai	0
@@ -64725,7 +64486,6 @@ columns:
 𰪏	rysg	0
 䈧	rytc	0
 𪩼	rytc	0
-䈧	rytc	0
 𰻨	ryte	0
 𮅼	rytj	0
 㠺	rytp	0
@@ -64992,7 +64752,6 @@ columns:
 𧥴	sbzj	0
 屮	sc	0
 𡳾	sc	0
-屮	sc	0
 𧈪	scc	0
 𧉘	scc	0
 𡣹	sccb	0
@@ -65018,10 +64777,10 @@ columns:
 𫌶	scfi	0
 詁	scg	100
 诂	scg	0
+𧬬	scgh	0
 譵	scgk	0
 𤇑	sch	0
 𭭝	sch	0
-𧬬	scha	0
 𧩱	schl	0
 歧	sci	5800
 䚳	sci	0
@@ -65182,11 +64941,14 @@ columns:
 䛪	sebg	0
 𧨗	sech	0
 𭣜	seci	0
+𪺂	seec	0
 𭭵	seef	0
 詽	seeg	0
 𣥭	seeg	0
+𫻓	seeh	0
 𫍉	seei	0
 諃	seem	0
+㯎	seem	0
 𰵱	seem	0
 𧪁	seeu	0
 𫁜	seex	0
@@ -65259,7 +65021,6 @@ columns:
 誫	sfc	0
 𫍨	sfc	0
 蚩	sfcc	200
-蚩	sfcc	0
 𣣷	sfce	0
 䜑	sfch	0
 𤠷	sfcm	0
@@ -65281,7 +65042,6 @@ columns:
 𡉚	sfgt	0
 𭻡	sfhg	0
 𢗍	sfhx	0
-ㄓ	sfi	0
 㞢	sfi	0
 𡳿	sfi	0
 𫦤	sfi	0
@@ -65585,6 +65345,7 @@ columns:
 𭓝	siih	0
 𭟄	siih	0
 變	siih	0
+變	siih	0
 譏	siii	2000
 𤫜	siii	0
 𦇥	siii	0
@@ -65780,7 +65541,6 @@ columns:
 𧬀	skki	0
 𬢢	sklc	0
 𡴋	skm	0
-𡴋	skm	0
 𬢳	skme	0
 𬤄	skme	0
 𬢩	skmk	0
@@ -65811,7 +65571,6 @@ columns:
 𧨜	skvy	0
 𭭰	skyh	0
 力	sl	461800
-ㄌ	sl	0
 諜	slae	1000
 詍	slae	0
 𰵔	slae	0
@@ -65951,7 +65710,6 @@ columns:
 𫍠	slzj	0
 𧪆	slzk	0
 𧥦	smae	0
-𧥦	smae	0
 𠠾	smb	0
 𣥘	smb	0
 𧧜	smbb	0
@@ -66259,6 +66017,7 @@ columns:
 𧴥	sob	0
 𰶵	sob	0
 赏	sob	0
+䛕	sobi	0
 讽	sobi	0
 訓	soc	41200
 训	soc	0
@@ -66285,7 +66044,6 @@ columns:
 𭭙	soj	0
 𮗸	soj	0
 讥	soj	0
-䛕	sojr	0
 𮀉	sojx	0
 𧭤	solk	0
 謃	sols	0
@@ -66396,7 +66154,6 @@ columns:
 䣣	spte	0
 𧮏	sptv	0
 䛤	spu	0
-䟫	spu	0
 𬣹	spu	0
 𭭤	spu	0
 謎	spuc	6500
@@ -66554,6 +66311,7 @@ columns:
 𢘿	sshx	0
 𮢸	sshz	0
 步	ssi	114500
+䟫	ssi	0
 歨	ssi	0
 訨	ssi	0
 𣥒	ssi	0
@@ -66664,7 +66422,6 @@ columns:
 諽	stg	0
 𧧲	stgp	0
 䚾	stgs	0
-䚾	stgs	0
 𰙞	stgs	0
 誔	stgu	0
 𬣻	stgu	0
@@ -66798,7 +66555,11 @@ columns:
 𪥺	susb	0
 諀	sutn	0
 𧨿	suub	0
+㘜	suud	0
+讎	suui	200
 𬣓	suum	0
+𠧐	suun	0
+犫	suuq	0
 𧩝	suvy	0
 𪇻	suxn	0
 𧩗	suxo	0
@@ -67546,7 +67307,6 @@ columns:
 䨎	tbks	0
 䩮	tbks	0
 鞃	tbks	0
-䘵	tbks	0
 䩮	tbks	0
 𮧜	tblc	0
 𬰎	tbld	0
@@ -67567,7 +67327,6 @@ columns:
 𮖆	tbnr	0
 疏	tboc	13700
 裗	tboc	0
-裗	tboc	0
 𨻓	tbod	0
 𮦘	tbor	0
 𠞯	tbpd	0
@@ -67652,6 +67411,8 @@ columns:
 𧙖	tcg	0
 𩊉	tcg	0
 𱀆	tcg	0
+䧨	tcgh	0
+𮖷	tcgh	0
 襆	tcgi	0
 䧤	tcgi	0
 䪁	tcgi	0
@@ -67663,8 +67424,6 @@ columns:
 𤇯	tch	0
 𤇷	tch	0
 𮦉	tch	0
-䧨	tcha	0
-𮖷	tcha	0
 𮕄	tchh	0
 𮥑	tchx	0
 衼	tci	0
@@ -67839,7 +67598,6 @@ columns:
 裡	tdl	452300
 䧉	tdl	0
 裏	tdl	0
-𰊴	tdl	0
 𧜩	tdll	0
 𪓑	tdm	0
 𮕸	tdm	0
@@ -67928,6 +67686,8 @@ columns:
 䩤	tej	0
 𧠆	tej	0
 𧠤	tej	0
+𧠥	tej	0
+𬢉	tej	0
 𱀬	tejg	0
 䨫	tejh	0
 𪎁	tejh	0
@@ -68004,6 +67764,7 @@ columns:
 弗	tf	6500
 𠂔	tf	0
 𢎨	tf	0
+𪩲	tf	0
 𨸑	tfae	0
 𧛘	tfaf	0
 𧘾	tfat	0
@@ -68029,7 +67790,6 @@ columns:
 𩆘	tfda	0
 𩄪	tfdc	0
 𨻛	tfdd	0
-𢍖	tfdg	0
 𫕆	tfdi	0
 𩂲	tfdj	0
 𨚬	tfdm	0
@@ -68316,7 +68076,6 @@ columns:
 裞	thdp	0
 𨹪	thdp	0
 𩊭	thdp	0
-裞	thdp	0
 𧜴	thej	0
 𰴐	thej	0
 𨺚	them	0
@@ -68411,6 +68170,7 @@ columns:
 𩉩	thp	0
 𩉲	thp	0
 𪯱	thp	0
+𢼋	thp	0
 𫿤	thp	0
 雰	thpd	0
 衯	thpd	0
@@ -69582,6 +69342,7 @@ columns:
 𧞛	tnpu	0
 𫌁	tnqa	0
 𩋺	tnqd	0
+𢍖	tnqg	0
 䧥	tnqh	0
 𧜖	tnqh	0
 𩄠	tnqh	0
@@ -69595,6 +69356,7 @@ columns:
 𨻃	tnrf	0
 袚	tnri	0
 𩊊	tnri	0
+𠀽	tnri	0
 𧙛	tnrj	0
 𬡋	tnrj	0
 𮤼	tnrj	0
@@ -69837,7 +69599,6 @@ columns:
 𪟋	tpd	0
 𫦞	tpd	0
 𮕥	tpd	0
-𭻻	tpda	0
 䧕	tpdf	0
 𩋉	tpdf	0
 𨹸	tpdg	0
@@ -69923,6 +69684,7 @@ columns:
 𩋋	tppg	0
 𬰖	tppl	0
 𨁢	tppu	0
+𭻻	tpqa	0
 飜	tpqc	0
 𧑪	tpqc	0
 𭻬	tpqc	0
@@ -70035,6 +69797,8 @@ columns:
 隈	tqft	100
 𠂽	tqft	0
 𧛚	tqft	0
+𬼕	tqgo	0
+𰊴	tqgt	0
 𫕄	tqhb	0
 𱁗	tqhb	0
 𨻞	tqhd	0
@@ -70090,8 +69854,8 @@ columns:
 𬰁	tqq	0
 霁	tqq	0
 𱀹	tqqa	0
-𱁪	tqqd	0
 𧟕	tqqf	0
+𱁪	tqqg	0
 𩅯	tqql	0
 𰴊	tqql	0
 𭾩	tqqm	0
@@ -70114,6 +69878,7 @@ columns:
 𫌇	tqrr	0
 𱁁	tqrr	0
 𤮚	tqrw	0
+𤭘	tqrw	0
 陬	tqry	0
 𧚥	tqry	0
 𩋄	tqry	0
@@ -70139,6 +69904,7 @@ columns:
 𩊷	tqvb	0
 𡟮	tqvb	0
 熈	tqvc	0
+㷩	tqvc	0
 𮦯	tqvm	0
 隅	tqvr	1600
 𥝃	tqvr	0
@@ -70315,7 +70081,6 @@ columns:
 𧝂	tsdo	0
 䧝	tsfc	0
 䩶	tsfc	0
-䩶	tsfc	0
 𰟝	tsfc	0
 𧙵	tsfh	0
 𣥋	tsfi	0
@@ -70445,7 +70210,6 @@ columns:
 霆	ttgu	800
 䩠	ttgu	0
 𨗒	ttgu	0
-𨗒	ttgu	0
 𰴀	tthb	0
 䙛	tthd	0
 袠	tthf	0
@@ -70580,6 +70344,7 @@ columns:
 𨒉	tuc	0
 𨒗	tuc	0
 𨔷	tuc	0
+𨒘	tuc	0
 𮞁	tuc	0
 𮞅	tuc	0
 𮞇	tuc	0
@@ -70804,6 +70569,7 @@ columns:
 𮖰	twdz	0
 䪡	twef	0
 䪢	twef	0
+䪣	twef	0
 䨱	tweh	0
 𮖵	tweh	0
 𩆂	tweo	0
@@ -70957,6 +70723,7 @@ columns:
 𩃊	txmb	0
 𮥮	txmh	0
 𰳹	txmq	0
+𧚜	txmr	0
 𩌟	txmv	0
 䳬	txn	0
 隝	txn	0
@@ -71012,7 +70779,6 @@ columns:
 𧜦	txuc	0
 𩅘	txuc	0
 𩌛	txun	0
-𧚜	txur	0
 𨻣	txuy	0
 𧚘	txvn	0
 𨹳	txvn	0
@@ -71463,7 +71229,6 @@ columns:
 𪮺	ubca	0
 𢯐	ubcg	0
 摾	ubdc	0
-摾	ubdc	0
 𢬸	ubdk	0
 𫼰	ubdk	0
 𢫬	ubem	0
@@ -71538,7 +71303,6 @@ columns:
 𢬶	ubwr	0
 𢱥	ubwr	0
 𨓼	ubwr	0
-掃	ubwr	0
 搦	ubww	100
 抎	uby	0
 𤽎	uby	0
@@ -71579,6 +71343,8 @@ columns:
 𢱉	ucfs	0
 𢫈	ucg	0
 𢺟	ucgg	0
+擈	ucgh	0
+𤾧	ucgh	0
 撲	ucgi	11600
 𤾣	ucgi	0
 𢷮	ucgk	0
@@ -71591,8 +71357,6 @@ columns:
 𤊙	uch	0
 𤽈	uch	0
 𭴃	uch	0
-擈	ucha	0
-𤾧	ucha	0
 𢵔	uchh	0
 摒	uchl	1800
 𭣃	ucho	0
@@ -71803,6 +71567,7 @@ columns:
 𣢈	ueq	0
 𩁱	ueqa	0
 𫾋	ueqh	0
+㨓	ueqn	0
 𰔏	uerr	0
 𢲁	uerw	0
 㣉	ues	0
@@ -71859,10 +71624,8 @@ columns:
 𢵣	ufch	0
 𭡵	ufch	0
 搢	ufco	0
-搢	ufco	0
 挜	ufcy	0
 掗	ufcy	0
-𭡌	ufda	0
 𢸨	ufde	0
 𰓌	ufdg	0
 攍	ufdi	0
@@ -72644,13 +72407,13 @@ columns:
 𢺐	ulgb	0
 𢴯	ulgd	0
 擏	ulgh	0
+𰤝	ulgh	0
 𫽚	ulgj	0
 𢵇	ulgk	0
 𪯃	ulgq	0
 𢹘	ulgu	0
 𫛒	ulgx	0
 𢶬	ulha	0
-𰤝	ulha	0
 拱	ulhb	5400
 𢵙	ulhe	0
 𣜥	ulhe	0
@@ -72783,14 +72546,12 @@ columns:
 㧎	uly	0
 𢫑	ulyb	0
 𤾸	ulyc	0
-𤾸	ulyc	0
 𢵛	ulye	0
 㩢	ulyi	0
 𪮎	ulzi	0
 𰓜	ulzj	0
 扝	umae	0
 𨑛	umae	0
-扝	umae	0
 㧖	umai	0
 抟	umai	0
 𢴘	umav	0
@@ -72922,8 +72683,6 @@ columns:
 𤽷	unae	0
 掏	unaf	4900
 𢱿	unaj	0
-𢪣	unbi	0
-𢪤	unbi	0
 抠	unbi	0
 𢫤	unbm	0
 𤾭	unbo	0
@@ -73022,6 +72781,7 @@ columns:
 𭢚	unpt	0
 擮	unpu	0
 𢶪	unpy	0
+𭡌	unqa	0
 㨁	unqf	0
 搷	unqh	0
 𢴥	unqh	0
@@ -73033,7 +72793,6 @@ columns:
 𭣇	unqw	0
 𰔒	unrf	0
 拔	unri	22800
-拔	unri	0
 㧜	unrj	0
 抪	unrj	0
 抜	unry	0
@@ -73249,6 +73008,7 @@ columns:
 攪	upbe	3900
 㩭	upbh	0
 擞	upbh	0
+𢪣	upbi	0
 搂	upbn	0
 𫾜	upbu	0
 掁	upc	0
@@ -73295,6 +73055,7 @@ columns:
 𢩮	upi	0
 𢸂	upic	0
 扨	upid	0
+𢪤	upid	0
 𢭝	upih	0
 𭠵	upiy	0
 㧮	upj	0
@@ -73425,9 +73186,9 @@ columns:
 㨈	uqq	0
 挤	uqq	0
 𢺱	uqqc	0
-𢹮	uqqd	0
 㩸	uqqf	0
 㩹	uqqf	0
+𢹮	uqqg	0
 𢺢	uqqi	0
 攝	uqqq	34000
 攂	uqqq	0
@@ -73604,7 +73365,6 @@ columns:
 𢺜	urzu	0
 手	us	321100
 扌	us	0
-キ	us	0
 龵	us	0
 𰀁	us	0
 𢱏	usad	0
@@ -73674,12 +73434,8 @@ columns:
 𧦪	ussy	0
 𢳘	usuc	0
 𫼯	usuc	0
-㘜	usud	0
-讎	usui	200
 𩁗	usui	0
 雠	usui	0
-𠧐	usun	0
-犫	usuq	0
 撑	usus	0
 㧗	usvb	0
 皉	usvb	0
@@ -74022,7 +73778,6 @@ columns:
 䊠	uvdp	0
 𩞚	uvdq	0
 旣	uvdu	0
-旣	uvdu	0
 𣯦	uvdv	0
 鱀	uvdw	0
 𰔤	uvej	0
@@ -74145,7 +73900,6 @@ columns:
 堲	uvzg	0
 卽	uvzj	0
 皍	uvzj	0
-卽	uvzj	0
 𮞲	uvzu	0
 𡷦	uvzv	0
 𰔘	uvzv	0
@@ -74223,13 +73977,11 @@ columns:
 𢪚	uwpe	0
 𤽪	uwpe	0
 𪽿	uwpe	0
-挽	uwpe	0
 𢱍	uwps	0
 搀	uwpw	0
 𢲛	uwpz	0
 㩟	uwqe	0
 㩙	uwqg	0
-㨓	uwqn	0
 㩷	uwqn	0
 𢭂	uwqn	0
 𰔲	uwqn	0
@@ -74546,7 +74298,6 @@ columns:
 𢬰	uytb	0
 撝	uytc	0
 𤾡	uytc	0
-撝	uytc	0
 𢰗	uyte	0
 摲	uytj	0
 𰓼	uytj	0
@@ -74596,7 +74347,6 @@ columns:
 𭡬	uzcm	0
 𪮊	uzcn	0
 㩬	uzcp	0
-㩬	uzcp	0
 𫽕	uzcr	0
 𢴮	uzcy	0
 𢭃	uzd	0
@@ -74851,7 +74601,7 @@ columns:
 𫞰	vbam	0
 𪩜	vbba	0
 𣎭	vbby	0
-𰴍	vbca	0
+𰴍	vbch	0
 膙	vbdc	0
 嵹	vbdc	0
 脎	vbem	0
@@ -74929,7 +74679,6 @@ columns:
 嵧	vbqt	0
 𦞧	vbqt	0
 𫶌	vbqt	0
-𦞧	vbqt	0
 𰢥	vbrw	0
 㞴	vbs	0
 𦙆	vbs	0
@@ -75017,6 +74766,9 @@ columns:
 𦙶	vcg	0
 𧟼	vcgg	0
 𤏝	vcgg	0
+嶪	vcgh	0
+嶫	vcgh	0
+𦡧	vcgh	0
 𭗘	vcgi	0
 㠚	vcgk	0
 𡽵	vcgk	0
@@ -75033,9 +74785,6 @@ columns:
 𪵘	vch	0
 𭨬	vch	0
 𭴁	vch	0
-嶪	vcha	0
-嶫	vcha	0
-𦡧	vcha	0
 𤑃	vchc	0
 𦠳	vchh	0
 𪩖	vchh	0
@@ -75121,7 +74870,6 @@ columns:
 𦞚	vcyv	0
 𰎰	vcyv	0
 𡷤	vdam	0
-𡷤	vdam	0
 𦝖	vdav	0
 𡶈	vdbi	0
 𭨮	vdbi	0
@@ -75234,7 +74982,6 @@ columns:
 岫	vdy	200
 峀	vdy	0
 𫆚	vdy	0
-峀	vdy	0
 𰚓	vdy	0
 𭖫	vdzk	0
 屹	veai	900
@@ -75255,6 +75002,9 @@ columns:
 岍	veeg	0
 𧠿	veej	0
 𧢀	veej	0
+𣁩	veek	0
+𩰩	veek	0
+𪴦	veek	0
 崊	veem	0
 𡹇	veem	0
 𦝃	veem	0
@@ -76041,11 +75791,9 @@ columns:
 𡶴	vixc	0
 嵃	vixe	0
 𦞎	vixe	0
-嵃	vixe	0
 䐮	vixl	0
 嵼	vixl	0
 𪩯	vixl	0
-嵼	vixl	0
 𭗜	vixm	0
 𡵏	viy	0
 𦘷	viy	0
@@ -76112,7 +75860,6 @@ columns:
 𮌧	vjgo	0
 𦙰	vjgs	0
 𭨦	vjgs	0
-𡉡	vjgt	0
 𭖏	vjgt	0
 䐰	vjgv	0
 𡷉	vjhg	0
@@ -76217,7 +75964,6 @@ columns:
 𦡬	vjzv	0
 𭖺	vjzv	0
 嶺	vjzw	0
-ヰ	vk	0
 㐄	vk	0
 𡕒	vk	0
 𫝀	vk	0
@@ -76362,7 +76108,6 @@ columns:
 歂	vleq	0
 𪴬	vleq	0
 𣎓	vlet	0
-𣎓	vlet	0
 肪	vlf	6700
 𰯏	vlfe	0
 㬻	vlfo	0
@@ -76388,7 +76133,7 @@ columns:
 𣮙	vlhp	0
 𦜍	vlhp	0
 𮗄	vlhp	0
-㟟	vlhz	0
+㟟	vlhv	0
 𬛞	vlid	0
 嵫	vlii	0
 𫆼	vlil	0
@@ -76526,7 +76271,6 @@ columns:
 膵	vlzn	0
 翙	vlzv	0
 毛	vm	59800
-も	vm	0
 𣬛	vm	0
 肟	vmae	0
 𡾖	vmag	0
@@ -76712,7 +76456,6 @@ columns:
 脄	vnch	0
 𢾋	vnch	0
 𢾡	vnch	0
-炭	vnch	0
 嶇	vndd	2600
 膒	vndd	0
 𡾙	vndd	0
@@ -76801,7 +76544,6 @@ columns:
 𠃬	vnnk	0
 𰮒	vnnk	0
 駂	vnnm	0
-駂	vnnm	0
 𱅀	vnnm	0
 𠭵	vnnr	0
 𣪐	vnnr	0
@@ -77338,10 +77080,10 @@ columns:
 𡽉	vqq	0
 𦜝	vqq	0
 脐	vqq	0
-㠥	vqqd	0
 𭯭	vqqd	0
 𣁪	vqqf	0
 𣱃	vqqf	0
+㠥	vqqg	0
 𡿔	vqqi	0
 𡿜	vqqi	0
 𰯬	vqqi	0
@@ -77510,7 +77252,6 @@ columns:
 屴	vsl	0
 𠠼	vsl	0
 𡴽	vsl	0
-㔕	vsl	0
 𫆾	vslh	0
 朏	vsmk	0
 胐	vsmk	0
@@ -77593,7 +77334,6 @@ columns:
 𡻴	vtgh	0
 𦜙	vtgh	0
 䏕	vtgs	0
-䏕	vtgs	0
 脡	vtgu	0
 𨓒	vtgu	0
 𫚽	vtgx	0
@@ -77931,7 +77671,6 @@ columns:
 𣮼	vvle	0
 巽	vvlh	100
 𢁉	vvlh	0
-巽	vvlh	0
 𢁅	vvll	0
 𡮸	vvlm	0
 選	vvlu	188000
@@ -78230,7 +77969,6 @@ columns:
 𡸊	vwpe	0
 𣍥	vwpe	0
 𭖉	vwpe	0
-䏙	vwpe	0
 𰛂	vwpe	0
 𡼛	vwpg	0
 𡽡	vwpp	0
@@ -78397,7 +78135,6 @@ columns:
 脃	vxmb	0
 𦛐	vxmb	0
 𫵺	vxmb	0
-脃	vxmb	0
 𡶂	vxme	0
 𡿛	vxme	0
 𭯟	vxmh	0
@@ -78405,6 +78142,7 @@ columns:
 𡺌	vxmm	0
 𡾷	vxmm	0
 𦝝	vxmm	0
+𭖤	vxmr	0
 嶋	vxn	0
 嶌	vxn	0
 鳼	vxn	0
@@ -78464,7 +78202,6 @@ columns:
 𡹻	vxua	0
 𨖧	vxuc	0
 嵟	vxui	0
-𭖤	vxur	0
 㟲	vxuy	0
 㟶	vxuy	0
 𬇒	vxuy	0
@@ -78834,7 +78571,6 @@ columns:
 𰃫	wadm	0
 割	wadp	14700
 𫳸	wadp	0
-割	wadp	0
 㲅	wadr	0
 𠢆	wads	0
 𡫲	wads	0
@@ -79003,7 +78739,6 @@ columns:
 御	wazj	4400
 𮬔	wazr	0
 冫	wb	0
-゛	wb	0
 鱐	wbaa	0
 䀂	wbam	0
 𡪋	wbbb	0
@@ -79020,6 +78755,9 @@ columns:
 𢖀	wbdg	0
 𫲾	wbdk	0
 𰌽	wbdk	0
+𠖦	wbef	0
+𡫻	wbef	0
+𠖜	wbeg	0
 𩺕	wbeh	0
 案	wbem	95100
 𠗛	wbem	0
@@ -79096,10 +78834,7 @@ columns:
 鲪	wbtd	0
 鮶	wbtd	0
 䢿	wbte	0
-𠖦	wbtf	0
-𡫻	wbtf	0
 鞌	wbtg	0
-𠖜	wbtg	0
 𫥃	wbtp	0
 𰌸	wbtp	0
 𡩫	wbtt	0
@@ -79139,7 +78874,6 @@ columns:
 𰍚	wbyl	0
 𢓋	wbzj	0
 彳	wc	0
-ㄔ	wc	0
 亍	wc	0
 𡨅	wcad	0
 𩷐	wcad	0
@@ -79180,6 +78914,7 @@ columns:
 㝒	wcg	0
 鮕	wcg	0
 𩾀	wcg	0
+𩼋	wcgh	0
 𩼷	wcgk	0
 𢔦	wcgy	0
 𩵰	wch	0
@@ -79188,7 +78923,6 @@ columns:
 𬊪	wch	0
 𱍆	wch	0
 灾	wch	0
-𩼋	wcha	0
 𠘈	wchh	0
 𢞾	wchh	0
 𩻣	wchh	0
@@ -79281,7 +79015,6 @@ columns:
 𱈔	wddo	0
 𫳓	wddr	0
 𩻙	wdds	0
-𡆔	wddz	0
 𢆖	wdeg	0
 宲	wdem	0
 𰐯	wdem	0
@@ -79447,7 +79180,6 @@ columns:
 鯟	weor	0
 𢔅	weor	0
 𫳒	weor	0
-徚	weor	0
 𫑫	weot	0
 𫹑	wepd	0
 𢔣	wepj	0
@@ -79457,7 +79189,6 @@ columns:
 次	weq	159700
 𢓑	weq	0
 𩵢	weq	0
-次	weq	0
 𬅧	weqm	0
 餈	weqs	0
 𰍂	wers	0
@@ -79851,7 +79582,6 @@ columns:
 𮬄	wgw	0
 𫳈	wgwp	0
 𡨊	wgwr	0
-𬣀	wgws	0
 𩻭	wgwz	0
 鮮	wgy	38400
 徉	wgy	900
@@ -80693,7 +80423,6 @@ columns:
 鹓	wlzx	0
 𧯳	wlzz	0
 𡧈	wmae	0
-𡧈	wmae	0
 𫚋	wmai	0
 鲃	wmb	0
 䰾	wmb	0
@@ -80763,7 +80492,6 @@ columns:
 𩶩	wmjj	0
 𩷟	wmjj	0
 𩾉	wmjj	0
-㣣	wmjj	0
 𱇀	wmjk	0
 魶	wmjr	0
 𩻲	wmjr	0
@@ -80936,7 +80664,6 @@ columns:
 𡩝	wnkb	0
 𩹲	wnkc	0
 𧡃	wnke	0
-𠗱	wnki	0
 宏	wnks	15000
 㵗	wnks	0
 𣳆	wnks	0
@@ -81000,6 +80727,7 @@ columns:
 𫚂	wnpu	0
 𩽠	wnpx	0
 𡪍	wnqc	0
+𠗱	wnqc	0
 𡩼	wnqe	0
 徝	wnqf	0
 寘	wnqh	0
@@ -81056,7 +80784,6 @@ columns:
 𡪪	wnxm	0
 𪅯	wnxn	0
 寳	wnxo	0
-寳	wnxo	0
 𡫷	wnxz	0
 德	wnyh	103300
 徳	wnyh	0
@@ -81254,8 +80981,6 @@ columns:
 𢔹	wpdv	0
 免	wpe	57700
 冘	wpe	0
-免	wpe	0
-冗	wpe	0
 𣢌	wpeq	0
 𠖑	wpff	0
 鱮	wpfh	0
@@ -81333,7 +81058,6 @@ columns:
 𰑷	wpsh	0
 勉	wpsl	11200
 𠠹	wpsl	0
-勉	wpsl	0
 𢖣	wptc	0
 𩽯	wptc	0
 邥	wpte	0
@@ -81372,7 +81096,6 @@ columns:
 鼏	wqaa	0
 𠘋	wqaa	0
 𪔃	wqaa	0
-鼏	wqaa	0
 𧖅	wqac	0
 𡫡	wqad	0
 鮿	wqae	0
@@ -81707,7 +81430,6 @@ columns:
 鱨	wsvo	0
 𱈘	wsvo	0
 𫙾	wsvt	0
-𭄤	wswc	0
 𡫥	wsws	0
 𡬚	wsws	0
 𪫒	wswv	0
@@ -82048,6 +81770,7 @@ columns:
 𡩍	wvna	0
 徴	wvnh	0
 懲	wvnh	0
+懲	wvnh	0
 𡫊	wvnx	0
 𢖌	wvny	0
 𫠎	wvob	0
@@ -82252,8 +81975,6 @@ columns:
 𩸃	wwt	0
 𩾅	wwt	0
 𪫐	wwt	0
-冤	wwt	0
-寃	wwt	0
 𩶱	wwtr	0
 𩽽	wwtr	0
 𠗞	wwts	0
@@ -82817,7 +82538,6 @@ columns:
 唐	xbdk	17600
 𥞚	xbdk	0
 𥞸	xbdk	0
-唐	xbdk	0
 𢧪	xbdp	0
 㼺	xbdr	0
 鄌	xbdt	0
@@ -82979,7 +82699,6 @@ columns:
 𰄲	xbyt	0
 𩾱	xbzj	0
 𫸀	xbzj	0
-ㄏ	xc	0
 𠂆	xc	0
 厂	xc	0
 𫀸	xcad	0
@@ -83019,6 +82738,10 @@ columns:
 㕆	xcg	0
 秙	xcg	0
 𩿵	xcg	0
+𥣈	xcgh	0
+𩑃	xcgh	0
+𩑄	xcgh	0
+𪋫	xcgh	0
 穙	xcgi	0
 𩑀	xcgi	0
 𪋡	xcgi	0
@@ -83032,10 +82755,6 @@ columns:
 𮭱	xch	0
 灰	xch	0
 𰞡	xch	0
-𥣈	xcha	0
-𩑃	xcha	0
-𩑄	xcha	0
-𪋫	xcha	0
 𰒁	xcha	0
 𭅿	xchg	0
 𥢨	xchh	0
@@ -83123,8 +82842,8 @@ columns:
 鍫	xczj	0
 𰆒	xczj	0
 𮃢	xczo	0
-ク	xd	0
 𠂊	xd	0
+⺈	xd	0
 𭆁	xdai	0
 𥟮	xdav	0
 𢈗	xdba	0
@@ -83241,7 +82960,6 @@ columns:
 𫾯	xehp	0
 𫻎	xehx	0
 秫	xeid	0
-秫	xeid	0
 䢤	xeiu	0
 䅐	xej	0
 𢈥	xej	0
@@ -83354,7 +83072,6 @@ columns:
 𣢨	xfde	0
 垕	xfdg	0
 𫪣	xfdg	0
-穂	xfdh	0
 𪯬	xfdj	0
 𰃙	xfdj	0
 㢐	xfdk	0
@@ -83362,7 +83079,6 @@ columns:
 𥐖	xfdk	0
 𥠁	xfdk	0
 𪃀	xfdk	0
-𭙥	xfdk	0
 后	xfdk	14600
 𨤣	xfdl	0
 𪪘	xfdm	0
@@ -83450,7 +83166,6 @@ columns:
 𢌂	xfuh	0
 𫌍	xfut	0
 𦓚	xfvl	0
-𦓚	xfvl	0
 廲	xfvx	0
 穲	xfvx	0
 𪈳	xfvx	0
@@ -83791,7 +83506,6 @@ columns:
 𠫈	xicv	0
 久	xid	87700
 々	xid	0
-﻿々	xid	0
 𠚤	xid	0
 稖	xidk	0
 穜	xidl	0
@@ -83814,6 +83528,7 @@ columns:
 𰆦	xiip	0
 廊	xiit	12800
 廊	xiit	0
+廊	xiit	0
 𰐁	xiiv	0
 𪋚	xijk	0
 𠪽	xiko	0
@@ -84481,7 +84196,9 @@ columns:
 𠪧	xmqe	0
 餍	xmqs	0
 𬜞	xmrf	0
+乕	xmrj	0
 𪠏	xmrp	0
+逓	xmru	0
 䄷	xms	0
 𪊞	xms	0
 𠩀	xmsc	0
@@ -84557,7 +84274,6 @@ columns:
 𫁯	xnhm	0
 贛	xnho	300
 𥫔	xnho	0
-贛	xnho	0
 𰷝	xnho	0
 赣	xnho	0
 𭤊	xnhp	0
@@ -84624,11 +84340,13 @@ columns:
 穗	xnqh	2400
 稹	xnqh	0
 厧	xnqh	0
+穂	xnqh	0
 𠪫	xnqh	0
 𭣽	xnqh	0
 瞂	xnqi	0
 𥡵	xnqk	0
 𪅘	xnqk	0
+𭙥	xnqk	0
 盾	xnqm	8000
 𢈬	xnqm	0
 𤟢	xnqm	0
@@ -84705,7 +84423,6 @@ columns:
 𫘁	xoao	0
 㡼	xoat	0
 䄿	xoat	0
-㡼	xoat	0
 䭰	xoau	0
 負	xob	63400
 𠩠	xob	0
@@ -84847,7 +84564,6 @@ columns:
 𩡏	xont	0
 馤	xooa	0
 馧	xooa	0
-馧	xooa	0
 廮	xoob	0
 𪈤	xoob	0
 𫷾	xoob	0
@@ -85410,7 +85126,6 @@ columns:
 𪟠	xsl	0
 𫜋	xsl	0
 𭄩	xsl	0
-柺	xsl	0
 历	xsl	0
 𥣼	xsma	0
 𣣃	xsme	0
@@ -85536,7 +85251,6 @@ columns:
 𧣞	xtfq	0
 𧢿	xtfr	0
 𧣠	xtfs	0
-𧣘	xtft	0
 𧤳	xtft	0
 𧥖	xtfx	0
 𧥗	xtfx	0
@@ -85743,6 +85457,7 @@ columns:
 䚩	xttd	0
 𨛥	xtte	0
 𧣜	xttf	0
+𧣘	xttf	0
 𧤒	xttg	0
 𧤸	xtth	0
 𧣊	xttj	0
@@ -85888,8 +85603,6 @@ columns:
 𰆩	xupc	0
 𭆅	xupe	0
 𢊵	xuqn	0
-乕	xurj	0
-逓	xuru	0
 𢊄	xury	0
 𮧽	xury	0
 𠨭	xus	0
@@ -86149,7 +85862,6 @@ columns:
 㢝	xwxh	0
 𢋈	xwxh	0
 𪈈	xwxn	0
-𪈎	xwxn	0
 䅡	xwy	0
 頼	xwy	0
 𩐳	xwy	0
@@ -86223,6 +85935,7 @@ columns:
 𥣭	xxlv	0
 𰰕	xxmb	0
 𥠅	xxmm	0
+𪁦	xxmr	0
 𥣸	xxmz	0
 穒	xxn	0
 鳫	xxn	0
@@ -86292,7 +86005,6 @@ columns:
 𬩯	xxuc	0
 𫖜	xxue	0
 𥣤	xxuk	0
-𪁦	xxur	0
 䴨	xxuy	0
 䅎	xxvn	0
 𩴣	xxxa	0
@@ -86619,8 +86331,6 @@ columns:
 頋	xzwy	0
 𩔟	xzwy	0
 𩕅	xzwy	0
-頋	xzwy	0
-頋	xzwy	0
 顾	xzwy	0
 䴘	xzxn	0
 鷉	xzxn	0
@@ -86769,7 +86479,6 @@ columns:
 𰺀	ybid	0
 𢑐	ybj	0
 𪺍	ybj	0
-当	ybj	0
 当	ybj	0
 𥂻	ybja	0
 𥂼	ybja	0
@@ -86876,13 +86585,13 @@ columns:
 酤	ycg	0
 軲	ycg	0
 轱	ycg	0
+𮡅	ycgh	0
 醭	ycgi	0
 轐	ycgi	0
 𫐗	ycgi	0
 轛	ycgk	0
 𡭞	ych	0
 𬉿	ych	0
-𮡅	ycha	0
 轏	ychh	0
 𰺞	ychh	0
 𨍍	ychl	0
@@ -87061,7 +86770,6 @@ columns:
 䤇	yejr	0
 酶	yekm	0
 䍙	yekm	0
-䍙	yekm	0
 䍢	yelc	0
 𬪥	yelt	0
 𦌬	yelv	0
@@ -87128,7 +86836,6 @@ columns:
 𭾴	yfcq	0
 𠧕	yfcs	0
 酽	yfcx	0
-𨍘	yfda	0
 𡭭	yfdb	0
 𩙽	yfdc	0
 𮝣	yfdd	0
@@ -87389,6 +87096,7 @@ columns:
 𬙞	ygkv	0
 𨌞	ygkz	0
 𮠻	ygmd	0
+𡚇	ygnm	0
 𨣶	ygog	0
 𡕼	ygoh	0
 醕	ygor	0
@@ -87663,7 +87371,6 @@ columns:
 𦍆	yiyt	0
 𬙪	yiyt	0
 𬙫	yiyt	0
-𦌾	yiyt	0
 𰹝	yizk	0
 䣻	yjad	0
 軡	yjae	0
@@ -87822,7 +87529,6 @@ columns:
 𥄳	yks	0
 𨋈	yks	0
 𨠊	yks	0
-𥄳	yks	0
 𬪃	ykte	0
 𨎢	ykth	0
 𨢺	yktv	0
@@ -87840,7 +87546,6 @@ columns:
 罷	ykvv	14400
 𠤩	ykvv	0
 㱎	ykwe	0
-㱎	ykwe	0
 頱	ykwy	0
 𩒟	ykwy	0
 䳴	ykxn	0
@@ -87901,7 +87606,6 @@ columns:
 𰼑	ylml	0
 𨍞	ylmm	0
 𨍅	ylmr	0
-𡚎	ylmz	0
 䤀	ylnd	0
 𮝮	ylnh	0
 𨤃	ylnq	0
@@ -87919,8 +87623,6 @@ columns:
 𨎮	ylqr	0
 𨐉	ylqr	0
 𨠠	yls	0
-𦋦	ylsm	0
-𨔍	yluc	0
 𫑿	yluc	0
 逻	yluc	0
 𭶹	ylur	0
@@ -87933,8 +87635,8 @@ columns:
 罗	ylx	0
 𮬽	ylxn	0
 䍓	yly	0
-䡸	ylyi	0
 𨣱	ylyi	0
+䡸	ylyn	0
 𮠣	ylzj	0
 𰹏	ylzj	0
 𨡖	ymaa	0
@@ -88084,7 +87786,10 @@ columns:
 𨌨	ynaf	0
 𨡒	ynaf	0
 𨡇	ynam	0
+𦋦	ynam	0
 𰺌	ynam	0
+𨔍	ynau	0
+𡚎	ynaz	0
 𬪧	ynbi	0
 𮝀	ynbi	0
 𨠮	ynbm	0
@@ -88178,6 +87883,7 @@ columns:
 𨣲	ynpf	0
 𡕽	ynph	0
 𬋯	ynpr	0
+𨍘	ynqa	0
 置	ynqf	50400
 𰗁	ynqf	0
 䡩	ynqh	0
@@ -88431,7 +88137,6 @@ columns:
 軔	ypid	100
 䑒	ypid	0
 𠧓	ypid	0
-軔	ypid	0
 轫	ypid	0
 𨢂	ypiv	0
 舀	ypj	1100
@@ -89397,9 +89102,7 @@ columns:
 𤬔	yyaf	0
 𨍳	yyaf	0
 𨊣	yyb	0
-𡚇	yybm	0
 𨌢	yybv	0
-𩖈	yybw	0
 䡛	yyc	0
 𤔵	yycc	0
 𨏵	yych	0
@@ -89439,7 +89142,6 @@ columns:
 𢇏	yyii	0
 𦆩	yyii	0
 爵	yyik	2800
-爵	yyik	0
 𫸤	yyil	0
 𨟧	yyit	0
 𫑲	yyit	0
@@ -89631,7 +89333,6 @@ columns:
 𫊠	zaf	0
 𫒊	zaf	0
 𫒘	zaf	0
-𰼯	zaf	0
 鉰	zafd	0
 锎	zafl	0
 鐦	zafl	0
@@ -89744,7 +89445,6 @@ columns:
 𬬗	zbca	0
 𬫟	zbch	0
 鏹	zbdc	300
-鏹	zbdc	0
 镪	zbdc	0
 𢤌	zbdh	0
 𫻇	zbdh	0
@@ -89913,7 +89613,6 @@ columns:
 歔	zceq	100
 𨨢	zceq	0
 𫓿	zceq	0
-歔	zceq	0
 𭛚	zces	0
 𰼠	zcf	0
 𨬚	zcfb	0
@@ -89930,6 +89629,7 @@ columns:
 钴	zcg	0
 𭶥	zcgc	0
 𨬕	zcgg	0
+𨭥	zcgh	0
 镤	zcgi	0
 鏷	zcgi	0
 鑆	zcgk	0
@@ -89944,7 +89644,6 @@ columns:
 𬟩	zch	0
 𬽄	zch	0
 𰁜	zch	0
-𨭥	zcha	0
 𮓩	zcha	0
 虡	zchb	0
 𧏅	zchc	0
@@ -90063,6 +89762,7 @@ columns:
 锷	zdda	0
 𨩗	zddd	0
 𨭳	zddd	0
+𬬤	zddd	0
 𮣦	zddd	0
 鐰	zdde	0
 𬽐	zddf	0
@@ -90080,7 +89780,6 @@ columns:
 𨭐	zddn	0
 𫓟	zddn	0
 鐕	zddo	0
-鐕	zddo	0
 𰾷	zddo	0
 𤬥	zddt	0
 𧚾	zddt	0
@@ -90199,6 +89898,7 @@ columns:
 鉢	zefi	0
 𪎝	zefi	0
 钵	zefi	0
+𰼯	zefs	0
 𨫝	zefu	0
 釬	zeg	0
 𤮽	zeg	0
@@ -90331,7 +90031,6 @@ columns:
 𥂡	zfda	0
 𨧫	zfdb	0
 𬭑	zfdb	0
-𨫍	zfdh	0
 𨯤	zfdi	0
 𨰊	zfdi	0
 𨰠	zfdi	0
@@ -90427,7 +90126,6 @@ columns:
 𨥚	zfrj	0
 𨭂	zfrj	0
 皻	zfrp	0
-𨥳	zfrt	0
 𠭯	zfry	0
 𰲡	zfry	0
 𢋎	zfs	0
@@ -91019,7 +90717,6 @@ columns:
 金	zj	231800
 钅	zj	0
 卩	zj	0
-ㄗ	zj	0
 㔾	zj	0
 卪	zj	0
 釒	zj	0
@@ -91078,7 +90775,6 @@ columns:
 𪯖	zjeh	0
 𡬘	zjei	0
 𢒥	zjei	0
-𡬘	zjei	0
 𡭁	zjek	0
 銝	zjem	0
 戮	zjep	1100
@@ -91164,13 +90860,13 @@ columns:
 铃	zjks	0
 錀	zjl	0
 𬬭	zjl	0
+𨉅	zjlc	0
 𫒬	zjll	0
 𬫊	zjlq	0
 𮣆	zjlt	0
 𫒑	zjma	0
 鎗	zjmd	300
 𨉓	zjmj	0
-𨉅	zjmp	0
 𨦛	zjmq	0
 翭	zjno	0
 鍭	zjno	0
@@ -91814,6 +91510,7 @@ columns:
 鎮	znqh	37900
 鏸	znqh	0
 𦒎	znqh	0
+𨫍	znqh	0
 𰾶	znqh	0
 𰽆	znqh	0
 镇	znqh	0
@@ -91824,7 +91521,6 @@ columns:
 鈸	znri	300
 翇	znri	0
 𦐗	znri	0
-鈸	znri	0
 钹	znri	0
 鈽	znrj	0
 鉔	znrj	0
@@ -92131,7 +91827,6 @@ columns:
 𠆡	zpmc	0
 𨯺	zpmc	0
 𨰨	zpmc	0
-𨯺	zpmc	0
 𠅲	zpmd	0
 𬽘	zpmd	0
 𣡥	zpme	0
@@ -92337,7 +92032,6 @@ columns:
 虜	zqsl	1000
 𧇙	zqsl	0
 𨦻	zqsl	0
-虜	zqsl	0
 鈿	zqt	0
 𧆨	zqt	0
 𪎟	zqt	0
@@ -92621,6 +92315,7 @@ columns:
 锨	zteq	0
 鉘	ztf	0
 𨥦	ztf	0
+𨥳	ztf	0
 𬬳	ztf	0
 𰽱	ztf	0
 𩴛	ztfa	0
@@ -92801,7 +92496,6 @@ columns:
 䥞	zulh	0
 𬭻	zulh	0
 虧	zuma	14000
-虧	zuma	0
 𧰏	zumd	0
 𨬺	zumj	0
 鐫	zumk	500
@@ -92836,7 +92530,6 @@ columns:
 𧆠	zus	0
 𨥋	zus	0
 𪎚	zus	0
-摩	zus	0
 𫦼	zusl	0
 𮣛	zutd	0
 𨞩	zute	0
@@ -93016,7 +92709,6 @@ columns:
 𨮘	zwco	0
 䤹	zwcr	0
 𨰔	zwdc	0
-𬬤	zwdd	0
 铻	zwdk	0
 鋙	zwdk	0
 𮣤	zwec	0
