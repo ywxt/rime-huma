@@ -2,11 +2,12 @@ local chinese_charset = {
     {first = 0x4E00, last = 0x9FFF}, -- 基本汉字+补充
     {first = 0x3400, last = 0x4DBF}, -- 扩A
     {first = 0x20000, last = 0x2A6DF}, -- 扩B
-    {first = 0x2A700, last = 0x2B738}, -- 扩C
+    {first = 0x2A700, last = 0x2B739}, -- 扩C
     {first = 0x2B740, last = 0x2B81F}, -- 扩D
     {first = 0x2B820, last = 0x2CEAF}, -- 扩E
     {first = 0x2CEB0, last = 0x2EBEF}, -- 扩F
     {first = 0x30000, last = 0x3134A}, -- 扩G
+    {first = 0x31350, last = 0x323AF}, -- 扩H
     {first = 0x2E80, last = 0x2EF3}, -- 部首扩展
     {first = 0x2F00, last = 0x2FD5}, -- 康熙部首
     {first = 0xF900, last = 0xFAFF}, -- 兼容汉字
@@ -18,7 +19,7 @@ local chinese_charset = {
     {first = 0x2FF0, last = 0x2FFB}, -- 汉字结构
     {first = 0x3105, last = 0x312F}, -- 汉语注音
     {first = 0x31A0, last = 0x31BA}, -- 注音扩展
-    {first = 0x3007, last = 0x3007}, -- 〇
+    {first = 0x3007, last = 0x3007} -- 〇
 
 }
 
@@ -51,12 +52,8 @@ local function is_in_charset(char, charset) return charset[char] end
 
 local function filter_chinese(string, charset)
     for index, code in utf8.codes(string) do
-        if not is_chinese(code) then
-            return false
-        end
-        if not is_in_charset(utf8.char(code), charset) then
-            return false
-        end
+        if not is_chinese(code) then return false end
+        if not is_in_charset(utf8.char(code), charset) then return false end
     end
     return true
 end
