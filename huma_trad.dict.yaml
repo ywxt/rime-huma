@@ -2,9 +2,8 @@
 
 ---
 name: "huma_trad"
-version: "20220211"
+version: "20221020"
 sort: original
-use_preset_vocabulary: false
 columns:
   - text
   - code
@@ -1298,7 +1297,7 @@ encoder:
 姺	bqp
 彏	bqq
 娵	bqr
-嫐	bqs
+嬲	bqs
 留	bqt
 遛	bqu
 媀	bqv
@@ -1345,7 +1344,6 @@ encoder:
 婂	bur
 婢	but
 孇	buu
-卿	buv
 婹	bvb
 嫖	bvf
 妃	bvj
@@ -7037,7 +7035,7 @@ encoder:
 腎	qrv
 取	qry
 豎	qrz
-嬲	qsb
+嫐	qsb
 饓	qse
 略	qsg
 耻	qsi
@@ -10539,7 +10537,7 @@ encoder:
 對於	cl
 不同	cm
 不在	cn
-不是	co
+否則	co
 不足	cp
 營造	cq
 不了	cr
@@ -10572,7 +10570,7 @@ encoder:
 由此	ds
 哪裏	dt
 員工	du
-雖然	dv
+只要	dv
 器官	dw
 品種	dx
 戰爭	dy
@@ -10598,7 +10596,7 @@ encoder:
 也許	es
 無限	et
 根據	eu
-東西	ev
+想要	ev
 每次	ew
 相應	ex
 想到	ey
@@ -10612,7 +10610,7 @@ encoder:
 過去	fg
 事情	fh
 一般	fi
-一個	fj
+社會	fj
 政治	fk
 更多	fl
 正確	fm
@@ -10702,7 +10700,7 @@ encoder:
 經常	is
 幾乎	it
 立卽	iu
-主要	iv
+既然	iv
 網頁	iw
 結束	ix
 競爭	iy
@@ -10716,7 +10714,7 @@ encoder:
 人士	jg
 領導	jh
 作為	ji
-他們	jj
+你們	jj
 逐漸	jk
 人生	jl
 合同	jm
@@ -10807,7 +10805,7 @@ encoder:
 太陽	mt
 大批	mu
 所以	mv
-大家	mw
+獲得	mw
 同意	mx
 大小	my
 同期	mz
@@ -10824,7 +10822,7 @@ encoder:
 辦法	nk
 醫生	nl
 巨大	nm
-現在	nn
+存在	nn
 真是	no
 感覺	np
 成果	nq
@@ -10867,7 +10865,7 @@ encoder:
 路面	pb
 行業	pc
 精品	pd
-起來	pe
+學校	pe
 精神	pf
 趨勢	pg
 兒子	ph
@@ -10939,7 +10937,7 @@ encoder:
 皮肤	rv
 國家	rw
 了解	rx
-因爲	ry
+回到	ry
 皮膚	rz
 出来	sa
 計劃	sb
@@ -11002,7 +11000,7 @@ encoder:
 提高	ug
 指導	uh
 持續	ui
-工作	uj
+提供	uj
 功能	uk
 推薦	ul
 擴大	um
@@ -11027,7 +11025,7 @@ encoder:
 要求	vf
 改善	vg
 以前	vh
-已經	vi
+服務	vi
 文化	vj
 氣溫	vk
 產生	vl
