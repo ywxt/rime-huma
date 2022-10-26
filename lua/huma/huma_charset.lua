@@ -33,7 +33,7 @@ local function init(env)
     }
 end
 
-local function get_enabled_option(env)
+local function get_charset_option(env)
     if env.engine.context:get_option('standard') then return 'Standard' end
     if env.engine.context:get_option('national') then return 'National' end
     if env.engine.context:get_option('gbk') then return 'GBK' end
@@ -41,34 +41,48 @@ local function get_enabled_option(env)
     return 'National' -- default is National option
 end
 
-local function is_chinese(char)
+local function get_chinese_only_option(env)
+    return env.engine.context:get_option('chinese_only')
+end
+
+local function is_chinese(code)
     for index, value in ipairs(chinese_charset) do
-        if char >= value.first and char <= value.last then return true end
+        if code >= value.first and code <= value.last then return true end
     end
     return false
 end
 
 local function is_in_charset(char, charset) return charset[char] end
 
-local function filter_chinese(string, charset)
+-- 對於CJK之外的字符不做過濾，假定所有的字符在CJK區
+local function filter_charset(string, charset)
+    if not charset then return true end
     for index, code in utf8.codes(string) do
-        if not is_chinese(code) then return false end
         if not is_in_charset(utf8.char(code), charset) then return false end
     end
     return true
 end
 
+local function filter_chinese(string)
+    for index, code in utf8.codes(string) do
+        if not is_chinese(code) then return false end
+    end
+    return true
+end
+
 local function charset_filter(input, env)
-    local option = get_enabled_option(env)
-    if not (option == 'Unicode') then
-        for cand in input:iter() do
-            local cand_gen = cand:get_genuine()
-            if filter_chinese(cand_gen.text, env.charsets[option]) then
+    local charset_option = get_charset_option(env)
+    local chinese_only_option = get_chinese_only_option(env)
+    local charset = env.charsets[charset_option]
+    for cand in input:iter() do
+        local cand_gen = cand:get_genuine()
+        if filter_chinese(cand_gen.text) then
+            if filter_charset(cand_gen.text, charset) then
                 yield(cand)
             end
+        else
+            if not chinese_only_option then yield(cand) end
         end
-    else
-        for cand in input:iter() do yield(cand) end
     end
 end
 
