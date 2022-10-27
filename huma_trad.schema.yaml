@@ -38,16 +38,11 @@ switches:
     states: [ 外文, 漢字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: traditionalization
-    reset: 0
-    states: [ 简体保持, 簡入繁出 ]
   - name: huma_postpone_fullcode  # 仅作用于单字。
     reset: 1
     states: [ ＝原始排序, ↓全碼後置 ]
   - name: single_char_only
     states: [ 詞組派, 單字派 ]
-  - name: lazy_clock
-    states: [ 懶鐘下班, ㍡開工 ]
 
 engine:
   processors:
@@ -82,13 +77,16 @@ engine:
     - lua_filter@huma_charset
     # - charset_filter@utf8  # 该组件在 librime 1.6.* 以后错误过滤字符，暂时停用
     - simplifier@simplify
-    - simplifier@traditionalize
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
     - lua_filter@huma_postpone_fullcode
-    - lua_filter@huma_lazy_clock
     - uniquifier
     # - lua_filter@debug_filter
+
+
+# 防止对 punct 进行过滤
+gb2312:
+  tags: [ abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
 
 huma_single_char_only:
   __include: gb2312
@@ -96,25 +94,10 @@ huma_single_char_only:
 huma_charset:
   __include: gb2312
 
-
-# 防止对 punct 进行过滤
-gb2312:
-  tags: [ abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
-
-
 simplify:
   __include: gb2312
   option_name: simplification
   tips: all
-
-traditionalize:
-  __include: gb2312
-  opencc_config: s2t.json
-  option_name: traditionalization
-  tips: all
-  comment_format:
-    - xform/^/（/
-    - xform/$/）/
 
 
 lua_reverse_db:
