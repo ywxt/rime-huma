@@ -44,5 +44,10 @@
    
    A:  
       > 删除特定用户词：输入该词编码，移动光标选中该词，敲删词键 Ctrl + Delete 或 Shift + Delete （Mac OS 用 Shift + Fn + Delete），默认还绑定了 Ctrl + K。删除整个用户词典：先退出输入法程序或算法服务， 然后删除用户目录下的 huma_trad.userdb 目录，再启动输入法。
+
+4. Q: 與官方碼表不同之處
+   A: 
+      - 所有的特碼都在 `huma_trad.dict.yaml` 中定義，`huma.char.dict.yaml` 中全部恢復爲正常的編碼。
+      - 去除碼表中的表意文字描述字符（如 `⿰`），如需使用，可以通過符號方式輸入（`/jg`）。 
    
 
