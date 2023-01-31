@@ -54,7 +54,7 @@ encoder:
 慧	aa
 交	ab
 闢	ac
-丁	ad
+問	ad
 閑	ae
 丰	af
 裝	ag
@@ -660,7 +660,7 @@ encoder:
 久	xi
 應	xj
 私	xk
-鹿	xl
+度	xl
 色	xm
 廣	xn
 香	xo
@@ -729,7 +729,7 @@ encoder:
 哥	zz
 卍	aaa
 彗	aab
-疔	aad
+耓	aad
 乜	aae
 瘣	aag
 闁	aam
@@ -760,9 +760,7 @@ encoder:
 闠	aco
 瘺	act
 痆	acv
-闆	add
 疻	adh
-問	adk
 邫	adm
 兗	adp
 疙	aea
@@ -4592,7 +4590,7 @@ encoder:
 泳	kik
 泣	kil
 滴	kim
-乼	kin
+注	kin
 洀	kio
 瀊	kir
 沩	kis
@@ -9474,13 +9472,12 @@ encoder:
 遮	xlc
 種	xld
 庻	xlj
-移	xll
 稬	xlm
 乗	xln
 厝	xlo
 剰	xlp
 厲	xlq
-度	xlr
+席	xlr
 穫	xlu
 廗	xlw
 厊	xly
@@ -10399,6 +10396,7 @@ encoder:
 
 
 # 特碼
+丁	add
 缶	aff
 鬼	agg
 耒	all
@@ -10442,6 +10440,7 @@ encoder:
 巳	vss
 兔	wtt
 魚	wvv
+鹿	xll
 卜	ybb
 虎	zhh
 
