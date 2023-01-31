@@ -1,4 +1,4 @@
--- rime.lua
+-- lib.lua
 
 local rime = {}
 package.loaded[...] = rime
