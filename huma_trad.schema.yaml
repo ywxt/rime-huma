@@ -29,7 +29,7 @@ schema:
     - lua/huma/postpone_fullcode.lua
     - lua/huma/single_char_only.lua
     - lua/huma/spelling.lua
-    - lua/huma/rime.lua
+    - lua/huma/lib.lua
     - huma_trad.dict.yaml
     - huma.char.dict.yaml
     - huma.phrase.dict.yaml
