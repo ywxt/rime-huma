@@ -1,4 +1,4 @@
--- xuma_postpone_fullcode.lua
+-- huma_postpone_fullcode.lua
 -- 出现重码时，将全码匹配且有简码的「单字」「适当」后置。
 -- 目前的实现方式，原理适用于所有使用规则简码的形码方案。
 local radstr = '\z
@@ -19,7 +19,7 @@ local function init(env)
   local code_rvdb = config:get_string('lua_reverse_db/code')
   env.code_rvdb = ReverseDb('build/' .. code_rvdb .. '.reverse.bin')
   env.delimiter = config:get_string('speller/delimiter')
-  env.max_index = config:get_int('huma_postpone_fullcode/lua/max_index')
+  env.max_index = config:get_int('postpone_fullcode/lua/max_index')
       or 4
 end
 
@@ -47,7 +47,7 @@ local function has_short_and_is_full(cand, env)
   -- 去掉可能含有的 delimiter。
   cand_input = cand_input:gsub('[' .. env.delimiter .. ']', '')
   -- 字根可能设置了特殊扩展码，不视作全码，不予后置。
-  if cand_input:len() > 2 and radstr:find(cand_gen.text, 1, true) then
+  if cand_input:len() >= 2 and radstr:find(cand_gen.text, 1, true) then
     return
   end
 
@@ -63,7 +63,7 @@ end
 
 local function filter(input, env)
   local context = env.engine.context
-  if not context:get_option("huma_postpone_fullcode") then
+  if not context:get_option("postpone_fullcode") then
     for cand in input:iter() do yield(cand) end
   else
     -- 具体实现不是后置目标候选，而是前置非目标候选

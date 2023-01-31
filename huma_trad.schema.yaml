@@ -4,7 +4,7 @@
 schema:
   schema_id: huma_trad
   name: 虎碼・繁
-  version: "2021-12-31"
+  version: "20230130"
   author:
     - 發明人 ID;PeaceB
     - rime schema by ywxt
@@ -12,20 +12,39 @@ schema:
     虎碼輸入方案，繁體簡碼
     QQ群：21134461
 
-    雙重反查、屏蔽詞組、全碼後置、簡入繁出...
+    雙重反查、三重註解、屏蔽詞組、全碼後置、繁入簡出...
     https://gitee.com/ywxt/rime-huma/
     https://github.com/ywxt/rime-huma/
   dependencies:
     - luna_pinyin
     - stroke
+    - huma_spelling_pseudo
+  
+  requirements: |
+    - luna_pinyin
+    - stroke
+    - huma_spelling_pseudo
+    - lua/huma/charset.lua
+    - lua/huma/charset/National.lua
+    - lua/huma/postpone_fullcode.lua
+    - lua/huma/single_char_only.lua
+    - lua/huma/spelling.lua
+    - lua/huma/rime.lua
+    - huma_trad.dict.yaml
+    - huma.char.dict.yaml
+    - huma.phrase.dict.yaml
+    - huma.extended.dict.yaml
+    - huma.symbols.yaml
+
 
 __patch:
   - huma_trad.custom:/patch?
   - symbols:/patch?
 
 switches:
-  - options: [ national, gbk, unicode, standard]
-    states: [ 國字, GBK, Unicode, 规范 ]
+  - name: charset_filter 
+    states: [ 全集, 常用 ]
+    reset: 1
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
@@ -38,7 +57,15 @@ switches:
     states: [ 外文, 漢字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: huma_postpone_fullcode  # 仅作用于单字。
+    # 切换热键由 huma_spelling/lua 下的 cycle_key 和 switch_key 定义
+  - options:
+    - spelling.off
+    - spelling.lv1
+    - spelling.lv2
+    - spelling.lv3
+    states: [ 〇註解, 一重註解, 二重註解, 三重註解 ]
+    reset: 0
+  - name: postpone_fullcode  # 仅作用于单字。
     reset: 1
     states: [ ＝原始排序, ↓全碼後置 ]
   - name: single_char_only
@@ -48,6 +75,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - lua_processor@huma_spelling_processor
     - key_binder
     - speller
     - punctuator
@@ -79,6 +107,8 @@ engine:
     - simplifier@simplify
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
+    - lua_filter@huma_spelling@hmsp
+    - lua_filter@huma_spelling@hmsp_for_rvlk
     - lua_filter@huma_postpone_fullcode
     - uniquifier
     # - lua_filter@debug_filter
@@ -101,9 +131,23 @@ simplify:
 
 
 lua_reverse_db:
+  spelling: huma_spelling_pseudo
   code: huma_trad
 
-huma_postpone_fullcode:
+huma_spelling:
+  lua:
+    switch_key: 'Control+c'
+    cycle_key: 'Shift+Control+C'
+    # 注意写法：Shift 在前，Control 在后。
+
+hmsp:
+  tags: [ abc, punct ]
+
+hmsp_for_rvlk:
+  tags:
+    __include: reverse_lookup/extra_tags
+
+postpone_fullcode:
   tags: [ abc ]
   lua:
     max_index: 6  # 最大后置位置，默认为 4

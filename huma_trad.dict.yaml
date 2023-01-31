@@ -104,7 +104,7 @@ encoder:
 云	by
 迎	bz
 局	ca
-孬	cb
+不	cb
 勞	cc
 否	cd
 屄	ce
@@ -189,7 +189,7 @@ encoder:
 福	ff
 社	fg
 忘	fh
-髈	fi
+一	fi
 祫	fj
 求	fk
 形	fl
@@ -1042,7 +1042,6 @@ encoder:
 䎬	ayg
 痓	ayi
 奨	ayk
-癅	ayq
 耖	ayt
 魈	ayv
 閿	ayw
@@ -1193,6 +1192,7 @@ encoder:
 妗	bja
 蠡	bjc
 姶	bjd
+孅	bjj
 弣	bjk
 婨	bjl
 姾	bjn
@@ -1470,6 +1470,7 @@ encoder:
 屌	cdr
 蜎	cdv
 蚰	cdy
+虼	cea
 焪	ceb
 炧	cee
 虷	ceg
@@ -1593,6 +1594,7 @@ encoder:
 蟆	clo
 燻	clp
 爡	clq
+﨡	cls
 爑	clu
 蝾	clw
 蚜	cly
@@ -2568,6 +2570,7 @@ encoder:
 檅	esn
 欓	esp
 檔	esq
+栛	ess
 橴	esv
 株	eta
 樰	etb
@@ -2681,7 +2684,6 @@ encoder:
 楞	eyl
 楨	eyo
 椡	eyp
-橊	eyq
 檌	eyr
 柶	eys
 杪	eyt
@@ -2729,7 +2731,8 @@ encoder:
 禪	fdd
 歄	fde
 祦	fdf
-囊	fdg
+祌	fdg
+栆	fdj
 唇	fdk
 氓	fdm
 祝	fdp
@@ -2740,7 +2743,6 @@ encoder:
 骭	feg
 视	fej
 末	fem
-膥	fen
 祣	fet
 祂	fey
 爾	ffb
@@ -3171,6 +3173,7 @@ encoder:
 飱	gqs
 畗	gqt
 堣	gqv
+頥	gqw
 烹	grc
 殛	grd
 亨	grl
@@ -3426,6 +3429,7 @@ encoder:
 愴	hjm
 恮	hjn
 忦	hjp
+懀	hjr
 遂	hju
 悇	hjx
 怆	hjz
@@ -4066,6 +4070,7 @@ encoder:
 俜	jdf
 仲	jdg
 伿	jdh
+剱	jdj
 合	jdk
 俚	jdl
 僶	jdm
@@ -5243,6 +5248,7 @@ encoder:
 薡	lqa
 茝	lqc
 茸	lqe
+葨	lqf
 藈	lqh
 蔂	lqi
 荖	lql
@@ -5566,6 +5572,7 @@ encoder:
 奒	mkh
 犱	mki
 犰	mkj
+磣	mkk
 砪	mkm
 磲	mkn
 貗	mko
@@ -5841,7 +5848,9 @@ encoder:
 珉	ndm
 珵	ndn
 瑉	ndo
+叓	ndr
 喸	ndv
+囊	ndw
 駎	ndy
 琳	nee
 玕	neg
@@ -5867,7 +5876,7 @@ encoder:
 珇	nfq
 馷	nfr
 驪	nfv
-匄	nfw
+匃	nfw
 瓙	nga
 璿	ngh
 駒	ngj
@@ -5900,7 +5909,7 @@ encoder:
 匓	nir
 璚	nit
 騯	niw
-匃	nja
+琀	nja
 斢	njd
 珍	nje
 琢	nji
@@ -6136,12 +6145,10 @@ encoder:
 瓣	nyn
 瑣	nyo
 瑫	nyp
-璢	nyq
 駟	nys
 璉	nyu
 琑	nyv
 璦	nyw
-駵	nyy
 匑	nzb
 驉	nzc
 匔	nzd
@@ -6179,6 +6186,7 @@ encoder:
 飓	obq
 凨	oby
 昂	obz
+晱	occ
 贌	ocg
 災	och
 赆	oci
@@ -6206,6 +6214,7 @@ encoder:
 剁	oep
 欥	oeq
 甈	oer
+尨	oes
 晰	oet
 鷍	oex
 貤	oey
@@ -6299,10 +6308,9 @@ encoder:
 晟	ona
 曧	onc
 易	one
-晡	onf
+歇	onf
 曂	onh
 尥	oni
-歇	onj
 賻	onk
 暱	onl
 暔	onm
@@ -6858,7 +6866,6 @@ encoder:
 顆	qew
 牠	qey
 睫	qfb
-馕	qfd
 眜	qfe
 眄	qfg
 覯	qfm
@@ -8112,6 +8119,7 @@ encoder:
 阪	txr
 疎	txs
 隖	txu
+﨩	txv
 靂	txx
 褲	txy
 褫	txz
@@ -8881,6 +8889,7 @@ encoder:
 覈	vul
 巂	vum
 崲	vun
+﨎	vur
 脾	vut
 嶊	vuu
 廼	vuy
@@ -9482,6 +9491,7 @@ encoder:
 稠	xmg
 奐	xmh
 稨	xmi
+敻	xmj
 秧	xmm
 庵	xmo
 黡	xmp
@@ -9844,7 +9854,6 @@ encoder:
 酰	yqp
 轠	yqq
 轞	yqr
-畱	yqt
 卤	yrb
 卥	yre
 輫	yrf
@@ -10365,7 +10374,6 @@ encoder:
 锣	zyl
 鐲	zyn
 鎖	zyo
-鐂	zyq
 鏀	zyr
 鈔	zyt
 鏈	zyu

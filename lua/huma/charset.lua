@@ -25,20 +25,15 @@ local chinese_charset = {
 
 local function read_charset(name) return require('huma/charset/' .. name) end
 
-local function init(env)
-    env.charsets = {
-        ['Standard'] = read_charset('Standard'),
-        ['National'] = read_charset('National'),
-        ['GBK'] = read_charset('GBK')
-    }
-end
+local function init(env) env.charsets = read_charset('National') end
 
 local function get_charset_option(env)
-    if env.engine.context:get_option('standard') then return 'Standard' end
-    if env.engine.context:get_option('national') then return 'National' end
-    if env.engine.context:get_option('gbk') then return 'GBK' end
-    if env.engine.context:get_option('unicode') then return 'Unicode' end
-    return 'National' -- default is National option
+    return env.engine.context:get_option('charset_filter')
+end
+
+local function get_charset(env, option)
+    if option then return env.charsets end
+    return nil
 end
 
 local function get_chinese_only_option(env)
@@ -73,7 +68,7 @@ end
 local function charset_filter(input, env)
     local charset_option = get_charset_option(env)
     local chinese_only_option = get_chinese_only_option(env)
-    local charset = env.charsets[charset_option]
+    local charset = get_charset(env, charset_option)
     for cand in input:iter() do
         local cand_gen = cand:get_genuine()
         if filter_chinese(cand_gen.text) then
