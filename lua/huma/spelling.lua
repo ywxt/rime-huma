@@ -17,149 +17,132 @@ Handle multibye string in Lua:
   https://stackoverflow.com/questions/9003747/splitting-a-multibyte-string-in-lua
 lua_filter 如何判断 cand 是否来自反查或当前是否处于反查状态？
   https://github.com/hchunhui/librime-lua/issues/18
---]]
-local rime = require('huma/lib')
+--]] local rime = require('huma/lib')
 local config = {}
-config.encode_rules = { {
-  length_equal = 2,
-  formula = 'AaAbBaBb'
-}, {
-  length_equal = 3,
-  formula = 'AaBaCaCb'
-}, {
-  length_in_range = { 4, 10 },
-  formula = 'AaBaCaZa'
-} }
+config.encode_rules = {
+    {length_equal = 2, formula = 'AaAbBaBb'},
+    {length_equal = 3, formula = 'AaBaCaCb'},
+    {length_in_range = {4, 10}, formula = 'AaBaCaZa'}
+}
 -- 注意借用编码规则有局限性：取码索引不一定对应取根索引，尤其是从末尾倒数时。
 local spelling_rules = rime.encoder.load_settings(config.encode_rules)
 -- options 要与方案保持一致
-local options = { 'spelling.off', 'spelling.lv1', 'spelling.lv2', 'spelling.lv3' }
+local options = {'spelling.off', 'spelling.lv1', 'spelling.lv2', 'spelling.lv3'}
 options.default = 4
 
-local processor = rime.make_option_cycler(options, 'huma_spelling/lua/cycle_key', 'huma_spelling/lua/switch_key')
+local processor = rime.make_option_cycler(options,
+                                          'huma_spelling/lua/cycle_key',
+                                          'huma_spelling/lua/switch_key')
 
 local function utf8chars(str)
-  local chars = {}
-  for pos, code in utf8.codes(str) do
-    chars[#chars + 1] = utf8.char(code)
-  end
-  return chars
+    local chars = {}
+    for pos, code in utf8.codes(str) do chars[#chars + 1] = utf8.char(code) end
+    return chars
 end
 
 local function xform(s)
-  -- input format: "[spelling,code_code...,pinyin_pinyin...]"
-  -- output format: "〔 spelling · code code ... · pinyin pinyin ... 〕"
-  return s == '' and s or
-      s:gsub('%[', '〔 '):gsub('%]', ' 〕'):gsub('{', '<'):gsub('}', '>'):gsub('_', ' '):gsub(',', ' · ')
+    -- input format: "[spelling,code_code...,pinyin_pinyin...]"
+    -- output format: "〔 spelling · code code ... · pinyin pinyin ... 〕"
+    return s == '' and s or
+               s:gsub('%[', '〔 '):gsub('%]', ' 〕'):gsub('{', '<')
+                   :gsub('}', '>'):gsub('_', ' '):gsub(',', ' · ')
 end
 
 local function parse_spll(str)
-  -- Handle spellings like "{于下}{四点}丶"(for 求) where some radicals are
-  -- represented by characters in braces.
-  local radicals = {}
-  for seg in str:gsub('%b{}', ' %0 '):gmatch('%S+') do
-    if seg:find('^{.+}$') then
-      table.insert(radicals, seg)
-    else
-      for pos, code in utf8.codes(seg) do
-        table.insert(radicals, utf8.char(code))
-      end
+    -- Handle spellings like "{于下}{四点}丶"(for 求) where some radicals are
+    -- represented by characters in braces.
+    local radicals = {}
+    for seg in str:gsub('%b{}', ' %0 '):gmatch('%S+') do
+        if seg:find('^{.+}$') then
+            table.insert(radicals, seg)
+        else
+            for pos, code in utf8.codes(seg) do
+                table.insert(radicals, utf8.char(code))
+            end
+        end
     end
-  end
-  return radicals
+    return radicals
 end
 
 local function parse_raw_tricomment(str)
-  return str:gsub(',.*', ''):gsub('^%[', '')
+    return str:gsub(',.*', ''):gsub('^%[', '')
 end
 
 local function spell_phrase(s, spll_rvdb)
-  local chars = utf8chars(s)
-  local rule = spelling_rules[#chars]
-  if not rule then
-    return
-  end
-  local radicals = {}
-  for i, coord in ipairs(rule) do
-    local char_idx = coord[1] > 0 and coord[1] or #chars + 1 + coord[1]
-    local raw = spll_rvdb:lookup(chars[char_idx])
-    -- 若任一取码单字没有注解数据，则不对词组作注。
-    if raw == '' then
-      return
+    local chars = utf8chars(s)
+    local rule = spelling_rules[#chars]
+    if not rule then return end
+    local radicals = {}
+    for i, coord in ipairs(rule) do
+        local char_idx = coord[1] > 0 and coord[1] or #chars + 1 + coord[1]
+        local raw = spll_rvdb:lookup(chars[char_idx])
+        -- 若任一取码单字没有注解数据，则不对词组作注。
+        if raw == '' then return end
+        local char_radicals = parse_spll(parse_raw_tricomment(raw))
+        local code_idx = coord[2] > 0 and coord[2] or #char_radicals + 1 +
+                             coord[2]
+        radicals[i] = char_radicals[code_idx] or '◇'
     end
-    local char_radicals = parse_spll(parse_raw_tricomment(raw))
-    local code_idx = coord[2] > 0 and coord[2] or #char_radicals + 1 + coord[2]
-    radicals[i] = char_radicals[code_idx] or '◇'
-  end
-  return table.concat(radicals)
+    return table.concat(radicals)
 end
 
 local function get_tricomment(cand, env)
-  local text = cand.text
-  if utf8.len(text) == 1 then
-    local raw_spelling = env.spll_rvdb:lookup(text)
-    if raw_spelling == '' then
-      return
+    local text = cand.text
+    if utf8.len(text) == 1 then
+        local raw_spelling = env.spll_rvdb:lookup(text)
+        if raw_spelling == '' then return end
+        return env.engine.context:get_option('spelling.lv1') and
+                   xform(raw_spelling:gsub('%[(.-),.*%]', '[%1]')) or
+                   env.engine.context:get_option('spelling.lv2') and
+                   xform(raw_spelling:gsub('%[(.-,.-),.*%]', '[%1]')) or
+                   xform(raw_spelling) -- huma_spelling.lv3 is on
+    elseif utf8.len(text) > 1 then
+        local spelling = spell_phrase(text, env.spll_rvdb)
+        if not spelling then return end
+        spelling = spelling:gsub('{(.-)}', '<%1>')
+        if env.engine.context:get_option('spelling.lv1') then
+            return ('〔 %s 〕'):format(spelling)
+        end
+        local code = env.code_rvdb:lookup(text)
+        if code ~= '' then -- 按长度排列多个编码。
+            local codes = {}
+            for m in code:gmatch('%S+') do codes[#codes + 1] = m end
+            table.sort(codes, function(i, j) return i:len() < j:len() end)
+            return ('〔 %s · %s 〕'):format(spelling,
+                                               table.concat(codes, ' '))
+        else -- 以括号类型区分非本词典之固有词
+            return ('〈 %s 〉'):format(spelling)
+            -- Todo: 如果要为此类词组添加编码注释，其中的单字存在一字多码的情况，需先
+            -- 通过比较来确定全码，再提取词组编码。注意特殊单字：八个八卦名，要排除其
+            -- 特殊符号编码 'dl?g'.
+        end
     end
-    return env.engine.context:get_option('spelling.lv1') and
-        xform(raw_spelling:gsub('%[(.-),.*%]', '[%1]')) or
-        env.engine.context:get_option('spelling.lv2') and
-        xform(raw_spelling:gsub('%[(.-,.-),.*%]', '[%1]')) or
-        xform(raw_spelling) -- huma_spelling.lv3 is on
-  elseif utf8.len(text) > 1 then
-    local spelling = spell_phrase(text, env.spll_rvdb)
-    if not spelling then
-      return
-    end
-    spelling = spelling:gsub('{(.-)}', '<%1>')
-    if env.engine.context:get_option('spelling.lv1') then
-      return ('〔 %s 〕'):format(spelling)
-    end
-    local code = env.code_rvdb:lookup(text)
-    if code ~= '' then -- 按长度排列多个编码。
-      local codes = {}
-      for m in code:gmatch('%S+') do
-        codes[#codes + 1] = m
-      end
-      table.sort(codes, function(i, j)
-        return i:len() < j:len()
-      end)
-      return ('〔 %s · %s 〕'):format(spelling, table.concat(codes, ' '))
-    else -- 以括号类型区分非本词典之固有词
-      return ('〈 %s 〉'):format(spelling)
-      -- Todo: 如果要为此类词组添加编码注释，其中的单字存在一字多码的情况，需先
-      -- 通过比较来确定全码，再提取词组编码。注意特殊单字：八个八卦名，要排除其
-      -- 特殊符号编码 'dl?g'.
-    end
-  end
 end
 
 local function generate_candidate(cand, comment)
-  local type = cand:get_dynamic_type()
+    local type = cand:get_dynamic_type()
 
-  -- Unsupported API
-  -- if type == 'Shadow' then
-  --   cand = cand:to_shadow_candidate(cand.type, cand.text, comment)
-  -- elseif type == 'Uniquified' then
-  --   cand = cand:to_uniquified_candidate(cand.type, cand.text, comment)
+    -- Unsupported API
+    -- if type == 'Shadow' then
+    --   cand = cand:to_shadow_candidate(cand.type, cand.text, comment)
+    -- elseif type == 'Uniquified' then
+    --   cand = cand:to_uniquified_candidate(cand.type, cand.text, comment)
 
-  if type == 'Shadow' or type == 'Uniquified' then
-    cand = Candidate(cand.type, cand.start, cand._end, cand.text, comment)
-  else
-    cand.comment = comment
-  end
-  return cand
+    if type == 'Shadow' or type == 'Uniquified' then
+        cand = Candidate(cand.type, cand.start, cand._end, cand.text, comment)
+    else
+        cand.comment = comment
+    end
+    return cand
 end
 
 local function filter(input, env)
-  if env.engine.context:get_option('spelling.off') then
-    for cand in input:iter() do
-      yield(cand)
+    if env.engine.context:get_option('spelling.off') then
+        for cand in input:iter() do yield(cand) end
+        return
     end
-    return
-  end
-  for cand in input:iter() do
-    --[[
+    for cand in input:iter() do
+        --[[
     用户有时需要通过拼音反查简化字并显示三重注解，但 luna_pinyin 的简化字排序不
     合理且靠后。用户可开启 simplification 来解决，但是 simplifier 会强制覆盖注
     释，为了避免三重注解被覆盖，只能生成一个简单类型候选来代替原候选。
@@ -168,43 +151,36 @@ local function filter(input, env)
     修改 comment 而不用生成简单类型候选来代替原始候选。这样做的问题是关闭
     huma_spelling 时就不显示 tips 了。
     --]]
-    if cand.type == 'simplified' and env.name_space == 'hmsp_for_rvlk' then
-      local comment = (get_tricomment(cand, env) or '') .. cand.comment
-      cand = generate_candidate(cand, comment)
-    else
-      local add_comment = cand.type == 'punct' and
-          env.code_rvdb:lookup(cand.text) or
-          cand.type ~= 'sentence' and
-          get_tricomment(cand, env)
-      if add_comment and add_comment ~= '' then
-        -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
-        -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
-        cand.comment = cand.type ~= 'completion' and
-            ((env.name_space == 'hmsp' and env.is_mixtyping) or
-                (env.name_space == 'hmsp_for_rvlk')) and
-            add_comment or
-            add_comment .. cand.comment
-      end
+        if cand.type == 'simplified' and env.name_space == 'hmsp_for_rvlk' then
+            local comment = (get_tricomment(cand, env) or '') .. cand.comment
+            cand = generate_candidate(cand, comment)
+        else
+            local add_comment = cand.type == 'punct' and
+                                    env.code_rvdb:lookup(cand.text) or cand.type ~=
+                                    'sentence' and get_tricomment(cand, env)
+            if add_comment and add_comment ~= '' then
+                -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
+                -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
+                cand.comment = cand.type ~= 'completion' and
+                                   ((env.name_space == 'hmsp' and
+                                       env.is_mixtyping) or
+                                       (env.name_space == 'hmsp_for_rvlk')) and
+                                   add_comment or add_comment .. cand.comment
+            end
+        end
+        yield(cand)
     end
-    yield(cand)
-  end
 end
 
 local function init(env)
-  local config = env.engine.schema.config
-  local spll_rvdb = config:get_string('lua_reverse_db/spelling')
-  local code_rvdb = config:get_string('lua_reverse_db/code')
-  local abc_extags_size = config:get_list_size('abc_segmentor/extra_tags')
-  env.spll_rvdb = ReverseDb('build/' .. spll_rvdb .. '.reverse.bin')
-  env.code_rvdb = ReverseDb('build/' .. code_rvdb .. '.reverse.bin')
-  env.is_mixtyping = abc_extags_size > 0
-  rime.init_options(options, env.engine.context)
+    local config = env.engine.schema.config
+    local spll_rvdb = config:get_string('lua_reverse_db/spelling')
+    local code_rvdb = config:get_string('lua_reverse_db/code')
+    local abc_extags_size = config:get_list_size('abc_segmentor/extra_tags')
+    env.spll_rvdb = ReverseDb('build/' .. spll_rvdb .. '.reverse.bin')
+    env.code_rvdb = ReverseDb('build/' .. code_rvdb .. '.reverse.bin')
+    env.is_mixtyping = abc_extags_size > 0
+    rime.init_options(options, env.engine.context)
 end
 
-return {
-  filter = {
-    init = init,
-    func = filter
-  },
-  processor = processor
-}
+return {filter = {init = init, func = filter}, processor = processor}
