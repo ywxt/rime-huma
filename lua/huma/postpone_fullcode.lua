@@ -40,7 +40,7 @@ local function has_short_and_is_full(cand, env)
     -- 去掉可能含有的 delimiter。
     cand_input = cand_input:gsub('[' .. env.delimiter .. ']', '')
     -- 字根可能设置了特殊扩展码，不视作全码，不予后置。
-    if cand_input:len() >= 2 and radstr:find(cand_gen.text, 1, true) then
+    if cand_input:len() > 2 and radstr:find(cand_gen.text, 1, true) then
         return
     end
 

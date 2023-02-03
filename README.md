@@ -1,6 +1,6 @@
 # 虎碼輸入方案
 
-本方案爲採用**繁體簡碼**的**虎碼**輸入方案，方案設計來自[rime-xuma][rime-xuma]，碼表來自虎碼官方版。
+本方案爲採用**繁體簡碼**的**虎碼**輸入方案，方案設計來自[rime-xuma][rime-xuma]，碼表來自[虎碼官方版][huma-space]。
 
 ## 使用介紹
 
@@ -11,6 +11,7 @@
   - 全集： 不過濾字集
 
 - 三重註解： 支持 *拆分* + *編碼* + *拼音* 提示。`Ctrl + C` 關閉註解，`Ctrl + Shift + C` 可以切換註解顯示等級。詳情參攷 [rime-xuma][rime-xuma] 。
+   想要正確顯示拆分的字根，需要安裝對應的字體。下載安裝[字體下載][huma-space] 中的虎码方案必装字体。其中，`TumanPUA.ttf` 爲字根字體，`TH-Tshyn-P*` 支持超集字的顯示。
 
 - 反查： ``` ` ```（反引號）反查，``` `P ```拼音反查，``` `B ``` 五筆畫反查。
 
@@ -48,6 +49,7 @@
       > 删除特定用户词：输入该词编码，移动光标选中该词，敲删词键 Ctrl + Delete 或 Shift + Delete （Mac OS 用 Shift + Fn + Delete），默认还绑定了 Ctrl + K。删除整个用户词典：先退出输入法程序或算法服务， 然后删除用户目录下的 huma_trad.userdb 目录，再启动输入法。
 
 4. Q: 與官方碼表不同之處
+
    A:
       - 去除了容錯碼、回頭碼和音補。
 
@@ -58,3 +60,4 @@
       - 所有的特碼都在 `huma_trad.dict.yaml` 中定義，`huma.char.dict.yaml` 中全部恢復爲正常的編碼。
 
 [rime-xuma]: https://github.com/Ace-Who/rime-xuma
+[huma-space]: http://huma.ysepan.com/
