@@ -20,7 +20,7 @@
 
 - 全碼後置： 簡碼單字排序靠前，全碼重碼時降低排序，讓位於無簡碼字詞。默認開啓。
 
-- 手動造詞： 使用``` ` ```（反引號）分割單字編碼，如：``` xx`xx`xx ```
+- 手動造詞： 使用`'`（單引號）引導，每個字以`'`（單引號）分隔。如：``` 'xx'xx'xx ```
 
 - 選重： `；`（分號）次選，`'`（引號）三選。
 
@@ -33,6 +33,41 @@
 **註：如果你已有`rime.lua`文件，不要直接替換，而是把本方案的`rime.lua`文件的內容追加到你的`rime.lua`中。**
 
 **註： 確保你已經有朙月拼音和五筆劃方案，否則不能部署成功。**
+
+## Tips
+
+1. 關閉四碼唯一時自動上屏
+   **以下代碼在開頭都標註了文件名，若不存在，需手動創建，下同。**
+
+   ```yaml
+   # huma_trad.custom.yaml
+   patch:
+      speller/auto_select: false
+   ```
+
+2. 關閉四碼空碼時下一碼清屏
+
+   ```yaml
+   # huma_trad.custom.yaml
+   patch: 
+      speller/auto_clear: none # 可選有：manual（手動空格清屏），auto（空碼自動清屏），max_length（四碼時空碼頂字清屏，默認）
+   ```
+
+3. 開啓逐字提示（不完全匹配）
+
+   ```yaml
+   # huma_trad.custom.yaml
+   patch: 
+      translator/enable_completion: true 
+   ```
+
+4. 關閉造詞時逐字提示
+
+   ```yaml
+   # huma_trad.custom.yaml
+   patch: 
+      encode_sentence/enable_completion: false
+   ```
 
 ## Q&A
 

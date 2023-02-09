@@ -4,7 +4,7 @@
 schema:
   schema_id: huma_trad
   name: 虎碼・繁
-  version: "20230130"
+  version: "20230209"
   author:
     - 發明人 ID;PeaceB
     - rime schema by ywxt
@@ -12,7 +12,7 @@ schema:
     虎碼輸入方案，繁體簡碼
     QQ群：21134461
 
-    雙重反查、三重註解、屏蔽詞組、全碼後置、繁入簡出...
+    雙重反查、三重註解、屏蔽詞組、全碼後置、繁入簡出、手動造詞...
     https://gitee.com/ywxt/rime-huma/
     https://github.com/ywxt/rime-huma/
   dependencies:
@@ -25,7 +25,7 @@ schema:
     - stroke
     - huma_spelling_pseudo
     - lua/huma/charset.lua
-    - lua/huma/charset/National.lua
+    - lua/huma/charset_filter.lua
     - lua/huma/postpone_fullcode.lua
     - lua/huma/single_char_only.lua
     - lua/huma/spelling.lua
@@ -90,6 +90,7 @@ engine:
     - affix_segmentor@luna_pinyin_lookup
     - affix_segmentor@stroke_lookup
     - affix_segmentor@reverse_lookup
+    - affix_segmentor@encode
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -100,6 +101,8 @@ engine:
     - script_translator@luna_pinyin
     - script_translator@luna_pinyin_lookup
     - table_translator@stroke_lookup
+    - table_translator@fixed_encode
+    - table_translator@encode_sentence
   filters:
     - lua_filter@huma_single_char_only
     - lua_filter@huma_charset
@@ -116,7 +119,7 @@ engine:
 
 # 防止对 punct 进行过滤
 gb2312:
-  tags: [ abc, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
+  tags: [ abc, encode, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
 
 huma_single_char_only:
   __include: gb2312
@@ -141,7 +144,7 @@ huma_spelling:
     # 注意写法：Shift 在前，Control 在后。
 
 hmsp:
-  tags: [ abc, punct ]
+  tags: [ abc, encode, punct ]
 
 hmsp_for_rvlk:
   tags:
@@ -156,7 +159,8 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " `'"
   max_code_length: 4
-  # auto_select: true
+  auto_select: true
+  auto_clear: max_length
   algebra:
     - xform/^\*//  # 特码以星号开头，以便在全码后置脚本中区分，以防识别为全码
 
@@ -166,16 +170,34 @@ fixed:
   enable_sentence: false
   initial_quality: 1000
 
+fixed_encode:
+  __include: fixed
+  tag: encode
+
 translator:
   dictionary: huma_trad
   prism: huma_trad
-  enable_sentence: true
+  enable_sentence: false
   enable_user_dict: true
   enable_encoder: true
+  enable_completion: false
   encode_commit_history: false  # 对连续上屏的词自动成词
   max_phrase_length: 10  # 自动成词的最大词长
   # preedit_format:
   #   - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+
+encode:
+  tag: encode
+  prefix: "'"    
+  tips: 【手動造詞】
+  closing_tips: 【造詞關閉】
+  
+encode_sentence:
+  __include: translator
+  tag: encode
+  enable_sentence: true
+  enable_user_dict: true
+  enable_completion: true
 
 
 # 用于混输
@@ -257,6 +279,7 @@ key_binder:
 recognizer:
   patterns:
     uppercase: "^(?![`;]).*[A-Z][-_+.'0-9A-Za-z]*$"
+    encode:           "^'([a-z]+'?)*$"
     reverse_lookup:     "^`([a-z]+'?)*$"
     luna_pinyin_lookup: "^`P([a-z]+'?)*$"
     stroke_lookup:      "^`B([a-z]+'?)*$"
