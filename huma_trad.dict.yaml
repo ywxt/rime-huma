@@ -27,7 +27,7 @@ encoder:
 
 將	a	avkc
 好	b	bhi
-對	c	cgkc
+不	c	cb
 中	d	dgs
 來	e	ejjr
 一	f	fi
@@ -104,12 +104,12 @@ encoder:
 云	by
 劉	bz
 局	ca
-不	cb
+孬	cb
 勞	cc
 否	cd
 屄	ce
 飛	cf
-古	cg
+對	cg
 故	ch
 支	ci
 及	cj
@@ -761,6 +761,7 @@ encoder:
 司	afd
 刁	afi
 耨	afk
+開	afl
 病	afm
 痙	afo
 疽	afq
@@ -1196,7 +1197,6 @@ encoder:
 虻	cfw
 螬	cfy
 蜣	cga
-燒	cgg
 業	cgh
 蠔	cgj
 懟	cgk
@@ -6737,7 +6737,7 @@ encoder:
 
 # 特碼
 丁	add
-丰	aff
+缶	aff
 鬼	agg
 乙	aii
 耒	all
@@ -6746,6 +6746,7 @@ encoder:
 卵	bll
 卯	bmm
 聿	bvv
+古	cgg
 火	chh
 〇	dkk
 民	dmm
@@ -6792,7 +6793,6 @@ encoder:
 卜	ybb
 虎	zhh
 
-缶	afff
 黽	dmmm
 
 
