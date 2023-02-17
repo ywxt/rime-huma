@@ -2,7 +2,7 @@
 
 ---
 name: "huma_trad"
-version: "20230204"
+version: "202302013"
 sort: original
 columns:
   - text
@@ -756,6 +756,7 @@ encoder:
 缽	aef
 閈	aeg
 牀	aem
+鬽	aes
 鷴	aex
 瘂	afc
 司	afd
@@ -785,6 +786,7 @@ encoder:
 閟	aht
 悶	ahx
 罇	ahy
+𡗗	aid
 奏	aif
 痕	aig
 泰	aik
@@ -807,14 +809,14 @@ encoder:
 癒	ajv
 闊	aka
 丞	akf
-痎	akh
+閡	akh
 耜	aki
 瘮	akk
 毒	akm
 耬	ako
 兖	akp
 纛	akq
-氹	aks
+氶	aks
 承	akt
 痧	aky
 牒	ala
@@ -1435,6 +1437,7 @@ encoder:
 品	ddd
 串	ddg
 嘢	ddi
+吅	ddk
 哩	ddl
 器	ddm
 咒	ddo
@@ -1490,6 +1493,7 @@ encoder:
 噌	dhr
 嗍	dhs
 咇	dht
+嘦	dhv
 咚	dhw
 吣	dhx
 噂	dhy
@@ -2088,6 +2092,7 @@ encoder:
 祧	fpw
 卼	fpx
 祼	fqe
+畺	fqf
 禩	fql
 盲	fqm
 髃	fqv
@@ -2435,6 +2440,7 @@ encoder:
 恰	hjd
 懺	hjj
 愴	hjm
+㒸	hjs
 遂	hju
 忖	hkc
 怡	hkd
@@ -2766,7 +2772,7 @@ encoder:
 纏	ixd
 繶	ixh
 剷	ixl
-鵃	ixn
+鴗	ixn
 織	ixp
 舨	ixr
 竦	ixs
@@ -4077,6 +4083,7 @@ encoder:
 夬	njr
 瑜	njv
 駼	njx
+尃	nkc
 駘	nkd
 琺	nkg
 駭	nkh
@@ -4274,7 +4281,7 @@ encoder:
 旦	ofi
 賕	ofk
 昊	ofm
-旴	ofn
+昜	ofn
 晅	ofo
 賦	ofp
 昰	ofs
@@ -5121,6 +5128,7 @@ encoder:
 掌	sus
 讎	suu
 謠	sva
+姕	svb
 啙	svd
 柴	sve
 諲	svg
@@ -5312,6 +5320,7 @@ encoder:
 悉	tph
 裒	tpj
 𤯦	tpl
+釆	tpm
 霓	tpp
 翻	tpq
 露	tps
@@ -5956,6 +5965,7 @@ encoder:
 宸	wfc
 寅	wfd
 䱻	wfg
+冡	wfj
 宇	wfn
 宣	wfo
 宜	wfq
@@ -6258,6 +6268,7 @@ encoder:
 廎	xvw
 穭	xwo
 鴕	xwv
+厃	xxc
 麇	xxh
 賴	xxo
 廨	xxt
