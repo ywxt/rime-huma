@@ -234,7 +234,7 @@ encoder:
 羊	gy
 翔	gz
 情	ha
-八	hb
+爸	hb
 並	hc
 喜	hd
 欲	he
@@ -752,7 +752,6 @@ encoder:
 疻	adh
 兗	adp
 疙	aea
-鬱	aee
 缽	aef
 閈	aeg
 牀	aem
@@ -840,6 +839,7 @@ encoder:
 闖	anm
 癲	anq
 魃	anr
+卂	ans
 迅	anu
 癍	anv
 閏	anw
@@ -956,6 +956,7 @@ encoder:
 娜	bau
 嫺	bav
 姦	bbb
+姧	bbe
 弜	bbg
 爻	bbi
 㚣	bbn
@@ -1057,6 +1058,7 @@ encoder:
 殽	bnv
 媪	boa
 貿	bob
+㐬	boc
 晝	bof
 媳	boh
 娼	boo
@@ -1080,7 +1082,7 @@ encoder:
 嫘	bqi
 姥	bql
 娵	bqr
-嬲	bqs
+嫐	bqs
 遛	bqu
 鶹	bqx
 弩	brb
@@ -1113,6 +1115,7 @@ encoder:
 嫖	bvf
 妃	bvj
 奶	bvn
+彘	bvo
 嬪	bwf
 嬣	bwh
 嫁	bwj
@@ -1206,7 +1209,7 @@ encoder:
 鑿	cgp
 叢	cgq
 燦	cgr
-蟻	cgt
+灶	cgt
 屍	cgv
 煒	cgw
 爔	cgx
@@ -1838,7 +1841,7 @@ encoder:
 楪	ela
 權	eld
 椸	ele
-舞	elf
+枋	elf
 椛	elj
 欂	elk
 棰	ell
@@ -2077,6 +2080,7 @@ encoder:
 邘	fnt
 髓	fnu
 甦	fob
+巟	foc
 亘	fof
 神	fog
 夏	foh
@@ -2369,7 +2373,7 @@ encoder:
 歉	hbc
 父	hbi
 爹	hbl
-爸	hbm
+愐	hbm
 悕	hbn
 惛	hbo
 爺	hbq
@@ -2407,6 +2411,7 @@ encoder:
 兮	hfa
 悽	hfb
 愊	hfd
+㚅	hfl
 癸	hfm
 祭	hfs
 恆	hfv
@@ -2516,7 +2521,9 @@ encoder:
 慍	hrj
 惙	hrr
 曾	hry
+屰	hsc
 嘉	hsd
+欮	hse
 恪	hsg
 惝	hss
 逆	hsu
@@ -4227,7 +4234,7 @@ encoder:
 瑓	nxh
 玖	nxi
 瓊	nxm
-璋	nxn
+鷊	nxn
 琍	nxp
 辣	nxs
 騵	nxu
@@ -4424,6 +4431,7 @@ encoder:
 跼	pca
 踞	pcc
 躃	pcd
+𥹂	pcf
 蹼	pcg
 跂	pci
 趿	pcj
@@ -4762,7 +4770,7 @@ encoder:
 腎	qrv
 取	qry
 豎	qrz
-嫐	qsb
+嬲	qsb
 略	qsg
 男	qsl
 飿	qsm
@@ -5018,6 +5026,7 @@ encoder:
 棠	sem
 訑	sey
 蚩	sfc
+㞢	sfi
 訏	sfn
 証	sfs
 譸	sga
@@ -5582,6 +5591,7 @@ encoder:
 功	usl
 拙	usm
 擋	usq
+讎	usu
 掯	usv
 蜇	utc
 哲	utd
@@ -6294,6 +6304,7 @@ encoder:
 較	yab
 酊	yad
 軋	yae
+䍃	yaf
 醜	yag
 臻	yai
 颻	yao
@@ -6350,7 +6361,6 @@ encoder:
 𢖿	yhx
 輶	yhy
 醅	yid
-轡	yii
 雞	yim
 輈	yio
 輮	yit
@@ -6663,6 +6673,7 @@ encoder:
 銦	zrm
 鈹	zrp
 殷	zrs
+𠬝	zry
 鉻	zsg
 鉀	zsj
 鎲	zsp
@@ -6672,6 +6683,7 @@ encoder:
 鎄	ztd
 邯	zte
 鋌	ztg
+虖	zth
 銥	zti
 釿	ztj
 鎚	ztk
@@ -6766,6 +6778,7 @@ encoder:
 歹	gdd
 丨	gss
 芈	gyy
+八	hbb
 攴	hpp
 壴	huu
 丶	idd
