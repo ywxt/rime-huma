@@ -2,7 +2,7 @@
 
 ---
 name: "huma_trad"
-version: "202302013"
+version: "20230319"
 sort: original
 columns:
   - text
@@ -761,7 +761,6 @@ encoder:
 司	afd
 刁	afi
 耨	afk
-開	afl
 病	afm
 痙	afo
 疽	afq
@@ -1065,7 +1064,7 @@ encoder:
 媢	boq
 昏	bor
 媞	bot
-彘	bov
+婫	bov
 嫚	boy
 粥	bpb
 刈	bpd
@@ -4376,7 +4375,7 @@ encoder:
 韙	otg
 昳	oth
 昕	otj
-昇	otl
+曨	otl
 晌	otm
 貶	otr
 匙	otv
@@ -5134,7 +5133,7 @@ encoder:
 雒	sui
 誣	suj
 掌	sus
-讎	suu
+𧨿	suu
 謠	sva
 姕	svb
 啙	svd

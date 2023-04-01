@@ -1,4 +1,3 @@
-
 # 伪词典，不能用于打字，仅用于配合 lua_filter 实现三重注解功能。
 # 修改过部分简码。
 
@@ -6,7 +5,7 @@
 
 ---
 name: "huma_spelling_pseudo"
-version: "20230213"
+version: "20230319"
 sort: original
 columns:
   - text
@@ -7042,8 +7041,8 @@ columns:
 𭕛	[尸虫,CCc,]
 蠱	[虫虫虫皿,CCCA,gǔ_yě]
 𩉅	[火火火面,CCCB,]
-蟲	[虫虫虫,CCCc,chóng_zhòng_tóng]
 燚	[火火火火,CCCC,yì]
+蟲	[虫虫虫,CCCc,chóng_zhòng_tóng]
 爞	[火虫虫虫,CCCC,chóng_tóng]
 飊	[火火火虫,CCCC,biāo]
 𧓌	[虫火火火,CCCC,]
@@ -13382,9 +13381,9 @@ columns:
 𫩱	[口⺧儿,DQPe,]
 戢	[口耳戈,DQPg,jí]
 𠺵	[口耳戈,DQPg,]
+𰉄	[口⺧贝,DQPO,]
 囋	[口⺧貝,DQPO,zá_zàn_cān]
 𡄋	[口⺧儿曰,DQPO,]
-𰉄	[口⺧贝,DQPO,]
 哜	[口齐,DQq,jì]
 嚌	[口齊,DQq,jì_jiē_zhāi]
 𡅁	[口田木,DQQE,]
@@ -28597,8 +28596,8 @@ columns:
 妾	[立女,IBn,qiè]
 𥿭	[糹㐅𠂇厶,IBNK,xì]
 𫘖	[糹氏馬,IBNm,]
-𫄨	[纟㐅𠂇巾,IBNR,chī]
 絺	[糹㐅𠂇巾,IBNR,chī_zhǐ]
+𫄨	[纟㐅𠂇巾,IBNR,chī]
 𬗤	[糹㐅𠂇⺝,IBNV,]
 艈	[舟,IBOc,yù]
 𦀠	[糹,IBOc,liú]
@@ -37444,6 +37443,7 @@ columns:
 𰛍	[氵𠂇又,KNRy,]
 汁	[氵十,KNs,zhī_xié_shí]
 卆	[九十,KNs,zú]
+𠦂	[冫十,KNS,]
 𠫘	[厶十,KNs,jiān]
 𭰙	[氵匚甲,KNSj,]
 𰛞	[氵王力,KNSl,]
@@ -44560,8 +44560,8 @@ columns:
 荣	[艹冖木,LWEm,róng]
 𦯕	[⺿宀木,LWEm,sòng]
 荣	[艹冖木,LWEm,]
-薋	[艹冫欠貝,LWEO,cí_zī]
 𰱱	[艹冫欠贝,LWEO,]
+薋	[艹冫欠貝,LWEO,cí_zī]
 茨	[艹冫欠,LWEq,cí]
 𬝩	[艹冫欠手,LWEU,]
 𫜧	[齒宀一丁,LWFA,]
@@ -59582,11 +59582,11 @@ columns:
 盞	[戈戈皿,PPAm,zhǎn]
 𱲛	[𦥑米皿,PPAm,]
 𫏞	[⻊米㇗斤,PPAT,]
+𰪭	[米长,PPc,]
 粻	[米長,PPc,zhāng]
 䠆	[⻊長,PPc,cháng]
 𨲍	[長長,PPc,]
 𫏃	[⻊长,PPc,]
-𰪭	[米长,PPc,]
 𱪰	[刀刀灬,PPCh,]
 𥻾	[米米及,PPCj,nuò]
 划	[戈刂,PPd,huà_huá_guò_guǒ_huai]
@@ -65816,8 +65816,8 @@ columns:
 𮟆	[⺮一止辶,RFSU,]
 𮆶	[⺮一止鳥,RFSX,]
 䪤	[非一丿田,RFTQ,fán]
-帞	[巾一白,RFUb,mò]
 瓸	[瓦一白,RFUb,bǎi]
+帞	[巾一白,RFUb,mò]
 𡇚	[囗一白,RFUb,kuā]
 𥲠	[⺮月王,RFVN,wàng]
 𮆝	[⺮亡月十,RFVN,]
@@ -66067,8 +66067,8 @@ columns:
 𪾇	[皮攵,RHp,]
 𭣡	[了攵,RHp,]
 𭣻	[非攵,RHp,]
-帉	[巾八刀,RHPd,fēn]
 瓰	[瓦八刀,RHPd,]
+帉	[巾八刀,RHPd,fēn]
 𡇇	[囗刀,RHPd,]
 𩇴	[非八刀,RHPd,fāng]
 箪	[⺮丷田十,RHQN,dān]
@@ -77928,8 +77928,8 @@ columns:
 㨦	[扌隹又,UURy,sǒng]
 𢫇	[扌手又,UURy,]
 抙	[扌手,UUs,póu]
-𠂩	[,UUs,]
 𢪒	[手手,UUs,]
+𠂩	[,UUs,]
 𢪙	[,UUs,]
 讐	[隹隹言,UUSy,chóu]
 𮘱	[扌隹言,UUSy,]
@@ -86568,7 +86568,6 @@ columns:
 鯇	[魚宀二儿,WWMP,huàn]
 𢕗	[彳宀大可,WWMZ,]
 𭂦	[冫冖王心,WWNH,]
-𠦂	[冫十,WWNs,]
 凕	[冫冖日六,WWOA,mǐng]
 𡨓	[宀五,WWOc,]
 𩵨	[魚冖几,WWOj,]
@@ -95989,10 +95988,10 @@ columns:
 鈋	[金亻,ZJVb,é]
 𨱂	[钅亻,ZJVb,é]
 𭐻	[亠亻云,ZJVB,]
+𱘩	[亠亻口,ZJVD,]
 㖱	[亠亻口,ZJVD,]
 𡖵	[亠亻口,ZJVD,]
 𭐿	[亠亻口,ZJVD,]
-𱘩	[亠亻口,ZJVD,]
 𭎲	[亠亻土,ZJVG,]
 𭐺	[亠亻士,ZJVG,]
 𨮋	[金亼⺝心,ZJVH,]

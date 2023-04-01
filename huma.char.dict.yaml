@@ -1,6 +1,6 @@
 ---
 name: "huma.char"
-version: "20230213"
+version: "20230319"
 sort: by_weight
 columns:
   - text
@@ -13379,8 +13379,8 @@ columns:
 戢	dqpg	204
 𠺵	dqpg	0
 囋	dqpo	2
-𡄋	dqpo	0
 𰉄	dqpo	0
+𡄋	dqpo	0
 嚌	dqq	47
 哜	dqq	0
 𡅁	dqqe	0
@@ -37440,6 +37440,7 @@ columns:
 𰛍	knry	0
 汁	kns	34923
 卆	kns	28
+𠦂	kns	0
 𠫘	kns	0
 𭰙	knsj	0
 𰛞	knsl	0
@@ -59579,10 +59580,10 @@ columns:
 𱲛	ppam	0
 𫏞	ppat	0
 粻	ppc	3
+𰪭	ppc	0
 䠆	ppc	0
 𨲍	ppc	0
 𫏃	ppc	0
-𰪭	ppc	0
 𱪰	ppch	0
 𥻾	ppcj	0
 划	ppd	125615
@@ -77924,8 +77925,8 @@ columns:
 㨦	uury	0
 𢫇	uury	0
 抙	uus	0
-𠂩	uus	0
 𢪒	uus	0
+𠂩	uus	0
 𢪙	uus	0
 讐	uusy	2
 𮘱	uusy	0
@@ -86564,7 +86565,6 @@ columns:
 鲩	wwmp	0
 𢕗	wwmz	0
 𭂦	wwnh	0
-𠦂	wwns	0
 凕	wwoa	0
 𡨓	wwoc	0
 𩵨	wwoj	0
@@ -95985,10 +95985,10 @@ columns:
 鈋	zjvb	0
 𨱂	zjvb	0
 𭐻	zjvb	0
+𱘩	zjvd	0
 㖱	zjvd	0
 𡖵	zjvd	0
 𭐿	zjvd	0
-𱘩	zjvd	0
 𭎲	zjvg	0
 𭐺	zjvg	0
 𨮋	zjvh	0
