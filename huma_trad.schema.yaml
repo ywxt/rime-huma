@@ -38,8 +38,8 @@ schema:
 
 
 __patch:
-  - huma_trad.custom:/patch?
   - symbols:/patch?
+  - huma_trad.custom:/patch?
 
 switches:
   - name: charset_filter 
@@ -253,7 +253,7 @@ stroke_reverse_lookup:
   tags: [ stroke_lookup ]
 
 punctuator:
-  import_preset: huma.symbols
+  __patch: huma.symbols:/punctuator?
 
 # 本节点仅用于被 __patch 指令引用
 key_bindings:
