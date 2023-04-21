@@ -1008,6 +1008,7 @@ columns:
 孅	bjj
 姈	bjk
 彖	bjs
+娰	bjv
 盝	bka
 始	bkd
 姆	bkm
@@ -1156,6 +1157,7 @@ columns:
 鶋	ccx
 燥	cdd
 蜈	cdf
+𡰪	cdk
 蠅	cdm
 避	cdn
 屌	cdr
@@ -1286,11 +1288,15 @@ columns:
 𤌙	coz
 兢	cpc
 蜮	cpd
+兡	cpf
 螋	cpg
-燐	cpl
+兝	cph
+兛	cpl
 屎	cpm
+兙	cpn
 剋	cpp
 燬	cpu
+兞	cpv
 烆	cpx
 蟶	cqd
 蜾	cqe
@@ -1696,6 +1702,7 @@ columns:
 迄	eau
 欄	eax
 樊	ebb
+樧	ebe
 穹	ebg
 柢	ebi
 椽	ebj
@@ -1820,6 +1827,7 @@ columns:
 桶	ekt
 桫	eky
 楪	ela
+楛	elc
 權	eld
 椸	ele
 枋	elf
@@ -1985,6 +1993,7 @@ columns:
 櫨	ezq
 檀	ezr
 栩	ezv
+丂	fae
 祠	faf
 禊	fap
 郪	fbb
@@ -2186,6 +2195,7 @@ columns:
 坢	ghu
 鿍	ghv
 志	ghx
+墫	ghy
 培	gid
 垠	gig
 埌	gii
@@ -2580,6 +2590,7 @@ columns:
 綠	ibk
 緬	ibm
 妾	ibn
+繣	ibq
 紙	ibs
 紜	iby
 級	icj
@@ -2588,6 +2599,7 @@ columns:
 艉	icv
 舯	idg
 㪗	idh
+咅	idk
 童	idl
 繩	idm
 暨	ido
@@ -2609,6 +2621,7 @@ columns:
 綆	ifo
 組	ifq
 純	ifs
+絔	ifu
 纚	ifv
 艚	ify
 結	igd
@@ -2664,6 +2677,7 @@ columns:
 紡	ilf
 綞	ill
 纁	ilp
+竏	ilq
 艨	ilw
 舥	imb
 適	imc
@@ -2740,6 +2754,7 @@ columns:
 縹	ivf
 紀	ivj
 端	ivl
+竓	ivm
 舢	ivs
 繃	ivv
 紋	ivw
@@ -2956,6 +2971,7 @@ columns:
 介	jpd
 伐	jpg
 仞	jpi
+儍	jpm
 貸	jpo
 黛	jpp
 牮	jpq
@@ -3001,6 +3017,7 @@ columns:
 仝	jug
 儁	jum
 俾	jut
+㑺	juv
 傈	jve
 似	jvj
 𠇔	jvm
@@ -3064,6 +3081,7 @@ columns:
 潔	kap
 澉	kaq
 清	kav
+沬	kaw
 瀾	kax
 蠲	kay
 濜	kbc
@@ -3120,6 +3138,7 @@ columns:
 渣	keo
 湘	keq
 淅	ket
+泬	kex
 池	key
 淒	kfb
 溍	kfc
@@ -4313,6 +4332,7 @@ columns:
 曚	olw
 晃	omg
 昈	omh
+晻	omo
 臭	omq
 晟	ona
 易	one
@@ -4430,12 +4450,14 @@ columns:
 衎	peg
 鬈	peh
 髹	pej
+髣	pel
 髯	pem
 髮	pen
 鬣	peo
 躥	pep
 鬐	peq
 髟	pes
+髴	pet
 髦	pev
 鬢	pew
 鬏	pex
@@ -4533,6 +4555,7 @@ columns:
 踶	pot
 蹋	poz
 盞	ppa
+粻	ppc
 划	ppd
 兒	ppe
 戔	ppg
@@ -4558,6 +4581,7 @@ columns:
 踽	ptd
 跅	pti
 糯	ptl
+蹻	ptm
 蹯	ptp
 弎	pts
 躓	ptt
@@ -4578,6 +4602,7 @@ columns:
 趑	pwe
 粽	pwf
 蹤	pwj
+踠	pwl
 衡	pwv
 兆	pww
 糖	pxb
@@ -4747,6 +4772,7 @@ columns:
 賢	qro
 製	qrp
 聚	qrt
+掔	qru
 腎	qrv
 取	qry
 豎	qrz
@@ -4807,6 +4833,7 @@ columns:
 𱃪	qzh
 疁	qzj
 饘	qzr
+篲	raa
 笥	raf
 籍	ral
 幘	rao
@@ -4825,6 +4852,7 @@ columns:
 簣	rco
 幄	rcy
 簪	rdd
+叾	rdk
 圖	rdn
 圓	rdo
 亟	rdr
@@ -4844,6 +4872,7 @@ columns:
 竽	rfn
 筻	rfo
 囤	rfs
+瓸	rfu
 籌	rga
 園	rgd
 篙	rgg
@@ -4858,6 +4887,7 @@ columns:
 帡	rhl
 囧	rhm
 筷	rhn
+瓰	rhp
 箭	rhv
 簦	rhz
 簋	ria
@@ -4881,6 +4911,7 @@ columns:
 簍	rko
 箔	rku
 笹	rla
+箠	rll
 箬	rln
 瓩	rlq
 笙	rls
@@ -4901,7 +4932,9 @@ columns:
 篤	rnm
 筐	rnn
 筍	rno
+篿	rnq
 篚	rnr
+瓧	rns
 囿	rnv
 囯	rnw
 籩	roe
@@ -4925,6 +4958,7 @@ columns:
 簹	rsq
 簑	rtd
 笫	rtf
+筳	rtg
 帙	rth
 裴	rti
 篨	rtj
@@ -4948,6 +4982,7 @@ columns:
 幖	rvf
 籐	rvh
 篅	rvl
+瓱	rvm
 簟	rvo
 斐	rvw
 箙	rvz
@@ -4956,6 +4991,7 @@ columns:
 箢	rwl
 筦	rwm
 頗	rwy
+甅	rxd
 簌	rxe
 囷	rxh
 簏	rxl
@@ -5063,6 +5099,7 @@ columns:
 誑	smn
 糶	smp
 䢺	smt
+𠩃	smx
 誠	sna
 詼	snc
 謳	snd
@@ -5598,6 +5635,7 @@ columns:
 皞	uum
 犨	uuq
 雙	uur
+抙	uus
 捭	uut
 掱	uuu
 搖	uva

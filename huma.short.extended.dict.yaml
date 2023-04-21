@@ -538,7 +538,6 @@ columns:
 𢎢	bjr
 𣂵	bjt
 𫊈	bju
-娰	bjv
 𩔂	bjw
 鶨	bjx
 𢏏	bjy
@@ -847,7 +846,6 @@ columns:
 𱯻	cdg
 𭣗	cdh
 𡲍	cdi
-𡰪	cdk
 𧋎	cdl
 熉	cdo
 𫊽	cdp
@@ -1000,18 +998,14 @@ columns:
 𤏉	cpa
 蝼	cpb
 灮	cpe
-兡	cpf
-蟔	cph
 𧈺	cpi
 𠒚	cpj
 尅	cpk
-兙	cpn
 𧎢	cpo
 𥽤	cpq
 𰞤	cpr
 𧒑	cps
 𤒾	cpt
-兞	cpv
 𬱆	cpw
 𧋨	cpz
 𬊴	cqa
@@ -1541,7 +1535,6 @@ columns:
 橚	eba
 𧢙	ebc
 𣚦	ebd
-𬂮	ebe
 𣞀	ebf
 𭜣	ebh
 𣙆	ebl
@@ -1664,7 +1657,6 @@ columns:
 𬂨	ekx
 𬠱	ekz
 𭫗	elb
-𢌶	elc
 𣕉	elg
 栱	elh
 𬔕	eli
@@ -1877,7 +1869,6 @@ columns:
 骹	fab
 𡋬	fac
 𩨑	fad
-丂	fae
 𩲚	fag
 𥙪	fah
 𥘆	fai
@@ -2451,7 +2442,6 @@ columns:
 𧷁	gho
 𡏤	ghs
 𰉡	ghw
-墫	ghy
 𠆞	ghz
 㘭	gia
 𡎭	gib
@@ -3157,7 +3147,6 @@ columns:
 义	ibi
 緍	ibo
 𨭑	ibp
-繣	ibq
 𫷏	ibr
 𦄄	ibt
 𦅛	ibu
@@ -3187,7 +3176,6 @@ columns:
 𥪅	ide
 𥪁	idf
 𨙐	idi
-咅	idk
 𥪇	idn
 𰅓	ids
 𨝯	idt
@@ -3221,7 +3209,6 @@ columns:
 𥩗	ifp
 𰫚	ifr
 𰬄	ift
-絔	ifu
 𰫘	ifw
 𥪜	iga
 𥿔	igb
@@ -3304,7 +3291,6 @@ columns:
 緛	ilm
 𥾰	iln
 䇎	ilo
-竏	ilq
 𦆐	ilr
 𮄫	ils
 𱽂	ilt
@@ -3466,7 +3452,6 @@ columns:
 䋟	ivh
 𬜒	ivi
 𠙝	ivk
-䋃	ivm
 𦨋	ivn
 𥿻	ivo
 𪟍	ivp
@@ -3734,7 +3719,6 @@ columns:
 𠑞	jpj
 𠊝	jpk
 僯	jpl
-籴	jpm
 𬿋	jpn
 𫢲	jpr
 𠏙	jps
@@ -3807,7 +3791,6 @@ columns:
 𢄘	jur
 𠓢	jus
 𬿫	juu
-𠊊	juv
 𬿦	juw
 𬷉	jux
 𠉝	juy
@@ -3894,7 +3877,6 @@ columns:
 𰜲	kar
 𣵮	kat
 𱨻	kau
-沬	kaw
 㵇	kaz
 潚	kba
 𤀷	kbb
@@ -3941,7 +3923,6 @@ columns:
 𢒂	kes
 雑	keu
 𣸴	kew
-泬	kex
 𣿈	kez
 𭰻	kfa
 濔	kff
@@ -5480,7 +5461,6 @@ columns:
 𲂱	oml
 晇	omm
 𪰫	omn
-晻	omo
 昦	omp
 𦤨	omr
 𪰒	oms
@@ -5778,9 +5758,7 @@ columns:
 𩰆	ped
 髳	pei
 鬖	pek
-髣	pel
 䯭	per
-髴	pet
 𩬰	peu
 䰕	pez
 𨂅	pfb
@@ -5942,7 +5920,6 @@ columns:
 𧽉	pow
 𪅉	pox
 𦥣	poy
-粻	ppc
 𡶳	ppf
 𥼯	pph
 𱼯	ppj
@@ -6020,7 +5997,6 @@ columns:
 趃	pth
 赾	ptj
 𨃬	ptk
-蹻	ptm
 𮇚	ptn
 𲃺	pto
 𪭎	ptq
@@ -6072,7 +6048,6 @@ columns:
 𨇄	pwh
 𬛻	pwi
 䠉	pwk
-黦	pwl
 趤	pwm
 𥻮	pwn
 𰫒	pwo
@@ -6416,7 +6391,6 @@ columns:
 𩜬	qrq
 畷	qrr
 䬦	qrs
-𢮝	qru
 㼢	qrw
 𥇘	qrx
 𭻤	qsa
@@ -6548,7 +6522,6 @@ columns:
 䎝	qzv
 𱲚	qzy
 𱃬	qzz
-篲	raa
 筊	rab
 𥫙	rad
 ⿹	rae
@@ -6608,7 +6581,6 @@ columns:
 帜	rdh
 𱷵	rdi
 𥮭	rdj
-囬	rdk
 𢃇	rdl
 笢	rdm
 𭍮	rdp
@@ -6646,7 +6618,6 @@ columns:
 笡	rfq
 𩇱	rfr
 䪤	rft
-帞	rfu
 𨓔	rfv
 笀	rfw
 𥷵	rfy
@@ -6675,7 +6646,6 @@ columns:
 𢅕	rhj
 䇗	rhk
 𨕚	rho
-𢁵	rhp
 𪩷	rhq
 𡈚	rhr
 𥯚	rhs
@@ -6747,7 +6717,6 @@ columns:
 𱖃	rlh
 𥷯	rlj
 𥀌	rlk
-箠	rll
 㡕	rlm
 幙	rlo
 𥸛	rlp
@@ -6782,8 +6751,6 @@ columns:
 国	rni
 𱷶	rnj
 𫂰	rnp
-𬕇	rnq
-瓧	rns
 𰺹	rnt
 𫁸	rnu
 𭍤	rnx
@@ -6888,7 +6855,6 @@ columns:
 䉙	rtb
 𥶐	rtc
 邷	rte
-𢃲	rtg
 𬕦	rtn
 𫶿	rto
 𬕾	rtq
@@ -6920,7 +6886,6 @@ columns:
 籈	rvg
 𰪌	rvi
 𥫟	rvj
-靟	rvm
 𬔬	rvn
 𡈏	rvp
 𮆕	rvq
@@ -6952,7 +6917,6 @@ columns:
 𥴯	rxa
 篖	rxb
 篍	rxc
-𮆹	rxd
 𥴱	rxf
 𪾆	rxg
 𡈷	rxi
@@ -7211,7 +7175,6 @@ columns:
 𬣵	smu
 𮘋	smv
 䪼	smw
-𢋱	smx
 𡭱	smy
 䛴	smz
 詾	snb
@@ -8112,7 +8075,6 @@ columns:
 揘	uun
 摃	uuo
 𢰫	uup
-𠂩	uus
 揤	uuv
 皡	uuw
 𧤹	uux
