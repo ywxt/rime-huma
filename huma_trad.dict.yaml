@@ -10,6 +10,7 @@ columns:
   - stem
 import_tables:
   - huma.short
+  - huma.short.punt
   - huma.short.extended
   - huma.short.phrase
   - huma.char
