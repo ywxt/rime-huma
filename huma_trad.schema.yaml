@@ -4,7 +4,7 @@
 schema:
   schema_id: huma_trad
   name: 虎碼・繁
-  version: "20230209"
+  version: "20230421"
   author:
     - 發明人 ID;PeaceB
     - rime schema by ywxt
@@ -31,6 +31,10 @@ schema:
     - lua/huma/spelling.lua
     - lua/huma/lib.lua
     - huma_trad.dict.yaml
+    - huma.short.dict.yaml
+    - huma.short.extended.dict.yaml
+    - huma.short.phrase.dict.yaml
+    - huma.short.punct.dict.yaml
     - huma.char.dict.yaml
     - huma.phrase.dict.yaml
     - huma.extended.dict.yaml
