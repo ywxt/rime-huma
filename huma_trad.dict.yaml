@@ -12,7 +12,7 @@ import_tables:
   - huma.short
   - huma.short.extended
   - huma.short.phrase
-  - huma.short.punt
+  - huma.short.punct
   - huma.char
   - huma.phrase
   - huma.extended
