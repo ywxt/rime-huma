@@ -24,7 +24,7 @@ columns:
 大家	m
 現在	n
 自己	o
-起來	p
+或者	p
 都是	q
 因爲	r
 這個	s
@@ -37,7 +37,7 @@ columns:
 可以	z
 
 # 二簡
-未来	aa
+問問	aa
 開始	ab
 開展	ac
 獎品	ad
@@ -58,12 +58,12 @@ columns:
 那些	as
 那裏	at
 承擔	au
-静脉	av
+將要	av
 背後	aw
 那種	ax
-来到	ay
+缺少	ay
 那麼	az
-迎来	ba
+殺毒	ba
 媽媽	bb
 面對	bc
 好吧	bd
@@ -95,7 +95,7 @@ columns:
 不只	cd
 不想	ce
 不過	cf
-不够	cg
+不去	cg
 不必	ch
 不斷	ci
 不會	cj
@@ -141,7 +141,7 @@ columns:
 品種	dx
 戰爭	dy
 單身	dz
-本来	ea
+相關	ea
 見面	eb
 相對	ec
 干嘛	ed
@@ -167,7 +167,7 @@ columns:
 相應	ex
 想到	ey
 本身	ez
-下来	fa
+一片	fa
 更好	fb
 事業	fc
 武器	fd
@@ -265,7 +265,7 @@ columns:
 為了	ir
 經常	is
 幾乎	it
-立卽	iu
+新的	iu
 既然	iv
 網頁	iw
 結束	ix
@@ -303,7 +303,7 @@ columns:
 演員	kd
 水平	ke
 通過	kf
-能够	kg
+漂亮	kg
 法規	kh
 母親	ki
 準備	kj
@@ -350,7 +350,7 @@ columns:
 多少	ly
 遊戲	lz
 房間	ma
-刚好	mb
+剛好	mb
 房屋	mc
 大戰	md
 研究	me
@@ -367,7 +367,7 @@ columns:
 大學	mp
 獨特	mq
 週圍	mr
-所谓	ms
+確認	ms
 太陽	mt
 大批	mu
 所以	mv
@@ -396,11 +396,11 @@ columns:
 有些	ns
 醫院	nt
 包括	nu
-威胁	nv
+忽然	nv
 專家	nw
 理解	nx
 成爲	ny
-黄金	nz
+有錢	nz
 時間	oa
 最好	ob
 是否	oc
@@ -427,7 +427,7 @@ columns:
 順利	ox
 晚上	oy
 尤其	oz
-起来	pa
+召開	pa
 路面	pb
 行業	pc
 精品	pd
@@ -456,7 +456,7 @@ columns:
 臨牀	qa
 教育	qb
 職業	qc
-特别	qd
+特別	qd
 目標	qe
 思攷	qf
 特殊	qg
@@ -471,7 +471,7 @@ columns:
 教學	qp
 眼睛	qq
 監管	qr
-告诉	qs
+告訴	qs
 老師	qt
 堅持	qu
 果然	qv
@@ -483,7 +483,7 @@ columns:
 策劃	rb
 回避	rc
 簡單	rd
-回复	re
+回來	re
 之一	rf
 回去	rg
 之前	rh
@@ -499,13 +499,13 @@ columns:
 範圍	rr
 非常	rs
 國際	rt
-困扰	ru
-皮肤	rv
+切換	ru
+回覆	rv
 國家	rw
 了解	rx
 回到	ry
 皮膚	rz
-出来	sa
+請問	sa
 計劃	sb
 當局	sc
 出口	sd
@@ -531,7 +531,7 @@ columns:
 這種	sx
 認爲	sy
 這麼	sz
-用来	ta
+補丁	ta
 裏面	tb
 失業	tc
 隊員	td
@@ -557,7 +557,7 @@ columns:
 隨意	tx
 襲擊	ty
 近期	tz
-看来	ua
+打開	ua
 擴張	ub
 工業	uc
 集中	ud
@@ -583,7 +583,7 @@ columns:
 工程	ux
 看到	uy
 集軆	uz
-以来	va
+疑問	va
 比如	vb
 以及	vc
 產品	vd
@@ -597,7 +597,7 @@ columns:
 產生	vl
 肌肉	vm
 朋友	vn
-眞是	vo
+要是	vo
 文學	vp
 改造	vq
 氛圍	vr
@@ -635,7 +635,7 @@ columns:
 家庭	wx
 得到	wy
 怎麼	wz
-原来	xa
+負責	xa
 反彈	xb
 反對	xc
 歷史	xd
@@ -661,7 +661,7 @@ columns:
 程度	xx
 色彩	xy
 整軆	xz
-上来	ya
+還將	ya
 上面	yb
 農業	yc
 農民	yd
