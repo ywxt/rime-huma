@@ -58,7 +58,7 @@ switches:
     states: [ 漢字, 汉字 ]
   - name: chinese_only  #是否只顯示漢字
     reset: 1
-    states: [ Aa, 中文 ]
+    states: [ Aa, 字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
     # 切换热键由 huma_spelling/lua 下的 cycle_key 和 switch_key 定义
