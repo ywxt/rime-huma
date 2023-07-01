@@ -5,7 +5,7 @@
 
 ---
 name: "huma_spelling_pseudo"
-version: "20230529"
+version: "20230701"
 sort: original
 columns:
   - text
@@ -64908,8 +64908,8 @@ columns:
 𱰽	[田山厶夂,QVKH,]
 𩜵	[山而,QVLe,tuán]
 𩠊	[饣山而,QVLe,tuán]
-耄	[老毛,QVm,mào]
 牦	[牜毛,QVm,máo]
+耄	[老毛,QVm,mào]
 眊	[目毛,QVm,mào_mèi]
 毦	[耳毛,QVm,ěr]
 𣭢	[老毛,QVm,]
@@ -65613,8 +65613,8 @@ columns:
 䉍	[⺮門心,RAHx,jiǎn]
 𥲪	[⺮未攵厂,RAHX,lí]
 𬕊	[⺮门心,RAHx,]
-㐟	[非乙,RAi,]
 𡆠	[囗乙,RAi,]
+㐟	[非乙,RAi,]
 𬼛	[之乙,RAi,]
 𥬟	[⺮㇏,RAId,]
 𫂐	[⺮㇏氺,RAIK,]
@@ -68626,7 +68626,6 @@ columns:
 𥶖	[⺮罒火刂,RYCP,]
 𰩲	[⺮⺊尸,RYCs,]
 𰪉	[⺮⺊口灬,RYDC,]
-𡻫	[囗卜口口,RYDD,lín]
 㥈	[巾⺊口心,RYDH,dié]
 帖	[巾⺊口,RYDk,tiē_tiě_tiè]
 笘	[⺮⺊口,RYDk,shān]
@@ -80088,6 +80087,7 @@ columns:
 𣧚	[月歹,VGd,shí]
 𣱚	[气歹,VGd,]
 𣱞	[气歺,VGd,]
+𡻫	[山口口,VGDD,lín]
 𦢗	[⺼士口丶,VGDI,]
 𦛋	[月士口,VGDk,]
 𰛀	[气士口,VGDk,]

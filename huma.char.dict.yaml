@@ -1,6 +1,6 @@
 ---
 name: "huma.char"
-version: "20230529"
+version: "20230701"
 sort: by_weight
 columns:
   - text
@@ -64168,7 +64168,7 @@ columns:
 𥌖	qqoe	0
 𭂷	qqoj	0
 𲄋	qqop	0
-睹	qqor	36521
+睹	qqor	36480
 𥉙	qqor	0
 𩜼	qqor	0
 𩝙	qqor	0
@@ -65610,8 +65610,8 @@ columns:
 䉍	rahx	0
 𥲪	rahx	0
 𬕊	rahx	0
-㐟	rai	0
 𡆠	rai	0
+㐟	rai	0
 𬼛	rai	0
 𥬟	raid	0
 𫂐	raik	0
@@ -68623,7 +68623,6 @@ columns:
 𥶖	rycp	0
 𰩲	rycs	0
 𰪉	rydc	0
-𡻫	rydd	0
 㥈	rydh	0
 帖	rydk	30180
 笘	rydk	0
@@ -80085,6 +80084,7 @@ columns:
 𣧚	vgd	0
 𣱚	vgd	0
 𣱞	vgd	0
+𡻫	vgdd	0
 𦢗	vgdi	0
 𦛋	vgdk	0
 𰛀	vgdk	0

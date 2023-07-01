@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230421"
+version: "20230701"
 sort: original
 columns:
   - text
@@ -2010,6 +2010,7 @@ columns:
 亞	fcy
 事	fdb
 禪	fdd
+𢘑	fdg
 唇	fdk
 氓	fdm
 祝	fdp
@@ -2055,6 +2056,7 @@ columns:
 祊	flf
 髒	flg
 型	flp
+𤯔	fls
 邢	flt
 吞	fmd
 再	fmg
@@ -3585,6 +3587,7 @@ columns:
 范	lkz
 葉	lla
 董	lld
+茻	llc
 蔟	lle
 芳	llf
 夠	llg
@@ -4444,6 +4447,7 @@ columns:
 迢	pdu
 鼬	pdy
 卲	pdz
+籺	pea
 鬍	pec
 鬆	pee
 髡	pef
@@ -4732,6 +4736,7 @@ columns:
 饢	qnd
 物	qne
 餺	qnk
+𮳱	qnm
 瞋	qnq
 飽	qnv
 餑	qnw
@@ -4835,6 +4840,7 @@ columns:
 饘	qzr
 篲	raa
 笥	raf
+𡆠	rai
 籍	ral
 幘	rao
 簰	rau
@@ -5083,6 +5089,7 @@ columns:
 誒	sko
 誦	skt
 諜	sla
+芔	slc
 謹	sld
 訪	slf
 諾	sln
@@ -5383,6 +5390,7 @@ columns:
 靳	ttj
 隴	ttl
 襖	ttm
+𮹊	ttt
 霸	ttv
 甪	tty
 霍	tui
