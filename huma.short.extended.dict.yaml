@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230701"
+version: "20230705"
 sort: original
 columns:
   - text
@@ -500,6 +500,7 @@ columns:
 𫱟	bhe
 妋	bhf
 𱙖	bhg
+𢎬	bhi
 𭛉	bhj
 妐	bhk
 𭑹	bhm
@@ -703,7 +704,7 @@ columns:
 𰓅	bus
 𤎧	buu
 卿	buv
-𰌓	bva
+𱙢	buy
 𡚨	bvb
 𡡻	bvc
 㛆	bve
@@ -839,10 +840,10 @@ columns:
 𰲿	ccu
 煔	ccy
 𨟏	ccz
-𤉇	cda
 𧊍	cdb
 𫫘	cdc
 𤉚	cde
+𭴒	cdf
 𤌻	cdg
 𧊄	cdh
 𡲍	cdi
@@ -1176,6 +1177,7 @@ columns:
 𭈗	dbe
 𡄣	dbf
 𱔃	dbh
+𭶃	dbi
 𠷍	dbk
 𰇬	dbl
 喕	dbm
@@ -1277,6 +1279,7 @@ columns:
 𡂑	dir
 噊	dit
 𠸣	diu
+𰈞	dix
 𡂈	djc
 𭌞	djf
 𠺧	djg
@@ -1509,6 +1512,7 @@ columns:
 𭊰	dzf
 嚒	dzi
 𡆇	dzl
+嚰	dzm
 囐	dzn
 𠺓	dzp
 嚧	dzq
@@ -1625,7 +1629,7 @@ columns:
 𣐠	eio
 𭬯	eip
 㮽	eir
-楌	eix
+𣟚	eix
 㭃	eiy
 楖	eiz
 梒	eja
@@ -1672,7 +1676,6 @@ columns:
 栁	elz
 𭬃	emc
 楄	emi
-朿	emk
 𣓈	eml
 棙	emm
 檶	emn
@@ -1691,6 +1694,7 @@ columns:
 㭈	enj
 枿	enl
 椈	enp
+㭱	ens
 𰆍	enz
 𮙭	eob
 杊	eoc
@@ -1791,7 +1795,7 @@ columns:
 𬂹	euu
 𬄝	euw
 𢌘	euy
-𧡷	eva
+窰	eva
 朼	evb
 樮	evc
 𣙛	evd
@@ -2521,7 +2525,6 @@ columns:
 𣧀	gni
 𮳎	gnj
 𰉖	gnk
-𡏢	gnm
 𱖑	gnn
 殱	gnp
 𡈿	gns
@@ -3482,6 +3485,7 @@ columns:
 𱷨	ixi
 䌀	ixj
 絋	ixk
+䌒	ixl
 絶	ixm
 𦪼	ixo
 𦅟	ixq
@@ -3583,6 +3587,7 @@ columns:
 𰂥	jet
 𠏕	jev
 𩒉	jew
+㑅	jey
 𫢆	jfa
 侲	jfc
 偪	jfd
@@ -3795,7 +3800,7 @@ columns:
 𬿦	juw
 𭀊	jux
 𠉝	juy
-𩲜	jva
+傜	jva
 𰶤	jvb
 𠈶	jvc
 𫤖	jvd
@@ -3839,7 +3844,7 @@ columns:
 㑛	jxs
 峹	jxv
 伌	jxz
-傜	jya
+㒡	jya
 倸	jye
 𠇗	jyg
 𠏢	jyk
@@ -3856,6 +3861,7 @@ columns:
 𠋦	jze
 𱎞	jzf
 佄	jzg
+鬪	jzk
 𠐜	jzl
 𠍨	jzm
 𠊓	jzn
@@ -3876,6 +3882,7 @@ columns:
 𰛛	kaj
 𱎂	kal
 𰜲	kar
+𤁐	kas
 𨜶	kat
 灁	kau
 𪷙	kaz
@@ -3963,8 +3970,8 @@ columns:
 𱩁	kir
 𣴍	kis
 沀	kiv
+濓	kix
 𰜟	kiz
-沴	kje
 𭰅	kjf
 𣺢	kjh
 𪶢	kjj
@@ -4152,6 +4159,7 @@ columns:
 洂	kzc
 浢	kzd
 𱪟	kzf
+㴬	kzk
 𭱐	kzl
 𣻕	kzm
 𣻁	kzn
@@ -4201,7 +4209,7 @@ columns:
 𮡕	ldb
 𡄝	ldc
 𭭊	lde
-茣	ldf
+𦰝	ldf
 𣂼	ldg
 𦽊	ldi
 𧢚	ldj
@@ -4797,7 +4805,6 @@ columns:
 獔	muw
 𪿧	muy
 𩁭	muz
-䃬	mva
 𢨩	mvb
 𰞂	mvc
 𤞼	mvd
@@ -4849,6 +4856,7 @@ columns:
 獺	mxw
 𤟟	mxy
 砈	mxz
+䝖	mya
 𧳥	mye
 𤞲	myh
 𥒗	myk
@@ -5072,6 +5080,7 @@ columns:
 𤤟	nms
 𮴏	nmu
 𤥜	nmv
+𩿃	nmx
 駆	nnb
 螶	nnc
 䮥	nng
@@ -5477,7 +5486,6 @@ columns:
 㬏	ong
 曂	onh
 𱢴	onj
-𰖛	onm
 𣊿	ono
 賳	onp
 𦤁	onr
@@ -5980,7 +5988,6 @@ columns:
 𨅨	pse
 𬖲	psf
 𧿵	psj
-𤋰	psl
 𪒩	psn
 𥽻	psp
 䊰	psq
@@ -7020,9 +7027,9 @@ columns:
 𧩴	scv
 𧭙	scw
 𧪧	scy
-乫	sda
 妿	sdb
 𤇞	sdc
+䛣	sdf
 𬻬	sdg
 䛊	sdh
 𦨦	sdi
@@ -7114,6 +7121,7 @@ columns:
 𡴝	sir
 𧧈	sis
 𧦃	siv
+𫍓	six
 𡴁	siy
 𦑳	siz
 𧭎	sjc
@@ -7167,6 +7175,7 @@ columns:
 𱐑	smc
 𤯓	sme
 𧦈	smh
+𧩚	smk
 𨗯	sml
 䛳	smo
 𪗊	smq
@@ -7495,7 +7504,7 @@ columns:
 𮧣	tir
 䦽	tiv
 褅	tiw
-隡	tix
+𩿪	tix
 𩃐	tjb
 襥	tjc
 𩌖	tjg
@@ -7567,7 +7576,6 @@ columns:
 𩅂	tnq
 袚	tnr
 𧛌	tnt
-𧘦	tnw
 𬯁	tnx
 𧞰	tny
 鞰	toa
@@ -7663,7 +7671,6 @@ columns:
 𩃑	tua
 袙	tub
 𨔷	tuc
-襃	tud
 𮥢	tue
 𨺣	tuf
 𨸖	tug
@@ -8156,7 +8163,6 @@ columns:
 𪵛	val
 盁	vam
 㠈	van
-𦟜	vao
 䏒	vap
 𭗐	vaq
 𤮞	var
@@ -8274,7 +8280,6 @@ columns:
 𫿯	vic
 𮍊	vie
 𬱄	vik
-𣱠	vil
 𡶹	vim
 𨓹	vin
 𢮗	vir
@@ -8310,7 +8315,6 @@ columns:
 𦙈	vkn
 𮌹	vkp
 𦞞	vkr
-㲑	vks
 𱜀	vkt
 𨒻	vku
 𧟽	vkv
@@ -8602,7 +8606,6 @@ columns:
 𰌺	wdz
 䰴	wea
 𩹬	wec
-凚	wee
 𫚏	wef
 𩵟	weg
 𩶄	wei
@@ -8860,7 +8863,6 @@ columns:
 𮕢	wuw
 𱝑	wuy
 𩷠	wuz
-𢖟	wva
 𢖄	wvc
 𠯺	wvd
 凐	wvg
@@ -8915,6 +8917,7 @@ columns:
 𢓵	wxv
 𩹎	wxy
 𠘡	wxz
+鳐	wya
 𬵂	wyb
 𩸐	wyh
 𮙡	wyj
@@ -8995,7 +8998,6 @@ columns:
 𥟮	xda
 𰨠	xdb
 𢉰	xdd
-麌	xdf
 𲍢	xdj
 㕿	xdk
 𥞔	xdm
@@ -9404,18 +9406,22 @@ columns:
 𢋼	xzz
 𤕋	yaa
 𬪴	yac
+𤫬	yaf
 𡮮	yah
 𨣫	yaj
 𣲊	yak
 𮝳	yal
 盀	yam
 𮝧	yan
+飖	yao
 𢦢	yap
 𤓴	yar
 𮝐	yas
+𢑂	yat
 𬨀	yau
 𮠿	yav
 𨠝	yaw
+𨏭	yax
 𤕁	yay
 𬋨	yba
 𱫂	ybc
@@ -9486,6 +9492,7 @@ columns:
 𣑾	yfe
 𠧗	yff
 𨍾	yfg
+𰀏	yfi
 𨌻	yfj
 𤔒	yfk
 𠦋	yfl
@@ -9864,10 +9871,10 @@ columns:
 𪁂	zcx
 𮓡	zcy
 銮	zcz
-𮢇	zda
 鉂	zdb
 𭵜	zdc
 𮷡	zde
+𨉂	zdf
 鉙	zdh
 𨦀	zdi
 𪓹	zdm
@@ -9946,6 +9953,7 @@ columns:
 𠠣	zip
 𨪊	zir
 𨥤	ziv
+铲	zix
 玆	ziz
 𮡶	zjb
 𧐵	zjc
@@ -10014,6 +10022,7 @@ columns:
 𨩑	zno
 躹	znp
 𧆯	znt
+䍿	znw
 𮷥	zny
 𥃅	zoa
 恴	zoh
@@ -10116,7 +10125,6 @@ columns:
 𲇯	zvs
 𨜻	zvt
 鏙	zvu
-𫒖	zvx
 𧯤	zwa
 䤹	zwc
 𫓍	zwe

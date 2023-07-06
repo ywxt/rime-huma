@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230701"
+version: "20230705"
 sort: original
 columns:
   - text
@@ -1094,6 +1094,7 @@ columns:
 尋	bud
 媓	bun
 婢	but
+媱	bva
 嫖	bvf
 妃	bvj
 奶	bvn
@@ -1113,7 +1114,6 @@ columns:
 嫄	bxu
 姽	bxx
 妳	bxy
-媱	bya
 媛	byf
 弧	byg
 孵	byh
@@ -1155,8 +1155,8 @@ columns:
 蝴	ccv
 營	ccw
 鶋	ccx
+蜈	cda
 燥	cdd
-蜈	cdf
 𡰪	cdk
 蠅	cdm
 避	cdn
@@ -1498,7 +1498,6 @@ columns:
 呦	dis
 野	div
 啼	diw
-喭	dix
 吆	diy
 唧	diz
 唸	dja
@@ -1847,6 +1846,7 @@ columns:
 桄	emg
 棡	emh
 枘	emj
+朿	emk
 刺	emp
 突	emq
 柘	ems
@@ -2251,11 +2251,12 @@ columns:
 埔	gnf
 塥	gng
 墳	gnl
+均	gnm
 殉	gno
 填	gnq
 韍	gnr
 堶	gnu
-均	gnw
+鋆	gnw
 韞	goa
 垻	gob
 圳	goc
@@ -2776,7 +2777,6 @@ columns:
 緌	ixb
 纏	ixd
 繶	ixh
-剷	ixl
 鴗	ixn
 織	ixp
 舨	ixr
@@ -3199,11 +3199,11 @@ columns:
 潏	kit
 濰	kiu
 滂	kiw
-滻	kix
 浛	kja
 洢	kjb
 濮	kjc
 洽	kjd
+沴	kje
 滌	kjg
 涿	kji
 泠	kjk
@@ -3964,6 +3964,7 @@ columns:
 貌	mup
 奮	muq
 碑	mut
+猺	mva
 猯	mvl
 碳	mvn
 礙	mvo
@@ -3986,7 +3987,6 @@ columns:
 猁	mxp
 獬	mxt
 獺	mxx
-猺	mya
 猙	myb
 硨	myc
 砧	myd
@@ -4343,6 +4343,7 @@ columns:
 尥	oni
 賻	onk
 暱	onl
+昀	onm
 矩	onn
 贓	onq
 財	ont
@@ -4578,6 +4579,7 @@ columns:
 跏	psd
 路	psg
 趾	psi
+赲	psl
 黜	psm
 趟	pss
 跐	psv
@@ -5032,9 +5034,9 @@ columns:
 詁	scg
 歧	sci
 譴	sck
+誤	sda
 譟	sdd
 架	sde
-誤	sdf
 駕	sdn
 賀	sdo
 袈	sdt
@@ -5075,7 +5077,6 @@ columns:
 註	sin
 譎	sit
 諦	siw
-諺	six
 諗	sja
 診	sje
 諑	sji
@@ -5175,7 +5176,7 @@ columns:
 雌	svu
 諧	svv
 鮆	svw
-觜	svx
+諺	svx
 肯	svy
 詐	swa
 諮	swe
@@ -5342,6 +5343,7 @@ columns:
 鞫	tns
 墮	tnu
 袍	tnv
+䶭	tnw
 費	tob
 陽	tof
 隰	toi
@@ -5393,6 +5395,7 @@ columns:
 𮹊	ttt
 霸	ttv
 甪	tty
+褏	tud
 霍	tui
 隍	tun
 鵝	tup
@@ -5707,11 +5710,12 @@ columns:
 抃	uzy
 豔	vaa
 峧	vab
-㟃	vaf
+䍃	vaf
 嵬	vag
 㐎	vai
 崡	vak
-脿	vat
+颻	vao
+繇	vat
 遙	vau
 氰	vav
 斕	vax
@@ -5792,6 +5796,7 @@ columns:
 峎	vig
 腆	vih
 幽	vii
+岦	vil
 紊	vis
 腿	viu
 膀	viw
@@ -5809,6 +5814,7 @@ columns:
 㟂	vkm
 嶁	vko
 毪	vkq
+汖	vks
 潁	vkw
 腫	vld
 耑	vle
@@ -5990,6 +5996,7 @@ columns:
 宙	wdy
 姿	web
 咨	wed
+冧	wee
 恣	weh
 徠	wej
 宋	wem
@@ -6130,6 +6137,7 @@ columns:
 徨	wun
 㕠	wur
 鶴	wux
+徭	wva
 它	wvb
 凓	wve
 徵	wvf
@@ -6148,7 +6156,6 @@ columns:
 循	wxn
 鯻	wxp
 鮠	wxx
-徭	wya
 軍	wyc
 鮎	wyd
 寀	wye
@@ -6330,12 +6337,8 @@ columns:
 較	yab
 酊	yad
 軋	yae
-䍃	yaf
 醜	yag
 臻	yai
-颻	yao
-繇	yat
-鷂	yax
 醁	ybk
 𱚦	ybm
 妥	ybn
@@ -6535,8 +6538,8 @@ columns:
 鎇	zcq
 迹	zcu
 鈮	zcv
+虞	zda
 鋁	zdd
-虞	zdf
 翀	zdg
 釦	zdk
 鋰	zdl
@@ -6593,7 +6596,6 @@ columns:
 鐍	zit
 雍	ziu
 率	ziw
-鏟	zix
 玄	ziy
 鈐	zja
 鑰	zjd
@@ -6649,7 +6651,6 @@ columns:
 針	zns
 鉞	znu
 銪	znv
-鈞	znw
 鋅	znx
 鋇	zob
 釧	zoc
@@ -6736,6 +6737,7 @@ columns:
 鐔	zvo
 鍇	zvv
 虔	zvw
+鏟	zvx
 鈅	zvy
 鎧	zvz
 銨	zwb
