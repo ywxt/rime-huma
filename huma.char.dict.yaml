@@ -1,6 +1,6 @@
 ---
 name: "huma.char"
-version: "20230705"
+version: "20230707"
 sort: by_weight
 columns:
   - text
@@ -3038,6 +3038,7 @@ columns:
 𭚔	auy	0
 𦐃	auzv	0
 𪬿	avah	0
+𨷱	avai	0
 𰞆	avaj	0
 𫕻	avav	0
 北	avb	718033
@@ -3552,7 +3553,6 @@ columns:
 𲈧	aya	0
 𫄾	ayaf	0
 𦓪	ayai	0
-𨷱	ayai	0
 𤖙	ayam	0
 𨡰	ayam	0
 𬏰	ayam	0
@@ -12789,9 +12789,9 @@ columns:
 𠷅	dlsm	0
 𠲄	dlte	0
 𡅲	dlth	0
+𡄳	dltl	0
 𭈎	dltm	0
 𠻋	dltt	0
-𡄳	dltx	0
 𠾒	dlui	0
 𠿅	dlui	0
 𡀥	dlum	0
@@ -18433,6 +18433,7 @@ columns:
 窰	evaf	6
 榣	evaf	0
 𧡷	evaf	0
+櫾	evai	0
 朼	evb	7
 楆	evbn	0
 𫷗	evbr	0
@@ -18919,7 +18920,6 @@ columns:
 𧠘	eya	0
 𮃹	eya	0
 榣	eyaf	0
-櫾	eyai	0
 㰉	eyax	0
 朴	eyb	38596
 𣔃	eybb	0
@@ -23698,6 +23698,7 @@ columns:
 𭎻	gnmj	0
 𪢹	gnmk	0
 𰉰	gnmm	0
+鋆	gnmz	1072
 𱖑	gnnk	0
 𡉜	gnns	0
 𱖟	gnnw	0
@@ -23751,7 +23752,6 @@ columns:
 𩰋	gnw	0
 𡋯	gnwh	0
 𡍧	gnws	0
-鋆	gnwz	1072
 垶	gnx	0
 𰚀	gnx	0
 壊	gnyt	4
@@ -34617,6 +34617,7 @@ columns:
 𠎺	jvag	0
 𩲏	jvag	0
 𩲜	jvag	0
+㒡	jvai	0
 𥠌	jvax	0
 㒥	jvaz	0
 化	jvb	951401
@@ -35037,7 +35038,6 @@ columns:
 傂	jxzh	0
 伌	jxzj	1
 𠑝	jxzu	0
-㒡	jyai	0
 𰁭	jyai	0
 𫢥	jyam	0
 仆	jyb	28142
@@ -41378,7 +41378,7 @@ columns:
 𩺁	lgmw	0
 𠣷	lgni	0
 𦮢	lgni	0
-荺	lgnw	2
+荺	lgnm	2
 𥂯	lgoa	0
 𧄧	lgoa	0
 𡳶	lgob	0
@@ -44253,8 +44253,6 @@ columns:
 䔒	ltid	0
 𦭐	ltid	0
 𮓌	ltie	0
-𧃯	ltih	0
-薩	ltil	151995
 𧅑	ltis	0
 萨	ltix	0
 芹	ltj	28424
@@ -44387,6 +44385,8 @@ columns:
 𧆑	ltuu	0
 𦲸	ltv	0
 𩁼	ltv	0
+𧃯	ltvh	0
+薩	ltvl	151995
 蘎	ltvm	0
 𦻱	ltvw	0
 荫	ltvy	0
@@ -44577,6 +44577,7 @@ columns:
 䔄	lvaf	0
 𦱙	lvag	0
 𮑚	lvah	0
+蘨	lvai	0
 𦰆	lvam	0
 𰤸	lvam	0
 𦾾	lvau	0
@@ -45328,7 +45329,6 @@ columns:
 𪗢	lya	0
 𦽨	lyab	0
 𧃝	lyag	0
-蘨	lyai	0
 𦬈	lyai	0
 𪗚	lyai	0
 𦷹	lyao	0
@@ -66330,7 +66330,7 @@ columns:
 𪣽	rgnh	0
 𥭀	rgni	0
 𥴾	rgnk	0
-筠	rgnw	15378
+筠	rgnm	15378
 𥭃	rgoc	0
 𥴀	rgog	0
 𭘤	rgoj	0
@@ -68266,6 +68266,7 @@ columns:
 𥷘	ruzu	0
 𥰹	rvab	0
 𱰑	rvag	0
+㘥	rvai	0
 㠲	rvb	0
 𢃽	rvbn	0
 𪾈	rvbn	0
@@ -68599,7 +68600,6 @@ columns:
 ㄡ	ry	0
 笊	rya	334
 𢁬	rya	0
-㘥	ryai	0
 𫂄	ryai	0
 𮆊	ryam	0
 𡆥	ryb	0
@@ -77132,9 +77132,9 @@ columns:
 𢲊	ulss	0
 捓	ulte	0
 𲆑	ulte	0
+𢹵	ultl	0
 𭣍	ultn	0
 𢴝	ultp	0
-𢹵	ultx	0
 𢸺	uluc	0
 𨓓	uluc	0
 𢺇	ulue	0
@@ -79279,6 +79279,7 @@ columns:
 繇	vati	3040
 脿	vati	0
 㠢	vati	0
+𨙂	vatu	0
 𫧊	vatv	0
 遙	vauc	188277
 𩀘	vaui	0
@@ -91785,7 +91786,6 @@ columns:
 𢑂	yatb	0
 𨝪	yate	0
 𤓸	yats	0
-𨙂	yatu	0
 遥	yauc	0
 𮞂	yauc	0
 𨏦	yaui	0
@@ -95317,6 +95317,7 @@ columns:
 鋘	zdam	6
 鋘	zdam	0
 𠅭	zdao	0
+鸆	zdax	2
 鉂	zdbi	1
 𬬉	zdbm	0
 𭵜	zdch	0
@@ -95361,7 +95362,6 @@ columns:
 𮜷	zdfa	0
 𬭌	zdfm	0
 𮓥	zdfm	0
-鸆	zdfx	2
 𱊫	zdfx	0
 𨨩	zdgh	0
 𲈅	zdgh	0
@@ -97143,6 +97143,7 @@ columns:
 𦉧	znma	0
 鈞	znme	32178
 𨩇	znmg	0
+憌	znmh	0
 𱼦	znmj	0
 齾	znml	0
 𪚊	znml	0
@@ -97253,7 +97254,6 @@ columns:
 𬫃	znw	0
 𲄘	znw	0
 钧	znwb	0
-憌	znwh	0
 鋍	znwh	0
 𰾀	znwh	0
 𱞲	znwh	0

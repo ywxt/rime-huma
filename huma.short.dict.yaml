@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230705"
+version: "20230707"
 sort: original
 columns:
   - text
@@ -2255,7 +2255,6 @@ columns:
 填	gnq
 韍	gnr
 堶	gnu
-鋆	gnw
 韞	goa
 垻	gob
 圳	goc
@@ -4985,6 +4984,7 @@ columns:
 筇	rut
 籜	ruy
 箝	ruz
+㘥	rva
 篥	rve
 幖	rvf
 籐	rvh

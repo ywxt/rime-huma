@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230705"
+version: "20230707"
 sort: original
 columns:
   - text
@@ -2531,6 +2531,7 @@ columns:
 𡈿	gns
 𲀰	gnt
 垉	gnv
+𡉠	gnw
 𰚀	gnx
 壊	gny
 𡐻	god
@@ -3845,7 +3846,7 @@ columns:
 㑛	jxs
 峹	jxv
 伌	jxz
-㒡	jya
+𰁭	jya
 倸	jye
 𠇗	jyg
 𠏢	jyk
@@ -6889,7 +6890,6 @@ columns:
 𮅷	ruv
 颈	ruw
 𱉟	rux
-𥰹	rva
 㠲	rvb
 𥮿	rvc
 籈	rvg
