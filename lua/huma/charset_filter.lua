@@ -1,6 +1,6 @@
 local chinese_charset = {
-    { first = 0x4E00,  last = 0x9FFF },  -- 基本汉字+补充
-    { first = 0x3400,  last = 0x4DBF },  -- 扩A
+    { first = 0x4E00, last = 0x9FFF },   -- 基本汉字+补充
+    { first = 0x3400, last = 0x4DBF },   -- 扩A
     { first = 0x20000, last = 0x2A6DF }, -- 扩B
     { first = 0x2A700, last = 0x2B739 }, -- 扩C
     { first = 0x2B740, last = 0x2B81F }, -- 扩D
@@ -8,19 +8,19 @@ local chinese_charset = {
     { first = 0x2CEB0, last = 0x2EBEF }, -- 扩F
     { first = 0x30000, last = 0x3134A }, -- 扩G
     { first = 0x31350, last = 0x323AF }, -- 扩H
-    { first = 0x2EBF0, last = 0x2EE4F },  -- 擴I
-    { first = 0x2E80,  last = 0x2EF3 },  -- 部首扩展
-    { first = 0x2F00,  last = 0x2FD5 },  -- 康熙部首
-    { first = 0xF900,  last = 0xFAFF },  -- 兼容汉字
+    { first = 0x2EBF0, last = 0x2EE4F }, -- 擴I
+    { first = 0x2E80, last = 0x2EF3 },   -- 部首扩展
+    { first = 0x2F00, last = 0x2FD5 },   -- 康熙部首
+    { first = 0xF900, last = 0xFAFF },   -- 兼容汉字
     { first = 0x2F800, last = 0x2FA1D }, -- 兼容扩展
-    { first = 0xE815,  last = 0xE86F },  -- PUA(GBK)部件
-    { first = 0xE400,  last = 0xE5E8 },  -- 部件扩展
-    { first = 0xE600,  last = 0xE6CF },  -- PUA增补
-    { first = 0x31C0,  last = 0x31E3 },  -- 汉字笔画
-    { first = 0x2FF0,  last = 0x2FFB },  -- 汉字结构
-    { first = 0x3105,  last = 0x312F },  -- 汉语注音
-    { first = 0x31A0,  last = 0x31BA },  -- 注音扩展
-    { first = 0x3007,  last = 0x3007 }   -- 〇
+    { first = 0xE815, last = 0xE86F },   -- PUA(GBK)部件
+    { first = 0xE400, last = 0xE5E8 },   -- 部件扩展
+    { first = 0xE600, last = 0xE6CF },   -- PUA增补
+    { first = 0x31C0, last = 0x31E3 },   -- 汉字笔画
+    { first = 0x2FF0, last = 0x2FFB },   -- 汉字结构
+    { first = 0x3105, last = 0x312F },   -- 汉语注音
+    { first = 0x31A0, last = 0x31BA },   -- 注音扩展
+    { first = 0x3007, last = 0x3007 }    -- 〇
 
 }
 
