@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230707"
+version: "20230810"
 sort: original
 columns:
   - text
@@ -4022,7 +4022,6 @@ columns:
 𤅂	kmx
 軬	kmy
 洃	knc
-𪬬	knj
 溤	knm
 溨	knp
 沷	knr

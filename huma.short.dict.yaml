@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230707"
+version: "20230810"
 sort: original
 columns:
   - text
@@ -306,7 +306,7 @@ columns:
 治	kk
 滿	kl
 母	km
-決	kn
+滅	kn
 數	ko
 刻	kp
 洗	kq
@@ -3256,10 +3256,11 @@ columns:
 洶	knb
 漚	knd
 淴	kne
-滅	knf
+浦	knf
 滆	kng
 潢	knh
 汋	kni
+決	knj
 溥	knk
 濆	knl
 渠	knn
