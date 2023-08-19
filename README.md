@@ -93,6 +93,8 @@
 
    A:
       - **部分部件採用了「T」源字形，故其編碼與官方碼表不同。詳見: [#5](https://github.com/ywxt/rime-huma/issues/5)**
+  
+      - **添加了少量字根以解決部分字的重碼問題。詳見：[#8](httsp://github.com/ywxt/rime-huma/issues/8)**
 
       - 去除了容錯碼、回頭碼和音補。
 
