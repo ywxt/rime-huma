@@ -194,7 +194,7 @@ columns:
 聲	gc
 遠	gd
 地	ge
-款	gf
+穀	gf
 高	gg
 熱	gh
 養	gi
@@ -1467,8 +1467,8 @@ columns:
 吐	dgt
 嗟	dgu
 𪯡	dgv
-噎	dgw
 咩	dgy
+噎	dgz
 吼	dha
 叭	dhb
 嘻	dhd
@@ -2015,7 +2015,6 @@ columns:
 氓	fdm
 祝	fdp
 副	fdq
-贏	fdv
 骭	feg
 末	fem
 祂	fey
@@ -2111,9 +2110,13 @@ columns:
 𠷡	fuj
 㓦	fup
 髀	fut
+嬴	fvb
+蠃	fvc
 麗	fvf
-禋	fvg
+羸	fvg
 礽	fvn
+贏	fvo
+臝	fvq
 祀	fvs
 脣	fvy
 祚	fwa
@@ -2150,7 +2153,7 @@ columns:
 郝	gct
 坭	gcv
 赯	gcx
-赬	gcy
+壺	gcy
 赧	gcz
 喆	gdg
 吉	gdk
@@ -2166,13 +2169,18 @@ columns:
 殤	geo
 坎	geq
 埪	geu
+彀	gfb
 埡	gfc
 堝	gfd
+款	gfe
 丄	gfi
 圩	gfn
 垣	gfo
 殂	gfq
+愨	gfr
 坉	gfs
+觳	gfx
+轂	gfy
 翹	ggg
 墩	ggh
 壕	ggj
@@ -2180,7 +2188,6 @@ columns:
 刲	ggp
 圭	ggt
 達	ggu
-殪	ggw
 幸	ggy
 報	ggz
 𡌶	ghc
@@ -2318,13 +2325,11 @@ columns:
 膏	gvy
 塏	gvz
 垵	gwb
-壺	gwc
-穀	gwf
+殯	gwf
 塚	gwj
 垸	gwm
 堍	gwt
 鮺	gwv
-懿	gwz
 塘	gxb
 垢	gxf
 堐	gxg
@@ -2346,6 +2351,7 @@ columns:
 勍	gys
 京	gyx
 墟	gzc
+壹	gzd
 坩	gzg
 堪	gzh
 𪤗	gzj
@@ -2353,6 +2359,7 @@ columns:
 坑	gzo
 壚	gzq
 壇	gzr
+懿	gzw
 恔	hab
 孔	hae
 愧	hag
@@ -3158,6 +3165,7 @@ columns:
 灑	kfv
 漕	kfy
 濤	kga
+瀔	kgf
 滈	kgg
 淩	kgh
 漾	kgi
@@ -4689,9 +4697,9 @@ columns:
 耇	qgj
 瞌	qgk
 牡	qgt
-饐	qgw
 犧	qgx
 犢	qgy
+饐	qgz
 具	qhb
 睽	qhf
 教	qhh
@@ -4880,6 +4888,7 @@ columns:
 筻	rfo
 囤	rfs
 瓸	rfu
+籝	rfv
 籌	rga
 園	rgd
 篙	rgg

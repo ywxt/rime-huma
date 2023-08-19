@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230810"
+version: "20230819"
 sort: original
 columns:
   - text
@@ -493,6 +493,7 @@ columns:
 嫅	bgu
 媁	bgw
 𢑚	bgx
+嬄	bgz
 𥁨	bha
 𡚭	bhb
 𫱺	bhc
@@ -891,6 +892,7 @@ columns:
 煷	cgo
 𭶩	cgs
 遅	cgu
+𤏈	cgz
 𧈢	chb
 𧎓	chc
 焀	chg
@@ -1257,8 +1259,8 @@ columns:
 𰇧	dgn
 𪢂	dgq
 𠮝	dgs
+喡	dgw
 𭌟	dgx
-𦑬	dgz
 𠽾	dhc
 𠸌	dhj
 𭇴	dhl
@@ -1942,6 +1944,7 @@ columns:
 𣥔	fds
 𫑥	fdt
 𪆹	fdu
+𡢔	fdv
 䫚	fdw
 𣒚	fdx
 䄂	fdy
@@ -2231,16 +2234,17 @@ columns:
 𫀢	fva
 𥘇	fvb
 𥚁	fvc
+𫢃	fvd
 𲌎	fve
 𪬂	fvh
 𩨕	fvi
 𫀟	fvj
 𥚻	fvl
 𣭽	fvm
-禫	fvo
 𱹅	fvp
 𫡴	fvq
 𥙈	fvr
+𦣄	fvt
 𥙥	fvu
 𰁝	fvv
 𩕁	fvw
@@ -2410,16 +2414,17 @@ columns:
 韎	gfe
 𭮤	gff
 𱗞	gfg
+𢢿	gfh
 𥻳	gfj
 殏	gfk
 𭍿	gfl
 𱖝	gfm
 𱖒	gfp
 𧎹	gfr
+𩌊	gft
 𡋦	gfu
 𡔉	gfv
 𪢷	gfw
-𩫎	gfx
 圷	gfy
 𦏟	gga
 𡋽	ggc
@@ -2435,6 +2440,7 @@ columns:
 𤬿	ggr
 𭄬	ggs
 𦎄	ggv
+㙔	ggw
 𱉤	ggx
 𫭵	gha
 𫭗	ghb
@@ -2501,7 +2507,8 @@ columns:
 𩫟	glv
 𡉪	gly
 𩎝	glz
-𣧸	gme
+蠧	gmc
+槖	gme
 𡉴	gmh
 䪏	gmj
 𡉆	gmk
@@ -2548,7 +2555,7 @@ columns:
 𪤃	gow
 𥁟	gpa
 姴	gpb
-𠅙	gpe
+売	gpe
 𫭪	gpf
 𩫅	gpg
 𦏉	gph
@@ -2658,23 +2665,24 @@ columns:
 𦍡	gvw
 𡎅	gvx
 𭎌	gwa
-𡔪	gwd
+𣩵	gwc
+𭏛	gwd
 𡑉	gwe
-𡔸	gwg
+塇	gwf
 堔	gwh
 𡌝	gwi
-𣣿	gwk
+垨	gwk
 埦	gwl
-㲄	gwn
-慤	gwo
-売	gwp
-𫯃	gwq
+𡒆	gwn
+塓	gwo
+𭎃	gwp
+𡑮	gwq
 𩎶	gwr
-𭐔	gws
 𨑝	gwu
 塉	gww
 𫮧	gwx
 䯪	gwy
+𰊰	gwz
 羻	gxa
 𡉃	gxc
 𫮈	gxd
@@ -2704,19 +2712,20 @@ columns:
 韒	gyv
 𰉻	gyw
 𪤡	gyz
+亄	gza
 𱗒	gzb
-𭎞	gzd
+壹	gzd
 𡎡	gze
 𭏍	gzf
 𡊨	gzi
 𡓠	gzl
+𧰝	gzm
 𡔎	gzn
 𡐸	gzp
 𩫙	gzs
 𡒾	gzt
 𡓰	gzu
 𦑻	gzv
-𱗰	gzw
 𮭐	gzx
 𦏤	gzz
 𧯘	haa
@@ -3618,6 +3627,7 @@ columns:
 傞	jgu
 𠎀	jgv
 𭀋	jgx
+豷	jgz
 𠌋	jha
 仈	jhb
 𰂰	jhc
@@ -3950,7 +3960,7 @@ columns:
 坔	kgt
 𣻼	kgv
 湵	kgx
-𪤘	kgz
+潱	kgz
 澻	khj
 渕	khm
 𣶳	khn
@@ -4975,9 +4985,11 @@ columns:
 𱯞	nfy
 𦐴	nfz
 璹	nga
+𠥚	ngb
 𭹍	ngc
 𪼄	ngd
 𠥈	nge
+𤩖	ngf
 𭹴	ngi
 珐	ngk
 𤧡	ngl
@@ -4990,6 +5002,7 @@ columns:
 𡉄	ngt
 𪼯	ngx
 珜	ngy
+𮸿	ngz
 琒	nha
 𤩓	nhc
 駾	nhd
@@ -5376,7 +5389,7 @@ columns:
 圼	ogt
 暛	ogu
 臰	ogv
-𫅱	ogz
+曀	ogz
 𭥛	oha
 𪔡	ohc
 𭧐	ohg
@@ -6226,6 +6239,7 @@ columns:
 𤚇	qgr
 𥊖	qgu
 𲋬	qgv
+𦗇	qgw
 𩳔	qha
 𱻼	qhc
 饎	qhd
@@ -6627,7 +6641,7 @@ columns:
 笡	rfq
 𰩯	rfr
 䪤	rft
-𠮔	rfv
+籝	rfv
 笀	rfw
 𥲍	rfy
 𥵭	rgb
@@ -6646,6 +6660,7 @@ columns:
 圣	rgt
 𮷑	rgu
 𡈒	rgv
+𥵠	rgx
 𪢪	rgy
 𱸆	rgz
 𪢭	rhc
@@ -7092,6 +7107,7 @@ columns:
 𧥞	sgs
 𧪘	sgu
 𥅱	sgx
+𧬇	sgz
 𧩌	sha
 𭪠	she
 䛦	shg
@@ -7876,6 +7892,7 @@ columns:
 𢲀	ugv
 𪾃	ugw
 𭢣	ugx
+撎	ugz
 掽	uhc
 搃	uhd
 𪮅	uhe
@@ -8620,7 +8637,7 @@ columns:
 𩷋	wfa
 𱇚	wfe
 𣦍	wff
-徶	wfh
+𡧆	wfh
 㝉	wfi
 𭁺	wfk
 𢓄	wfl
@@ -8646,6 +8663,7 @@ columns:
 𬶂	wgt
 𬶣	wgu
 𮬄	wgw
+𩻭	wgz
 𡩓	whc
 𩷲	whj
 彸	whk
@@ -8709,6 +8727,7 @@ columns:
 𡪜	wkw
 𬷡	wkx
 䲤	wky
+𦑸	wkz
 𩸜	wlb
 𡧅	wlc
 𫹡	wld
@@ -8819,7 +8838,7 @@ columns:
 𣣟	wse
 𩺉	wsf
 𱇪	wsg
-𭜂	wsh
+𮙐	wsh
 𫲺	wsi
 𱇟	wsj
 𩵓	wsl
@@ -9934,6 +9953,7 @@ columns:
 𫟿	zgu
 𮢮	zgv
 鍏	zgw
+𬬅	zgz
 𭅌	zhn
 𬭙	zhq
 𤿺	zhr
