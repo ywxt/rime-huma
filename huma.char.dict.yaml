@@ -2215,7 +2215,6 @@ columns:
 𤻬	anxs	0
 𨴄	aoae	0
 𩴦	aoag	0
-瘟	aoam	11924
 𨵷	aoam	0
 瘟	aoam	0
 𤵺	aoat	0
@@ -2694,6 +2693,7 @@ columns:
 𫞬	argt	0
 瘙	aric	722
 癤	ariz	259
+瘟	arja	11924
 𨵷	arja	0
 𤺥	arjd	0
 𤹁	arjs	0
@@ -9099,7 +9099,6 @@ columns:
 𰳡	cnxs	0
 䗩	cnyy	0
 𤊋	coal	0
-蝹	coam	1
 煴	coam	0
 𬐲	coam	0
 蝹	coam	0
@@ -9628,6 +9627,7 @@ columns:
 𡰯	crj	0
 𢺶	crj	0
 熅	crja	17
+蝹	crja	1
 蝹	crja	0
 𤏧	crjd	0
 𪸜	crjr	0
@@ -13135,7 +13135,6 @@ columns:
 𡄱	dnyp	0
 嘁	dnyy	2705
 𭋰	dnzv	0
-嗢	doam	32
 𪡯	doam	0
 𱲔	doam	0
 嗢	doam	0
@@ -13527,6 +13526,7 @@ columns:
 㘉	driz	0
 吊	drj	46287
 𫩒	drj	0
+嗢	drja	32
 㗳	drjd	0
 𪢑	drjd	0
 𰈔	drjs	0
@@ -20426,7 +20426,6 @@ columns:
 𦣽	foae	0
 𢦣	foai	0
 𫀍	foai	0
-䯠	foam	0
 𫀚	foam	0
 𱵏	foam	0
 𬒹	fob	0
@@ -20796,6 +20795,7 @@ columns:
 帀	frj	2
 㠵	frj	0
 ㄭ	frj	0
+䯠	frja	0
 𠀬	frjj	0
 𫷃	frjj	0
 𬞿	frjm	0
@@ -23891,10 +23891,7 @@ columns:
 壊	gnyt	4
 墄	gnyy	0
 𡔩	goae	0
-韞	goam	1908
-塭	goam	7
 韫	goam	0
-殟	goam	0
 𡔿	goam	0
 殟	goam	0
 𩎥	goat	0
@@ -24368,6 +24365,9 @@ columns:
 𮰑	grid	0
 𢁳	grj	0
 𢂋	grj	0
+韞	grja	1908
+塭	grja	7
+殟	grja	0
 㙮	grjd	0
 𣧝	grjr	0
 𰋅	grkk	0
@@ -33955,7 +33955,6 @@ columns:
 𫣜	jnyh	0
 𠇡	jnyx	0
 傶	jnyy	0
-豱	joam	0
 𪝑	joam	0
 𠈐	joat	0
 𰂇	job	0
@@ -34317,6 +34316,7 @@ columns:
 𮯳	jrid	0
 𠐉	jriz	0
 㠳	jrj	0
+豱	jrja	0
 𠍹	jrjd	0
 𫤐	jrjj	0
 𫢘	jrkc	0
@@ -51832,7 +51832,6 @@ columns:
 𨨖	nnzj	0
 𥎲	noaf	0
 𤥟	noai	0
-瑥	noam	2
 𡘬	noam	0
 𮸼	noam	0
 𤤺	noat	0
@@ -52493,6 +52492,7 @@ columns:
 布	nrj	468226
 匝	nrj	3734
 𮩵	nrj	0
+瑥	nrja	2
 𤨋	nrja	0
 𩥈	nrja	0
 𪯭	nrjd	0
@@ -53744,7 +53744,6 @@ columns:
 𧵖	oaw	0
 𬁘	oaxh	0
 𰖻	oaxh	0
-㼔	oayg	0
 翺	oazv	0
 貝	ob	211690
 贝	ob	0
@@ -66664,6 +66663,7 @@ columns:
 𨜵	rjat	0
 篟	rjav	1
 𣯎	rjav	0
+㼔	rjay	0
 䈜	rjbr	0
 𮅿	rjbu	0
 𥭉	rjby	0
@@ -73885,8 +73885,6 @@ columns:
 𫔿	toad	0
 電	toae	1308609
 𩂬	toaf	0
-鞰	toam	15
-褞	toam	6
 𩄅	toam	0
 𱁠	toam	0
 𧙟	toat	0
@@ -74473,6 +74471,8 @@ columns:
 䘜	trj	0
 𧙙	trj	0
 𪚑	trj	0
+鞰	trja	15
+褞	trja	6
 𧝡	trjd	0
 𩍈	trjd	0
 𢙥	trjh	0
@@ -89830,7 +89830,6 @@ columns:
 𬳟	xono	0
 𩡒	xons	0
 𩡏	xont	0
-馧	xooa	0
 馧	xooa	0
 廮	xoob	4
 𪈤	xoob	0
@@ -89864,6 +89863,7 @@ columns:
 䅔	xoqt	0
 香	xor	563262
 ⾹	xor	0
+馧	xora	0
 馡	xorf	3
 𫨉	xorj	0
 𠩒	xory	0
