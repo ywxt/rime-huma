@@ -1,6 +1,6 @@
 ---
 name: "huma.char"
-version: "20230819"
+version: "20230820"
 sort: by_weight
 columns:
   - text
@@ -4292,7 +4292,6 @@ columns:
 𨶓	beae	0
 𩳃	beag	0
 𩳙	beag	0
-閷	beaj	0
 𰿳	beaj	0
 閷	beaj	0
 𫱸	beak	0
@@ -4332,11 +4331,16 @@ columns:
 𭣱	behp	0
 𭝆	behx	0
 𱞖	behx	0
+閷	beib	0
 𣏂	beid	0
+𢞒	beih	0
 剎	beip	111622
+𥻦	beip	0
+殺	beir	1096519
 𠮁	beir	0
 殺	beir	0
 弒	beiu	4729
+𪄅	beix	0
 靦	bej	7476
 䩄	bej	0
 娊	bej	0
@@ -4393,18 +4397,14 @@ columns:
 𤍁	berc	0
 𭯂	bere	0
 𱤃	bere	0
-𢞒	berh	0
 㣇	berj	0
 㣇	berj	0
 𨽽	berk	0
-𥻦	berp	0
 㣈	berr	0
 𡢷	berr	0
 𢑩	berr	0
-殺	bers	1096519
 殺	bers	0
 殺	bers	0
-𪄅	berx	0
 𪄅	berx	0
 𦘔	bes	0
 𧗁	beta	0
@@ -45955,7 +45955,7 @@ columns:
 䃨	mbdc	0
 𤞳	mbdk	0
 𮊄	mbdm	0
-𤞠	mbem	0
+𤞠	mbei	0
 𦊋	mbem	0
 𤟆	mbep	0
 𥓑	mbep	0

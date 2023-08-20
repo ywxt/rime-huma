@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230819"
+version: "20230820"
 sort: original
 columns:
   - text
@@ -459,6 +459,7 @@ columns:
 𡞪	beo
 𡡃	bep
 弞	beq
+𭯀	ber
 𦘔	bes
 𨜎	bet
 𨕛	beu
@@ -2232,8 +2233,6 @@ columns:
 𭤍	fuw
 𢒴	fux
 𫀢	fva
-𥘇	fvb
-𥚁	fvc
 𫢃	fvd
 𲌎	fve
 𪬂	fvh
@@ -2242,7 +2241,6 @@ columns:
 𥚻	fvl
 𣭽	fvm
 𱹅	fvp
-𫡴	fvq
 𥙈	fvr
 𦣄	fvt
 𥙥	fvu
@@ -2410,8 +2408,6 @@ columns:
 𦍔	gey
 䤰	gez
 𭭿	gfa
-隷	gfb
-韎	gfe
 𭮤	gff
 𱗞	gfg
 𢢿	gfh
@@ -2420,12 +2416,10 @@ columns:
 𭍿	gfl
 𱖝	gfm
 𱖒	gfp
-𧎹	gfr
 𩌊	gft
 𡋦	gfu
 𡔉	gfv
 𪢷	gfw
-圷	gfy
 𦏟	gga
 𡋽	ggc
 㱛	ggd
@@ -2668,7 +2662,6 @@ columns:
 𣩵	gwc
 𭏛	gwd
 𡑉	gwe
-塇	gwf
 堔	gwh
 𡌝	gwi
 垨	gwk
@@ -2714,7 +2707,6 @@ columns:
 𪤡	gyz
 亄	gza
 𱗒	gzb
-壹	gzd
 𡎡	gze
 𭏍	gzf
 𡊨	gzi
@@ -3955,7 +3947,6 @@ columns:
 浾	kgc
 𣲠	kgd
 𪵸	kge
-𣶝	kgf
 𬈠	kgq
 坔	kgt
 𣻼	kgv
@@ -6641,7 +6632,6 @@ columns:
 笡	rfq
 𰩯	rfr
 䪤	rft
-籝	rfv
 笀	rfw
 𥲍	rfy
 𥵭	rgb
@@ -8693,7 +8683,7 @@ columns:
 𩶣	wio
 𫙶	wiq
 𢔳	wir
-𱇤	wis
+𪫕	wis
 𫚪	wit
 魣	wiv
 𩼖	wix
