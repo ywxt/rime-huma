@@ -102,6 +102,7 @@ function rime.make_option_cycler(options, cycle_key_config_path,
     local processor, cycle_key, switch_key = {}
     processor.init = function(env)
         local config = env.engine.schema.config
+        rime.init_options(options, env.engine.context)
         cycle_key = config:get_string(cycle_key_config_path)
         switch_key = config:get_string(switch_key_config_path)
     end
