@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230820"
+version: "20230903"
 sort: original
 columns:
   - text
@@ -1028,6 +1028,7 @@ columns:
 妒	bmh
 凶	bmk
 兇	bmp
+妬	bms
 婍	bmz
 嫗	bnd
 妁	bni
@@ -2671,6 +2672,7 @@ columns:
 艙	ijm
 緱	ijn
 毅	ijr
+豙	ijs
 艅	ijx
 縊	ika
 紂	ikc
@@ -2914,6 +2916,7 @@ columns:
 价	jjp
 仌	jjr
 偷	jjv
+伱	jjy
 付	jkc
 佁	jkd
 俊	jkh
@@ -4743,7 +4746,7 @@ columns:
 饢	qnd
 物	qne
 餺	qnk
-𮳱	qnm
+盷	qnm
 瞋	qnq
 飽	qnv
 餑	qnw
@@ -5082,6 +5085,7 @@ columns:
 詠	sik
 謫	sim
 註	sin
+歬	sio
 譎	sit
 諦	siw
 諗	sja
@@ -6612,6 +6616,7 @@ columns:
 鎗	zjm
 銓	zjn
 劇	zjp
+䖋	zjr
 遽	zju
 夜	zjv
 鎰	zka
