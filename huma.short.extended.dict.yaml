@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230903"
+version: "20230910"
 sort: original
 columns:
   - text
@@ -195,7 +195,7 @@ columns:
 𭼉	alz
 𦈣	ama
 𫬯	amc
-𮰷	amd
+夨	amd
 𨳎	ame
 痌	amf
 𮤎	amg
@@ -272,7 +272,7 @@ columns:
 𰘦	ase
 𤺲	ash
 𰙚	asi
-𮰆	asl
+㔚	asl
 𤸿	asm
 㾵	asn
 𬌆	aso
@@ -434,6 +434,7 @@ columns:
 𪦭	bcx
 𡟳	bcy
 𭚯	bdb
+强	bdc
 桇	bde
 妕	bdg
 𫱖	bdj
@@ -527,6 +528,7 @@ columns:
 𢏛	bis
 䢑	biu
 𭒟	biy
+𮱍	biz
 盠	bja
 𡜬	bjb
 𡛧	bje
@@ -546,7 +548,6 @@ columns:
 𡝡	bjy
 𦑙	bjz
 𨽼	bkb
-寻	bkc
 𫴱	bke
 𱝟	bkf
 姟	bkh
@@ -630,7 +631,7 @@ columns:
 𪕢	bps
 𡤚	bpt
 𬴺	bpv
-𮱁	bpx
+𡣴	bpx
 𡟠	bqa
 㢽	bqb
 𪓯	bqd
@@ -775,7 +776,7 @@ columns:
 乐	byx
 𡜳	byy
 𡤩	byz
-𮱒	bzb
+𱙞	bzb
 𱙥	bzc
 㛒	bzd
 㜘	bzf
@@ -785,7 +786,7 @@ columns:
 𡠶	bzn
 妔	bzo
 𢥍	bzp
-𮱙	bzq
+𢐸	bzq
 㛛	bzs
 𭚰	bzv
 𩑝	bzw
@@ -829,7 +830,7 @@ columns:
 𭶣	cbz
 炋	ccb
 𧓄	ccd
-𮳔	ccf
+𠃧	ccf
 蚑	cci
 𤆣	ccj
 爥	cck
@@ -953,7 +954,7 @@ columns:
 𪘅	clc
 𤐩	clg
 𭵋	cli
-𮳰	clj
+𤓝	clj
 𱬫	clk
 蠂	cll
 𮔴	cln
@@ -1117,7 +1118,7 @@ columns:
 𧒠	cwr
 𤌍	cwu
 𭴑	cww
-𮳗	cxa
+𮳞	cxa
 𧓋	cxd
 蟂	cxe
 𧊛	cxf
@@ -1158,10 +1159,10 @@ columns:
 𬠦	czt
 𰭟	czv
 𤑱	czw
-𮳕	czx
+𡰳	czx
 炞	czy
 𪺀	czz
-𮰍	dac
+𮰖	dac
 𰼘	dae
 𠺌	dag
 呉	dah
@@ -1252,7 +1253,7 @@ columns:
 咟	dfu
 𠻾	dfv
 𫩔	dfw
-𮹅	dfx
+𮹖	dfx
 𠷩	dgb
 𭋱	dgf
 𭈷	dgi
@@ -2014,7 +2015,7 @@ columns:
 𱵇	fib
 𮁧	fic
 𩪟	fid
-𮵛	fie
+𣑨	fie
 𠄭	fif
 𦫋	fig
 𢻽	fih
@@ -2038,7 +2039,7 @@ columns:
 𪂐	fjj
 祔	fjk
 𥚗	fjl
-𮵔	fjm
+𫀞	fjm
 𮁵	fjn
 𥙜	fjo
 祄	fjp
@@ -2076,7 +2077,7 @@ columns:
 𢤏	flm
 𥘠	fln
 𮂓	flo
-𮵙	flq
+𮵝	flq
 㼛	flr
 雃	flu
 𩒖	flw
@@ -2167,7 +2168,7 @@ columns:
 𫀛	frd
 𧠎	fre
 𰨅	frf
-𮵖	frg
+𮵚	frg
 𦟁	frh
 𥘓	fri
 巿	frj
@@ -2457,7 +2458,7 @@ columns:
 𭏜	gir
 韖	git
 𦍗	giv
-𮰙	gix
+𡎑	gix
 𫮍	giz
 𡋗	gjb
 㙸	gjc
@@ -2562,7 +2563,7 @@ columns:
 𮙹	gpo
 𲋗	gpq
 劽	gps
-𮷄	gpu
+𭎣	gpu
 𠞺	gpv
 𧷨	gpw
 𧷏	gpy
@@ -2731,7 +2732,7 @@ columns:
 𢡞	han
 豃	haq
 𭓎	har
-𮷜	hat
+𮷫	hat
 怽	haw
 㦨	hax
 𫻣	haz
@@ -3042,7 +3043,7 @@ columns:
 𫧟	huv
 𢠷	huw
 𢣜	huy
-𮷇	huz
+𡭉	huz
 𢢯	hva
 𢖬	hvb
 𢚼	hvc
@@ -3084,7 +3085,7 @@ columns:
 𢣇	hxe
 㤧	hxf
 𰐾	hxg
-𮱻	hxi
+𭐕	hxi
 𭜔	hxj
 𰑦	hxk
 㦇	hxl
@@ -3477,8 +3478,8 @@ columns:
 𰫷	iwo
 𦄎	iwq
 縰	iws
-𮷗	iwu
-𮵿	ixa
+𮉅	iwu
+𮶄	ixa
 产	ixc
 顔	ixe
 𮈞	ixf
@@ -3607,7 +3608,7 @@ columns:
 傮	jfy
 𠋄	jgb
 𬿵	jgc
-𮯾	jge
+𠏌	jge
 𭁕	jgf
 𠏇	jgi
 𭶠	jgl
@@ -3658,7 +3659,7 @@ columns:
 𪝞	jka
 姇	jkb
 𠇜	jke
-𮷛	jkf
+𰙎	jkf
 𠎢	jkg
 傪	jkk
 𪝳	jkl
@@ -3720,7 +3721,7 @@ columns:
 𧰰	joy
 𰀿	jpa
 𠐮	jpb
-𮯰	jpe
+𮯴	jpe
 㒜	jpf
 𠎁	jph
 𠑞	jpj
@@ -4297,7 +4298,7 @@ columns:
 莋	ljw
 蔳	lka
 葏	lkb
-𮶢	lkg
+𧅐	lkg
 苺	lkm
 菬	lkp
 蘫	lkq
@@ -4387,7 +4388,7 @@ columns:
 𬝟	lrn
 𦱵	lro
 𣃣	lrp
-𮶎	lrq
+𮶛	lrq
 𠟝	lrr
 𫜱	lrt
 𫇸	lru
@@ -4416,7 +4417,7 @@ columns:
 䒾	lti
 蘜	ltn
 𫉤	lto
-𮶏	lts
+𮶜	lts
 𤰇	ltt
 𦱆	ltw
 𦺼	ltx
@@ -4550,7 +4551,7 @@ columns:
 𮀛	mde
 𤝐	mdf
 𠻭	mdg
-𮳌	mdh
+𤝖	mdh
 𤡒	mdi
 冋	mdk
 𨐙	mdn
@@ -4841,7 +4842,7 @@ columns:
 𬑹	mxc
 𥗃	mxd
 𤡔	mxe
-𮳴	mxf
+𤢒	mxf
 矿	mxg
 𱮖	mxi
 𬒡	mxj
@@ -4934,7 +4935,7 @@ columns:
 𥁓	nda
 𤥯	nde
 馽	ndg
-𮴀	ndh
+𠤴	ndh
 𭺂	ndi
 𠤾	ndj
 𪏚	ndo
@@ -4991,7 +4992,7 @@ columns:
 𩡶	ngt
 𪼯	ngx
 珜	ngy
-𮸿	ngz
+𮹏	ngz
 琒	nha
 𤩓	nhc
 駾	nhd
@@ -5022,7 +5023,7 @@ columns:
 𤿈	nir
 𱹽	nis
 璚	nit
-𮴮	niu
+𠤶	niu
 𤤂	niv
 𩿱	nix
 𠣎	niy
@@ -5041,7 +5042,7 @@ columns:
 𠦹	nju
 𩕺	njw
 𭹀	njy
-𮴒	njz
+𫺡	njz
 𬎃	nka
 珱	nkb
 𠣛	nke
@@ -5081,7 +5082,7 @@ columns:
 䭾	nmq
 𲋺	nmr
 𤤟	nms
-𮴏	nmu
+𮴘	nmu
 𤥜	nmv
 𩿃	nmx
 駆	nnb
@@ -5117,9 +5118,9 @@ columns:
 𩢹	npj
 𤦷	npk
 𮚂	npo
-𮴑	npr
+𢨆	npr
 𣬮	npv
-𮴐	npz
+𮴙	npz
 悳	nqa
 𤥢	nqd
 𰥑	nqg
@@ -5129,7 +5130,7 @@ columns:
 䭽	nqn
 曺	nqo
 璾	nqq
-𮴝	nqs
+𮴧	nqs
 𤥧	nqu
 𱯋	nqv
 𩓏	nqw
@@ -5140,13 +5141,13 @@ columns:
 騒	nrc
 𮪔	nrd
 𣤆	nre
-𮴅	nrg
+𠤄	nrg
 𢾺	nrh
 𭘹	nrl
 𤌝	nrn
 𰢔	nro
 匴	nrq
-𮸳	nrr
+𤊝	nrr
 𤤄	nrs
 𬎡	nrt
 𩰰	nru
@@ -5157,7 +5158,7 @@ columns:
 协	nsh
 𠣏	nsi
 𫐝	nsk
-𮴄	nsm
+𪏫	nsm
 𤪸	nso
 𪼲	nsp
 瑺	nsr
@@ -5213,7 +5214,7 @@ columns:
 𩣦	nwp
 𤥞	nwr
 𪻽	nws
-𮷖	nwu
+𨘀	nwu
 𤩪	nwx
 𤪓	nwz
 𤤵	nxa
@@ -5242,7 +5243,7 @@ columns:
 𤩰	nyr
 𰅨	nyt
 琑	nyv
-𮳸	nyx
+𡭳	nyx
 𫨼	nyy
 𪏨	nyz
 𪏏	nza
@@ -5310,7 +5311,7 @@ columns:
 㷖	ocp
 𣈲	ocq
 𥏘	ocs
-𮷝	oct
+𮷬	oct
 𨓌	ocu
 昵	ocv
 顕	ocw
@@ -5336,7 +5337,7 @@ columns:
 𣇬	oeb
 邉	oed
 䝯	oee
-𮲛	oef
+𡿶	oef
 㪋	oeh
 𣉐	oei
 𣊲	oel
@@ -5721,11 +5722,11 @@ columns:
 𨇲	pay
 䊥	pba
 𪕠	pbc
+糨	pbd
 𨁻	pbe
 𥸲	pbg
 数	pbh
 归	pbj
-䟿	pbk
 𥹻	pbl
 𮛨	pbo
 𬦵	pbp
@@ -6173,7 +6174,7 @@ columns:
 𥆫	qde
 𥄡	qdg
 𰑣	qdh
-𮰌	qdi
+𮰕	qdi
 𱻫	qdj
 吿	qdk
 𥆼	qdl
@@ -6245,7 +6246,7 @@ columns:
 顋	qhw
 𦖣	qhy
 𥄩	qia
-𮴼	qib
+𮋬	qib
 𦣧	qic
 𮩇	qie
 䬶	qig
@@ -6274,7 +6275,7 @@ columns:
 睔	qjl
 𬚔	qjm
 𦕽	qjo
-𮸯	qjs
+𤙦	qjs
 𧗄	qjt
 𩚆	qju
 睮	qjv
@@ -6601,7 +6602,7 @@ columns:
 𪀟	rdx
 𥴇	rea
 籕	reb
-𮵰	rec
+𮵴	rec
 𥯍	reh
 𥷈	rei
 𥶥	rek
@@ -6776,7 +6777,7 @@ columns:
 𭍚	roj
 篂	rol
 𬕐	ron
-𮵴	roo
+𱲊	roo
 𰆷	rop
 𥳣	roq
 𢁯	ror
@@ -6831,7 +6832,7 @@ columns:
 𬔱	rri
 𩇪	rrj
 ⿻	rrk
-𮵧	rrl
+𰁒	rrl
 𫡱	rrm
 𰇅	rrn
 𠮆	rro
@@ -6915,7 +6916,7 @@ columns:
 𥯂	rwi
 幏	rwj
 𢃙	rwk
-𮵯	rwn
+𮵳	rwn
 幎	rwo
 帎	rwp
 簺	rwq
@@ -7244,7 +7245,7 @@ columns:
 𧥸	sqn
 䜞	sqq
 𰙰	sqs
-𮶸	sqt
+𣥤	sqt
 𨕐	squ
 𪇁	sqx
 㼕	sqy
@@ -7399,11 +7400,11 @@ columns:
 𮕟	tay
 𲁆	tba
 𩃏	tbc
+𬯟	tbd
 𬡕	tbe
 𩊕	tbf
 𧘏	tbg
 𠆥	tbi
-鞃	tbk
 𱁥	tbl
 𩋠	tbm
 𩁻	tbn
@@ -7527,7 +7528,7 @@ columns:
 𡒰	tkb
 衬	tkc
 袬	tkd
-𮸠	tkg
+䨟	tkg
 𠂤	tki
 𨸒	tkj
 襂	tkk
@@ -7791,7 +7792,7 @@ columns:
 㩋	uba
 𭢢	ubb
 𢯐	ubc
-摾	ubd
+摾	ubd
 𭣐	ubf
 㧈	ubg
 捸	ubk
@@ -8105,7 +8106,7 @@ columns:
 拪	uvx
 𢯱	uwc
 𢱆	uwe
-𮲎	uwg
+𮲑	uwg
 摐	uwj
 𱟴	uwk
 捥	uwl
@@ -8533,7 +8534,7 @@ columns:
 𦟟	vzm
 𭗩	vzt
 𦏿	vzv
-𮹇	vzx
+𮹚	vzx
 𪨨	vzy
 𧒡	wac
 䰲	wae
@@ -8961,7 +8962,7 @@ columns:
 秳	xas
 𪋺	xat
 𬓣	xau
-𮱰	xaw
+𥞊	xaw
 𥤠	xbb
 𪂯	xbc
 覣	xbe
@@ -9212,7 +9213,7 @@ columns:
 𫘂	xou
 頽	xow
 鵚	xox
-𮸣	xoy
+𮂱	xoy
 𮃛	xoz
 𫙋	xpa
 𫷹	xpb
@@ -9283,7 +9284,7 @@ columns:
 𥢷	xsq
 废	xsr
 𬓮	xss
-𮷙	xst
+𮷨	xst
 𨕙	xsu
 庛	xsv
 𬆊	xsw
@@ -9390,7 +9391,7 @@ columns:
 𥣁	xyw
 尔	xyx
 庮	xyy
-𮷠	xyz
+𮷯	xyz
 𥶊	xza
 䅻	xzb
 𠪌	xzc
@@ -9644,7 +9645,7 @@ columns:
 𱖻	yog
 𡥣	yoh
 𨟱	yoi
-𮷈	yoj
+䡄	yoj
 𦋂	yok
 𤔼	yom
 罺	yop
@@ -9762,7 +9763,7 @@ columns:
 𨊲	yvj
 𰺒	yvl
 𨌂	yvn
-𮷊	yvq
+𮷘	yvq
 𤔂	yvr
 軕	yvs
 𦌔	yvv
@@ -9847,11 +9848,12 @@ columns:
 𨬔	zan
 𦗾	zaq
 𰼴	zau
-𮷆	zaw
+𮡮	zaw
 𨪙	zay
 𨨶	zaz
 𠅫	zbb
 𬬗	zbc
+镪	zbd
 𨮮	zbf
 𬫓	zbh
 𦐠	zbi
@@ -9877,7 +9879,7 @@ columns:
 𫒣	zcz
 鉂	zdb
 𭵜	zdc
-𮷡	zde
+𮷰	zde
 𮜷	zdf
 鉙	zdh
 𨦀	zdi
@@ -9952,12 +9954,12 @@ columns:
 玈	zie
 錪	zih
 䤛	zij
-𮷴	zik
+𨥭	zik
 鉒	zin
 𦐩	zio
 𠠣	zip
 𨪊	zir
-𮷮	ziv
+𨥤	ziv
 铲	zix
 玆	ziz
 𨦪	zjb
@@ -10043,7 +10045,7 @@ columns:
 𲄧	zpb
 𨭟	zpf
 𬽑	zpj
-𮷵	zpn
+𬫍	zpn
 𨭾	zpo
 𥃒	zpp
 𰿀	zpr
@@ -10097,7 +10099,7 @@ columns:
 䥤	ztn
 鏓	ztr
 𫒧	ztv
-𮷳	zty
+𬫉	zty
 𨷫	zua
 𮣇	zud
 𣤩	zue
@@ -10120,7 +10122,7 @@ columns:
 躱	zve
 𦏝	zvg
 鎽	zvh
-𮷧	zvj
+𨥈	zvj
 𰽷	zvl
 釢	zvn
 𲈙	zvp
@@ -10142,7 +10144,7 @@ columns:
 𮡨	zwu
 𨭶	zww
 鐌	zwx
-𮸍	zwz
+𮸜	zwz
 𨯙	zxa
 𨨛	zxd
 鏉	zxe
@@ -10157,7 +10159,7 @@ columns:
 𭯩	zxt
 銹	zxv
 𨊗	zxx
-𰽞	zxz
+鈪	zxz
 𨥝	zya
 𬧲	zyc
 𨉻	zye

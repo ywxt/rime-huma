@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230903"
+version: "20230910"
 sort: original
 columns:
   - text
@@ -953,7 +953,6 @@ columns:
 媚	bcq
 妮	bcv
 娛	bda
-犟	bdc
 彈	bdd
 娉	bdf
 恕	bdh
@@ -1009,6 +1008,7 @@ columns:
 彖	bjs
 娰	bjv
 盝	bka
+犟	bkc
 始	bkd
 姆	bkm
 剝	bkp
@@ -4433,8 +4433,8 @@ columns:
 蹟	pao
 蹡	pav
 嚳	pbb
-糨	pbd
 䟡	pbi
+糨	pbk
 糉	pbm
 籹	pbn
 蹓	pbq
@@ -5228,8 +5228,8 @@ columns:
 襴	tax
 卹	taz
 靆	tbb
-襁	tbd
 雪	tbj
+襁	tbk
 疏	tbo
 𨻧	tbq
 衹	tbs
@@ -5403,7 +5403,7 @@ columns:
 靳	ttj
 隴	ttl
 襖	ttm
-𮹊	ttt
+龘	ttt
 霸	ttv
 甪	tty
 褏	tud
@@ -5730,7 +5730,6 @@ columns:
 遙	vau
 氰	vav
 斕	vax
-膙	vbd
 脎	vbe
 気	vbi
 氯	vbk
@@ -6523,7 +6522,7 @@ columns:
 鏘	zav
 鑭	zax
 鏽	zba
-鏹	zbd
+銣	zbd
 鎩	zbe
 躬	zbg
 虐	zbj

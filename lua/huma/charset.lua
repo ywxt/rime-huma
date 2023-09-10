@@ -9805,5 +9805,6 @@ local charset = {
 ['伱'] = 0,
 ['挊'] = 0,
 ['媮'] = 0,
+['龘'] = 0,
 }
 return charset
