@@ -1,6 +1,6 @@
 ---
 name: "huma.char"
-version: "20230910"
+version: "20230930"
 sort: by_weight
 columns:
   - text
@@ -6540,7 +6540,6 @@ columns:
 㢻	bxbn	0
 𩱖	bxbn	0
 嫞	bxbt	11
-婙	bxbv	10
 𡝜	bxcg	0
 𡟊	bxch	0
 𡢩	bxdh	0
@@ -6658,6 +6657,7 @@ columns:
 娞	bybn	2
 𩱗	bybn	0
 媫	bybs	0
+婙	bybv	10
 𢏰	bybv	0
 𡝀	byc	0
 𮝉	byc	0
@@ -18781,7 +18781,6 @@ columns:
 䆧	exbn	0
 槦	exbt	5
 𥧱	exbt	0
-棦	exbv	0
 楸	exch	580
 𣜷	exch	0
 𣠯	exct	0
@@ -18934,6 +18933,7 @@ columns:
 桵	eybn	0
 𣕹	eybs	0
 𬄉	eybs	0
+棦	eybv	0
 𣒞	eyc	0
 槱	eych	8
 𤍕	eych	0
@@ -24996,8 +24996,6 @@ columns:
 𣨙	gxbn	0
 𫅕	gxbs	0
 墉	gxbt	1605
-埩	gxbv	0
-䍵	gxbv	0
 𡉃	gxc	0
 𡐝	gxch	0
 㙻	gxdg	0
@@ -25175,6 +25173,8 @@ columns:
 垱	gybj	0
 㱣	gybn	0
 𱖰	gybn	0
+埩	gybv	0
+䍵	gybv	0
 𡌄	gyc	0
 𨌅	gyc	0
 𬊧	gych	0
@@ -31598,8 +31598,6 @@ columns:
 𮉫	ixbn	0
 𥪍	ixbn	0
 𦄢	ixbt	0
-竫	ixbv	0
-䋫	ixbv	0
 𰬑	ixbv	0
 产	ixc	0
 䋺	ixch	0
@@ -31750,6 +31748,8 @@ columns:
 綏	iybn	6669
 绥	iybn	0
 𬔞	iybn	0
+竫	iybv	0
+䋫	iybv	0
 𦀺	iyc	0
 舻	iycs	0
 𮉡	iycs	0
@@ -49281,7 +49281,6 @@ columns:
 𥓔	mxbn	0
 㺎	mxbt	0
 𧴄	mxbt	0
-碀	mxbv	2
 狰	mxbv	0
 𬒉	mxbz	0
 𬑹	mxc	0
@@ -49438,6 +49437,7 @@ columns:
 𱳹	mybj	0
 𧴇	mybs	0
 猙	mybv	19951
+碀	mybv	2
 硨	myc	231
 砗	myc	0
 𧳻	mycc	0
@@ -53274,7 +53274,6 @@ columns:
 𪏢	nxbk	0
 𤨭	nxbt	0
 𩥻	nxbt	0
-琤	nxbv	283
 䮽	nxch	0
 𤧐	nxch	0
 𬴍	nxch	0
@@ -53423,6 +53422,7 @@ columns:
 珰	nybj	0
 𩣧	nybn	0
 𰡾	nybn	0
+琤	nybv	283
 𠣞	nyc	0
 𤥭	nyc	0
 𨊦	nyc	0
@@ -54213,7 +54213,6 @@ columns:
 晨	ofc	213173
 賑	ofc	3164
 赈	ofc	0
-𩗲	ofcb	0
 𩘎	ofcd	0
 𩘻	ofcd	0
 𩘿	ofcd	0
@@ -56007,6 +56006,7 @@ columns:
 𩖠	otcb	0
 𩖴	otcb	0
 𩗒	otcb	0
+𩗲	otcb	0
 𮨪	otcb	0
 風	otcc	2175618
 飈	otcc	5092
@@ -58159,7 +58159,6 @@ columns:
 𦥨	pex	0
 𪕏	pex	0
 䰀	pexb	0
-鬇	pexb	0
 鬏	pexc	139
 𬴯	pexc	0
 𩮶	pexe	0
@@ -58182,6 +58181,7 @@ columns:
 𧿇	pey	0
 𫂴	pey	0
 𩬐	peya	0
+鬇	peyb	0
 𩭏	peyb	0
 𩬑	peyd	0
 䰂	peye	0
@@ -71140,7 +71140,6 @@ columns:
 諉	sxbn	1415
 诿	sxbn	0
 𮘶	sxbt	0
-諍	sxbv	784
 诤	sxbv	0
 𠨲	sxc	0
 𧦡	sxeg	0
@@ -71256,6 +71255,7 @@ columns:
 𬣭	sybj	0
 𫌽	sybn	0
 𧪌	sybs	0
+諍	sybv	784
 𫌼	syc	0
 𧪊	sydc	0
 詀	sydk	0
@@ -83005,7 +83005,6 @@ columns:
 𣁠	vxbt	0
 𦟛	vxbt	0
 峥	vxbv	0
-㬹	vxbv	0
 屵	vxc	0
 臕	vxch	2
 䐐	vxch	0
@@ -83214,6 +83213,7 @@ columns:
 㟎	vybn	0
 𣮄	vybn	0
 崢	vybv	4428
+㬹	vybv	0
 𡸵	vybv	0
 𡷖	vyc	0
 𮝁	vyc	0
@@ -87183,7 +87183,6 @@ columns:
 鱅	wxbt	25
 鳙	wxbt	0
 净	wxbv	0
-䱢	wxbv	0
 𰄎	wxbv	0
 鰍	wxch	4240
 鳅	wxch	0
@@ -87336,6 +87335,7 @@ columns:
 鮾	wybn	0
 𢓰	wybn	0
 凈	wybv	73
+䱢	wybv	0
 軍	wyc	2274970
 军	wyc	0
 𢕣	wyc	0
@@ -98670,7 +98670,6 @@ columns:
 𬭗	zxbn	0
 鏞	zxbt	699
 镛	zxbt	0
-錚	zxbv	29495
 铮	zxbv	0
 𨪘	zxcc	0
 鍬	zxch	4073
@@ -98855,6 +98854,7 @@ columns:
 鋖	zybn	0
 𬤸	zybr	0
 𨩼	zybs	0
+錚	zybv	29495
 𫅨	zyc	0
 𬧲	zyc	0
 𬬻	zycs	0

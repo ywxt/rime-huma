@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230910"
+version: "20230930"
 sort: original
 columns:
   - text
@@ -4838,7 +4838,7 @@ columns:
 𱴾	mww
 𬥌	mwx
 𥖂	mxa
-碀	mxb
+磄	mxb
 𬑹	mxc
 𥗃	mxd
 𤡔	mxe
@@ -5233,7 +5233,6 @@ columns:
 𱄧	nxy
 㔸	nxz
 𤣺	nya
-𩡭	nyb
 𰡰	nyc
 𱯕	nye
 𫸞	nyl
@@ -9853,7 +9852,6 @@ columns:
 𨨶	zaz
 𠅫	zbb
 𬬗	zbc
-镪	zbd
 𨮮	zbf
 𬫓	zbh
 𦐠	zbi

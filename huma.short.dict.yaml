@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230910"
+version: "20230930"
 sort: original
 columns:
   - text
@@ -4249,6 +4249,7 @@ columns:
 辣	nxs
 騵	nxu
 琇	nxv
+琤	nyb
 玷	nyd
 慼	nyf
 驛	nyg
@@ -6760,7 +6761,7 @@ columns:
 錠	zwt
 鉈	zwv
 翬	zwy
-錚	zxb
+鏞	zxb
 鍬	zxc
 鍊	zxh
 鍍	zxl
