@@ -1,5 +1,5 @@
 name: "huma.short"
-version: "20230930"
+version: "20231124"
 sort: original
 columns:
   - text
@@ -1944,6 +1944,7 @@ columns:
 標	evf
 杞	evj
 檟	evo
+𥧔	evp
 楹	evr
 棚	evv
 榿	evz
@@ -2045,6 +2046,7 @@ columns:
 祕	fht
 鱉	fhw
 髈	fiw
+𫠡	fjg
 辱	fkc
 骸	fkh
 救	fki
@@ -2658,6 +2660,7 @@ columns:
 良	iig
 響	iii
 糾	iij
+竝	iil
 畿	iip
 絲	iis
 郎	iit
@@ -4384,6 +4387,7 @@ columns:
 毷	oqv
 㝿	orp
 賂	osg
+凪	osi
 曇	otb
 颱	otc
 曩	otd
@@ -5662,6 +5666,7 @@ columns:
 捭	uut
 掱	uuu
 搖	uva
+旣	uvd
 摽	uvf
 揣	uvl
 撚	uvm
@@ -6563,6 +6568,7 @@ columns:
 鑹	zep
 欽	zeq
 彪	zes
+鑈	zff
 䥕	zfh
 銶	zfk
 鈃	zfl
@@ -6770,7 +6776,7 @@ columns:
 黁	zxo
 鈑	zxr
 鎢	zxu
-鿭	zxy
+鉨	zxy
 卞	zyb
 鉆	zyd
 鍰	zyf

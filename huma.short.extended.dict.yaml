@@ -1,6 +1,6 @@
 ---
 name: "huma.short.extended"
-version: "20230930"
+version: "20231124"
 sort: original
 columns:
   - text
@@ -1811,7 +1811,6 @@ columns:
 椯	evl
 枆	evm
 㭁	evn
-𥩂	evp
 𣏙	evq
 𰏢	evs
 𣠽	evt
@@ -2035,7 +2034,6 @@ columns:
 𰺭	fjb
 祫	fjd
 䯎	fje
-𫠡	fjg
 𪂐	fjj
 祔	fjk
 𥚗	fjl
@@ -3003,7 +3001,7 @@ columns:
 𭒾	hsj
 务	hsl
 𢝿	hsm
-𭐱	hso
+𢤗	hso
 𰑿	hsp
 𢥃	hsq
 𠭻	hsr
@@ -3245,7 +3243,6 @@ columns:
 欴	iie
 𢇃	iih
 𬗊	iik
-竝	iil
 𢇈	iim
 𥩣	iin
 𥿦	iio
@@ -5395,7 +5392,6 @@ columns:
 㫠	ohu
 𪰠	ohv
 昸	ohw
-𮲥	ohz
 𥏡	oib
 𧵡	oic
 𫎪	oie
@@ -5561,7 +5557,6 @@ columns:
 𪰘	osd
 𥏁	osf
 𭧹	osh
-凪	osi
 𣅼	osj
 㫑	osl
 𧬉	osm
@@ -8090,7 +8085,6 @@ columns:
 𭢾	uuz
 皀	uvb
 𤋞	uvc
-旣	uvd
 挅	uve
 𭠾	uvg
 𢭄	uvh
@@ -9173,7 +9167,7 @@ columns:
 𢋔	xmn
 𠜢	xmp
 厌	xmq
-逓	xmr
+𬜞	xmr
 䄷	xms
 𨛉	xmt
 𰓙	xmu
@@ -9313,7 +9307,7 @@ columns:
 𩐵	xuo
 𭆅	xup
 𢊵	xuq
-𢊄	xur
+乕	xur
 𠨭	xus
 廏	xuv
 𫠕	xux
@@ -9914,7 +9908,6 @@ columns:
 鋠	zfc
 𬫷	zfd
 覰	zfe
-𧇣	zff
 𨉦	zfg
 卫	zfi
 鈵	zfm

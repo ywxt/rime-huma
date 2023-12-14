@@ -1,6 +1,6 @@
 ---
 name: "huma.char"
-version: "20230930"
+version: "20231124"
 sort: by_weight
 columns:
   - text
@@ -9100,6 +9100,7 @@ columns:
 𤓇	cnxh	0
 𰳡	cnxs	0
 䗩	cnyy	0
+𤌰	coah	0
 𤊋	coal	0
 煴	coam	0
 𬐲	coam	0
@@ -9150,7 +9151,6 @@ columns:
 𪹈	cofs	0
 𭵹	cofs	0
 㷸	cofu	0
-𤌰	cofu	0
 𤑼	coga	0
 𧍼	cogp	0
 𧊋	cogs	0
@@ -18526,10 +18526,10 @@ columns:
 𣙍	evov	0
 𣝙	evph	0
 𥩂	evph	0
-㯨	evpm	0
 𥧔	evpm	0
-𣏙	evq	0
+㯨	evpm	0
 𥤶	evq	0
+𣏙	evq	0
 槇	evqh	0
 𥧑	evqh	0
 楹	evra	872
@@ -25005,6 +25005,7 @@ columns:
 𪣄	gxeg	0
 𡏭	gxem	0
 𥢉	gxem	0
+𰉳	gxer	0
 垢	gxfd	9175
 𡐯	gxfh	0
 𰊸	gxfh	0
@@ -25055,7 +25056,6 @@ columns:
 𪤩	gxmh	0
 𪣷	gxmm	0
 𮰥	gxmm	0
-𰉳	gxmr	0
 鴝	gxn	42
 鸲	gxn	0
 殦	gxn	0
@@ -27279,6 +27279,7 @@ columns:
 𰌣	hos	0
 𧯔	hosa	0
 夔	hosh	2715
+𭐱	hosh	0
 𱥅	hosi	0
 𠡼	hosl	0
 𢥟	hosp	0
@@ -27746,7 +27747,6 @@ columns:
 𢝿	hsmm	0
 𫯷	hsmn	0
 𢤗	hsob	0
-𭐱	hsoh	0
 𦒂	hsoz	0
 𪟄	hspd	0
 𪲫	hspe	0
@@ -39997,7 +39997,6 @@ columns:
 乖	lavb	139563
 苝	lavb	0
 𧂮	lavb	0
-𧂻	lavf	0
 𫊕	lavf	0
 𫡙	lavf	0
 埀	lavg	2
@@ -40035,6 +40034,7 @@ columns:
 𧂄	laxp	0
 𦬌	layb	0
 𦸈	layg	0
+𧂻	layn	0
 𧃘	lazf	0
 𦽅	lazk	0
 𦐞	lazv	0
@@ -65599,6 +65599,7 @@ columns:
 𤿆	rad	0
 𥫙	rad	0
 𥶆	radd	0
+⿿	radk	0
 𥸍	radn	0
 𡆡	rae	0
 𡆢	rae	0
@@ -66158,6 +66159,7 @@ columns:
 𡈀	rfcy	0
 𥮳	rfcy	0
 𥲔	rfdd	0
+⿾	rfdd	0
 䈑	rfdk	0
 𥲓	rfdn	0
 幅	rfdq	96800
@@ -66293,6 +66295,7 @@ columns:
 𥵈	rgea	0
 𥯲	rgem	0
 𮆥	rgem	0
+⿽	rgfi	0
 𡇛	rgfk	0
 𥶾	rgfk	0
 𱸐	rgfp	0
@@ -67313,6 +67316,7 @@ columns:
 𮰓	rnjr	0
 囙	rnk	0
 ⿷	rnk	0
+⿼	rnk	0
 圑	rnkc	0
 𭘰	rnkc	0
 𥱘	rnke	0
@@ -67798,6 +67802,7 @@ columns:
 𭩞	rrem	0
 𰪂	rrf	0
 𢂉	rrff	0
+㇯	rrfi	0
 𭟷	rrfp	0
 𥭒	rrfs	0
 𮨝	rrfw	0
@@ -75248,7 +75253,6 @@ columns:
 𩃊	txmb	0
 𮥮	txmh	0
 𰳹	txmq	0
-𧚜	txmr	0
 𩌟	txmv	0
 隝	txn	0
 鸗	txn	0
@@ -75305,6 +75309,7 @@ columns:
 𧜦	txuc	0
 𩅘	txuc	0
 𩌛	txun	0
+𧚜	txur	0
 𨻣	txuy	0
 𲀻	txuy	0
 𧚘	txvn	0
@@ -83089,7 +83094,6 @@ columns:
 𡾷	vxmm	0
 𦝝	vxmm	0
 𱛟	vxmq	0
-𭖤	vxmr	0
 鳼	vxn	32
 嶋	vxn	22
 鴍	vxn	2
@@ -83152,6 +83156,7 @@ columns:
 𡹻	vxua	0
 𨖧	vxuc	0
 嵟	vxui	0
+𭖤	vxur	0
 㟲	vxuy	0
 㟶	vxuy	0
 𬇒	vxuy	0
@@ -89467,9 +89472,7 @@ columns:
 𠪧	xmqe	0
 餍	xmqs	0
 𬜞	xmrf	0
-乕	xmrj	1
 𪠏	xmrp	0
-逓	xmru	2
 䄷	xms	0
 𪊞	xms	0
 𠩀	xmsc	0
@@ -90933,6 +90936,8 @@ columns:
 𰆩	xupc	0
 𭆅	xupe	0
 𢊵	xuqn	0
+乕	xurj	1
+逓	xuru	2
 𢊄	xury	0
 𮧽	xury	0
 𠨭	xus	0
@@ -91285,7 +91290,6 @@ columns:
 𱶅	xxmb	0
 𥠅	xxmm	0
 𱶂	xxmq	0
-𪁦	xxmr	0
 𥣸	xxmz	0
 鵣	xxn	1
 穒	xxn	0
@@ -91356,6 +91360,7 @@ columns:
 𱝇	xxuc	0
 𫖜	xxue	0
 𥣤	xxuk	0
+𪁦	xxur	0
 䴨	xxuy	0
 䅎	xxvn	0
 𩴣	xxxa	0
