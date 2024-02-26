@@ -370,7 +370,7 @@ columns:
 確	mw
 确	mx
 獨	my
-奇	mz
+犯	mz
 成	na
 駁	nb
 融	nc
@@ -507,7 +507,7 @@ columns:
 加	sd
 許	se
 詛	sf
-各	sg
+讀	sg
 說	sh
 止	si
 甲	sj
@@ -2176,7 +2176,7 @@ columns:
 款	gfe
 丄	gfi
 圩	gfn
-垣	gfo
+殼	gfo
 殂	gfq
 愨	gfr
 坉	gfs
@@ -4011,8 +4011,8 @@ columns:
 彤	mze
 猇	mzh
 𪿖	mzi
-犯	mzj
-砢	mzk
+碎	mzj
+奇	mzk
 礳	mzm
 剞	mzp
 丹	mzt
@@ -5069,7 +5069,6 @@ columns:
 証	sfs
 譸	sga
 詰	sgd
-詿	sgg
 誌	sgh
 詩	sgk
 堂	sgt
@@ -6849,6 +6848,7 @@ columns:
 皮	rpp
 殳	rss
 屮	scc
+各	sgg
 斤	tjj
 疋	tss
 隹	uii
