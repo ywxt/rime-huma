@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "huma.short"
-version: "20240413"
+version: "20240419"
 sort: original
 columns:
   - text
@@ -3980,7 +3980,7 @@ columns:
 奈	mfs
 貊	mfu
 𥕢	mfy
-周	mgd
+週	mgd
 奎	mgg
 礅	mgh
 狗	mgj
@@ -4191,7 +4191,7 @@ columns:
 驌	nba
 瑑	nbj
 騄	nbk
-匈	nbm
+珋	nbm
 琉	nbo
 珫	nbp
 騮	nbq

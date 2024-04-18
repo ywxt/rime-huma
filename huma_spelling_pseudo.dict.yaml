@@ -1,9 +1,9 @@
 # encoding: utf-8
-# This is a pseudo schema providing the division for the yustar_trad schema.
+# This is a pseudo schema providing the division for the huma_trad schema.
 # Do not modify and use this schema directly.
 ---
 name: "huma_spelling_pseudo"
-version: "20240413"
+version: "20240419"
 sort: by_weight
 columns:
   - text

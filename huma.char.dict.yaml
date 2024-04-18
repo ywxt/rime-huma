@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "huma.char"
-version: "20240413"
+version: "20240419"
 sort: by_weight
 columns:
   - text
