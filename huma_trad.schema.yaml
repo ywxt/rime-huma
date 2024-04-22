@@ -99,7 +99,6 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - history_translator@history
     - table_translator@fixed
     - table_translator
     - script_translator@luna_pinyin
