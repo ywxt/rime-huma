@@ -33,7 +33,6 @@ schema:
     - lua/huma/lib.lua
     - huma_trad.dict.yaml
     - huma.short.dict.yaml
-    - huma.short.extended.dict.yaml
     - huma.short.phrase.dict.yaml
     - huma.short.punct.dict.yaml
     - huma.char.dict.yaml
