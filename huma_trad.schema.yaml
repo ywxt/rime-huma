@@ -47,8 +47,8 @@ __patch:
 
 switches:
   - name: charset_filter 
-    states: [ 全集, 常用 ]
     reset: 1
+    states: [ 全集, 常用 ]
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
@@ -67,8 +67,8 @@ switches:
     - spelling.lv1
     - spelling.lv2
     - spelling.lv3
-    states: [ 〇註解, 一重註解, 二重註解, 三重註解 ]
     reset: 0
+    states: [ 〇註解, 一重註解, 二重註解, 三重註解 ]
   - name: postpone_fullcode  # 仅作用于单字。
     reset: 1
     states: [ ＝原始排序, ↓全碼後置 ]
