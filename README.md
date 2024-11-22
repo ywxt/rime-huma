@@ -80,15 +80,15 @@
 
 ## Q&A
 
-1. Q： 爲什麼部署不成功？
+1. Q:  爲什麼部署不成功？
 
-   A： 確保你已經有朙月拼音和五筆劃方案，部分發行版（例如同文輸入法）並不內置，需要手動下載。 [朙月拼音](https://github.com/rime/rime-luna-pinyin) [五筆畫](https://github.com/rime/rime-stroke)
+   A:  確保你已經有朙月拼音和五筆劃方案，部分發行版（例如同文輸入法）並不內置，需要手動下載。 [朙月拼音](https://github.com/rime/rime-luna-pinyin) [五筆畫](https://github.com/rime/rime-stroke)
 
-2. Q： 爲什麼選擇方案後無法輸入漢字？
+2. Q:  爲什麼選擇方案後無法輸入漢字？
 
-   A： 確保你的發行版支持較新的 lua 插件。
+   A:  確保你的發行版支持較新的 lua 插件。
 
-3. Q： 如何刪除用戶自造詞？
+3. Q:  如何刪除用戶自造詞？
 
    A:  
       > 删除特定用户词：输入该词编码，移动光标选中该词，敲删词键 Ctrl + Delete 或 Shift + Delete （Mac OS 用 Shift + Fn + Delete），默认还绑定了 Ctrl + K。删除整个用户词典：先退出输入法程序或算法服务， 然后删除用户目录下的 huma_trad.userdb 目录，再启动输入法。
@@ -109,7 +109,7 @@
       - 所有的特碼都在 `huma_trad.short.dict.yaml` 中定義，`huma.char.dict.yaml` 中全部恢復爲正常的編碼。
 5. Q:  爲什麼某些字根字不在首選位置（如 `zh` 是 `其` 而非 `虎`）？
 
-   A：
+   A:  
       第一種情況：由於字根編碼的位置被高頻字所佔用，這種情況可重複字根的小碼。比如，輸入 `zh` 時，`虎` 在三選上，而 `zhh`(`h` 爲 `虎` 的小碼)時，`虎` 會出現在首選位置。
 
       第二種情況：字根字非常罕用，故其位置設置爲其他常用字簡碼。如 `虍`、`兎` 等字。
@@ -117,6 +117,10 @@
 6. Q:  爲什麼全碼的高頻詞在低頻字之後？
 
    A:  方案除了簡碼詞可能出現在單字之前，所有的全碼統一爲單字排序在詞組之前。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ywxt/rime-huma&type=Date)](https://star-history.com/#ywxt/rime-huma&Date)
 
 [rime-xuma]: https://github.com/Ace-Who/rime-xuma
 [huma-space]: http://huma.ysepan.com/
