@@ -50,9 +50,11 @@ local function is_chinese(code)
     return false
 end
 
+-- check if a character is in a charset map.
 local function is_in_charset(char, charset) return charset[char] end
 
 -- 對於CJK之外的字符不做過濾，假定所有的字符在CJK區
+-- check if all characters of the string are in a charset map.
 local function filter_charset(string, charset)
     if not charset then return true end
     for index, code in utf8.codes(string) do
@@ -61,6 +63,7 @@ local function filter_charset(string, charset)
     return true
 end
 
+-- check if all characters of the string are CJK characters by code points.
 local function filter_chinese(string)
     for index, code in utf8.codes(string) do
         if not is_chinese(code) then return false end
