@@ -3474,7 +3474,6 @@ columns:
 瘴	axns	5331
 𨶤	axns	0
 𱭠	axns	0
-痜	axoj	0
 䦭	axor	0
 𩠾	axor	0
 𤶥	axos	0
@@ -3486,6 +3485,7 @@ columns:
 𩳩	axpd	0
 𫔣	axpd	0
 痢	axpd	0
+痜	axpe	0
 𮤠	axpe	0
 𮤪	axpg	0
 閻	axpj	39804
@@ -5327,8 +5327,8 @@ columns:
 㛍	bmjj	0
 𡜃	bmjj	0
 𦘚	bmjm	0
-妠	bmjr	2
 𬤼	bmjs	0
+妠	bmju	2
 凶	bmk	65162
 姱	bmma	11
 姎	bmmd	45
@@ -8867,9 +8867,9 @@ columns:
 𡱎	cmjj	0
 𦙂	cmjj	0
 𧎈	cmjp	0
-蚋	cmjr	636
-㶧	cmjr	0
 𫵓	cmjr	0
+蚋	cmju	636
+㶧	cmju	0
 𭕡	cmjv	0
 𭕔	cmk	0
 𮔊	cml	0
@@ -11511,6 +11511,7 @@ columns:
 呪	ddpe	28997
 𠲁	ddpg	0
 𢦸	ddpg	0
+哵	ddpp	3
 𨔂	ddpu	0
 𧕦	ddqc	0
 𧕛	ddqc	0
@@ -11564,7 +11565,6 @@ columns:
 𠲢	ddrj	0
 𪟔	ddrp	0
 𰙧	ddsi	0
-哵	ddsp	3
 𨞍	ddst	0
 𬢧	ddsy	0
 𠴊	ddtd	0
@@ -15269,6 +15269,7 @@ columns:
 𢎋	edpi	0
 𭀣	edpi	0
 𭀥	edpk	0
+㭭	edpp	0
 𥦂	edpp	0
 𭀱	edpp	0
 楫	edqe	532
@@ -15278,7 +15279,6 @@ columns:
 𣑐	edrj	0
 𠭄	edry	0
 柺	edsl	19473
-㭭	edsp	0
 𱜽	edsp	0
 𪳡	edsv	0
 𣓡	edtd	0
@@ -17206,8 +17206,8 @@ columns:
 𱣑	emjj	0
 𣙉	emjk	0
 𪲕	emjk	0
-枘	emjr	95
 𥦻	emjr	0
+枘	emju	95
 𭪣	emjv	0
 朿	emk	3
 𠙻	emk	0
@@ -23688,10 +23688,10 @@ columns:
 𦚛	gmjj	0
 𩎱	gmjj	0
 𫮇	gmjj	0
-㘨	gmjr	0
-䪏	gmjr	0
 𩏼	gmjr	0
 𰭘	gmjr	0
+㘨	gmju	0
+䪏	gmju	0
 𣧍	gmju	0
 凷	gmk	0
 𠙽	gmk	0
@@ -30156,9 +30156,9 @@ columns:
 綊	imjj	0
 𥪂	imjj	0
 𦩀	imjj	0
-納	imjr	242560
 纳	imjr	0
 𢄮	imjr	0
+納	imju	242560
 𦇦	imjw	0
 𩺈	imjw	0
 𥆴	imkq	0
@@ -33748,8 +33748,8 @@ columns:
 俠	jmjj	121207
 肏	jmjj	180
 𠋙	jmjp	0
-㐻	jmjr	0
 𠇮	jmjr	0
+㐻	jmju	0
 𧰶	jmk	0
 𪞶	jmk	0
 𡍑	jmkg	0
@@ -37400,9 +37400,9 @@ columns:
 浹	kmjj	2883
 𣾰	kmjk	0
 𭲛	kmjq	0
-汭	kmjr	35
 𠫣	kmjr	0
 𫦺	kmjs	0
+汭	kmju	35
 凼	kmk	385
 𠙸	kmk	0
 㳒	kmks	0
@@ -40633,6 +40633,7 @@ columns:
 𦬺	ldpe	0
 𱽔	ldpe	0
 𠞕	ldpi	0
+莂	ldpp	8
 葺	ldqe	1253
 𡖚	ldqj	0
 蕺	ldqp	46
@@ -40647,7 +40648,6 @@ columns:
 動	ldsl	2932438
 𪟚	ldsl	0
 𪥝	ldsm	0
-莂	ldsp	8
 𡮶	ldss	0
 𫦿	ldss	0
 𧜻	ldst	0
@@ -42936,8 +42936,8 @@ columns:
 𠞦	lmjp	0
 𦿦	lmjp	0
 𮏯	lmjp	0
-芮	lmjr	10037
 𬹻	lmjr	0
+芮	lmju	10037
 𪗝	lmju	0
 萞	lmjv	0
 𠙺	lmk	0
@@ -47828,9 +47828,9 @@ columns:
 硤	mmjj	309
 𢩌	mmjj	0
 𭸆	mmjj	0
-豽	mmjr	318
 𠀛	mmjr	0
 𭸜	mmjr	0
+豽	mmju	318
 𤜽	mmju	0
 𮀾	mmjv	0
 㚎	mmk	0
@@ -59554,7 +59554,7 @@ columns:
 𭃘	pmjj	0
 𨇞	pmjk	0
 𪒣	pmjp	0
-䟜	pmjr	0
+䟜	pmju	0
 𧺬	pmju	0
 𠚍	pmk	0
 𱐍	pmk	0
@@ -65970,6 +65970,7 @@ columns:
 𰩴	rdpe	0
 𭍮	rdpf	0
 𭍡	rdpg	0
+䇷	rdpp	0
 𥱠	rdqd	0
 箿	rdqe	0
 𭍪	rdqe	0
@@ -65985,7 +65986,6 @@ columns:
 𬱩	rdrw	0
 𰇝	rdry	0
 𭍨	rdsm	0
-䇷	rdsp	0
 𢃉	rdsp	0
 𬕫	rdta	0
 𨚨	rdte	0
@@ -67182,9 +67182,9 @@ columns:
 𥰓	rmjn	0
 𥰒	rmjp	0
 𥵲	rmjp	0
-笍	rmjr	0
 𤬲	rmjr	0
 𮆍	rmjt	0
+笍	rmju	0
 𢁩	rmju	0
 𤿒	rmju	0
 箆	rmjv	3
@@ -70079,9 +70079,9 @@ columns:
 𧧵	smjj	0
 𱰰	smjj	0
 𥺋	smjp	0
-訥	smjr	10312
 讷	smjr	0
 𧭁	smjs	0
+訥	smju	10312
 𭋚	smjv	0
 𩕵	smjw	0
 出	smk	8022812
@@ -71196,12 +71196,12 @@ columns:
 䛻	sxnq	0
 𧫱	sxns	0
 𰴾	sxoe	0
-䛢	sxoj	0
 𧪑	sxor	0
 𥎼	sxos	0
 誗	sxpd	232
 𧩲	sxpd	0
 𰵭	sxpd	0
+䛢	sxpe	0
 𧫙	sxpe	0
 識	sxpg	826879
 識	sxpg	0
@@ -73572,11 +73572,11 @@ columns:
 䩡	tmjj	0
 𨹌	tmjj	0
 𪥌	tmjm	0
-衲	tmjr	7778
-靹	tmjr	0
 𥪞	tmjr	0
 𮦈	tmjr	0
 𮶿	tmjr	0
+衲	tmju	7778
+靹	tmju	0
 𣬌	tmjv	0
 𧘉	tmk	0
 𰃦	tmk	0
@@ -76034,6 +76034,7 @@ columns:
 㨉	udor	0
 𠛽	udpd	0
 拀	udpe	0
+捌	udpp	415
 揖	udqe	12821
 𪮯	udqg	0
 擑	udqp	1
@@ -76041,7 +76042,6 @@ columns:
 𢬢	udrj	0
 𭠘	udry	0
 拐	udsl	30504
-捌	udsp	415
 𭠻	udsp	0
 𫼴	udtd	0
 𱟺	udtj	0
@@ -77245,7 +77245,7 @@ columns:
 𤽬	umjj	0
 𨿇	umjj	0
 𰓰	umjj	0
-抐	umjr	2
+抐	umju	2
 雋	umk	4623
 击	umk	0
 㧄	umk	0
@@ -81185,11 +81185,11 @@ columns:
 𰎟	vmjj	0
 𦡀	vmjk	0
 𫶗	vmjl	0
-肭	vmjr	57
-氝	vmjr	0
 䶺	vmjr	0
 𡶀	vmjr	0
 𱛋	vmjr	0
+肭	vmju	57
+氝	vmju	0
 肭	vmju	0
 㓙	vmk	0
 𦚁	vmks	0
@@ -85558,9 +85558,9 @@ columns:
 𩾉	wmjj	0
 㣣	wmjj	0
 𱇀	wmjk	0
-魶	wmjr	0
 𩻲	wmjr	0
 𱇔	wmjr	0
+魶	wmju	0
 𢓇	wmju	0
 𪞗	wmju	0
 𱝰	wml	0
@@ -89430,8 +89430,8 @@ columns:
 𢍅	xmjl	0
 𬌾	xmjm	0
 𡚥	xmjq	0
-䄲	xmjr	0
 𠢒	xmjs	0
+䄲	xmju	0
 𪄢	xmjx	0
 𠚉	xmk	0
 𬜝	xmkq	0
@@ -89725,7 +89725,6 @@ columns:
 𩾧	xoc	0
 𩡦	xoce	0
 𫗿	xocf	0
-穨	xoco	6611
 𩡞	xoco	0
 𬓼	xoco	0
 𩡟	xoct	0
@@ -89970,7 +89969,6 @@ columns:
 𩡢	xoxc	0
 𫘃	xoxe	0
 𩡄	xoxh	0
-鵚	xoxn	0
 䆇	xoxn	0
 𪃓	xoxn	0
 𪉍	xoxn	0
@@ -90004,6 +90002,7 @@ columns:
 𱿴	xpcc	0
 𤉌	xpch	0
 𤉉	xpch	0
+穨	xpco	6611
 利	xpd	1091519
 剌	xpd	9911
 𠚳	xpd	0
@@ -90212,6 +90211,7 @@ columns:
 鵹	xpxn	14
 鵮	xpxn	11
 鹐	xpxn	0
+鵚	xpxn	0
 𪁐	xpxn	0
 𪅑	xpxn	0
 𬸎	xpxn	0
@@ -93160,10 +93160,10 @@ columns:
 𫏶	ymjj	0
 𱼄	ymjj	0
 𠙙	ymjo	0
-軜	ymjr	0
 𫐇	ymjr	0
 𰟾	ymjr	0
 𠨁	ymjt	0
+軜	ymju	0
 𨊥	ymk	0
 𭁭	ymks	0
 輛	yml	156113
@@ -97000,8 +97000,8 @@ columns:
 翜	zmjj	2
 𰮕	zmjj	0
 𤡜	zmjm	0
-鈉	zmjr	2077
 钠	zmjr	0
+鈉	zmju	2077
 𭚉	zmjv	0
 𨪣	zmjz	0
 銢	zmks	2

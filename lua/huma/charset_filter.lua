@@ -56,7 +56,7 @@ local function is_in_charset(char, charset) return charset[char] end
 -- 對於CJK之外的字符不做過濾，假定所有的字符在CJK區
 -- check if all characters of the string are in a charset map.
 local function filter_charset(string, charset)
-    if not charset then return true end
+    if not charset then return true end -- this means all characters are allowed.
     for index, code in utf8.codes(string) do
         if not is_in_charset(utf8.char(code), charset) then return false end
     end
