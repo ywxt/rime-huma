@@ -3,7 +3,7 @@
 # Do not modify and use this schema directly.
 ---
 name: "huma_spelling_pseudo"
-version: "20241122"
+version: "20241124"
 sort: by_weight
 columns:
   - text

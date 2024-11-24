@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "huma.short"
-version: "20241122"
+version: "20241124"
 sort: original
 columns:
   - text
@@ -38,7 +38,7 @@ columns:
 慧	aa
 交	ab
 闢	ac
-問	ad
+丁	ad
 閑	ae
 丰	af
 裝	ag
@@ -733,8 +733,9 @@ columns:
 癜	acl
 瘕	acm
 闠	aco
-丁	add
+癌	add
 疻	adh
+問	adk
 兗	adp
 疙	aea
 痳	aee
