@@ -1,0 +1,8 @@
+patch:
+  "engine/processors/@2": lua_processor@spelling_processor
+  "engine/translators/@8": lua_translator@function_selector
+  "engine/filters/@0": lua_filter@single_char_only
+  "engine/filters/@1": lua_filter@charset_filter
+  "engine/filters/@5": lua_filter@unicode_code
+  "engine/filters/@6": lua_filter@spelling
+  "engine/filters/@7": lua_filter@postpone_fullcode
