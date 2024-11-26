@@ -2,14 +2,15 @@
 
 ---
 name: "huma_trad"
-version: "20230421"
+version: "20241125"
 sort: original
 import_tables:
   - huma.short
   - huma.short.phrase
   - huma.short.punct
-  - huma.char
+  - huma.char.limited
   - huma.phrase
+  - huma.char
   - huma.extended
 encoder:
   exclude_patterns:

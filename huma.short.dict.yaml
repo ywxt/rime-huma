@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "huma.short"
-version: "20241124"
+version: "20241125"
 sort: original
 columns:
   - text
@@ -455,7 +455,7 @@ columns:
 聊	qb
 臣	qc
 告	qd
-耳	qe
+飲	qe
 考	qf
 特	qg
 思	qh
@@ -464,7 +464,7 @@ columns:
 眸	qk
 老	ql
 目	qm
-聽	qn
+牛	qn
 者	qo
 先	qp
 齊	qq
@@ -4874,13 +4874,13 @@ columns:
 鵠	qdx
 䬣	qea
 臨	qed
+耳	qee
 𤱙	qef
 睍	qej
 畮	qek
 夥	qel
 果	qem
 餷	qeo
-飲	qeq
 飾	qer
 飭	qes
 顆	qew
@@ -4954,7 +4954,7 @@ columns:
 物	qne
 餺	qnk
 盷	qnm
-牛	qnn
+聽	qnn
 瞋	qnq
 飽	qnv
 餑	qnw
@@ -5737,6 +5737,7 @@ columns:
 扣	udk
 抿	udm
 損	udo
+捌	udp
 揖	udq
 拐	uds
 捐	udv
@@ -6537,7 +6538,7 @@ columns:
 庤	xgk
 亇	xgs
 庠	xgy
-廢	xhb
+柬	xhb
 稅	xhd
 整	xhf
 禾	xhh
@@ -6593,7 +6594,6 @@ columns:
 庖	xnv
 辢	xnx
 負	xob
-穨	xoc
 馥	xoe
 厚	xoh
 鳧	xoj
