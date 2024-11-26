@@ -2,13 +2,15 @@ local chinese_charset = {
     { first = 0x4E00, last = 0x9FFF },   -- 基本汉字+补充
     { first = 0x3400, last = 0x4DBF },   -- 扩A
     { first = 0x20000, last = 0x2A6DF }, -- 扩B
-    { first = 0x2A700, last = 0x2B739 }, -- 扩C
+    { first = 0x2A700, last = 0x2B73F }, -- 扩C
     { first = 0x2B740, last = 0x2B81F }, -- 扩D
     { first = 0x2B820, last = 0x2CEAF }, -- 扩E
     { first = 0x2CEB0, last = 0x2EBEF }, -- 扩F
-    { first = 0x30000, last = 0x3134A }, -- 扩G
+    { first = 0x30000, last = 0x3134F }, -- 扩G
     { first = 0x31350, last = 0x323AF }, -- 扩H
     { first = 0x2EBF0, last = 0x2EE4F }, -- 擴I
+    { first = 0x323B0, last = 0x3347F }, -- 擴J
+    { first = 0x38000, last = 0x3AB9F }, -- 篆書
     { first = 0x2E80, last = 0x2EF3 },   -- 部首扩展
     { first = 0x2F00, last = 0x2FD5 },   -- 康熙部首
     { first = 0xF900, last = 0xFAFF },   -- 兼容汉字
@@ -24,7 +26,7 @@ local chinese_charset = {
 
 }
 
-local function read_charset() return require('huma/charset') end
+local function read_charset() return require('huma/lib/charset') end
 
 local function init(env) env.charsets = read_charset() end
 
@@ -48,17 +50,20 @@ local function is_chinese(code)
     return false
 end
 
+-- check if a character is in a charset map.
 local function is_in_charset(char, charset) return charset[char] end
 
 -- 對於CJK之外的字符不做過濾，假定所有的字符在CJK區
+-- check if all characters of the string are in a charset map.
 local function filter_charset(string, charset)
-    if not charset then return true end
+    if not charset then return true end -- this means all characters are allowed.
     for index, code in utf8.codes(string) do
         if not is_in_charset(utf8.char(code), charset) then return false end
     end
     return true
 end
 
+-- check if all characters of the string are CJK characters by code points.
 local function filter_chinese(string)
     for index, code in utf8.codes(string) do
         if not is_chinese(code) then return false end

@@ -18,7 +18,7 @@ Handle multibye string in Lua:
 lua_filter 如何判断 cand 是否来自反查或当前是否处于反查状态？
   https://github.com/hchunhui/librime-lua/issues/18
 --]]
-local rime = require('huma/lib')
+local rime = require('huma/lib/lib')
 local config = {}
 config.encode_rules = {
     { length_equal = 2,            formula = 'AaAbBaBb' },
@@ -114,26 +114,6 @@ local function get_tricomment(cand, env)
     end
 end
 
-local function generate_candidate(cand, comment)
-    local type = cand:get_dynamic_type()
-
-    if type == 'Shadow' then
-        if ShadowCandidate then
-            cand = cand:to_shadow_candidate(cand.type, cand.text, comment, true)
-        else
-            cand = Candidate(cand.type, cand.text, comment)
-        end
-    elseif type == 'Uniquified' then
-        if UniquifiedCandidate then
-            cand = cand:to_uniquified_candidate(cand.type, cand.text, comment, true)
-        else
-            cand = Candidate(cand.type, cand.text, comment)
-        end
-    else
-        cand.comment = comment
-    end
-    return cand
-end
 
 local function filter(input, env)
     if env.engine.context:get_option('spelling.off') then
@@ -141,31 +121,18 @@ local function filter(input, env)
         return
     end
     for cand in input:iter() do
-        --[[
-    用户有时需要通过拼音反查简化字并显示三重注解，但 luna_pinyin 的简化字排序不
-    合理且靠后。用户可开启 simplification 来解决，但是 simplifier 会强制覆盖注
-    释，为了避免三重注解被覆盖，只能生成一个简单类型候选来代替原候选。
-    Todo: 测试在 <simplifier>/tips: none 的条件下，用 cand.text 和
-    cand:get_genuine().text 分别读到什么值。若分别读到转换前后的候选，则可以仅
-    修改 comment 而不用生成简单类型候选来代替原始候选。这样做的问题是关闭
-    huma_spelling 时就不显示 tips 了。
-    --]]
-        if cand.type == 'simplified' and env.name_space == 'spelling_reverse' then
-            local comment = (get_tricomment(cand, env) or '') .. cand.comment
-            cand = generate_candidate(cand, comment)
-        else
-            local add_comment = cand.type == 'punct' and
-                env.code_rvdb:lookup(cand.text) or cand.type ~=
-                'sentence' and get_tricomment(cand, env)
-            if add_comment and add_comment ~= '' then
-                -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
-                -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
-                cand.comment = cand.type ~= 'completion' and
-                    ((env.name_space == 'hmsp' and
-                            env.is_mixtyping) or
-                        (env.name_space == 'hmsp_for_rvlk')) and
-                    add_comment or add_comment .. cand.comment
-            end
+        local add_comment = cand.type == 'punct' and
+            env.code_rvdb:lookup(cand.text) or cand.type ~=
+            'sentence' and get_tricomment(cand, env)
+        if add_comment and add_comment ~= '' then
+            -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
+            -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
+            local comment = cand.type ~= 'completion' and
+                ((env.name_space == 'hmsp' and
+                        env.is_mixtyping) or
+                    (env.name_space == 'hmsp_for_rvlk')) and
+                add_comment or add_comment .. cand.comment
+            cand = rime.generate_candidate(cand, comment)
         end
         yield(cand)
     end
@@ -181,4 +148,4 @@ local function init(env)
     env.is_mixtyping = abc_extags_size > 0
 end
 
-return {  init = init, func = filter }
+return { init = init, func = filter }

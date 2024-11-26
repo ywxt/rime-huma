@@ -69,6 +69,12 @@ switches:
     - spelling.lv3
     reset: 0
     states: [ 〇註解, 一重註解, 二重註解, 三重註解 ]
+  - name: emoji_suggestion
+    states: [ "🈚︎", "🈶️" ]
+  - name: codepoints
+    states: [ 無碼點, 有碼點 ]
+  - name: segments
+    states: [ 無碼段, 有碼段 ]
   - name: postpone_fullcode  # 仅作用于单字。
     reset: 1
     states: [ ＝原始排序, ↓全碼後置 ]
@@ -95,6 +101,7 @@ engine:
     - affix_segmentor@stroke_lookup
     - affix_segmentor@reverse_lookup
     - affix_segmentor@encode
+    - affix_segmentor@function_selector
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -106,6 +113,7 @@ engine:
     - table_translator@stroke_lookup
     - table_translator@fixed_encode
     - table_translator@encode_sentence
+    - lua_translator@*huma.function_selector@function_selector
   filters:
     - lua_filter@*huma.single_char_only@single_char_only
     - lua_filter@*huma.charset_filter@charset_filter
@@ -113,9 +121,10 @@ engine:
     - simplifier@simplify
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
+    - lua_filter@*huma.unicode_code@unicode_code
     - lua_filter@*huma.spelling@spelling
-    - lua_filter@*huma.spelling@spelling_reverse
     - lua_filter@*huma.postpone_fullcode@postpone_fullcode
+    - simplifier@emoji_suggestion
     - uniquifier
     # - lua_filter@debug_filter
 
@@ -130,8 +139,11 @@ single_char_only:
 charset_filter:
   __include: common_namespace
 
+unicode_code:
+  tags: [ abc ]
+
 simplify:
-  __include: common_namespace
+  __include: [ abc, encode, reverse_lookup, luna_pinyin_lookup, stroke_lookup, function_selector ]
   option_name: simplification
   tips: all
 
@@ -141,20 +153,24 @@ lua_reverse_db:
   code: huma_trad
 
 spelling:
-  tags: [ abc, encode, punct ]
+  tags: [ abc, punct ]
   lua:
     switch_key: 'Control+c'
     cycle_key: 'Shift+Control+C'
     # 注意写法：Shift 在前，Control 在后。
 
-spelling_reverse:
-  tags:  [reverse_lookup, luna_pinyin_lookup, stroke_lookup]
 
 
 postpone_fullcode:
   tags: [ abc ]
   lua:
     max_index: 6  # 最大后置位置，默认为 4
+
+emoji_suggestion:
+  opencc_config: huma.emoji.json
+  option_name: emoji_suggestion
+  tips: none
+  inherit_comment: false
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -164,6 +180,13 @@ speller:
   auto_clear: max_length
   algebra:
     - xform/^\*//  # 特码以星号开头，以便在全码后置脚本中区分，以防识别为全码
+
+function_selector:
+  tag: function_selector
+  prefix: '/'
+  tips: 【功能選擇】
+  closing_tips: 【功能選擇關閉】
+  tags: [function_selector]
 
 fixed:
   __include: translator

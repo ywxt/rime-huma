@@ -1,4 +1,4 @@
-local rime = require('huma/lib')
+local rime = require('huma/lib/lib')
 -- options 要与方案保持一致
 local options = { 'spelling.off', 'spelling.lv1', 'spelling.lv2', 'spelling.lv3' }
 options.default = 4
