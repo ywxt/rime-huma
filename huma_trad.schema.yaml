@@ -80,6 +80,8 @@ switches:
     states: [ ＝原始排序, ↓全碼後置 ]
   - name: single_char_only
     states: [ 詞組派, 單字派 ]
+  - name: postpone_uncommon
+    reset: 1
 
 engine:
   processors:
@@ -117,14 +119,14 @@ engine:
   filters:
     - lua_filter@*huma.single_char_only@single_char_only
     - lua_filter@*huma.charset_filter@charset_filter
-    # - charset_filter@utf8  # 该组件在 librime 1.6.* 以后错误过滤字符，暂时停用
+    - lua_filter@*huma.postpone_uncommon@postpone_uncommon
+    - simplifier@emoji_suggestion
     - simplifier@simplify
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
     - lua_filter@*huma.unicode_code@unicode_code
     - lua_filter@*huma.spelling@spelling
     - lua_filter@*huma.postpone_fullcode@postpone_fullcode
-    - simplifier@emoji_suggestion
     - uniquifier
     # - lua_filter@debug_filter
 
@@ -159,12 +161,13 @@ spelling:
     cycle_key: 'Shift+Control+C'
     # 注意写法：Shift 在前，Control 在后。
 
+postpone_uncommon:
+  tags: [ abc ]
 
 
 postpone_fullcode:
   tags: [ abc ]
-  lua:
-    max_index: 6  # 最大后置位置，默认为 4
+
 
 emoji_suggestion:
   opencc_config: huma.emoji.json
@@ -285,6 +288,7 @@ key_bindings:
     - { when: always, accept: "Control+Shift+space", toggle: simplification }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+o", toggle: charset_filter }
+    - { when: composing, accept: "Control+e", toggle: emoji_suggestion }
     - { when: composing, accept: Caps_Lock, send: Escape  }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 }  # 引号三选

@@ -17,7 +17,6 @@ local function init(env)
     local code_rvdb = config:get_string('lua_reverse_db/code')
     env.code_rvdb = ReverseDb('build/' .. code_rvdb .. '.reverse.bin')
     env.delimiter = config:get_string('speller/delimiter')
-    env.max_index = config:get_int('postpone_fullcode/lua/max_index') or 4
 end
 
 local function get_short(codestr)
@@ -61,20 +60,19 @@ local function filter(input, env)
         -- 具体实现不是后置目标候选，而是前置非目标候选
         local dropped_cands = {}
         local done_drop
-        local pos = 1
         -- Todo: 计算 pos 时考虑可能存在的重复候选被 uniquifier 合并的情况。
         for cand in input:iter() do
             if done_drop then
                 yield(cand)
             else
-                -- 后置不越过 env.max_index 和以下几类候选：
+                -- 后置不越过以下几类候选：
                 -- 1) 顶功方案使用 script_translator 导致的匹配部分输入的候选，例如输入
                 -- otu 且光标在 u 后时会出现编码为 ot 的候选。不过通过填满码表的三码和
                 -- 四码的位置，能消除这类候选。2) 顶功方案的造词翻译器允许出现的
                 -- completion 类型候选。3) 顶功方案的补空候选——全角空格（ U+3000）。
                 local is_bad_script_cand = cand._end < context.caret_pos
                 local drop, is_comp = has_short_and_is_full(cand, env)
-                if pos >= env.max_index or is_bad_script_cand or is_comp or
+                if is_bad_script_cand or is_comp or
                     cand.text == '　' then
                     for i, cand in ipairs(dropped_cands) do
                         yield(cand)
@@ -84,7 +82,6 @@ local function filter(input, env)
                     -- 精确匹配的词组不予后置
                 elseif not drop or utf8.len(cand.text) > 1 then
                     yield(cand)
-                    pos = pos + 1
                 else
                     table.insert(dropped_cands, cand)
                 end

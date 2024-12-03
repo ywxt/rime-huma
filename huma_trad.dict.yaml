@@ -8,9 +8,8 @@ import_tables:
   - huma.short
   - huma.short.phrase
   - huma.short.punct
-  - huma.char.limited
-  - huma.phrase
   - huma.char
+  - huma.phrase
   - huma.extended
 encoder:
   exclude_patterns:

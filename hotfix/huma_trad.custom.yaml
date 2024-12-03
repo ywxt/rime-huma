@@ -3,6 +3,7 @@ patch:
   "engine/translators/@8": lua_translator@function_selector
   "engine/filters/@0": lua_filter@single_char_only
   "engine/filters/@1": lua_filter@charset_filter
-  "engine/filters/@5": lua_filter@unicode_code
-  "engine/filters/@6": lua_filter@spelling
-  "engine/filters/@7": lua_filter@postpone_fullcode
+  "engine/filters/@2": lua_filter@postpone_uncommon
+  "engine/filters/@7": lua_filter@unicode_code
+  "engine/filters/@8": lua_filter@spelling
+  "engine/filters/@9": lua_filter@postpone_fullcode
