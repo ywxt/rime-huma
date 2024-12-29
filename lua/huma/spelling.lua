@@ -127,11 +127,7 @@ local function filter(input, env)
         if add_comment and add_comment ~= '' then
             -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
             -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
-            local comment = cand.type ~= 'completion' and
-                ((env.name_space == 'hmsp' and
-                        env.is_mixtyping) or
-                    (env.name_space == 'hmsp_for_rvlk')) and
-                add_comment or add_comment .. cand.comment
+            local comment = add_comment .. cand.comment
             cand = rime.generate_candidate(cand, comment)
         end
         yield(cand)

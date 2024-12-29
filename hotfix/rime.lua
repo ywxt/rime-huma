@@ -6,3 +6,6 @@ postpone_fullcode = require('huma/postpone_fullcode')
 postpone_uncommon = require('huma/postpone_uncommon')
 function_selector = require('huma/function_selector')
 unicode_code = require('huma/unicode_code')
+local japanese_mode_module = require('huma/japanese_mode')
+japanese_mode = japanese_mode_module.translator
+japanese_simplifier = japanese_mode_module.simplifier

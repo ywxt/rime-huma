@@ -4,7 +4,7 @@
 schema:
   schema_id: huma_trad
   name: 虎碼・繁
-  version: "20230421"
+  version: "20241229"
   author:
     - 發明人 ID;PeaceB
     - rime schema by ywxt
@@ -19,27 +19,6 @@ schema:
     - luna_pinyin
     - stroke
     - huma_spelling_pseudo
-  
-  requirements: |
-    - luna_pinyin
-    - stroke
-    - huma_spelling_pseudo
-    - lua/huma/charset.lua
-    - lua/huma/charset_filter.lua
-    - lua/huma/postpone_fullcode.lua
-    - lua/huma/single_char_only.lua
-    - lua/huma/spelling.lua
-    - lua/huma/spelling_processor.lua
-    - lua/huma/lib.lua
-    - huma_trad.dict.yaml
-    - huma.short.dict.yaml
-    - huma.short.phrase.dict.yaml
-    - huma.short.punct.dict.yaml
-    - huma.char.dict.yaml
-    - huma.phrase.dict.yaml
-    - huma.extended.dict.yaml
-    - huma.symbols.yaml
-
 
 __patch:
   - symbols:/patch?
@@ -56,9 +35,9 @@ switches:
     states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
-  - name: chinese_only  #是否只顯示漢字
-    reset: 1
-    states: [ Aa, 字 ]
+  - name: language
+    reset: 0
+    states: [ 🇨🇳中文, 🇯🇵日文 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
     # 切换热键由 spelling/lua 下的 cycle_key 和 switch_key 定义
@@ -70,7 +49,7 @@ switches:
     reset: 0
     states: [ 〇註解, 一重註解, 二重註解, 三重註解 ]
   - name: emoji_suggestion
-    states: [ "🈚︎", "🈶️" ]
+    states: [ "🈚️", "🈶️" ]
   - name: codepoints
     states: [ 無碼點, 有碼點 ]
   - name: segments
@@ -108,9 +87,10 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - lua_translator@*huma.japanese_mode*translator@japanese_mode
     - table_translator@fixed
     - table_translator
-    - script_translator@luna_pinyin
+    # - script_translator@luna_pinyin
     - script_translator@luna_pinyin_lookup
     - table_translator@stroke_lookup
     - table_translator@fixed_encode
@@ -121,7 +101,7 @@ engine:
     - lua_filter@*huma.charset_filter@charset_filter
     - lua_filter@*huma.postpone_uncommon@postpone_uncommon
     - simplifier@emoji_suggestion
-    - simplifier@simplify
+    - lua_filter@*huma.japanese_mode*simplifier@japanese_simplifier
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
     - lua_filter@*huma.unicode_code@unicode_code
@@ -132,22 +112,24 @@ engine:
 
 
 # 防止对 punct 进行过滤
-common_namespace:
+common_tags:
   tags: [ abc, encode, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
 
 single_char_only:
-  __include: common_namespace
+  __include: common_tags
+
 
 charset_filter:
-  __include: common_namespace
+  __include: common_tags
+
 
 unicode_code:
   tags: [ abc ]
 
-simplify:
-  __include: [ abc, encode, reverse_lookup, luna_pinyin_lookup, stroke_lookup, function_selector ]
-  option_name: simplification
-  tips: all
+japanese_simplifier:
+  tags: [ abc, encode, reverse_lookup, luna_pinyin_lookup, stroke_lookup, function_selector ]
+  jp_option_name: language
+  zh_option_name: simplification
 
 
 lua_reverse_db:
@@ -157,8 +139,8 @@ lua_reverse_db:
 spelling:
   tags: [ abc, punct ]
   lua:
-    switch_key: 'Control+c'
-    cycle_key: 'Shift+Control+C'
+    switch_key: 'Alt+c'
+    cycle_key: 'Shift+Alt+C'
     # 注意写法：Shift 在前，Control 在后。
 
 postpone_uncommon:
@@ -166,7 +148,7 @@ postpone_uncommon:
 
 
 postpone_fullcode:
-  tags: [ abc ]
+  tags: [ abc, encode ]
 
 
 emoji_suggestion:
@@ -189,7 +171,7 @@ function_selector:
   prefix: '/'
   tips: 【功能選擇】
   closing_tips: 【功能選擇關閉】
-  tags: [function_selector]
+  tags: [ function_selector ]
 
 fixed:
   __include: translator
@@ -233,11 +215,15 @@ luna_pinyin:
   dictionary: luna_pinyin
   initial_quality: 0.3
 
-  # 拼音混输。不使用 luna_pinyin_lookup，是因为那样做会导致所有常规编码段和常规候
-  # 选被同时打上 abc 和 luna_pinyin_lookup 标签，从而同时被 xmsp 和 xmsp_for_rvlk
-  # 接收，被添加两次注释。
-  # abc_segmentor:
-  # extra_tags: [ luna_pinyin ]
+japanese_mode:
+  quality: 2000 # 优先级高于其他标签, translator
+  option_name: language
+
+# 拼音混输。不使用 luna_pinyin_lookup，是因为那样做会导致所有常规编码段和常规候
+# 选被同时打上 abc 和 luna_pinyin_lookup 标签，从而同时被 xmsp 和 xmsp_for_rvlk
+# 接收，被添加两次注释。
+# abc_segmentor:
+#   extra_tags: [ luna_pinyin ]
 
 reverse_lookup:
   tag: reverse_lookup
@@ -271,7 +257,7 @@ stroke_lookup:
     - xlit/HSPNZ/一丨丿丶乙/
 
 luna_pinyin_reverse_lookup:
-  tags: [ luna_pinyin, luna_pinyin_lookup ]
+  tags: [ luna_pinyin_lookup ]
   dictionary: huma_trad
   # overwrite_comment: true  # 覆蓋其他提示
 
@@ -285,10 +271,11 @@ punctuator:
 # 本节点仅用于被 __patch 指令引用
 key_bindings:
   __append:
-    - { when: always, accept: "Control+Shift+space", toggle: simplification }
-    - { when: composing, accept: "Control+s", toggle: single_char_only }
-    - { when: composing, accept: "Control+o", toggle: charset_filter }
-    - { when: composing, accept: "Control+e", toggle: emoji_suggestion }
+    - { when: always, accept: "Alt+Shift+space", toggle: simplification }
+    - { when: always, accept: "Alt+Shift+J", toggle: language }
+    - { when: composing, accept: "Alt+Shift+S", toggle: single_char_only }
+    - { when: composing, accept: "Alt+Shift+O", toggle: charset_filter }
+    - { when: composing, accept: "Alt+Shift+E", toggle: emoji_suggestion }
     - { when: composing, accept: Caps_Lock, send: Escape  }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 }  # 引号三选

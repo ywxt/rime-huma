@@ -34,6 +34,10 @@ local function has_short_and_is_full(cand, env)
     if cand_gen.type == 'completion' or cand_gen.type == 'sentence' then
         return false, true
     end
+    -- 對於假名不予後置
+    if cand_gen.type == 'kana' then
+        return false, true
+    end
     local input = env.engine.context.input
     local cand_input = input:sub(cand.start + 1, cand._end)
     -- 去掉可能含有的 delimiter。

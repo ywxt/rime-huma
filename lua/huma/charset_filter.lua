@@ -12,15 +12,9 @@ local function get_charset(env, option)
     return nil
 end
 
-local function get_chinese_only_option(env)
-    return env.engine.context:get_option('chinese_only')
-end
-
-
 
 local function charset_filter(input, env)
     local charset_option = get_charset_option(env)
-    local chinese_only_option = get_chinese_only_option(env)
     local charset = get_charset(env, charset_option)
     for cand in input:iter() do
         local cand_gen = cand:get_genuine()
@@ -29,7 +23,7 @@ local function charset_filter(input, env)
                 yield(cand)
             end
         else
-            if not chinese_only_option then yield(cand) end
+            yield(cand)
         end
     end
 end

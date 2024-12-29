@@ -353,7 +353,8 @@ local function filter(input, env)
 
     for cand in input:iter() do
         local text = cand.text
-        if utf8.len(text) ~= 1 or cand.type == 'completion' then
+        local cand_gen = cand:get_genuine()
+        if utf8.len(text) ~= 1 or cand_gen.type == 'completion' then
             yield(cand)
         else
             local code = utf8.codepoint(text)
