@@ -101,6 +101,7 @@ engine:
     - lua_filter@*huma.postpone_uncommon@postpone_uncommon
     - simplifier@emoji_suggestion
     - simplifier@simplify
+    - simplifier@japanese_simplify
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
     - reverse_lookup_filter@japanese_reverse_lookup
@@ -231,7 +232,10 @@ japanese:
   max_phrase_length: 10  # 自动成词的最大词长
   initial_quality: 100
 
-
+japanese_simplify:
+  tags: [ japanese ]
+  opencc_config: huma.t2jp.json
+  tips: all
 
 # 用于混输
 luna_pinyin:
