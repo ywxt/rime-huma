@@ -5,12 +5,12 @@ name: "huma_trad"
 version: "20241125"
 sort: original
 import_tables:
-  - huma.short
-  - huma.short.phrase
-  - huma.short.punct
-  - huma.char
-  - huma.phrase
-  - huma.extended
+  - huma.dict/huma.short
+  - huma.dict/huma.short.phrase
+  - huma.dict/huma.short.punct
+  - huma.dict/huma.char
+  - huma.dict/huma.phrase
+  - huma.dict/huma.extended
 encoder:
   exclude_patterns:
     - '^[a-z]$'  # 一简不参与造词

@@ -1,11 +1,10 @@
 patch:
   "engine/processors/@2": lua_processor@spelling_processor
-  "engine/translators/@1": lua_translator@japanese_mode
-  "engine/translators/@8": lua_translator@function_selector
+  "engine/translators/@10": lua_translator@function_selector
   "engine/filters/@0": lua_filter@single_char_only
   "engine/filters/@1": lua_filter@charset_filter
   "engine/filters/@2": lua_filter@postpone_uncommon
   "engine/filters/@4": lua_filter@japanese_simplifier
-  "engine/filters/@7": lua_filter@unicode_code
-  "engine/filters/@8": lua_filter@spelling
-  "engine/filters/@9": lua_filter@postpone_fullcode
+  "engine/filters/@8": lua_filter@unicode_code
+  "engine/filters/@9": lua_filter@spelling
+  "engine/filters/@10": lua_filter@postpone_fullcode

@@ -1,0 +1,12 @@
+# nihong-hybrid.dict.yaml
+# encoding: utf-8
+
+---
+name: huma.japanese
+version: 'v0.2-20180411'
+
+import_tables:
+  - 'huma.dict/huma.japanese.mozc'
+  - 'huma.dict/huma.japanese.jmdict'
+  - 'huma.dict/huma.japanese.kana'
+...

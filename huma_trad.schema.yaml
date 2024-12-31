@@ -19,6 +19,7 @@ schema:
     - luna_pinyin
     - stroke
     - huma_spelling_pseudo
+    - huma.japanese
 
 __patch:
   - symbols:/patch?
@@ -35,9 +36,6 @@ switches:
     states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
-  - name: language
-    reset: 0
-    states: [ 🇨🇳中文, 🇯🇵日文 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
     # 切换热键由 spelling/lua 下的 cycle_key 和 switch_key 定义
@@ -77,7 +75,7 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    - affix_segmentor@luna_pinyin
+    - affix_segmentor@japanese
     - affix_segmentor@luna_pinyin_lookup
     - affix_segmentor@stroke_lookup
     - affix_segmentor@reverse_lookup
@@ -87,23 +85,25 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - lua_translator@*huma.japanese_mode*translator@japanese_mode
     - table_translator@fixed
     - table_translator
-    # - script_translator@luna_pinyin
+    - script_translator@luna_pinyin
     - script_translator@luna_pinyin_lookup
     - table_translator@stroke_lookup
     - table_translator@fixed_encode
     - table_translator@encode_sentence
+    - script_translator@japanese
+    - table_translator@japanese_mixed
     - lua_translator@*huma.function_selector@function_selector
   filters:
     - lua_filter@*huma.single_char_only@single_char_only
     - lua_filter@*huma.charset_filter@charset_filter
     - lua_filter@*huma.postpone_uncommon@postpone_uncommon
     - simplifier@emoji_suggestion
-    - lua_filter@*huma.japanese_mode*simplifier@japanese_simplifier
+    - simplifier@simplify
     - reverse_lookup_filter@luna_pinyin_reverse_lookup
     - reverse_lookup_filter@stroke_reverse_lookup
+    - reverse_lookup_filter@japanese_reverse_lookup
     - lua_filter@*huma.unicode_code@unicode_code
     - lua_filter@*huma.spelling@spelling
     - lua_filter@*huma.postpone_fullcode@postpone_fullcode
@@ -112,24 +112,29 @@ engine:
 
 
 # 防止对 punct 进行过滤
-common_tags:
+zh_tags:
   tags: [ abc, encode, reverse_lookup, luna_pinyin_lookup, stroke_lookup ]
 
 single_char_only:
-  __include: common_tags
-
+  __include: zh_tags
 
 charset_filter:
-  __include: common_tags
+  __include: zh_tags
 
+postpone_uncommon:
+  tags: [ abc ]
+
+postpone_fullcode:
+  tags: [ abc, encode ]
 
 unicode_code:
   tags: [ abc ]
 
-japanese_simplifier:
+simplify:
   tags: [ abc, encode, reverse_lookup, luna_pinyin_lookup, stroke_lookup, function_selector ]
-  jp_option_name: language
-  zh_option_name: simplification
+  option_name: simplification
+  tips: all
+  opencc_config: huma.t2s.json
 
 
 lua_reverse_db:
@@ -137,21 +142,15 @@ lua_reverse_db:
   code: huma_trad
 
 spelling:
-  tags: [ abc, punct ]
+  __include: zh_tags
   lua:
-    switch_key: 'Alt+c'
-    cycle_key: 'Shift+Alt+C'
+    switch_key: 'Control+c'
+    cycle_key: 'Shift+Control+C'
     # 注意写法：Shift 在前，Control 在后。
-
-postpone_uncommon:
-  tags: [ abc ]
-
-
-postpone_fullcode:
-  tags: [ abc, encode ]
 
 
 emoji_suggestion:
+  __include: zh_tags
   opencc_config: huma.emoji.json
   option_name: emoji_suggestion
   tips: none
@@ -208,16 +207,37 @@ encode_sentence:
   enable_user_dict: true
   enable_completion: true
 
+japanese_mixed:
+  tag: japanese
+  dictionary: huma_trad
+  enable_sentence: false
+  enable_user_dict: false
+  enable_encoder: false
+  enable_completion: false
+  initial_quality: 0.1
+
+
+japanese:
+  tag: japanese
+  prefix: 'J'
+  tips: 【日文模式】
+  closing_tips: 【日文模式關閉】
+  dictionary: huma.japanese
+  enable_sentence: true
+  enable_user_dict: true
+  enable_encoder: true
+  enable_completion: true
+  encode_commit_history: false  # 对连续上屏的词自动成词
+  max_phrase_length: 10  # 自动成词的最大词长
+  initial_quality: 100
+
+
 
 # 用于混输
 luna_pinyin:
   tag: luna_pinyin
   dictionary: luna_pinyin
   initial_quality: 0.3
-
-japanese_mode:
-  quality: 2000 # 优先级高于其他标签, translator
-  option_name: language
 
 # 拼音混输。不使用 luna_pinyin_lookup，是因为那样做会导致所有常规编码段和常规候
 # 选被同时打上 abc 和 luna_pinyin_lookup 标签，从而同时被 xmsp 和 xmsp_for_rvlk
@@ -257,7 +277,7 @@ stroke_lookup:
     - xlit/HSPNZ/一丨丿丶乙/
 
 luna_pinyin_reverse_lookup:
-  tags: [ luna_pinyin_lookup ]
+  tags: [ luna_pinyin_lookup, luna_pinyin ]
   dictionary: huma_trad
   # overwrite_comment: true  # 覆蓋其他提示
 
@@ -265,18 +285,20 @@ stroke_reverse_lookup:
   __include: luna_pinyin_reverse_lookup
   tags: [ stroke_lookup ]
 
+japanese_reverse_lookup:
+  tags: [ japanese ]
+  dictionary: huma.japanese
+
 punctuator:
   __patch: huma.symbols:/punctuator?
 
 # 本节点仅用于被 __patch 指令引用
 key_bindings:
   __append:
-    - { when: always, accept: "Alt+Shift+space", toggle: simplification }
-    - { when: always, accept: "Alt+Shift+J", toggle: language }
-    - { when: composing, accept: "Alt+Shift+S", toggle: single_char_only }
-    - { when: composing, accept: "Alt+Shift+O", toggle: charset_filter }
-    - { when: composing, accept: "Alt+Shift+E", toggle: emoji_suggestion }
-    - { when: composing, accept: Caps_Lock, send: Escape  }
+    - { when: always, accept: "Control+Shift+space", toggle: simplification }
+    - { when: composing, accept: "Control+s", toggle: single_char_only }
+    - { when: composing, accept: "Control+o", toggle: charset_filter }
+    - { when: composing, accept: "Control+e", toggle: emoji_suggestion }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 }  # 引号三选
 
@@ -293,9 +315,10 @@ key_binder:
 
 recognizer:
   patterns:
-    uppercase: "^(?![`;]).*[A-Z][-_+.'0-9A-Za-z]*$"
-    encode:           "^'([a-z]+'?)*$"
+    # uppercase: "^(?![`;]).*[A-Z][-_+.'0-9A-Za-z]*$"
+    encode:             "^'([a-z]+'?)*$"
     reverse_lookup:     "^`([a-z]+'?)*$"
     luna_pinyin_lookup: "^`P([a-z]+'?)*$"
     stroke_lookup:      "^`B([a-z]+'?)*$"
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    japanese:           "^J([a-z]+'?)*$"
+    punct:              '^/([0-9]0?|[A-Za-z]+)$'

@@ -1,0 +1,54 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: huma.japanese
+  name: 虎碼・日本語・勿用勿改
+  version: 'v0.2'
+  author:
+    - ensigma96 <ensigma96@gmail.com>
+  description: |
+    僞方案，不能打字。
+    不要選我，不要修改本方案及配套词典。
+
+
+  switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 假名, 西文 ]
+  - name: half_shape
+    states: [ 半角, 全角 ]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_'
+  delimiter: " '"
+
+translator:
+  dictionary: huma.japanese
+
+
+ 
