@@ -151,7 +151,7 @@ spelling:
 
 
 emoji_suggestion:
-  __include: zh_tags
+  tags: [ abc ]
   opencc_config: huma.emoji.json
   option_name: emoji_suggestion
   tips: none
