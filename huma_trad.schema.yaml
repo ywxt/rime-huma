@@ -209,9 +209,8 @@ encode_sentence:
   enable_completion: true
 
 japanese_mixed:
+  __include: translator
   tag: japanese
-  dictionary: huma_trad
-  enable_sentence: false
   enable_user_dict: false
   enable_encoder: false
   enable_completion: false
