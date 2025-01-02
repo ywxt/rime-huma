@@ -223,6 +223,11 @@ japanese:
   tips: 【日文模式】
   closing_tips: 【日文模式關閉】
   dictionary: huma.japanese
+  spelling_hints: 5
+  comment_format:
+    - 'xlit|q|ー|'
+  preedit_format:
+    - 'xlit|q|ー|'
   enable_sentence: true
   enable_user_dict: true
   enable_encoder: true

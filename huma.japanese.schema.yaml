@@ -43,12 +43,25 @@ engine:
   filters:
     - uniquifier
 
+
 speller:
-  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-_'
   delimiter: " '"
+  algebra:
+    - 'derive/_/x/'
+    - 'derive/-/q/'
+    - 'derive/_/l/'
+    # Add / remove rules the as you wish
+    - 'derive/i_e/ye/'
+    # - 'derive/fu/hu/'
 
 translator:
   dictionary: huma.japanese
+  spelling_hints: 5
+  comment_format:
+    - 'xlit|q|ー|'
+  preedit_format:
+    - 'xlit|q|ー|'
 
 
  
