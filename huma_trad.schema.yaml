@@ -225,9 +225,9 @@ japanese:
   dictionary: huma.japanese
   spelling_hints: 5
   comment_format:
-    - 'xlit|q|ー|'
+    - 'xlit|q-|ーー|'
   preedit_format:
-    - 'xlit|q|ー|'
+    - 'xlit|q-|ーー|'
   enable_sentence: true
   enable_user_dict: true
   enable_encoder: true
@@ -282,7 +282,7 @@ stroke_lookup:
   initial_quality: 0.5
   preedit_format:
     - 'xform/^([hspnz]+)$/$1\t（\U$1\E）/'
-    - xlit/HSPNZ/一丨丿丶乙/
+    - 'xlit/HSPNZ/一丨丿丶乙/'
 
 luna_pinyin_reverse_lookup:
   tags: [ luna_pinyin_lookup, luna_pinyin ]
@@ -296,6 +296,9 @@ stroke_reverse_lookup:
 japanese_reverse_lookup:
   tags: [ japanese ]
   dictionary: huma.japanese
+  comment_format:
+    - 'xlit|q-|ーー|'
+
 
 punctuator:
   __patch: huma.symbols:/punctuator?
@@ -328,5 +331,5 @@ recognizer:
     reverse_lookup:     "^`([a-z]+'?)*$"
     luna_pinyin_lookup: "^`P([a-z]+'?)*$"
     stroke_lookup:      "^`B([a-z]+'?)*$"
-    japanese:           "^J([a-z]+'?)*$"
+    japanese:           "^J([-_a-z]+'?)*$"
     punct:              '^/([0-9]0?|[A-Za-z]+)$'
