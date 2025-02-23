@@ -57,7 +57,7 @@ switches:
     states: [ ＝原始排序, ↓全碼後置 ]
   - name: single_char_only
     states: [ 詞組派, 單字派 ]
-  - name: postpone_uncommon
+  - name: postpone_uncommon # 把詞組放在罕見字之前
     reset: 1
 
 engine:
@@ -99,6 +99,7 @@ engine:
     - lua_filter@*huma.single_char_only@single_char_only
     - lua_filter@*huma.charset_filter@charset_filter
     - lua_filter@*huma.postpone_uncommon@postpone_uncommon
+    - lua_filter@*huma.postpone_fullcode@postpone_fullcode
     - simplifier@emoji_suggestion
     - simplifier@simplify
     - simplifier@japanese_simplify
@@ -107,7 +108,6 @@ engine:
     - reverse_lookup_filter@japanese_reverse_lookup
     - lua_filter@*huma.unicode_code@unicode_code
     - lua_filter@*huma.spelling@spelling
-    - lua_filter@*huma.postpone_fullcode@postpone_fullcode
     - uniquifier
     # - lua_filter@debug_filter
 
