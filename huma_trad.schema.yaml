@@ -87,7 +87,6 @@ engine:
     - punct_translator
     - table_translator@fixed
     - table_translator
-    - script_translator@luna_pinyin
     - script_translator@luna_pinyin_lookup
     - table_translator@stroke_lookup
     - table_translator@fixed_encode
@@ -241,18 +240,6 @@ japanese_simplify:
   opencc_config: huma.t2jp.json
   tips: all
 
-# 用于混输
-luna_pinyin:
-  tag: luna_pinyin
-  dictionary: luna_pinyin
-  initial_quality: 0.3
-
-# 拼音混输。不使用 luna_pinyin_lookup，是因为那样做会导致所有常规编码段和常规候
-# 选被同时打上 abc 和 luna_pinyin_lookup 标签，从而同时被 xmsp 和 xmsp_for_rvlk
-# 接收，被添加两次注释。
-# abc_segmentor:
-#   extra_tags: [ luna_pinyin ]
-
 reverse_lookup:
   tag: reverse_lookup
   prefix: "`"    # 反查引导符「`」
@@ -285,7 +272,7 @@ stroke_lookup:
     - 'xlit/HSPNZ/一丨丿丶乙/'
 
 luna_pinyin_reverse_lookup:
-  tags: [ luna_pinyin_lookup, luna_pinyin ]
+  tags: [ luna_pinyin_lookup ]
   dictionary: huma_trad
   # overwrite_comment: true  # 覆蓋其他提示
 
