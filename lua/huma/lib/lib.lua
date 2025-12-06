@@ -33,7 +33,7 @@ function rime.encoder.parse_formula(formula)
         local upper, lower = m:byte(1, 2)
         local char_idx = upper < U and upper - A + 1 or upper - Z - 1
         local code_idx = lower < u and lower - a + 1 or lower - z - 1
-        rule[#rule + 1] = { char_idx, code_idx }
+        rule[#rule + 1] = {char_idx, code_idx}
     end
     return rule
 end
@@ -143,16 +143,20 @@ end
 function rime.generate_candidate(cand, comment)
     local type = cand:get_dynamic_type()
 
-    local function create_candidate(create_func, cand_type, text, comment)
+    local function create_candidate(create_func, text, comment)
         if create_func then
-            return create_func(cand, cand_type, text, comment, true)
+            return create_func(cand, cand.type, text, comment, true)
         else
-            return Candidate(cand_type, text, comment)
+            return Candidate(cand.type, cand.start, cand._end, text, comment)
         end
     end
 
     if type == 'Shadow' then
-        cand = create_candidate(ShadowCandidate, cand.type, cand.text, comment)
+        -- Here we don't give `create_func` a `ShadowCandidate`, because
+        -- `ShadowCandidate` would break speller so that `max_length` got
+        -- invalid.
+        -- Note: This makes weighs not work.
+        cand = create_candidate(nil, cand.text, comment)
     else
         cand.comment = comment
     end
@@ -161,36 +165,34 @@ function rime.generate_candidate(cand, comment)
 end
 
 local chinese_charset = {
-    { first = 0x4E00, last = 0x9FFF },   -- 基本汉字+补充
-    { first = 0x3400, last = 0x4DBF },   -- 扩A
-    { first = 0x20000, last = 0x2A6DF }, -- 扩B
-    { first = 0x2A700, last = 0x2B73F }, -- 扩C
-    { first = 0x2B740, last = 0x2B81F }, -- 扩D
-    { first = 0x2B820, last = 0x2CEAF }, -- 扩E
-    { first = 0x2CEB0, last = 0x2EBEF }, -- 扩F
-    { first = 0x30000, last = 0x3134F }, -- 扩G
-    { first = 0x31350, last = 0x323AF }, -- 扩H
-    { first = 0x2EBF0, last = 0x2EE4F }, -- 擴I
-    { first = 0x323B0, last = 0x3347F }, -- 擴J
-    { first = 0x38000, last = 0x3AB9F }, -- 篆書
-    { first = 0x2E80, last = 0x2EF3 },   -- 部首扩展
-    { first = 0x2F00, last = 0x2FD5 },   -- 康熙部首
-    { first = 0xF900, last = 0xFAFF },   -- 兼容汉字
-    { first = 0x2F800, last = 0x2FA1D }, -- 兼容扩展
-    { first = 0xE815, last = 0xE86F },   -- PUA(GBK)部件
-    { first = 0xE400, last = 0xE5E8 },   -- 部件扩展
-    { first = 0xE600, last = 0xE6CF },   -- PUA增补
-    { first = 0x31C0, last = 0x31E3 },   -- 汉字笔画
-    { first = 0x2FF0, last = 0x2FFB },   -- 汉字结构
-    { first = 0x3105, last = 0x312F },   -- 汉语注音
-    { first = 0x31A0, last = 0x31BA },   -- 注音扩展
-    { first = 0x3007, last = 0x3007 }    -- 〇
+    {first = 0x4E00, last = 0x9FFF}, -- 基本汉字+补充
+    {first = 0x3400, last = 0x4DBF}, -- 扩A
+    {first = 0x20000, last = 0x2A6DF}, -- 扩B
+    {first = 0x2A700, last = 0x2B73F}, -- 扩C
+    {first = 0x2B740, last = 0x2B81F}, -- 扩D
+    {first = 0x2B820, last = 0x2CEAF}, -- 扩E
+    {first = 0x2CEB0, last = 0x2EBEF}, -- 扩F
+    {first = 0x30000, last = 0x3134F}, -- 扩G
+    {first = 0x31350, last = 0x323AF}, -- 扩H
+    {first = 0x2EBF0, last = 0x2EE4F}, -- 擴I
+    {first = 0x323B0, last = 0x3347F}, -- 擴J
+    {first = 0x38000, last = 0x3AB9F}, -- 篆書
+    {first = 0x2E80, last = 0x2EF3}, -- 部首扩展
+    {first = 0x2F00, last = 0x2FD5}, -- 康熙部首
+    {first = 0xF900, last = 0xFAFF}, -- 兼容汉字
+    {first = 0x2F800, last = 0x2FA1D}, -- 兼容扩展
+    {first = 0xE815, last = 0xE86F}, -- PUA(GBK)部件
+    {first = 0xE400, last = 0xE5E8}, -- 部件扩展
+    {first = 0xE600, last = 0xE6CF}, -- PUA增补
+    {first = 0x31C0, last = 0x31E3}, -- 汉字笔画
+    {first = 0x2FF0, last = 0x2FFB}, -- 汉字结构
+    {first = 0x3105, last = 0x312F}, -- 汉语注音
+    {first = 0x31A0, last = 0x31BA}, -- 注音扩展
+    {first = 0x3007, last = 0x3007} -- 〇
 
 }
 
-function rime.load_charset()
-    return require('huma/lib/charset')
-end
+function rime.load_charset() return require('huma/lib/charset') end
 
 local function is_chinese(code)
     for index, value in ipairs(chinese_charset) do

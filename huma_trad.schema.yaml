@@ -237,6 +237,7 @@ japanese:
 
 japanese_simplify:
   tags: [ japanese ]
+  option_name: simplification
   opencc_config: huma.t2jp.json
   tips: all
 
