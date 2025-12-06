@@ -88,6 +88,14 @@
       encode_sentence/enable_completion: false
    ```
 
+5. 拼音混輸
+
+   ```yaml
+   # huma_trad.custom.yaml
+   patch:
+      abc_segmentor/extra_tags: [ luna_pinyin ]
+   ```
+
 ## Q&A
 
 1. Q:  爲什麼部署不成功？
