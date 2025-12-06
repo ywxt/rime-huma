@@ -323,6 +323,8 @@ local segments = {
     { first = 0x2F800, last = 0x2FA1F, name = '中日韓相容表意文字補充區' },
     { first = 0x30000, last = 0x3134F, name = '中日韓統一表意文字擴充區G' },
     { first = 0x31350, last = 0x323AF, name = '中日韓統一表意文字擴充區H' },
+    { first = 0x2EBF0, last = 0x2EE4F, name = '中日韓統一表意文字擴充區I' }, 
+    { first = 0x323B0, last = 0x3347F, name = '中日韓統一表意文字擴充區J' },
     { first = 0xE0000, last = 0xE007F, name = '標籤' },
     { first = 0xE0100, last = 0xE01EF, name = '變體選擇符補充' },
     { first = 0xF0000, last = 0xFFFFF, name = '補充私人使用區-A' },
