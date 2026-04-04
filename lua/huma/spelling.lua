@@ -121,6 +121,7 @@ local function filter(input, env)
         return
     end
     for cand in input:iter() do
+        local new_cand = cand
         local add_comment = cand.type == 'punct' and
             env.code_rvdb:lookup(cand.text) or cand.type ~=
             'sentence' and get_tricomment(cand, env)
@@ -128,9 +129,9 @@ local function filter(input, env)
             -- 混输和反查中的非 completion 类型，原注释为空或主词典的编码。
             -- 为免重复冗长，直接以新增注释替换之。前提是后者非空。
             local comment = add_comment .. cand.comment
-            cand = rime.generate_candidate(cand, comment)
+            new_cand = rime.generate_candidate(cand, comment)
         end
-        yield(cand)
+        yield(new_cand)
     end
 end
 

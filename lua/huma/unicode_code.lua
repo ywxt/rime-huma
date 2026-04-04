@@ -353,10 +353,11 @@ local function filter(input, env)
     local segments_option = env.engine.context:get_option('segments')
 
     for cand in input:iter() do
+        local new_cand = cand
         local text = cand.text
         local cand_gen = cand:get_genuine()
         if utf8.len(text) ~= 1 or cand_gen.type == 'completion' then
-            yield(cand)
+            yield(new_cand)
         else
             local code = utf8.codepoint(text)
             local comment = codepoints_option and string.format('U+%X', code) or ''
@@ -365,8 +366,8 @@ local function filter(input, env)
                 comment = '〔 ' .. comment .. ' 〕'
             end
             local comment = comment .. cand.comment
-            cand = rime.generate_candidate(cand, comment)
-            yield(cand)
+            new_cand = rime.generate_candidate(cand, comment)
+            yield(new_cand)
         end
     end
 end
